@@ -147,3 +147,53 @@ content/
 | Claude | 設計（本文件）、條文抓取與解析、課程結構、範例題、驗收與審題 |
 | Codex | App 全部程式、內容驗證器、測試 |
 | Gemini | 依條文產生 10 個單元的題庫 JSON |
+
+---
+
+## 6. 第二版：多門課＋判例關卡（2026-11-17 新增）
+
+### 6.1 多門課
+- 目前兩門課：`patent`（台灣專利法）、`us-patent`（美國專利法 35 U.S.C.，2024 年版）。
+- 首頁頂部有**課程切換**（例如「🇹🇼 專利法｜🇺🇸 美國專利法」），記住上次選的課。每門課的皇冠、XP 等進度各自計算；連勝和每日目標是全站共用。
+- `course.json` 新增選填欄位：
+  - `language`：條文語言（`"zh"` 預設，或 `"en"`）。
+  - `casesFile`：判例資料檔路徑，例如 `cases/us-patent/cases.json`。
+- 美國法的題目：題幹、選項、解說用**繁體中文**，關鍵術語附英文，例如「非顯而易知性（non-obviousness）」。`evidence.quote` 和克漏字 `text` 用**英文原文**，字詞塊也是英文。
+
+### 6.2 判例資料
+```
+content/cases/us-patent/cases.json   ← 官方判決全文抽出的 Syllabus（scripts/build_us_cases.py 產生）
+content/cases/us-patent/briefs.json  ← 中文案例摘要（給人讀的）
+content/cases/patent/cases.json      ← 台灣判決的節錄原文
+content/cases/patent/briefs.json
+```
+- `cases.json` 和 `articles.json` **同一個格式**（`articles` 陣列，每筆用 `no` 當判例 id，例如 `"alice"`），多了 `kind: "cases"`、`year`、`citation`、`court`、`sourceUrl`。這樣搜尋、高亮、熟練度都能沿用。
+- `briefs.json`：判例 id 對應中文摘要。
+  ```jsonc
+  { "alice": { "nameZh": "Alice 案", "facts": "…", "issue": "…", "holding": "…", "significance": "…",
+               "relatedArticles": ["101"], "keyRule": "一句話的判決規則" } }
+  ```
+
+### 6.3 判例關卡的玩法
+- 單元可加 `"kind": "cases"`，在路徑上用不同的樣式（法槌圖示＋「判例關卡」標籤）。
+- 課可加 `"cases": ["alice", "mayo"]`（這課涵蓋哪幾個判例）；判例課的 `articles` 可以是空陣列。
+- **案例速覽**：進入判例課時，先看本課每個判例的卡片（案名、年份、事實 → 爭點 → 判決 → 意義），左右滑或按「下一個」，最後按「開始挑戰」。可以略過。
+- 題型沿用原本 5 種，判例題常見的出法：
+  - 「預測判決」：單選題，給事實，問法院怎麼判（tag `holding`）。
+  - 判決規則的是非題。
+  - 判決原文的克漏字。
+  - 「判例 ↔ 規則」配對題。
+  - 「法院審查步驟」排序題，例如 Alice 兩步驟、Graham 因素。
+- `evidence` 每筆是**條文或判例二選一**：`{ "article": "101", "quote": "…" }` 或 `{ "case": "alice", "quote": "…" }`。`quote` 一樣必須是原文中一字不差的片段（去空白後比對）。
+- 回饋面板：判例證據顯示成**判例卡**（案名＋年份＋高亮原文＋中文摘要的「判決」一句），可以展開看全文。
+
+### 6.4 判例庫
+- 「條文」分頁在有判例的課程多一個切換：**條文｜判例**。判例清單依年份排序，可搜尋，顯示熟練度。
+- 判例詳細頁：中文摘要（事實／爭點／判決／意義）、相關條文連結、原文、「練習這個判例」。
+- 條文詳細頁：列出引用這條的相關判例（來自 briefs 的 `relatedArticles`）。
+
+### 6.5 驗證規則補充
+7. `evidence` 每筆剛好有 `article` 或 `case` 其中一個；`case` 必須存在於該課的 casesFile。
+8. 判例課（lesson 有 `cases`）的每題至少要有一筆 `case` 證據。
+9. `briefs.json` 每個判例都要有摘要，`relatedArticles` 必須存在於該課的條文。
+10. 每課至少 8 題、至少 3 種題型（判例課同樣適用）。

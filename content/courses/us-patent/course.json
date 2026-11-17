@@ -1,0 +1,424 @@
+{
+ "id": "us-patent",
+ "title": "美國專利法",
+ "subtitle": "35 U.S.C.（2024 年版）＋聯邦最高法院判例",
+ "lawFile": "laws/us-patent/articles.json",
+ "casesFile": "cases/us-patent/cases.json",
+ "language": "en",
+ "units": [
+  {
+   "id": "u01",
+   "title": "可專利性",
+   "description": "專利適格、新穎性、寬限期與非顯而易知性（§§100–103）",
+   "lessons": [
+    {
+     "id": "u01-l1",
+     "title": "定義與專利適格標的",
+     "articles": [
+      "100",
+      "101"
+     ]
+    },
+    {
+     "id": "u01-l2",
+     "title": "新穎性與寬限期（AIA §102）",
+     "articles": [
+      "102"
+     ]
+    },
+    {
+     "id": "u01-l3",
+     "title": "非顯而易知性（§103）",
+     "articles": [
+      "103"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u02",
+   "title": "申請與說明書",
+   "description": "申請文件、發明人、說明書與請求項、優先權（§§111–122）",
+   "lessons": [
+    {
+     "id": "u02-l1",
+     "title": "申請文件與發明人",
+     "articles": [
+      "111",
+      "115",
+      "116",
+      "118"
+     ]
+    },
+    {
+     "id": "u02-l2",
+     "title": "說明書與請求項（§112）",
+     "articles": [
+      "112",
+      "113"
+     ]
+    },
+    {
+     "id": "u02-l3",
+     "title": "優先權、延續案與分割案",
+     "articles": [
+      "119",
+      "120",
+      "121"
+     ]
+    },
+    {
+     "id": "u02-l4",
+     "title": "早期公開與臨時權利",
+     "articles": [
+      "122",
+      "154"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u03",
+   "title": "審查與救濟",
+   "description": "審查、核駁、PTAB 上訴、聯邦巡迴上訴法院與衍生程序",
+   "lessons": [
+    {
+     "id": "u03-l1",
+     "title": "審查、核駁與答覆期限",
+     "articles": [
+      "21",
+      "131",
+      "132",
+      "133"
+     ]
+    },
+    {
+     "id": "u03-l2",
+     "title": "PTAB 上訴與後續救濟",
+     "articles": [
+      "134",
+      "141",
+      "145"
+     ]
+    },
+    {
+     "id": "u03-l3",
+     "title": "衍生程序",
+     "articles": [
+      "135",
+      "146"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u04",
+   "title": "專利的核發與期限",
+   "description": "核發、期限、期限延長、植物與設計專利",
+   "lessons": [
+    {
+     "id": "u04-l1",
+     "title": "核發與專利期限",
+     "articles": [
+      "151",
+      "153",
+      "154"
+     ]
+    },
+    {
+     "id": "u04-l2",
+     "title": "專利期限延長（§156）",
+     "articles": [
+      "156"
+     ]
+    },
+    {
+     "id": "u04-l3",
+     "title": "植物專利與設計專利",
+     "articles": [
+      "161",
+      "162",
+      "163",
+      "171",
+      "172",
+      "173",
+      "289"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u05",
+   "title": "核發後程序",
+   "description": "再發證、更正、補充審查、單方再審查、IPR、PGR",
+   "lessons": [
+    {
+     "id": "u05-l1",
+     "title": "再發證與更正",
+     "articles": [
+      "251",
+      "252",
+      "253",
+      "254",
+      "255",
+      "256"
+     ]
+    },
+    {
+     "id": "u05-l2",
+     "title": "補充審查與單方再審查",
+     "articles": [
+      "257",
+      "301",
+      "302",
+      "303",
+      "304",
+      "305",
+      "307"
+     ]
+    },
+    {
+     "id": "u05-l3",
+     "title": "多方複審（IPR）",
+     "articles": [
+      "311",
+      "312",
+      "313",
+      "314",
+      "315",
+      "316",
+      "317",
+      "318",
+      "319"
+     ]
+    },
+    {
+     "id": "u05-l4",
+     "title": "核准後複審（PGR）",
+     "articles": [
+      "321",
+      "322",
+      "323",
+      "324",
+      "325",
+      "326",
+      "327",
+      "328",
+      "329"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u06",
+   "title": "權利與侵權",
+   "description": "權利歸屬、直接與間接侵權、先使用抗辯、有效性推定",
+   "lessons": [
+    {
+     "id": "u06-l1",
+     "title": "權利歸屬與讓與",
+     "articles": [
+      "261",
+      "262"
+     ]
+    },
+    {
+     "id": "u06-l2",
+     "title": "直接、引誘與輔助侵權（§271）",
+     "articles": [
+      "271"
+     ]
+    },
+    {
+     "id": "u06-l3",
+     "title": "抗辯與有效性推定",
+     "articles": [
+      "273",
+      "282"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u07",
+   "title": "侵權救濟",
+   "description": "禁制令、損害賠償、律師費、時效與專利標示",
+   "lessons": [
+    {
+     "id": "u07-l1",
+     "title": "禁制令、損害賠償與律師費",
+     "articles": [
+      "281",
+      "283",
+      "284",
+      "285"
+     ]
+    },
+    {
+     "id": "u07-l2",
+     "title": "損害賠償期間與專利標示",
+     "articles": [
+      "286",
+      "287",
+      "292"
+     ]
+    },
+    {
+     "id": "u07-l3",
+     "title": "訴訟中的其他規定",
+     "articles": [
+      "295",
+      "298",
+      "299"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u08",
+   "title": "國際申請與保密",
+   "description": "PCT 國家階段、海牙設計申請、保密令與外國申請許可",
+   "lessons": [
+    {
+     "id": "u08-l1",
+     "title": "PCT 國際申請",
+     "articles": [
+      "351",
+      "363",
+      "365",
+      "371",
+      "372"
+     ]
+    },
+    {
+     "id": "u08-l2",
+     "title": "保密令與外國申請許可",
+     "articles": [
+      "181",
+      "182",
+      "183",
+      "184",
+      "185",
+      "186"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u09",
+   "title": "判例關卡：專利適格與要件",
+   "description": "最高法院如何劃定 §101、§102、§103、§112 的界線",
+   "lessons": [
+    {
+     "id": "u09-l1",
+     "title": "§101 專利適格：生物與方法",
+     "articles": [],
+     "cases": [
+      "chakrabarty",
+      "diehr",
+      "bilski"
+     ]
+    },
+    {
+     "id": "u09-l2",
+     "title": "§101 專利適格：Mayo/Alice 兩步驟",
+     "articles": [],
+     "cases": [
+      "mayo",
+      "myriad",
+      "alice"
+     ]
+    },
+    {
+     "id": "u09-l3",
+     "title": "§103 非顯而易知性",
+     "articles": [],
+     "cases": [
+      "graham",
+      "ksr"
+     ]
+    },
+    {
+     "id": "u09-l4",
+     "title": "§102 新穎性與 §112 說明書",
+     "articles": [],
+     "cases": [
+      "pfaff",
+      "helsinn",
+      "nautilus",
+      "amgen"
+     ]
+    }
+   ],
+   "kind": "cases"
+  },
+  {
+   "id": "u10",
+   "title": "判例關卡：權利範圍、侵權與救濟",
+   "description": "請求項解釋、均等論、侵權態樣、耗盡與救濟",
+   "lessons": [
+    {
+     "id": "u10-l1",
+     "title": "請求項解釋與均等論",
+     "articles": [],
+     "cases": [
+      "markman",
+      "warner",
+      "festo"
+     ]
+    },
+    {
+     "id": "u10-l2",
+     "title": "間接侵權、境外行為與設計專利",
+     "articles": [],
+     "cases": [
+      "globaltech",
+      "limelight",
+      "westerngeco",
+      "samsung"
+     ]
+    },
+    {
+     "id": "u10-l3",
+     "title": "專利權耗盡",
+     "articles": [],
+     "cases": [
+      "quanta",
+      "bowman",
+      "impression"
+     ]
+    },
+    {
+     "id": "u10-l4",
+     "title": "禁制令、加重賠償與律師費",
+     "articles": [],
+     "cases": [
+      "ebay",
+      "halo",
+      "octane"
+     ]
+    }
+   ],
+   "kind": "cases"
+  },
+  {
+   "id": "u11",
+   "title": "判例關卡：PTAB 與行政程序",
+   "description": "IPR 的合憲性、審查範圍與行政專利法官",
+   "lessons": [
+    {
+     "id": "u11-l1",
+     "title": "IPR 制度的判例",
+     "articles": [],
+     "cases": [
+      "cuozzo",
+      "oilstates",
+      "sas",
+      "arthrex"
+     ]
+    }
+   ],
+   "kind": "cases"
+  }
+ ]
+}
