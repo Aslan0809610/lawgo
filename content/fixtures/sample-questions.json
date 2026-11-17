@@ -1,0 +1,72 @@
+[
+  {
+    "id": "u04-l1-q01",
+    "lessonId": "u04-l1",
+    "type": "true_false",
+    "difficulty": 1,
+    "tags": ["deadline", "procedure"],
+    "prompt": "發明專利申請日後三年內，只有申請人本人可以申請實體審查。",
+    "answer": false,
+    "evidence": [{ "article": "38", "quote": "發明專利申請日後三年內，任何人均得向專利專責機關申請實體審查。" }],
+    "explanation": "第38條規定「任何人」均得申請實體審查，不限於申請人。"
+  },
+  {
+    "id": "u03-l2-q01",
+    "lessonId": "u03-l2",
+    "type": "single_choice",
+    "difficulty": 3,
+    "tags": ["deadline", "case"],
+    "prompt": "甲於 2026 年 3 月 1 日在日本（WTO 會員）第一次就某發明申請專利。甲若要在我國申請並主張國際優先權，最晚應於何時向我國提出申請？",
+    "options": ["2026 年 9 月 1 日前", "2027 年 3 月 1 日前", "2027 年 9 月 1 日前", "2029 年 3 月 1 日前"],
+    "answerIndex": 1,
+    "evidence": [{ "article": "28", "quote": "並於第一次申請專利之日後十二個月內，向中華民國申請專利者，得主張優先權。" }],
+    "explanation": "國際優先權期間是第一次申請日後十二個月內。（期間始日不算入，見第20條。）"
+  },
+  {
+    "id": "u05-l1-q01",
+    "lessonId": "u05-l1",
+    "type": "cloze",
+    "difficulty": 1,
+    "tags": ["deadline", "definition"],
+    "prompt": "請填入正確詞語",
+    "text": "發明專利權期限，自{{0}}起算{{1}}年屆滿。",
+    "blanks": ["申請日", "二十"],
+    "distractors": ["公告日", "十五", "十"],
+    "evidence": [{ "article": "52", "quote": "發明專利權期限，自申請日起算二十年屆滿。" }],
+    "explanation": "發明專利權期限從申請日起算 20 年，不是從公告日起算。"
+  },
+  {
+    "id": "u01-l1-q01",
+    "lessonId": "u01-l1",
+    "type": "match",
+    "difficulty": 2,
+    "tags": ["deadline", "comparison"],
+    "prompt": "把專利種類和它的專利權期限配對",
+    "pairs": [
+      { "left": "發明專利", "right": "自申請日起算 20 年" },
+      { "left": "新型專利", "right": "自申請日起算 10 年" },
+      { "left": "設計專利", "right": "自申請日起算 15 年" },
+      { "left": "衍生設計專利", "right": "與原設計同時屆滿" }
+    ],
+    "evidence": [
+      { "article": "52", "quote": "發明專利權期限，自申請日起算二十年屆滿。" },
+      { "article": "114", "quote": "新型專利權期限，自申請日起算十年屆滿。" },
+      { "article": "135", "quote": "設計專利權期限，自申請日起算十五年屆滿；衍生設計專利權期限與原設計專利權期限同時屆滿。" }
+    ],
+    "explanation": "發明 20 年、新型 10 年、設計 15 年，都從申請日起算；衍生設計跟著原設計一起到期。"
+  },
+  {
+    "id": "u05-l1-q02",
+    "lessonId": "u05-l1",
+    "type": "order",
+    "difficulty": 2,
+    "tags": ["procedure", "deadline"],
+    "prompt": "發明專利核准後，依序排出取得專利權的步驟",
+    "items": ["核准審定，審定書送達", "三個月內繳證書費及第一年年費", "公告", "自公告日起取得專利權並發證書"],
+    "evidence": [
+      { "article": "52", "quote": "申請人應於審定書送達後三個月內，繳納證書費及第一年專利年費後，始予公告" },
+      { "article": "52", "quote": "申請專利之發明，自公告之日起給予發明專利權，並發證書。" }
+    ],
+    "explanation": "核准後要先在審定書送達後三個月內繳費，才會公告；專利權從公告日開始。"
+  }
+]
