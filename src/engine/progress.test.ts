@@ -35,3 +35,15 @@ describe('session reward transaction', () => {
     }
   });
 });
+
+it('keeps course crowns and XP separate while sharing daily goals and streaks', () => {
+  const completed = answerSession(startSession(questions, now), true);
+  const taiwan = rewardSession(emptyProgress(), completed, 'patent', 'u01-l1', now);
+  const both = rewardSession(taiwan, completed, 'us-patent', 'u01-l1', now);
+  expect(both.courseXp).toEqual({ patent: 15, 'us-patent': 15 });
+  expect(both.totalXp).toBe(30);
+  expect(both.crowns).toEqual({ 'patent:u01-l1': 1, 'us-patent:u01-l1': 1 });
+  expect(Object.values(both.dailyXp)).toEqual([30]);
+  expect(both.goalDays).toHaveLength(1);
+  expect(taiwan.courseXp).toEqual({ patent: 15 });
+});

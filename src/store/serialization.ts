@@ -6,6 +6,7 @@ export function emptyProgress(): Progress {
   return {
     schemaVersion: 1,
     totalXp: 0,
+    courseXp: {},
     dailyGoal: 20,
     dailyXp: {},
     goalDays: [],
@@ -56,6 +57,7 @@ function isProgress(value: unknown): value is Progress {
   if (!isRecord(value) || value.schemaVersion !== 1) return false;
   return (
     isInteger(value.totalXp) &&
+    (value.courseXp === undefined || isNumericRecord(value.courseXp)) &&
     [10, 20, 30, 50].includes(value.dailyGoal as number) &&
     isInteger(value.sessionsCompleted) &&
     Array.isArray(value.goalDays) &&
@@ -76,6 +78,8 @@ export function parseProgress(json: string): Progress {
   return {
     schemaVersion: 1,
     totalXp: parsed.totalXp,
+    // All progress predating multi-course support belongs to the first course.
+    courseXp: parsed.courseXp ?? { patent: parsed.totalXp },
     dailyGoal: parsed.dailyGoal,
     dailyXp: parsed.dailyXp,
     goalDays: parsed.goalDays,

@@ -1,3 +1,5 @@
+import { catalog } from '../content';
+import { CourseSwitcher } from '../components/CourseSwitcher';
 import { useContent } from '../components/Layout';
 import { CourseHero } from '../components/path/CourseHero';
 import { UnitPath } from '../components/path/UnitPath';
@@ -20,6 +22,8 @@ export function Path() {
 
   return (
     <>
+      <CourseSwitcher courses={catalog.map((item) => item.course)} />
+      <p className="muted-text">本課累積 {progress.courseXp[course.id] ?? 0} XP</p>
       <CourseHero course={course} completed={completed} total={lessons.length} />
       <div className="section-heading">
         <h2>你的學習旅程</h2>

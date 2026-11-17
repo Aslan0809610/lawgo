@@ -74,5 +74,13 @@ export function rewardSession(
     const lessonKey = key(courseId, lessonId);
     crowns[lessonKey] = nextCrown(crowns[lessonKey] ?? 0);
   }
-  return { ...rewarded, crowns, sessionsCompleted: progress.sessionsCompleted + 1 };
+  return {
+    ...rewarded,
+    courseXp: {
+      ...progress.courseXp,
+      [courseId]: (progress.courseXp[courseId] ?? 0) + sessionXp(session),
+    },
+    crowns,
+    sessionsCompleted: progress.sessionsCompleted + 1,
+  };
 }

@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import { CasePreview } from '../components/CasePreview';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import { Feedback } from '../components/Feedback';
 import { useContent } from '../components/Layout';
@@ -5,7 +7,7 @@ import { QuestionRenderer } from '../components/questions';
 import { SessionToolbar } from '../components/SessionToolbar';
 import { useLessonSession } from '../hooks/useLessonSession';
 import { progressStore, useProgress } from '../store';
-import type { Law, PracticeConfig, Question } from '../types';
+import type { CourseContent, PracticeConfig, Question } from '../types';
 import { resolvePractice } from './lessonConfig';
 
 const typeNames: Record<Question['type'], string> = {
@@ -41,16 +43,49 @@ export function Lesson() {
       </section>
     );
   }
-  return <SessionPlayer key={retryTo} config={config} law={content.law} retryTo={retryTo} />;
+  return (
+    <LessonEntry
+      key={`${content.course.id}:${retryTo}`}
+      config={config}
+      content={content}
+      retryTo={retryTo}
+    />
+  );
+}
+
+function LessonEntry({
+  config,
+  content,
+  retryTo,
+}: {
+  config: PracticeConfig;
+  content: CourseContent;
+  retryTo: string;
+}) {
+  const [started, setStarted] = useState(false);
+  const cases = (config.caseIds ?? []).flatMap(
+    (id) => content.cases?.articles.filter((item) => item.no === id) ?? [],
+  );
+  if (!started && cases.length > 0 && config.pool.length > 0) {
+    return (
+      <CasePreview
+        cases={cases}
+        briefs={content.briefs}
+        language={content.course.language}
+        onStart={() => setStarted(true)}
+      />
+    );
+  }
+  return <SessionPlayer config={config} content={content} retryTo={retryTo} />;
 }
 
 function SessionPlayer({
   config,
-  law,
+  content,
   retryTo,
 }: {
   config: PracticeConfig;
-  law: Law;
+  content: CourseContent;
   retryTo: string;
 }) {
   const round = useLessonSession(config, retryTo);
@@ -86,16 +121,21 @@ function SessionPlayer({
         </span>
       </div>
       <h1 className="question-prompt">{question.prompt}</h1>
-      <QuestionRenderer
-        key={`${question.id}:${session.attempts}`}
-        question={question}
-        onAnswer={round.answer}
-      />
+      <div lang={content.course.language ?? 'zh'}>
+        <QuestionRenderer
+          key={`${question.id}:${session.attempts}`}
+          question={question}
+          onAnswer={round.answer}
+        />
+      </div>
       {feedback && (
         <Feedback
           correct={feedback.correct}
           question={question}
-          law={law}
+          law={content.law}
+          cases={content.cases}
+          briefs={content.briefs}
+          language={content.course.language}
           onContinue={round.continueSession}
         />
       )}

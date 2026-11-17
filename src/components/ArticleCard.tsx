@@ -1,36 +1,24 @@
-import type { ReactNode } from 'react';
-import type { Article, Law, Question } from '../types';
-export function highlightedText(text: string, quotes: string[]): ReactNode[] {
-  let compact = '';
-  const positions: number[] = [];
-  for (let i = 0; i < text.length; i++)
-    if (!/\s/u.test(text[i])) {
-      compact += text[i];
-      positions.push(i);
-    }
-  const marked = new Set<number>();
-  for (const quote of quotes) {
-    const needle = quote.replace(/\s/gu, '');
-    if (!needle) continue;
-    let from = 0;
-    let at = compact.indexOf(needle);
-    while (at >= 0) {
-      for (let i = positions[at]; i <= positions[at + needle.length - 1]; i++) marked.add(i);
-      from = at + needle.length;
-      at = compact.indexOf(needle, from);
-    }
-  }
-  const parts: ReactNode[] = [];
-  let start = 0;
-  for (let i = 1; i <= text.length; i++)
-    if (i === text.length || marked.has(i) !== marked.has(start)) {
-      const part = text.slice(start, i);
-      parts.push(marked.has(start) ? <mark key={start}>{part}</mark> : part);
-      start = i;
-    }
-  return parts;
+import type { Article, CaseBriefs, Cases, Course, Law, Question } from '../types';
+import { CaseCard } from './CaseCard';
+import { highlightedText } from './highlightedText';
+export { highlightedText } from './highlightedText';
+
+export interface EvidenceContent {
+  law: Law;
+  cases?: Cases;
+  briefs?: CaseBriefs;
+  language?: Course['language'];
 }
-export function ArticleCard({ article, quotes = [] }: { article: Article; quotes?: string[] }) {
+
+export function ArticleCard({
+  article,
+  quotes = [],
+  language = 'zh',
+}: {
+  article: Article;
+  quotes?: string[];
+  language?: Course['language'];
+}) {
   return (
     <details className="article-card">
       <summary>
@@ -38,23 +26,52 @@ export function ArticleCard({ article, quotes = [] }: { article: Article; quotes
         <span className="when-closed">展開全文 ＋</span>
         <span className="when-open">收合 －</span>
       </summary>
-      <p className="article-text">{highlightedText(article.text, quotes)}</p>
+      <p className="article-text" lang={language}>
+        {highlightedText(article.text, quotes)}
+      </p>
     </details>
   );
 }
-export function EvidenceCards({ question, law }: { question: Question; law: Law }) {
+
+export function EvidenceCards({
+  question,
+  law,
+  cases,
+  briefs,
+  language = 'zh',
+}: EvidenceContent & { question: Question }) {
+  const references = new Map<string, { kind: 'article' | 'case'; id: string; quotes: string[] }>();
+  for (const entry of question.evidence) {
+    const kind = entry.case !== undefined ? 'case' : 'article';
+    const id = entry.case ?? entry.article;
+    const key = `${kind}:${id}`;
+    const reference = references.get(key) ?? { kind, id, quotes: [] };
+    if (!reference.quotes.includes(entry.quote)) reference.quotes.push(entry.quote);
+    references.set(key, reference);
+  }
   return (
     <>
-      {[...new Set(question.evidence.map((e) => e.article))].map((no) => {
-        const article = law.articles.find((a) => a.no === no);
+      {[...references.entries()].map(([key, reference]) => {
+        const { kind, id, quotes } = reference;
+        if (kind === 'case') {
+          const item = cases?.articles.find((candidate) => candidate.no === id);
+          return item ? (
+            <CaseCard
+              key={key}
+              caseLaw={item}
+              brief={briefs?.[id]}
+              quotes={quotes}
+              language={language}
+            />
+          ) : (
+            <p key={key}>找不到判例 {id}</p>
+          );
+        }
+        const article = law.articles.find((candidate) => candidate.no === id);
         return article ? (
-          <ArticleCard
-            key={no}
-            article={article}
-            quotes={question.evidence.filter((e) => e.article === no).map((e) => e.quote)}
-          />
+          <ArticleCard key={key} article={article} quotes={quotes} language={language} />
         ) : (
-          <p key={no}>找不到第 {no} 條</p>
+          <p key={key}>找不到第 {id} 條</p>
         );
       })}
     </>

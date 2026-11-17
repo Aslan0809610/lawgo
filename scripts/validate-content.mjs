@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const questionTypes = ['true_false', 'single_choice', 'cloze', 'match', 'order'];
-const allowedTags = ['deadline', 'definition', 'procedure', 'comparison', 'case'];
+const allowedTags = ['deadline', 'definition', 'procedure', 'comparison', 'case', 'holding'];
 const normalize = (value) => value.replace(/\s/gu, '');
 const nonempty = (value) => typeof value === 'string' && value.trim().length > 0;
 const strings = (value) => Array.isArray(value) && value.every(nonempty);
@@ -32,20 +32,40 @@ function validateCommon(question, lessonIds, ids, fail) {
   if (!nonempty(question.explanation)) fail('explanation 必須是非空字串');
 }
 
-function validateEvidence(question, articles, fail) {
+function citedText(evidence, sources) {
+  if (!object(evidence)) return undefined;
+  const hasArticle = Object.hasOwn(evidence, 'article');
+  const hasCase = Object.hasOwn(evidence, 'case');
+  if (hasArticle === hasCase) return undefined;
+  return hasCase ? sources.cases.get(evidence.case) : sources.articles.get(evidence.article);
+}
+
+function validateEvidence(question, sources, fail) {
   if (!Array.isArray(question.evidence) || question.evidence.length === 0) {
     fail('evidence 必須是非空陣列');
     return;
   }
   for (const evidence of question.evidence) {
-    if (!object(evidence) || !nonempty(evidence.article) || !nonempty(evidence.quote)) {
-      fail('evidence 的 article、quote 必須是非空字串');
+    if (!object(evidence)) {
+      fail('evidence 必須是物件');
       continue;
     }
-    if (!articles.has(evidence.article)) {
-      fail(`evidence 引用不存在的第 ${evidence.article} 條`);
-    } else if (!normalize(articles.get(evidence.article)).includes(normalize(evidence.quote))) {
-      fail(`第 ${evidence.article} 條找不到 evidence.quote「${evidence.quote}」`);
+    const hasArticle = Object.hasOwn(evidence, 'article');
+    const hasCase = Object.hasOwn(evidence, 'case');
+    if (hasArticle === hasCase) {
+      fail('evidence 必須剛好有 article 或 case 其中一個');
+      continue;
+    }
+    const id = hasCase ? evidence.case : evidence.article;
+    const label = hasCase ? `判例 ${id}` : `第 ${id} 條`;
+    if (!nonempty(id) || !nonempty(evidence.quote)) {
+      fail('evidence 的引用 id、quote 必須是非空字串');
+      continue;
+    }
+    const text = citedText(evidence, sources);
+    if (text === undefined) fail(`evidence 引用不存在的${label}`);
+    else if (!normalize(text).includes(normalize(evidence.quote))) {
+      fail(`${label}找不到 evidence.quote「${evidence.quote}」`);
     }
   }
 }
@@ -71,7 +91,7 @@ function validPlaceholders(text, blanks) {
   );
 }
 
-function validateCloze(question, articles, fail) {
+function validateCloze(question, sources, fail) {
   const blanksValid =
     strings(question.blanks) && question.blanks.length >= 1 && question.blanks.length <= 3;
   if (!blanksValid) fail('blanks 必須有 1–3 個非空字串');
@@ -101,12 +121,12 @@ function validateCloze(question, articles, fail) {
     /\{\{(\d+)\}\}/g,
     (_, index) => question.blanks[Number(index)] ?? '',
   );
-  const citedArticleContains = (evidence) =>
-    object(evidence) &&
-    articles.has(evidence.article) &&
-    normalize(articles.get(evidence.article)).includes(normalize(filled));
-  if (!Array.isArray(question.evidence) || !question.evidence.some(citedArticleContains)) {
-    fail('填空後的 text 不是 evidence 所引條文的連續片段');
+  const citedSourceContains = (evidence) => {
+    const text = citedText(evidence, sources);
+    return text !== undefined && normalize(text).includes(normalize(filled));
+  };
+  if (!Array.isArray(question.evidence) || !question.evidence.some(citedSourceContains)) {
+    fail('填空後的 text 不是 evidence 所引條文或判例的連續片段');
   }
 }
 
@@ -137,7 +157,7 @@ function validateMatch(question, fail) {
   }
 }
 
-function validateSpecific(question, articles, fail) {
+function validateSpecific(question, sources, fail) {
   switch (question.type) {
     case 'true_false':
       if (typeof question.answer !== 'boolean') fail('answer 必須是布林值');
@@ -146,7 +166,7 @@ function validateSpecific(question, articles, fail) {
       validateSingleChoice(question, fail);
       break;
     case 'cloze':
-      validateCloze(question, articles, fail);
+      validateCloze(question, sources, fail);
       break;
     case 'match':
       validateMatch(question, fail);
@@ -187,13 +207,82 @@ function summarizeLessons(questions, lessons, coverage, errors) {
   return summary;
 }
 
-export function validateQuestions(questions, course, law, { coverage = true } = {}) {
+export function validateReferences(course, law, cases, briefs) {
+  const errors = [];
+  const articleIds = new Set(law.articles.map((article) => article.no));
+  const caseIds = new Set((cases?.articles ?? []).map((item) => item.no));
+  if (course.language !== undefined && !['zh', 'en'].includes(course.language)) {
+    errors.push('language 必須為 zh 或 en');
+  }
+  if (course.casesFile && !cases) errors.push(`找不到 casesFile：${course.casesFile}`);
+  if (cases) {
+    if (cases.kind !== 'cases') errors.push('casesFile 的 kind 必須為 cases');
+    if (caseIds.size !== cases.articles.length) errors.push('判例 id 重複');
+    for (const item of cases.articles) {
+      if (
+        !nonempty(item.no) ||
+        !nonempty(item.label) ||
+        !nonempty(item.text) ||
+        !nonempty(item.title) ||
+        !Number.isInteger(item.year) ||
+        !nonempty(item.citation) ||
+        !nonempty(item.court) ||
+        !nonempty(item.sourceUrl) ||
+        !strings(item.paragraphs)
+      ) {
+        errors.push(`判例 ${item.no}：必要欄位不完整`);
+      }
+    }
+  }
+  for (const lesson of course.units.flatMap((unit) => unit.lessons)) {
+    if (!Array.isArray(lesson.articles)) errors.push(`${lesson.id}：articles 必須是陣列`);
+    for (const no of lesson.articles ?? []) {
+      if (!articleIds.has(no)) errors.push(`${lesson.id}：條文 ${no} 不存在`);
+    }
+    if (lesson.cases !== undefined && !strings(lesson.cases)) {
+      errors.push(`${lesson.id}：cases 必須是判例 id 陣列`);
+      continue;
+    }
+    for (const id of lesson.cases ?? []) {
+      if (!caseIds.has(id)) errors.push(`${lesson.id}：判例 ${id} 不存在於 casesFile`);
+    }
+  }
+  // Draft corpora can be read without briefs; once briefs exist, require full coverage.
+  if (briefs !== undefined) {
+    if (!object(briefs)) return [...errors, 'briefs.json 必須是物件'];
+    for (const id of caseIds) {
+      const brief = briefs[id];
+      if (
+        !object(brief) ||
+        !['nameZh', 'facts', 'issue', 'holding', 'significance', 'keyRule'].every((field) =>
+          nonempty(brief[field]),
+        ) ||
+        !strings(brief.relatedArticles)
+      ) {
+        errors.push(`判例 ${id}：缺少完整摘要`);
+        continue;
+      }
+      for (const no of brief.relatedArticles) {
+        if (!articleIds.has(no)) errors.push(`判例 ${id}：relatedArticles 條文 ${no} 不存在`);
+      }
+    }
+    for (const id of Object.keys(briefs)) {
+      if (!caseIds.has(id)) errors.push(`摘要引用不存在的判例 ${id}`);
+    }
+  }
+  return errors;
+}
+
+export function validateQuestions(questions, course, law, { coverage = true, cases, briefs } = {}) {
   if (!Array.isArray(questions)) return { errors: ['題庫：必須是 JSON 陣列'], summary: [] };
   const errors = [];
   const lessons = course.units.flatMap((unit) => unit.lessons);
   const lessonIds = new Set(lessons.map((lesson) => lesson.id));
   const articles = new Map(law.articles.map((article) => [article.no, article.text]));
+  const caseTexts = new Map((cases?.articles ?? []).map((item) => [item.no, item.text]));
+  const sources = { articles, cases: caseTexts };
   const ids = new Set();
+  errors.push(...validateReferences(course, law, cases, briefs));
 
   for (const [index, question] of questions.entries()) {
     const label = object(question) && nonempty(question.id) ? question.id : `第 ${index + 1} 題`;
@@ -203,8 +292,18 @@ export function validateQuestions(questions, course, law, { coverage = true } = 
       continue;
     }
     validateCommon(question, lessonIds, ids, fail);
-    validateEvidence(question, articles, fail);
-    validateSpecific(question, articles, fail);
+    validateEvidence(question, sources, fail);
+    const lesson = lessons.find((item) => item.id === question.lessonId);
+    if (
+      lesson?.cases !== undefined &&
+      (!Array.isArray(question.evidence) ||
+        !question.evidence.some(
+          (entry) => object(entry) && nonempty(entry.case) && !Object.hasOwn(entry, 'article'),
+        ))
+    ) {
+      fail('判例課的每題至少需要一筆 case 證據');
+    }
+    validateSpecific(question, sources, fail);
   }
   return { errors, summary: summarizeLessons(questions, lessons, coverage, errors) };
 }
@@ -223,23 +322,51 @@ function discoverCourses(root) {
     }));
 }
 
-function courseTargets(courses, file, single) {
+export function courseTargets(courses, file, single, root = process.cwd()) {
   if (!file) return courses;
   const owned = courses.filter(({ dir }) => file.startsWith(`${dir}${path.sep}`));
   if (owned.length === 1) return owned;
   const matches = courses.filter(
     ({ course }) =>
       Array.isArray(single) &&
-      single.some((question) =>
+      single.length > 0 &&
+      single.every((question) =>
         course.units.some((unit) =>
           unit.lessons.some((lesson) => lesson.id === question?.lessonId),
         ),
       ),
   );
-  if (matches.length !== 1) {
-    throw new Error('單檔題庫無法唯一對應課程，請放入對應課程目錄');
-  }
-  return matches;
+  if (matches.length === 1) return matches;
+  // Legacy courses share lesson ids. Original evidence can resolve an external draft.
+  const evidenceMatches = matches.filter(({ course }) => {
+    try {
+      const law = readJson(path.join(root, 'content', course.lawFile));
+      const cases = course.casesFile
+        ? readJson(path.join(root, 'content', course.casesFile))
+        : undefined;
+      const sources = {
+        articles: new Map(law.articles.map((item) => [item.no, item.text])),
+        cases: new Map((cases?.articles ?? []).map((item) => [item.no, item.text])),
+      };
+      return single.every(
+        (question) =>
+          Array.isArray(question?.evidence) &&
+          question.evidence.length > 0 &&
+          question.evidence.every((entry) => {
+            const text = citedText(entry, sources);
+            return (
+              text !== undefined &&
+              nonempty(entry.quote) &&
+              normalize(text).includes(normalize(entry.quote))
+            );
+          }),
+      );
+    } catch {
+      return false;
+    }
+  });
+  if (evidenceMatches.length === 1) return evidenceMatches;
+  throw new Error('單檔題庫無法唯一對應課程，請放入對應課程目錄');
 }
 
 function readQuestionFiles(directory, errors) {
@@ -284,16 +411,32 @@ export function run(args, root = process.cwd()) {
   try {
     const courses = discoverCourses(root);
     const single = file ? readJson(file) : null;
-    const targets = courseTargets(courses, file, single);
+    const targets = courseTargets(courses, file, single, root);
     if (targets.length === 0) throw new Error('找不到題庫對應的課程');
 
     for (const { dir, course } of targets) {
-      const questions = file ? single : readQuestionFiles(dir, errors);
-      const law = readJson(path.join(root, 'content', course.lawFile));
-      const result = validateQuestions(questions, course, law, { coverage: !file });
+      const courseErrors = [];
       const mode = file ? '單檔驗證（略過整課題數與題型配額）' : '完整課程驗證';
-      summaries.push(`【${course.title}】${mode}`, ...result.summary);
-      errors.push(...result.errors.map((error) => `${course.id} / ${error}`));
+      summaries.push(`【${course.title}】${mode}`);
+      try {
+        const questions = file ? single : readQuestionFiles(dir, courseErrors);
+        const law = readJson(path.join(root, 'content', course.lawFile));
+        const casesPath = course.casesFile && path.join(root, 'content', course.casesFile);
+        const cases = casesPath ? readJson(casesPath) : undefined;
+        const briefsPath = casesPath?.replace(/cases\.json$/, 'briefs.json');
+        const briefs = briefsPath && fs.existsSync(briefsPath) ? readJson(briefsPath) : undefined;
+        const result = validateQuestions(questions, course, law, {
+          coverage: !file,
+          cases,
+          briefs,
+        });
+        summaries.push(...result.summary);
+        courseErrors.push(...result.errors);
+      } catch (error) {
+        courseErrors.push(error.message);
+      }
+      summaries.push(`【${course.id}】${courseErrors.length} 個錯誤`);
+      errors.push(...courseErrors.map((error) => `${course.id} / ${error}`));
     }
   } catch (error) {
     errors.push(error.message);

@@ -2,14 +2,16 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter, Outlet, Route, Routes } from 'react-router-dom';
 import { beforeEach, describe, expect, it } from 'vitest';
-import course from '../../content/courses/patent/course.json';
+import courseJson from '../../content/courses/patent/course.json';
 import law from '../../content/laws/patent/articles.json';
 import fixtures from '../../content/fixtures/sample-questions.json';
 import { key } from '../engine';
 import { progressStore } from '../store';
-import type { CourseContent, Question } from '../types';
+import type { Course, CourseContent, Question } from '../types';
 import { Lesson } from './Lesson';
 import { Result } from './Result';
+
+const course = courseJson as Course;
 
 const firstQuestion = {
   ...fixtures[0],

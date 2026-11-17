@@ -6,7 +6,7 @@ import { useProgress } from '../store';
 
 export function ArticleDetail() {
   const { no } = useParams();
-  const { course, law, questions } = useContent();
+  const { course, law, questions, cases, briefs } = useContent();
   const progress = useProgress();
   const article = law.articles.find((a) => a.no === no);
   const base = `/${course.id}`;
@@ -18,6 +18,8 @@ export function ArticleDetail() {
       </section>
     );
   const related = questions.filter((q) => q.evidence.some((e) => e.article === no));
+  const relatedCases =
+    cases?.articles.filter((item) => briefs?.[item.no]?.relatedArticles.includes(article.no)) ?? [];
   const mastery = articleMastery(article.no, questions, progress, course.id);
   return (
     <>
@@ -33,7 +35,7 @@ export function ArticleDetail() {
           {mastery.label} · 平均盒子 {mastery.average.toFixed(1)} / 5
         </span>
         {article.section && <p className="muted-text">{article.section}</p>}
-        <div className="article-text">
+        <div className="article-text" lang={course.language ?? 'zh'}>
           {highlightedText(
             article.text,
             related.flatMap((q) => q.evidence.filter((e) => e.article === no).map((e) => e.quote)),
@@ -41,6 +43,16 @@ export function ArticleDetail() {
         </div>
         <p className="article-legend">金色標示為題目引用的重點片段。</p>
       </article>
+      {relatedCases.length > 0 && (
+        <section className="related-links" aria-label="相關判例">
+          <h2>相關判例</h2>
+          {relatedCases.map((item) => (
+            <Link key={item.no} to={`${base}/cases/${item.no}`}>
+              🔨 {briefs?.[item.no]?.nameZh ?? item.label} · {item.year}
+            </Link>
+          ))}
+        </section>
+      )}
       {related.length ? (
         <Link className="primary" to={`${base}/practice/article?article=${article.no}`}>
           練習這一條 · {Math.min(10, related.length)} 題

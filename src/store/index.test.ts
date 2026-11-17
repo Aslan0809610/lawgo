@@ -70,3 +70,12 @@ describe('versioned progress store', () => {
     expect(unavailable.getError()).toContain('儲存空間');
   });
 });
+
+it('migrates v1 total XP to the Taiwan course and round-trips per-course XP', () => {
+  const legacy: Record<string, unknown> = { ...emptyProgress(), totalXp: 35 };
+  delete legacy.courseXp;
+  expect(parseProgress(JSON.stringify(legacy)).courseXp).toEqual({ patent: 35 });
+  const progress = { ...emptyProgress(), totalXp: 50, courseXp: { patent: 35, 'us-patent': 15 } };
+  expect(parseProgress(JSON.stringify(progress))).toEqual(progress);
+  expect(() => parseProgress(JSON.stringify({ ...progress, courseXp: { patent: -1 } }))).toThrow();
+});

@@ -3,6 +3,7 @@ import type { Lesson } from '../../types';
 
 interface LessonNodeProps {
   courseId: string;
+  caseLesson?: boolean;
   lesson: Lesson;
   crown: number;
   unlocked: boolean;
@@ -12,13 +13,14 @@ interface LessonNodeProps {
 }
 
 function lessonStatus(unlocked: boolean, hasQuestions: boolean, crown: number): string {
-  if (!unlocked) return '尚未解鎖';
   if (!hasQuestions) return '題庫準備中';
+  if (!unlocked) return '尚未解鎖';
   return crown > 0 ? `皇冠 ${crown} 級` : '開始學習';
 }
 
 export function LessonNode({
   courseId,
+  caseLesson,
   lesson,
   crown,
   unlocked,
@@ -28,7 +30,7 @@ export function LessonNode({
 }: LessonNodeProps) {
   const available = unlocked && hasQuestions;
   const label = lessonStatus(unlocked, hasQuestions, crown);
-  const icon = unlocked ? (crown > 0 ? '♛' : '⚒') : '⌑';
+  const icon = caseLesson ? '🔨' : unlocked ? (crown > 0 ? '♛' : '⚒') : '⌑';
   const className = [
     'path-stop',
     `stop-${index % 4}`,

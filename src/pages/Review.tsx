@@ -5,7 +5,7 @@ import { dueReviews, key } from '../engine';
 import { progressStore, useProgress } from '../store';
 import type { Question } from '../types';
 export function Review() {
-  const { course, law, questions } = useContent();
+  const { course, law, questions, cases, briefs } = useContent();
   const progress = useProgress();
   const base = `/${course.id}`;
   const due = dueReviews(questions, course, progress, progressStore.clock.now());
@@ -66,7 +66,13 @@ export function Review() {
           <details className="wrong-question" key={q.id}>
             <summary>{questionTitle(q)}</summary>
             <p>{q.explanation}</p>
-            <EvidenceCards question={q} law={law} />
+            <EvidenceCards
+              question={q}
+              law={law}
+              cases={cases}
+              briefs={briefs}
+              language={course.language}
+            />
           </details>
         ))
       )}

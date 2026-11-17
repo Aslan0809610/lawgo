@@ -1,15 +1,17 @@
 import { useEffect, useRef } from 'react';
-import type { Law, Question } from '../types';
-import { EvidenceCards } from './ArticleCard';
+import type { Question } from '../types';
+import { EvidenceCards, type EvidenceContent } from './ArticleCard';
 export function Feedback({
   correct,
   question,
   law,
+  cases,
+  briefs,
+  language,
   onContinue,
-}: {
+}: EvidenceContent & {
   correct: boolean;
   question: Question;
-  law: Law;
   onContinue(): void;
 }) {
   const heading = useRef<HTMLHeadingElement>(null);
@@ -27,7 +29,13 @@ export function Feedback({
           {correct ? '✓ 答對了，繼續累積！' : '× 再記一次，下次會更好'}
         </h2>
         <p>{question.explanation}</p>
-        <EvidenceCards question={question} law={law} />
+        <EvidenceCards
+          question={question}
+          law={law}
+          cases={cases}
+          briefs={briefs}
+          language={language}
+        />
         <button className="primary" onClick={onContinue}>
           繼續
         </button>

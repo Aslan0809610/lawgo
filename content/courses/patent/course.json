@@ -403,6 +403,45 @@
      ]
     }
    ]
+  },
+  {
+   "id": "u11",
+   "title": "判例關卡：法院怎麼判",
+   "description": "均等論的界限、侵權責任與損害賠償、進步性與發明人認定",
+   "kind": "cases",
+   "lessons": [
+    {
+     "id": "u11-l1",
+     "title": "均等論的界限：先前技術阻卻與禁反言",
+     "articles": [],
+     "cases": [
+      "prior-art-estoppel",
+      "history-estoppel",
+      "prosecution-statements"
+     ]
+    },
+    {
+     "id": "u11-l2",
+     "title": "損害賠償：故意過失與計算方式",
+     "articles": [],
+     "cases": [
+      "fault-and-prior-use",
+      "retailer-fault",
+      "reasonable-royalty"
+     ]
+    },
+    {
+     "id": "u11-l3",
+     "title": "進步性的商業上成功與發明人認定",
+     "articles": [],
+     "cases": [
+      "commercial-success",
+      "inventor-contribution"
+     ]
+    }
+   ]
   }
- ]
+ ],
+ "casesFile": "cases/patent/cases.json",
+ "language": "zh"
 }

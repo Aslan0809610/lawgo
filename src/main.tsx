@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Link, Navigate, Route, Routes } from 'react-router-dom';
+import { DefaultCourseRedirect } from './components/DefaultCourseRedirect';
+import { CaseDetail } from './pages/CaseDetail';
 import { Layout } from './components/Layout';
 import { catalog } from './content';
 import { Articles } from './pages/Articles';
@@ -37,15 +39,7 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={
-            catalog[0] ? (
-              <Navigate to={`/${catalog[0].course.id}/path`} replace />
-            ) : (
-              <main className="empty">
-                <h1>課程準備中</h1>
-              </main>
-            )
-          }
+          element={<DefaultCourseRedirect ids={catalog.map((item) => item.course.id)} />}
         />
         <Route path="/:courseId" element={<Layout />}>
           <Route index element={<Navigate to="path" replace />} />
@@ -56,6 +50,7 @@ function App() {
           <Route path="result" element={<Result />} />
           <Route path="review" element={<Review />} />
           <Route path="articles" element={<Articles />} />
+          <Route path="cases/:caseId" element={<CaseDetail />} />
           <Route path="articles/:no" element={<ArticleDetail />} />
           <Route path="profile" element={<Profile />} />
           <Route path="deadline" element={<DeadlineChallenge />} />

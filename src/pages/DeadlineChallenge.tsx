@@ -9,7 +9,7 @@ import { useDeadlineChallenge } from '../hooks/useDeadlineChallenge';
 import { progressStore, useProgress } from '../store';
 
 export function DeadlineChallenge() {
-  const { course, questions, law } = useContent();
+  const { course, questions, law, cases, briefs } = useContent();
   const progress = useProgress();
   const [pool] = useState(() => deadlineQuestions(questions, progressStore.clock.now().getTime()));
   const challenge = useDeadlineChallenge(course.id, pool);
@@ -53,16 +53,21 @@ export function DeadlineChallenge() {
         <span>第 {challenge.index + 1} 題</span>
       </div>
       <h1 className="question-prompt">{challenge.question.prompt}</h1>
-      <QuestionRenderer
-        key={challenge.index}
-        question={challenge.question}
-        onAnswer={challenge.answer}
-      />
+      <div lang={course.language ?? 'zh'}>
+        <QuestionRenderer
+          key={challenge.index}
+          question={challenge.question}
+          onAnswer={challenge.answer}
+        />
+      </div>
       {challenge.feedback !== null && (
         <Feedback
           correct={challenge.feedback}
           question={challenge.question}
           law={law}
+          cases={cases}
+          briefs={briefs}
+          language={course.language}
           onContinue={challenge.nextQuestion}
         />
       )}

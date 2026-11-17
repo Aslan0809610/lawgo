@@ -13,12 +13,35 @@ export interface Law {
   source: string;
   articles: Article[];
 }
+export interface Case extends Article {
+  title: string;
+  year: number;
+  citation: string;
+  court: string;
+  sourceUrl: string;
+}
+export interface Cases extends Omit<Law, 'articles'> {
+  kind: 'cases';
+  articles: Case[];
+}
+export interface CaseBrief {
+  nameZh: string;
+  facts: string;
+  issue: string;
+  holding: string;
+  significance: string;
+  relatedArticles: string[];
+  keyRule: string;
+}
+export type CaseBriefs = Record<string, CaseBrief>;
 export interface Lesson {
   id: string;
   title: string;
   articles: string[];
+  cases?: string[];
 }
 export interface Unit {
+  kind?: 'cases';
   id: string;
   title: string;
   description: string;
@@ -29,13 +52,14 @@ export interface Course {
   title: string;
   subtitle?: string;
   lawFile: string;
+  language?: 'zh' | 'en';
+  casesFile?: string;
   units: Unit[];
 }
-export type Tag = 'deadline' | 'definition' | 'procedure' | 'comparison' | 'case';
-export interface Evidence {
-  article: string;
-  quote: string;
-}
+export type Tag = 'deadline' | 'definition' | 'procedure' | 'comparison' | 'case' | 'holding';
+export type Evidence = { quote: string } & (
+  { article: string; case?: never } | { case: string; article?: never }
+);
 interface BaseQuestion {
   id: string;
   lessonId: string;
@@ -80,6 +104,7 @@ export interface QuestionProgress {
 export interface Progress {
   schemaVersion: 1;
   totalXp: number;
+  courseXp: Record<string, number>;
   dailyGoal: 10 | 20 | 30 | 50;
   dailyXp: Record<string, number>;
   goalDays: string[];
@@ -93,11 +118,13 @@ export interface CourseContent {
   law: Law;
   questions: Question[];
   demo: boolean;
+  cases?: Cases;
+  briefs?: CaseBriefs;
 }
 export interface Clock {
   now(): Date;
 }
-export type SessionMode = 'lesson' | 'unit' | 'review' | 'article';
+export type SessionMode = 'lesson' | 'unit' | 'review' | 'article' | 'case';
 export interface Session {
   queue: Question[];
   initialCount: number;
@@ -125,6 +152,7 @@ export interface PracticeConfig {
   mode: SessionMode;
   crown: number;
   lessonId?: string;
+  caseIds?: string[];
   allowed: boolean;
   returnTo: string;
 }

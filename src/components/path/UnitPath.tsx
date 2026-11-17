@@ -18,11 +18,15 @@ export function UnitPath({ content, unit, index, progress, nextLessonId }: UnitP
   const challengeUnlocked = hasQuestions && isUnitUnlocked(course, unit.id, progress.crowns);
 
   return (
-    <section className="unit">
+    <section className={`unit ${unit.kind === 'cases' ? 'case-unit' : ''}`}>
       <header className="unit-heading">
         <span>{String(index + 1).padStart(2, '0')}</span>
         <div>
-          <h2>{unit.title}</h2>
+          <h2>
+            {unit.kind === 'cases' && '🔨 '}
+            {unit.title}
+          </h2>
+          {unit.kind === 'cases' && <span className="case-badge">判例關卡</span>}
           <p>{unit.description}</p>
         </div>
       </header>
@@ -30,6 +34,7 @@ export function UnitPath({ content, unit, index, progress, nextLessonId }: UnitP
         {unit.lessons.map((lesson, lessonIndex) => (
           <LessonNode
             key={lesson.id}
+            caseLesson={unit.kind === 'cases'}
             courseId={course.id}
             lesson={lesson}
             crown={progress.crowns[key(course.id, lesson.id)] ?? 0}

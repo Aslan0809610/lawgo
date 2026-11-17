@@ -1372,3 +1372,113 @@ select {
 .article-card[open] .when-open {
   display: inline;
 }
+
+.course-switcher,
+.segmented-toggle {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0 18px;
+  padding: 5px;
+  border-radius: 12px;
+  background: var(--line);
+}
+.course-switcher a,
+.segmented-toggle button {
+  flex: 1;
+  padding: 10px 8px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.course-switcher a.active,
+.segmented-toggle button[aria-pressed='true'] {
+  background: var(--indigo);
+  color: white;
+}
+.case-unit .unit-heading {
+  border-left: 4px solid var(--gold);
+  padding-left: 12px;
+}
+.case-badge {
+  display: inline-block;
+  background: #fae4a3;
+  color: #493e24;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+.case-preview-card,
+.case-card {
+  padding: 20px;
+  margin: 16px 0;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+.case-brief h2,
+.related-links h2 {
+  font-size: 16px;
+  margin: 20px 0 6px;
+}
+.case-brief p {
+  line-height: 1.8;
+}
+.key-rule {
+  background: #fae4a3;
+  border-left: 3px solid var(--gold);
+  padding: 12px;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+.skip-link {
+  color: var(--muted);
+  text-decoration: underline;
+  padding: 10px;
+}
+.preview-actions {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+.preview-actions .primary {
+  flex: 1;
+}
+.case-card {
+  border-left: 3px solid var(--gold);
+  padding: 14px;
+}
+.case-card blockquote {
+  margin: 12px 0;
+}
+.related-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0;
+}
+.related-links h2 {
+  flex-basis: 100%;
+}
+.related-links a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.article-text:lang(en),
+.statute-preview:lang(en),
+.cloze-sentence:lang(en),
+.word-bank:lang(en),
+.word-bank:lang(en) button,
+.cloze-sentence:lang(en) button {
+  font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: normal;
+  word-spacing: normal;
+  overflow-wrap: break-word;
+  line-height: 1.8;
+}
+
+.related-links a {
+  display: block;
+  padding: 10px 0;
+  color: var(--indigo-light);
+  text-decoration: underline;
+}

@@ -1,9 +1,11 @@
-import type { Course, CourseContent, Law, Question } from '../types';
+import type { CaseBriefs, Cases, Course, CourseContent, Law, Question } from '../types';
 
 interface ContentSources {
   courses: Record<string, Course>;
   questionFiles: Record<string, Question[]>;
   laws: Record<string, Law>;
+  cases?: Record<string, Cases>;
+  briefs?: Record<string, CaseBriefs>;
   fixtures: Question[];
   development: boolean;
 }
@@ -19,8 +21,14 @@ export function loadCatalog(sources: ContentSources): CourseContent[] {
     const law = sources.laws[`../content/${course.lawFile}`];
     if (!law) throw new Error(`找不到課程條文：${course.lawFile}`);
 
-    const demo = sources.development && files.length === 0;
+    // The bundled sample questions belong only to the Taiwan patent course.
+    const demo = sources.development && course.id === 'patent' && files.length === 0;
     const questions = demo ? sources.fixtures : files.flatMap(([, contents]) => contents);
-    return { course, law, questions, demo };
+    const casesPath = course.casesFile && `../content/${course.casesFile}`;
+    const cases = casesPath ? sources.cases?.[casesPath] : undefined;
+    if (casesPath && !cases) throw new Error(`找不到課程判例：${course.casesFile}`);
+    const briefsPath = casesPath?.replace(/cases\.json$/, 'briefs.json');
+    const briefs = briefsPath ? sources.briefs?.[briefsPath] : undefined;
+    return { course, law, questions, demo, cases, briefs };
   });
 }

@@ -1,4 +1,4 @@
-import { dueReviews, isLessonUnlocked, isUnitUnlocked, key } from '../engine';
+import { dueReviews, isLessonUnlocked, isUnitUnlocked, key, questionsForEvidence } from '../engine';
 import type { CourseContent, PracticeConfig, Progress } from '../types';
 
 interface PracticeParams {
@@ -35,6 +35,7 @@ export function resolvePractice(
       ...defaults,
       title: lesson.title,
       lessonId: lesson.id,
+      caseIds: lesson.cases,
       allowed: isLessonUnlocked(course, lesson.id, progress.crowns),
       pool: demo ? questions : questions.filter((question) => question.lessonId === lesson.id),
       crown: progress.crowns[key(course.id, lesson.id)] ?? 0,
@@ -49,6 +50,7 @@ export function resolvePractice(
       ...defaults,
       mode: 'unit',
       title: `${unit.title} · 單元挑戰`,
+      caseIds: [...new Set(unit.lessons.flatMap((lesson) => lesson.cases ?? []))],
       allowed: isUnitUnlocked(course, unit.id, progress.crowns),
       pool: demo ? questions : questions.filter((question) => lessonIds.has(question.lessonId)),
     };
@@ -66,10 +68,21 @@ export function resolvePractice(
       ...reviewConfig,
       mode: 'article',
       title: `第 ${article} 條練習`,
-      pool: questions.filter((question) =>
-        question.evidence.some((entry) => entry.article === article),
-      ),
+      pool: questionsForEvidence('article', article, questions),
       returnTo: `${base}/articles/${article}`,
+    };
+  }
+  const caseId = new URLSearchParams(search).get('case');
+  if (params.kind === 'case' && caseId) {
+    const item = content.cases?.articles.find((candidate) => candidate.no === caseId);
+    return {
+      ...reviewConfig,
+      mode: 'case',
+      allowed: !!item,
+      title: `${content.briefs?.[caseId]?.nameZh ?? item?.label ?? caseId} · 判例練習`,
+      caseIds: [caseId],
+      pool: questionsForEvidence('case', caseId, questions),
+      returnTo: `${base}/cases/${caseId}`,
     };
   }
   if (params.kind === 'due') {

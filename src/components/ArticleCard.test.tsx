@@ -23,3 +23,10 @@ describe('evidence highlighting', () => {
     ]);
   });
 });
+
+it('keeps English word spaces and punctuation while matching line-wrapped evidence', () => {
+  const text = 'Intro. Any new and\n useful process, machine, or composition. End.';
+  const { container } = render(<p>{highlightedText(text, ['new and useful process, machine'])}</p>);
+  expect(container.querySelector('mark')?.textContent).toBe('new and\n useful process, machine');
+  expect(container.textContent).toBe(text);
+});

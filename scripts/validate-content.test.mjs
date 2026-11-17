@@ -6,7 +6,12 @@ import { validateQuestions } from './validate-content.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (filename) => JSON.parse(fs.readFileSync(path.resolve(root, filename), 'utf8'));
 const questions = read('content/fixtures/sample-questions.json');
-const course = read('content/courses/patent/course.json');
+const authoredCourse = read('content/courses/patent/course.json');
+const course = {
+  ...authoredCourse,
+  casesFile: undefined,
+  units: authoredCourse.units.filter((unit) => !unit.lessons.some((lesson) => lesson.cases)),
+};
 const law = read('content/laws/patent/articles.json');
 const validate = (q) => validateQuestions(q, course, law, { coverage: false });
 describe('content validator', () => {
@@ -69,6 +74,6 @@ describe('content validator', () => {
   it('enforces every lesson’s eight questions and three types in full-course mode', () => {
     const result = validateQuestions([], course, law);
     expect(result.errors).toHaveLength(course.units.flatMap((u) => u.lessons).length * 2);
-    expect(result.summary).toHaveLength(29);
+    expect(result.summary).toHaveLength(course.units.flatMap((unit) => unit.lessons).length);
   });
 });

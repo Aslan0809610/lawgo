@@ -6,3 +6,4 @@ export * from './progress';
 export * from './srs';
 export * from './mastery';
 export * from './deadline';
+export * from './evidence';
