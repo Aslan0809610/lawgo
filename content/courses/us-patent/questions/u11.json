@@ -1,0 +1,420 @@
+[
+ {
+  "id": "u11-l1-q01",
+  "lessonId": "u11-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case",
+   "procedure"
+  ],
+  "prompt": "甲公司向專利商標局（PTO）聲請多方複審（IPR），挑戰乙公司專利的第 5 項請求項，PTO 認為第 1、2 項與第 5 項邏輯相關而一併立案審查，並在審理中適用行政規則所定的「最寬廣合理範圍解釋（BRI）」標準撤銷該三項請求項。乙公司不服，上訴主張第 1、2 項的立案欠缺 § 312 要求的具體性，且 PTAB 不應適用 BRI 標準。依 Cuozzo 案判決，法院應如何處理？",
+  "options": [
+   "駁回乙公司的主張，因 § 314(d) 禁止針對立案決定提起上訴，且 PTO 有權制定規則採行 BRI 標準",
+   "支持乙公司對立案決定的挑戰，因 § 314(d) 僅禁止中間上訴，最終決定後仍可審查 § 312 的具體性",
+   "支持乙公司對解釋標準的挑戰，因 IPR 性質上屬於司法審判的替代程序，依法必須適用地方法院的標準",
+   "撤銷原處分並發回 PTAB，因 PTO 雖有權決定是否立案，但 § 316(a)(4) 僅授權制定純程序性規則"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "cuozzo",
+    "quote": "Held: 1. Section 314(d) bars Cuozzo's challenge to the Patent Office's decision to institute inter partes review. Pp. 271–276."
+   },
+   {
+    "case": "cuozzo",
+    "quote": "2. The Patent Office regulation requiring the Board to apply the broadest reasonable construction standard to interpret patent claims is a reasonable exercise of the rulemaking authority granted to the Patent Office by statute. Pp. 276–283."
+   }
+  ],
+  "explanation": "依 Cuozzo 案判決，首先，35 U.S.C. § 314(d) 明定是否啟動多方複審（IPR）的決定為最終且不得上訴（final and nonappealable），像主張請願書未依 § 312 具體指摘這類緊密關聯於立案決定的爭議也在禁止上訴之列；其次，專利法並未明定 IPR 的請求項解釋標準，PTO 依 § 316(a)(4) 制定規則要求適用「最寬廣合理範圍解釋（BRI）」標準，屬於法規制定權的合理行使。"
+ },
+ {
+  "id": "u11-l1-q02",
+  "lessonId": "u11-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case",
+   "procedure"
+  ],
+  "prompt": "專利權人丙在聯邦地方法院控告丁侵權，丁同時向專利商標局（PTO）聲請多方複審（IPR）。地方法院作出有利於丙的請求項解釋，但專利審判暨上訴委員會（PTAB）隨後在 IPR 中認定丙的專利請求項無效。丙上訴主張：已核發的專利屬於私有財產，撤銷專利的訴訟必須在憲法第三條（Article III）法院並由陪審團（Seventh Amendment）審理。依 Oil States 案判決，最高法院如何認定？",
+  "options": [
+   "駁回丙的違憲挑戰，因核發專利涉及公權利（public rights），國會有權授權 PTO 透過 IPR 重新檢視並撤銷專利",
+   "支持丙的違憲挑戰，因專利一旦核發即成為專利權人的私有財產，行政機關無權在核發後未經法院審判而撤銷",
+   "部分支持丙的主張，認定 PTO 雖可在不違反憲法第三條下進行審查，但仍必須依第七修正案召集陪審團認定事實",
+   "撤銷 PTAB 的決定，因地方法院既已先作成有利於丙的請求項解釋，基於司法優位原則 PTAB 不得作出相反認定"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "oilstates",
+    "quote": "Held: 1. Inter partes review does not violate Article III. Pp. 333–344. (a) Under this Court's precedents, Congress has significant latitude to assign adjudication of public rights to entities other than Article III courts. Executive Benefits Ins. Agency v. Arkison, 573 U. S. 25, 32. Inter partes review falls squarely within the public-rights doctrine. The decision to grant a patent is a matter involving public rights. Inter partes review is simply a reconsideration of that grant, and Congress has permissibly reserved the PTO's authority to conduct that reconsideration. Pp. 333–337."
+   },
+   {
+    "case": "oilstates",
+    "quote": "2. Inter partes review does not violate the Seventh Amendment. When Congress properly assigns a matter to adjudication in a nonArticle III tribunal, “the Seventh Amendment poses no independent bar to the adjudication of that action by a nonjury factfinder.”"
+   }
+  ],
+  "explanation": "依 Oil States 案判決，專利的核發屬於涉及政府與他人之間的「公權利（public rights）」事項（即公眾特許權 public franchises），而多方複審（IPR）僅是對先前專利核發的重新檢視（second look），因此國會將其交由 PTO 審理並不違反憲法第三條；且既然國會合法將該事項交由非憲法第三條的審判機關處理，憲法第七修正案即不構成由非陪審團進行事實認定的獨立障礙。"
+ },
+ {
+  "id": "u11-l1-q03",
+  "lessonId": "u11-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case",
+   "procedure"
+  ],
+  "prompt": "請願人戊向專利商標局（PTO）聲請多方複審（IPR），在請願書中挑戰己公司軟體專利的全部 16 項請求項。PTO 局長認為其中只有第 1 至 8 項具合理勝訴可能性，遂決定僅對第 1 至 8 項「部分立案（partial institution）」，並拒絕審查第 9 至 16 項。PTAB 最終也只對第 1 至 8 項作成最終書面決定。戊上訴要求 PTAB 必須審理全部 16 項請求項。依 SAS 案判決，最高法院應如何裁判？",
+  "options": [
+   "支持戊的主張，因 § 318(a) 強制規定一旦 IPR 立案，PTAB 必須對請願人挑戰的所有請求項作出可專利性決定",
+   "駁回戊的主張，因 § 314(a) 賦予局長決定是否立案的裁量權，自然包含選擇僅就部分請求項進行審查的裁量權",
+   "駁回戊的主張，因基於行政效率考量，PTO 對「部分立案」的行政規則解釋應獲得 Chevron 原則之司法尊重",
+   "裁定不受理戊的上訴，因 § 314(d) 規定局長是否啟動 IPR 的決定為最終且不得上訴，法院無權審查部分立案是否越權"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "sas",
+    "quote": "Held: When the Patent Office institutes an inter partes review, it must decide the patentability of all of the claims the petitioner has challenged. The plain text of § 318(a) resolves this case. Its directive is both mandatory and comprehensive. The word “shall” generally imposes a nondiscretionary duty, and the word “any” ordinarily implies every member of a group. Thus, § 318(a) means that the Board must address every claim the petitioner has challenged. The Director's “partial institution” power appears nowhere in the statutory text."
+   }
+  ],
+  "explanation": "依 SAS 案判決，35 U.S.C. § 318(a) 明文規定一旦 IPR 立案且未駁回，PTAB「應（shall）」對請願人所挑戰的「任何（any）」專利請求項作成最終書面決定。局長在 § 314(b) 下對於是否依請願書立案只有「是或否（yes-or-no choice）」的選擇，法條並未授予「部分立案（partial institution）」的權限，故一旦立案就必須審理請願人挑戰的全部請求項。"
+ },
+ {
+  "id": "u11-l1-q04",
+  "lessonId": "u11-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case",
+   "procedure"
+  ],
+  "prompt": "由商務部長任命的三位行政專利法官（APJs）組成 PTAB 合議庭，在多方複審（IPR）中作出最終書面決定，宣告庚公司的專利無效。依當時 35 U.S.C. § 6(c) 規定，僅有 PTAB 本身得准予再審（rehearing），經總統提名並由參議院同意的專利商標局局長（Director）無權直接審查或推翻 APJs 的決定。庚公司上訴主張此架構違反憲法任命條款（Appointments Clause）。依 Arthrex 案判決，最高法院如何認定及救濟？",
+  "options": [
+   "認定違憲，因 APJs 作為下級官員卻擁有不受上級審查的決定權；救濟方式為使局長有權審查 PTAB 的最終決定，並發回由代理局長決定是否再審",
+   "認定合憲，因局長可透過指定合議庭成員及發布政策指引間接影響審理結果，已符合下級官員受上級監督的憲法要求",
+   "認定違憲，因 APJs 實質上屬於必須由總統提名經參議院同意的主要官員；救濟方式為宣告所有由商務部長任命的 APJs 任命無效並重新指派合議庭",
+   "認定違憲，但採納聯邦巡迴上訴法院的救濟方案，僅宣告保護 APJs 免於被商務部長隨意免職的人事保障條款無效"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "arthrex",
+    "quote": "The Chief Justice delivered the opinion of the Court with respect to Parts I and II, concluding that the unreviewable authority wielded by APJs during inter partes review is incompatible with their appointment by the Secretary of Commerce to an inferior office."
+   },
+   {
+    "case": "arthrex",
+    "quote": "The Chief Justice, joined by Justice Alito, Justice Kavanaugh, and Justice Barrett, concluded in Part III that § 6(c) cannot constitutionally be enforced to the extent that its requirements prevent the Director from reviewing final decisions rendered by APJs. The Director accordingly may review final PTAB decisions and, upon review, may issue decisions himself on behalf of the Board."
+   }
+  ],
+  "explanation": "依 Arthrex 案判決，APJs 由商務部長任命為下級官員（inferior officers），卻能在 IPR 中作出拘束行政部門且不受主要官員（如 USPTO 局長）直接審查的最終決定，違反憲法第二條任命條款。多數意見採取的救濟方式並非剝奪職位保障或要求重新任命合議庭，而是宣告 § 6(c) 在阻止局長審查 APJs 最終決定的範圍內不得強制執行，並將案件發回由代理局長決定是否進行再審。"
+ },
+ {
+  "id": "u11-l1-q05",
+  "lessonId": "u11-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "case"
+  ],
+  "prompt": "依 Cuozzo 案判決，多方複審（IPR）的立法目的不僅在於解決當事人間與專利相關的爭議，也在於保護公眾「確保專利獨占權維持在其合法範圍內」的重大利益（paramount interest），因此具有結合司法審判與專門行政程序特徵的混合程序（hybrid proceeding）性質。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "cuozzo",
+    "quote": "Cuozzo's contention that the purpose of inter partes review—to establish trial-like procedures for reviewing previously issued patents—supports the application of the ordinary meaning standard ignores the fact that in other significant respects, inter partes review is less like a judicial proceeding and more like a specialized agency proceeding. This indicates that Congress designed a hybrid proceeding. The purpose of inter partes review is not only to resolve patent-related disputes among parties, but also to protect the public's “paramount interest in seeing that patent monopolies . . . are kept within their legitimate scope.”"
+   }
+  ],
+  "explanation": "Cuozzo 案指出，IPR 在許多重要面向更像專門的行政程序而非單純的司法訴訟，屬於國會設計的混合程序（hybrid proceeding），其目的除了化解當事人間爭議外，更包含保護公眾確保專利獨占維持在合法範圍內的重大利益。"
+ },
+ {
+  "id": "u11-l1-q06",
+  "lessonId": "u11-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "case"
+  ],
+  "prompt": "依 Cuozzo 案判決，由於地方法院採用「通常意義（ordinary meaning）」標準而多方複審（IPR）採用「最寬廣合理範圍解釋（BRI）」標準可能導致兩軌程序出現不一致的結果，這證明專利商標局（PTO）要求適用 BRI 標準的行政規則逾越了法定授權且不合理。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "cuozzo",
+    "quote": "And though the application of one standard in inter partes review and another in district court proceedings may produce inconsistent outcomes, that structure is inherent to Congress' regulatory design, and it is also consistent with past practice, as the patent system has long provided different tracks\nfor the review and adjudication of patent claims."
+   }
+  ],
+  "explanation": "Cuozzo 案明確駁斥此一論點，指出即使在 IPR 與地方法院訴訟適用不同解釋標準可能產生不一致的結果，這種雙軌結構本就內含於國會的制度設計中，且符合美國專利制度長期提供不同審查與爭訟軌道的歷史實務，並不使 PTO 的規則變得不合理。"
+ },
+ {
+  "id": "u11-l1-q07",
+  "lessonId": "u11-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "case"
+  ],
+  "prompt": "依 Oil States 案判決，由於多方複審（IPR）在證據開示（discovery）、宣誓書提交及言詞辯論等程序上與法院訴訟高度相似，最高法院因此採納「外觀相似測試（\"looks like\" test）」來審查行政程序是否不當地侵犯了憲法第三條法院的審判權。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "oilstates",
+    "quote": "(d) Finally, the similarities between the various procedures used in inter partes review and procedures typically used in courts does not lead to the conclusion that inter partes review violates Article III. This Court has never adopted a “looks like” test to determine if an adjudication has improperly occurred outside an Article III court."
+   }
+  ],
+  "explanation": "Oil States 案強調，IPR 所使用的各種程序與法院常見程序之間的相似性，並不會導出 IPR 違反憲法第三條的結論；最高法院從未採納所謂的「外觀相似測試（\"looks like\" test）」來判斷某項裁決是否不當地在憲法第三條法院之外進行。"
+ },
+ {
+  "id": "u11-l1-q08",
+  "lessonId": "u11-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "case"
+  ],
+  "prompt": "依 Oil States 案判決，最高法院認定多方複審（IPR）合憲的判決範圍相當限縮，不應被誤解為暗示專利在正當程序條款（Due Process Clause）或徵收條款（Takings Clause）的適用上不屬於財產（property）。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "oilstates",
+    "quote": "(e) This holding is narrow. The Court addresses only the constitutionality of inter partes review and the precise constitutional challenges that Oil States raised here. The decision should not be misconstrued as suggesting that patents are not property for purposes of the Due Process Clause or the Takings Clause."
+   }
+  ],
+  "explanation": "Oil States 案在 Syllabus (e) 段特別澄清其判決結論範圍狹隘（narrow），僅處理 IPR 在憲法第三條與第七修正案下的合憲性，不應被誤解為否定專利在正當程序條款（Due Process Clause）或徵收條款（Takings Clause）下的財產權屬性。"
+ },
+ {
+  "id": "u11-l1-q09",
+  "lessonId": "u11-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "case"
+  ],
+  "prompt": "依 SAS 案判決，與單方再審查（ex parte reexamination）授權專利商標局局長得「依職權且隨時（on his own initiative, and at any time）」調查可專利性問題不同，多方複審（IPR）是由請願人（petitioner）而非局長來界定程序的審理範圍。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "sas",
+    "quote": "The statute envisions an inter partes review guided by the initial petition. See § 312(a)(3). Congress structured the process such that the petitioner, not the Director, defines the proceeding's contours. The\nex parte reexamination statute shows that Congress knew exactly how to authorize the Director to investigate patentability questions “[o]n his own initiative, and at any time,” § 303(a)."
+   }
+  ],
+  "explanation": "SAS 案對比了單方再審查（§ 303(a)）與多方複審（IPR）的法條結構，指出國會在 IPR 中設計由初始請願書（initial petition）來引導程序，因此是由請願人而非局長來界定審理範圍（defines the proceeding's contours）。"
+ },
+ {
+  "id": "u11-l1-q10",
+  "lessonId": "u11-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "case"
+  ],
+  "prompt": "依 Arthrex 案判決，由於憲法違法的根源在於行政專利法官（APJs）是由商務部長而非總統任命，因此受不利決定的專利權人有權要求由重新任命的新合議庭（a new panel of APJs）重新進行聽證審理。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "arthrex",
+    "quote": "The appropriate remedy is a remand to the Acting Director to decide whether to rehear the petition filed by Smith & Nephew. A limited remand provides an adequate opportunity for review by a principal officer. Because the source of the constitutional violation is the restraint on the review authority of the Director, rather than the appointment of APJs by the Secretary, Arthrex is not entitled to a hearing before a new panel of APJs."
+   }
+  ],
+  "explanation": "Arthrex 案指出，違憲的根源在於限制了專利商標局局長（Director）對 APJs 最終決定的審查權限（restraint on the review authority of the Director），而非商務部長對 APJs 的任命本身；因此適當的救濟是發回由代理局長決定是否再審，當事人無權要求在新的 APJs 合議庭前重新聽證。"
+ },
+ {
+  "id": "u11-l1-q11",
+  "lessonId": "u11-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "case"
+  ],
+  "prompt": "請依 Cuozzo 案 Syllabus 原文，填入關於多方複審（IPR）請求項解釋標準與法規授權的正確英文詞語：",
+  "text": "The Act, as relevant here, provides that the Patent Office's decision “whether to institute an inter partes review . . . shall be {{0}},” 35 U. S. C. § 314(d), and grants the Patent Office authority to issue “regulations . . . establishing and governing inter partes review,” § 316(a)(4). A Patent Office regulation issued pursuant to that authority provides that, during inter partes review, a patent claim “shall be given its {{1}} in light of the {{2}} of the patent in which it appears.”",
+  "blanks": [
+   "final and nonappealable",
+   "broadest reasonable construction",
+   "specification"
+  ],
+  "distractors": [
+   "subject to interlocutory appeal",
+   "ordinary and customary meaning",
+   "prosecution history"
+  ],
+  "evidence": [
+   {
+    "case": "cuozzo",
+    "quote": "The Act, as relevant here, provides that the Patent Office's decision “whether to institute an inter partes review . . . shall be final and nonappealable,” 35 U. S. C. § 314(d), and grants the Patent Office authority to issue “regulations . . . establishing and governing inter partes review,” § 316(a)(4). A Patent Office regulation issued pursuant to that authority provides that, during inter partes review, a patent claim “shall be given its broadest reasonable construction in light of the specification of the patent in which it appears.”"
+   }
+  ],
+  "explanation": "Cuozzo 案探討的核心條文與規則即為：35 U.S.C. § 314(d) 規定是否立案之決定為「最終且不得上訴（final and nonappealable）」，以及 PTO 依 § 316(a)(4) 授權制定的規則要求在 IPR 中應參照專利「說明書（specification）」賦予請求項「最寬廣合理範圍解釋（broadest reasonable construction）」。"
+ },
+ {
+  "id": "u11-l1-q12",
+  "lessonId": "u11-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "case"
+  ],
+  "prompt": "請依 Oil States 案 Syllabus 原文，填入關於公權利理論（public-rights doctrine）與專利性質的正確英文詞語：",
+  "text": "(i) The grant of a patent falls within the {{0}} doctrine. United States v. Duell, 172 U. S. 576, 582–583. Granting a patent involves a matter “arising between the government and others.” Ex parte Bakelite Corp., 279 U. S. 438, 451. Specifically, patents are “{{1}}.” Seymour v. Osborne, 11 Wall. 516, 533. Additionally, granting patents is one of “the constitutional functions” that can be carried out by “the executive or legislative departments” without “ `{{2}}.' ”",
+  "blanks": [
+   "public-rights",
+   "public franchises",
+   "judicial determination"
+  ],
+  "distractors": [
+   "private-property",
+   "common-law contracts",
+   "agency reconsideration"
+  ],
+  "evidence": [
+   {
+    "case": "oilstates",
+    "quote": "(i) The grant of a patent falls within the public-rights doctrine. United States v. Duell, 172 U. S. 576, 582–583. Granting a patent involves a matter “arising between the government and others.” Ex parte Bakelite Corp., 279 U. S. 438, 451. Specifically, patents are “public franchises.” Seymour v. Osborne, 11 Wall. 516, 533. Additionally, granting patents is one of “the constitutional functions” that can be carried out by “the executive or legislative departments” without “ `judicial determination.' ”"
+   }
+  ],
+  "explanation": "Oil States 案闡明專利的核發屬於「公權利（public-rights）」原則的範疇，具體而言專利屬於「公眾特許權（public franchises）」，是可由行政或立法部門履行而無須經過「司法裁判（judicial determination）」的憲法職能。"
+ },
+ {
+  "id": "u11-l1-q13",
+  "lessonId": "u11-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "case"
+  ],
+  "prompt": "請依 SAS 案 Syllabus 原文，填入關於 35 U.S.C. § 318(a) 強制 PTAB 審理全部受挑戰請求項的正確英文詞語：",
+  "text": "Held: When the Patent Office institutes an inter partes review, it must decide the {{0}} of all of the claims the petitioner has challenged. The plain text of § 318(a) resolves this case. Its directive is both mandatory and comprehensive. The word “{{1}}” generally imposes a {{2}} duty, and the word “any” ordinarily implies every member of a group. Thus, § 318(a) means that the Board must address every claim the petitioner has challenged.",
+  "blanks": [
+   "patentability",
+   "shall",
+   "nondiscretionary"
+  ],
+  "distractors": [
+   "admissibility",
+   "may",
+   "discretionary"
+  ],
+  "evidence": [
+   {
+    "case": "sas",
+    "quote": "Held: When the Patent Office institutes an inter partes review, it must decide the patentability of all of the claims the petitioner has challenged. The plain text of § 318(a) resolves this case. Its directive is both mandatory and comprehensive. The word “shall” generally imposes a nondiscretionary duty, and the word “any” ordinarily implies every member of a group. Thus, § 318(a) means that the Board must address every claim the petitioner has challenged."
+   }
+  ],
+  "explanation": "SAS 案依據 § 318(a) 的明確文義指出，當專利商標局啟動多方複審（IPR）時，必須決定請願人所挑戰之所有請求項的「可專利性（patentability）」；法條中的「應（shall）」字通常課予一項「無裁量餘地的（nondiscretionary）」義務，而「任何（any）」則涵蓋請願人挑戰的每一項請求項。"
+ },
+ {
+  "id": "u11-l1-q14",
+  "lessonId": "u11-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "case"
+  ],
+  "prompt": "請依 Arthrex 案 Syllabus 原文，填入關於憲法任命條款（Appointments Clause）與行政專利法官（APJs）權限問題的正確英文詞語：",
+  "text": "The Chief Justice delivered the opinion of the Court with respect to Parts I and II, concluding that the {{0}} wielded by APJs during inter partes review is incompatible with their appointment by the Secretary of Commerce to an {{1}}. Pp. 11–23. (a) The Appointments Clause provides that only the President, with the advice and consent of the Senate, can appoint {{2}}.",
+  "blanks": [
+   "unreviewable authority",
+   "inferior office",
+   "principal officers"
+  ],
+  "distractors": [
+   "rulemaking authority",
+   "independent agency",
+   "inferior officers"
+  ],
+  "evidence": [
+   {
+    "case": "arthrex",
+    "quote": "The Chief Justice delivered the opinion of the Court with respect to Parts I and II, concluding that the unreviewable authority wielded by APJs during inter partes review is incompatible with their appointment by the Secretary of Commerce to an inferior office. Pp. 11–23. (a) The Appointments Clause provides that only the President, with the advice and consent of the Senate, can appoint principal officers."
+   }
+  ],
+  "explanation": "Arthrex 案指出，憲法任命條款規定只有總統經參議院之建議與同意才能任命「主要官員（principal officers）」；而行政專利法官（APJs）在多方複審期間所行使的「不受審查之職權（unreviewable authority）」，與其由商務部長任命至「下級官職（inferior office）」的地位不相容。"
+ },
+ {
+  "id": "u11-l1-q15",
+  "lessonId": "u11-l1",
+  "type": "match",
+  "difficulty": 1,
+  "tags": [
+   "comparison",
+   "case"
+  ],
+  "prompt": "請將本課的四個美國最高法院判例與其確立的多方複審（IPR）核心判決規則進行配對：",
+  "pairs": [
+   {
+    "left": "Cuozzo 案",
+    "right": "立案決定原則上不得上訴"
+   },
+   {
+    "left": "Oil States 案",
+    "right": "IPR 屬公權利審查不違憲"
+   },
+   {
+    "left": "SAS 案",
+    "right": "立案須審理挑戰之全部請求項"
+   },
+   {
+    "left": "Arthrex 案",
+    "right": "APJ 最終決定須受局長審查"
+   }
+  ],
+  "evidence": [
+   {
+    "case": "cuozzo",
+    "quote": "Held: 1. Section 314(d) bars Cuozzo's challenge to the Patent Office's decision to institute inter partes review. Pp. 271–276."
+   },
+   {
+    "case": "oilstates",
+    "quote": "Held: 1. Inter partes review does not violate Article III. Pp. 333–344. (a) Under this Court's precedents, Congress has significant latitude to assign adjudication of public rights to entities other than Article III courts."
+   },
+   {
+    "case": "sas",
+    "quote": "Held: When the Patent Office institutes an inter partes review, it must decide the patentability of all of the claims the petitioner has challenged."
+   },
+   {
+    "case": "arthrex",
+    "quote": "The Chief Justice, joined by Justice Alito, Justice Kavanaugh, and Justice Barrett, concluded in Part III that § 6(c) cannot constitutionally be enforced to the extent that its requirements prevent the Director from reviewing final decisions rendered by APJs."
+   }
+  ],
+  "explanation": "Cuozzo 案確立 § 314(d) 禁止對 IPR 立案決定上訴且肯認 PTO 制定解釋標準規則的權限；Oil States 案確立專利核發與撤銷屬公權利（public rights），由 PTAB 進行 IPR 審查不違反憲法第三條與第七修正案；SAS 案廢除部分立案，要求 PTAB 一旦立案須審理請願人挑戰的所有請求項；Arthrex 案則認定 APJ 屬下級官員，其 IPR 最終決定必須受 USPTO 局長審查。"
+ },
+ {
+  "id": "u11-l1-q16",
+  "lessonId": "u11-l1",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "case"
+  ],
+  "prompt": "請依 SAS 案 Syllabus 所載之 35 U.S.C. §§ 311–318 條文架構，將多方複審（inter partes review, IPR）從提起請願到作成最終決定的法定程序依序排列：",
+  "items": [
+   "當事人提出立案請願書（petition），具體指明所挑戰之請求項與理由（§§ 311(a), 312(a)(3)）",
+   "專利權人針對請願書提出答辯（response）（§ 313）",
+   "專利商標局局長（Director）判斷是否至少有一項受挑戰請求項具合理勝訴可能性，並決定是否依請願書立案（§ 314(a)–(b)）",
+   "若獲准立案且未駁回，專利審判暨上訴委員會（PTAB）於審理終結時就請願人挑戰之所有專利請求項發布最終書面決定（§ 318(a)）"
+  ],
+  "evidence": [
+   {
+    "case": "sas",
+    "quote": "At the outset, a party must file a petition to institute review, 35 U. S. C. § 311(a), that identifies the challenged claims and the grounds for challenge with particularity, § 312(a)(3). The patent owner, in turn, may file a response. § 313. If the Director of the Patent Office determines “there is a reasonable likelihood that the petitioner would prevail with respect to at least 1 of the claims challenged in the petition,” § 314(a), he decides “whether to institute . . . review . . . pursuant to [the] petition,” § 314(b). “If . . . review is instituted and not dismissed,” at the end of the litigation the Patent Trial and Appeal Board “shall issue a final written decision with respect to the patentability of any patent claim challenged by the petitioner.” § 318(a)."
+   }
+  ],
+  "explanation": "依 SAS 案 Syllabus 第一段整理的法定流程：首先由請願人提出具體載明挑戰請求項與理由的請願書（§§ 311(a), 312(a)(3)）；接著專利權人得提出答辯（§ 313）；隨後由局長判斷是否至少有一項受挑戰請求項具合理勝訴可能性並作成「是否依請願書立案」之決定（§ 314(a)–(b)）；最後若立案且未駁回，PTAB 必須在程序終結時就請願人挑戰的所有請求項發布最終書面決定（§ 318(a)）。"
+ }
+]

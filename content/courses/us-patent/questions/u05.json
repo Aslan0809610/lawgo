@@ -1,0 +1,1333 @@
+[
+ {
+  "id": "u05-l1-q01",
+  "lessonId": "u05-l1",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "專利權人若要透過申請再發證（reissue）來擴大原專利的請求項範圍，必須在原專利核准（grant）之日起 2 年內提出申請。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "251",
+    "quote": "No reissued patent shall be granted enlarging the scope of the claims of the original patent unless applied for within two years from the grant of the original patent."
+   }
+  ],
+  "explanation": "擴大請求項範圍的再發證申請，必須在原專利核准後 2 年內提出；相對地，台灣專利法之更正完全不得實質擴大或變更公告時之申請專利範圍。"
+ },
+ {
+  "id": "u05-l1-q02",
+  "lessonId": "u05-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "申請再發證（reissue）時，原專利的拋棄（surrender）自再發證申請提出之日立即生效。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "252",
+    "quote": "The surrender of the original patent shall take effect upon the issue of the reissued patent"
+   }
+  ],
+  "explanation": "原專利的拋棄並非在申請再發證時生效，而是等到再發證專利實際核發（issue）時才生效，以保障審查期間專利權人的權益。"
+ },
+ {
+  "id": "u05-l1-q03",
+  "lessonId": "u05-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "已核發專利若因錯誤而漏列共同發明人，該專利必然無效，無法事後透過發給更正證書（certificate of correction）補救。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "256",
+    "quote": "The error of omitting inventors or naming persons who are not inventors shall not invalidate the patent in which such error occurred if it can be corrected as provided in this section."
+   }
+  ],
+  "explanation": "因錯誤而漏列發明人或誤列非發明人，只要能依法更正，就不會導致該專利無效。"
+ },
+ {
+  "id": "u05-l1-q04",
+  "lessonId": "u05-l1",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "專利權人因說明書瑕疵或請求項範圍過廣／過窄而申請再發證（reissue）時，下列何者為法定要件？",
+  "options": [
+   "再發證申請案中不得引入新事項（new matter）",
+   "再發證專利的期限自再發證日起重新起算 20 年",
+   "任何第三人皆得未經專利權人同意主動申請再發證",
+   "無論是否擴大請求項範圍皆須於核准後 1 年內申請"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "251",
+    "quote": "No new matter shall be introduced into the application for reissue."
+   }
+  ],
+  "explanation": "申請再發證僅能針對原專利已揭露的發明以及原專利的剩餘期限（unexpired part of the term）為之，且絕對不得引入新事項（new matter）。"
+ },
+ {
+  "id": "u05-l1-q05",
+  "lessonId": "u05-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "在何種情況下，再發證（reissue）申請可以由全部權益的受讓人（assignee of the entire interest）提出並宣誓，而無須由發明人為之？",
+  "options": [
+   "該申請未擴大原專利請求項範圍，或原專利申請案本就是由該受讓人提出",
+   "該申請是在原專利核准之日起滿 2 年之後才向專利商標局提出",
+   "受讓人額外繳納兩倍的再發證規費並附上書面聲明放棄中用權",
+   "不論任何情況，所有的再發證申請都必須由原發明人親自簽署宣誓"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "251",
+    "quote": "application for reissue may be made and sworn to by the assignee of the entire interest if the application does not seek to enlarge the scope of the claims of the original patent or the application for the original patent was filed by the assignee of the entire interest."
+   }
+  ],
+  "explanation": "只要再發證申請沒有要擴大原專利的請求項範圍，或者原專利申請案當初就是由全部權益受讓人提出的，受讓人就可以自己提出並宣誓。"
+ },
+ {
+  "id": "u05-l1-q06",
+  "lessonId": "u05-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "關於專利商標局錯誤與申請人錯誤的更正證書（certificate of correction），下列敘述何者正確？",
+  "options": [
+   "因專利商標局過失造成的錯誤且見於局內紀錄者，局長得免費核發更正證書",
+   "不論錯誤是可歸責於專利商標局或申請人，申請更正證書皆須繳納法定規費",
+   "申請人出於善意的筆誤，即使更正會構成新事項，仍可直接核發更正證書",
+   "更正證書核發後僅供參考，不視為原專利的一部分，也不具溯及原核發的效力"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "254",
+    "quote": "Whenever a mistake in a patent, incurred through the fault of the Patent and Trademark Office, is clearly disclosed by the records of the Office, the Director may issue a certificate of correction stating the fact and nature of such mistake, under seal, without charge, to be recorded in the records of patents."
+   }
+  ],
+  "explanation": "若是 USPTO 自身過失導致的錯誤，得免費（without charge）核發更正證書；若是申請人的善意筆誤或輕微錯誤，則須繳費且不得涉及新事項或需要再審查的變更。"
+ },
+ {
+  "id": "u05-l1-q07",
+  "lessonId": "u05-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case"
+  ],
+  "prompt": "甲公司的美國專利於 2024 年 5 月 10 日獲准公告。事後甲發現請求項寫得太窄，想申請擴大請求項範圍的再發證（broadening reissue）；同時乙在再發證核准前已於美國製造並銷售僅落入新擴大請求項（未侵害原專利有效請求項）的特定產品。下列何者正確？",
+  "options": [
+   "甲最晚須於 2026 年 5 月 10 日前申請；再發證不會剝奪乙繼續銷售該已製造特定產品的權利",
+   "甲最晚須於 2025 年 5 月 10 日前申請；再發證核准後乙必須立即銷毀該批已製造的庫存產品",
+   "甲在專利到期前隨時都可申請擴大範圍；但乙可主張中用權（intervening rights）繼續銷售",
+   "甲最晚須於 2026 年 5 月 10 日前申請；且再發證效力完全溯及原核准日，乙構成過往侵權"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "251",
+    "quote": "No reissued patent shall be granted enlarging the scope of the claims of the original patent unless applied for within two years from the grant of the original patent."
+   },
+   {
+    "article": "252",
+    "quote": "A reissued patent shall not abridge or affect the right of any person or that person's successors in business who, prior to the grant of a reissue, made, purchased, offered to sell, or used within the United States, or imported into the United States, anything patented by the reissued patent, to continue the use of, to offer to sell, or to sell to others to be used, offered for sale, or sold, the specific thing so made, purchased, offered for sale, used, or imported unless the making, using, offering for sale, or selling of such thing infringes a valid claim of the reissued patent which was in the original patent."
+   }
+  ],
+  "explanation": "擴大請求項範圍的再發證須於原專利核准後 2 年內（2026 年 5 月 10 日前）申請；且對於再發證核准前已製造而不侵害原專利有效請求項的特定物品，第三人享有絕對中用權（intervening rights）。"
+ },
+ {
+  "id": "u05-l1-q08",
+  "lessonId": "u05-l1",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "No reissued patent shall be granted {{0}} the scope of the claims of the original patent unless applied for within {{1}} from the grant of the original patent.",
+  "blanks": [
+   "enlarging",
+   "two years"
+  ],
+  "distractors": [
+   "narrowing",
+   "one year",
+   "three years"
+  ],
+  "evidence": [
+   {
+    "article": "251",
+    "quote": "No reissued patent shall be granted enlarging the scope of the claims of the original patent unless applied for within two years from the grant of the original patent."
+   }
+  ],
+  "explanation": "擴大（enlarging）原專利請求項範圍的再發證，必須在原專利核准起兩年（two years）內提出申請。"
+ },
+ {
+  "id": "u05-l1-q09",
+  "lessonId": "u05-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Whenever a claim of a patent is invalid the remaining claims shall not thereby be rendered {{0}}. A patentee, whether of the whole or any sectional interest therein, may, on payment of the fee required by law, make {{1}} of any complete claim, stating therein the extent of his interest in such patent.",
+  "blanks": [
+   "invalid",
+   "disclaimer"
+  ],
+  "distractors": [
+   "valid",
+   "reissue",
+   "surrender"
+  ],
+  "evidence": [
+   {
+    "article": "253",
+    "quote": "Whenever a claim of a patent is invalid the remaining claims shall not thereby be rendered invalid. A patentee, whether of the whole or any sectional interest therein, may, on payment of the fee required by law, make disclaimer of any complete claim, stating therein the extent of his interest in such patent."
+   }
+  ],
+  "explanation": "單一請求項無效不會導致其餘請求項無效（invalid）；專利權人得繳費對任何完整請求項提出權利拋棄聲明（disclaimer）。"
+ },
+ {
+  "id": "u05-l1-q10",
+  "lessonId": "u05-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Whenever a mistake of a clerical or typographical nature, or of minor character, which was not the fault of the Patent and Trademark Office, appears in a patent and a showing has been made that such mistake occurred in {{0}}, the Director may, upon payment of the required fee, issue a certificate of correction, if the correction does not involve such changes in the patent as would constitute {{1}} or would require re-examination.",
+  "blanks": [
+   "good faith",
+   "new matter"
+  ],
+  "distractors": [
+   "bad faith",
+   "prior art",
+   "estoppel"
+  ],
+  "evidence": [
+   {
+    "article": "255",
+    "quote": "Whenever a mistake of a clerical or typographical nature, or of minor character, which was not the fault of the Patent and Trademark Office, appears in a patent and a showing has been made that such mistake occurred in good faith, the Director may, upon payment of the required fee, issue a certificate of correction, if the correction does not involve such changes in the patent as would constitute new matter or would require re-examination."
+   }
+  ],
+  "explanation": "申請人自己的筆誤或輕微錯誤，須證明出於善意（good faith），且更正不構成新事項（new matter）或無須再審查，才可核發更正證書。"
+ },
+ {
+  "id": "u05-l1-q11",
+  "lessonId": "u05-l1",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "comparison",
+   "procedure"
+  ],
+  "prompt": "請將核發後更正或拋棄機制與其法定特徵配對",
+  "pairs": [
+   {
+    "left": "再發證（Reissue）",
+    "right": "可修請求項，擴大限2年內"
+   },
+   {
+    "left": "期末拋棄（Terminal Disclaimer）",
+    "right": "向公眾拋棄全部或末段期限"
+   },
+   {
+    "left": "USPTO 錯誤更正證書",
+    "right": "局方過失所致，免費核發"
+   },
+   {
+    "left": "申請人錯誤更正證書",
+    "right": "限善意輕微錯誤，須繳規費"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "251",
+    "quote": "No reissued patent shall be granted enlarging the scope of the claims of the original patent unless applied for within two years from the grant of the original patent."
+   },
+   {
+    "article": "253",
+    "quote": "In the manner set forth in subsection (a), any patentee or applicant may disclaim or dedicate to the public the entire term, or any terminal part of the term, of the patent granted or to be granted."
+   },
+   {
+    "article": "254",
+    "quote": "Whenever a mistake in a patent, incurred through the fault of the Patent and Trademark Office, is clearly disclosed by the records of the Office, the Director may issue a certificate of correction stating the fact and nature of such mistake, under seal, without charge, to be recorded in the records of patents."
+   },
+   {
+    "article": "255",
+    "quote": "Whenever a mistake of a clerical or typographical nature, or of minor character, which was not the fault of the Patent and Trademark Office, appears in a patent and a showing has been made that such mistake occurred in good faith, the Director may, upon payment of the required fee, issue a certificate of correction"
+   }
+  ],
+  "explanation": "再發證可修正請求項瑕疵（擴大範圍限 2 年內）；期末拋棄可放棄全部或末段專利期；局方錯誤免費更正；申請人輕微筆誤須出於善意並繳費更正。"
+ },
+ {
+  "id": "u05-l1-q12",
+  "lessonId": "u05-l1",
+  "type": "match",
+  "difficulty": 3,
+  "tags": [
+   "comparison",
+   "procedure"
+  ],
+  "prompt": "請將再發證與更正之情形與其法律效果配對",
+  "pairs": [
+   {
+    "left": "再發證與原請求項實質相同",
+    "right": "自原專利日起算且訴訟不中斷"
+   },
+   {
+    "left": "再發證前已製僅落入新請求項物",
+    "right": "得繼續使用或銷售該特定物"
+   },
+   {
+    "left": "單一請求項無效",
+    "right": "其餘請求項不因此而無效"
+   },
+   {
+    "left": "漏列或誤列發明人",
+    "right": "若能依法更正則專利不無效"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "252",
+    "quote": "in so far as the claims of the original and reissued patents are substantially identical, such surrender shall not affect any action then pending nor abate any cause of action then existing, and the reissued patent, to the extent that its claims are substantially identical with the original patent, shall constitute a continuation thereof and have effect continuously from the date of the original patent."
+   },
+   {
+    "article": "252",
+    "quote": "A reissued patent shall not abridge or affect the right of any person or that person's successors in business who, prior to the grant of a reissue, made, purchased, offered to sell, or used within the United States, or imported into the United States, anything patented by the reissued patent, to continue the use of, to offer to sell, or to sell to others to be used, offered for sale, or sold, the specific thing so made, purchased, offered for sale, used, or imported unless the making, using, offering for sale, or selling of such thing infringes a valid claim of the reissued patent which was in the original patent."
+   },
+   {
+    "article": "253",
+    "quote": "Whenever a claim of a patent is invalid the remaining claims shall not thereby be rendered invalid."
+   },
+   {
+    "article": "256",
+    "quote": "The error of omitting inventors or naming persons who are not inventors shall not invalidate the patent in which such error occurred if it can be corrected as provided in this section."
+   }
+  ],
+  "explanation": "再發證請求項與原請求項實質相同（substantially identical）時效力自原專利日延續；僅落入修改後新請求項的既有特定物品受中用權保護；各請求項有效性獨立；發明人列名錯誤若可更正即不影響專利效力。"
+ },
+ {
+  "id": "u05-l2-q01",
+  "lessonId": "u05-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "補充審查（supplemental examination）只能由專利權人（patent owner）提出請求，第三人不得提出。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "257",
+    "quote": "A patent owner may request supplemental examination of a patent in the Office to consider, reconsider, or correct information believed to be relevant to the patent, in accordance with such requirements as the Director may establish."
+   }
+  ],
+  "explanation": "補充審查是 AIA 新增專供專利權人主動要求 USPTO 考慮、重新考慮或更正相關資訊的程序，藉以避免日後被主張不正行為（inequitable conduct）而導致專利不可執行。"
+ },
+ {
+  "id": "u05-l2-q02",
+  "lessonId": "u05-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "任何人依規定向專利商標局書面呈報先前技術（citation of prior art）時，若以書面請求保密，其身分將被排除於專利卷宗之外並予以保密。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "301",
+    "quote": "Upon the written request of the person citing prior art or written statements pursuant to subsection (a), that person's identity shall be excluded from the patent file and kept confidential."
+   }
+  ],
+  "explanation": "提交先前技術或專利權人書面聲明之人，可以透過書面請求將自己的身分保密，不列入公開的專利檔案中。"
+ },
+ {
+  "id": "u05-l2-q03",
+  "lessonId": "u05-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "在單方再審查（ex parte reexamination）程序中，若局長認定請求案未提出實質可專利性新問題（substantial new question of patentability），請求人得向 PTAB 提起上訴。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "303",
+    "quote": "A determination by the Director pursuant to subsection (a) of this section that no substantial new question of patentability has been raised will be final and nonappealable."
+   }
+  ],
+  "explanation": "局長認為未提出實質可專利性新問題（SNQ）的決定是最終且不可上訴的（final and nonappealable），但局長可退還部分再審查規費。"
+ },
+ {
+  "id": "u05-l2-q04",
+  "lessonId": "u05-l2",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "專利商標局收到符合規定的補充審查（supplemental examination）或單方再審查（ex parte reexamination）請求後，局長應於多久內決定是否提出實質可專利性新問題（SNQ）？",
+  "options": [
+   "3 個月內",
+   "2 個月內",
+   "6 個月內",
+   "1 年內"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "257",
+    "quote": "Within 3 months after the date a request for supplemental examination meeting the requirements of this section is received, the Director shall conduct the supplemental examination and shall conclude such examination by issuing a certificate indicating whether the information presented in the request raises a substantial new question of patentability."
+   },
+   {
+    "article": "303",
+    "quote": "Within three months following the filing of a request for reexamination under the provisions of section 302, the Director will determine whether a substantial new question of patentability affecting any claim of the patent concerned is raised by the request"
+   }
+  ],
+  "explanation": "不論是補充審查或單方再審查，局長都必須在收到請求後 3 個月內，判斷是否構成實質可專利性新問題（substantial new question of patentability）。"
+ },
+ {
+  "id": "u05-l2-q05",
+  "lessonId": "u05-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "補充審查（supplemental examination）中若發現有實質可專利性新問題而命進行再審查，其程序與一般單方再審查（ex parte reexamination）有何不同？",
+  "options": [
+   "專利權人無權在再審查命令後提出專利權人陳述書（statement），且審查不限於專利與印刷刊物",
+   "專利權人在補充審查引發的再審查中，可以自由擴大請求項的保護範圍以對抗先前技術",
+   "任何第三人都可以加入補充審查引發的再審查程序，並針對專利權人的答辯提出反駁",
+   "補充審查引發的再審查如果發現詐欺行為，局長僅能撤銷請求項而不得移送司法部長"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "257",
+    "quote": "The reexamination shall be conducted according to procedures established by chapter 30, except that the patent owner shall not have the right to file a statement pursuant to section 304. During the reexamination, the Director shall address each substantial new question of patentability identified during the supplemental examination, notwithstanding the limitations in chapter 30 relating to patents and printed publication or any other provision of such chapter."
+   }
+  ],
+  "explanation": "補充審查所啟動的再審查雖依單方再審查程序進行，但有兩大差異：一、專利權人不得提出陳述書（statement）；二、審查的資訊範圍不受「僅限專利及印刷刊物」的限制。"
+ },
+ {
+  "id": "u05-l2-q06",
+  "lessonId": "u05-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "關於單方再審查（ex parte reexamination）程序中請求項的修正，下列敘述何者正確？",
+  "options": [
+   "專利權人得提出修正或新請求項以區別先前技術，但不得擴大專利請求項的範圍",
+   "單方再審查進行期間完全禁止修改任何請求項，專利權人只能就原請求項進行爭辯",
+   "若在原專利核准後 2 年內進入單方再審查，專利權人即可透過修正擴大請求項範圍",
+   "修正或新增的請求項經確認可專利並發出證書後，對先使用人完全不適用中用權規定"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "305",
+    "quote": "In any reexamination proceeding under this chapter, the patent owner will be permitted to propose any amendment to his patent and a new claim or claims thereto, in order to distinguish the invention as claimed from the prior art cited under the provisions of section 301, or in response to a decision adverse to the patentability of a claim of a patent. No proposed amended or new claim enlarging the scope of a claim of the patent will be permitted in a reexamination proceeding under this chapter."
+   }
+  ],
+  "explanation": "在單方再審查中，專利權人可以修正請求項或提出新請求項，但絕對不得擴大（enlarging）原專利請求項的範圍，這點與台灣專利法舉發期間之更正不得擴大範圍相似。"
+ },
+ {
+  "id": "u05-l2-q07",
+  "lessonId": "u05-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "procedure"
+  ],
+  "prompt": "甲公司發現其專利在當初審查時漏未呈報一份重要參考文獻，為避免日後被控專利不可執行（unenforceable），甲擬於 2026 年 6 月 1 日請求補充審查（supplemental examination）。但在 2026 年 5 月 15 日，被控侵權人乙已在民事訴訟中具體主張該漏報行為構成抗辯。下列何者正確？",
+  "options": [
+   "因乙在補充審查請求日前已於民事訴訟中具體提出該指控，甲無法藉此次補充審查免除不可執行之效果",
+   "只要補充審查在民事訴訟判決確定前完成，甲仍可免除該資訊未呈報所生之不可執行抗辯",
+   "補充審查一旦提出，乙在民事訴訟中針對該文獻所提出的不可執行抗辯即自動失效",
+   "因該專利已進入民事訴訟，專利商標局依法不得受理甲所提出的補充審查請求"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "257",
+    "quote": "Paragraph (1) shall not apply to an allegation pled with particularity in a civil action, or set forth with particularity in a notice received by the patent owner under section 505(j)(2)(B)(iv)(II) of the Federal Food, Drug, and Cosmetic Act (21 U.S.C. 355(j)(2)(B)(iv)(II)), before the date of a supplemental examination request under subsection (a) to consider, reconsider, or correct information forming the basis for the allegation."
+   }
+  ],
+  "explanation": "補充審查具有「洗白」不正行為的效果，但若他人在補充審查請求日前（2026 年 6 月 1 日前）已經在民事訴訟或學名藥 Paragraph IV 通知中具體提出指控，則不適用該豁免效果。"
+ },
+ {
+  "id": "u05-l2-q08",
+  "lessonId": "u05-l2",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Within {{0}} after the date a request for supplemental examination meeting the requirements of this section is received, the Director shall conduct the supplemental examination and shall conclude such examination by issuing a certificate indicating whether the information presented in the request raises a {{1}} of patentability.",
+  "blanks": [
+   "3 months",
+   "substantial new question"
+  ],
+  "distractors": [
+   "6 months",
+   "reasonable likelihood",
+   "preponderance"
+  ],
+  "evidence": [
+   {
+    "article": "257",
+    "quote": "Within 3 months after the date a request for supplemental examination meeting the requirements of this section is received, the Director shall conduct the supplemental examination and shall conclude such examination by issuing a certificate indicating whether the information presented in the request raises a substantial new question of patentability."
+   }
+  ],
+  "explanation": "局長應於收到補充審查請求後 3 個月（3 months）內完成補充審查並發給證書，載明是否提出實質可專利性新問題（substantial new question of patentability）。"
+ },
+ {
+  "id": "u05-l2-q09",
+  "lessonId": "u05-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Any person at any time may cite to the Office in writing—\n(1) prior art consisting of {{0}} which that person believes to have a bearing on the patentability of any claim of a particular patent; or\n(2) statements of the {{1}} filed in a proceeding before a Federal court or the Office in which the patent owner took a position on the scope of any claim of a particular patent.",
+  "blanks": [
+   "patents or printed publications",
+   "patent owner"
+  ],
+  "distractors": [
+   "public use or sale",
+   "petitioner",
+   "examiner"
+  ],
+  "evidence": [
+   {
+    "article": "301",
+    "quote": "Any person at any time may cite to the Office in writing—\n(1) prior art consisting of patents or printed publications which that person believes to have a bearing on the patentability of any claim of a particular patent; or\n(2) statements of the patent owner filed in a proceeding before a Federal court or the Office in which the patent owner took a position on the scope of any claim of a particular patent."
+   }
+  ],
+  "explanation": "任何人隨時可向 USPTO 書面呈報兩類資料：一是專利或印刷刊物（patents or printed publications）構成的先前技術，二是專利權人（patent owner）在聯邦法院或局內程序中就請求項範圍所作的聲明。"
+ },
+ {
+  "id": "u05-l2-q10",
+  "lessonId": "u05-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The patent owner will be given a reasonable period, not less than {{0}} from the date a copy of the determination is given or mailed to him, within which he may file a statement on such question, including any amendment to his patent and new claim or claims he may wish to propose, for consideration in the reexamination. If the patent owner files such a statement, he promptly will serve a copy of it on the person who has requested reexamination under the provisions of section 302. Within a period of {{1}} from the date of service, that person may file and have considered in the reexamination a reply to any statement filed by the patent owner.",
+  "blanks": [
+   "two months",
+   "two months"
+  ],
+  "distractors": [
+   "three months",
+   "one month",
+   "six months"
+  ],
+  "evidence": [
+   {
+    "article": "304",
+    "quote": "The patent owner will be given a reasonable period, not less than two months from the date a copy of the determination is given or mailed to him, within which he may file a statement on such question, including any amendment to his patent and new claim or claims he may wish to propose, for consideration in the reexamination. If the patent owner files such a statement, he promptly will serve a copy of it on the person who has requested reexamination under the provisions of section 302. Within a period of two months from the date of service, that person may file and have considered in the reexamination a reply to any statement filed by the patent owner."
+   }
+  ],
+  "explanation": "單方再審查命令發出後，給予專利權人提出陳述書（statement）的期間不得少於 2 個月（two months）；若專利權人有提出陳述書，請求人可在送達後 2 個月（two months）內提出答辯（reply）。"
+ },
+ {
+  "id": "u05-l2-q11",
+  "lessonId": "u05-l2",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "請將補充審查與單方再審查的事項與其法定規定配對",
+  "pairs": [
+   {
+    "left": "判斷是否構成 SNQ 的期限",
+    "right": "收到請求後 3 個月內"
+   },
+   {
+    "left": "專利權人提陳述書之期限",
+    "right": "不少於決定寄發後 2 個月"
+   },
+   {
+    "left": "再審查請求人提答辯期限",
+    "right": "陳述書送達後 2 個月內"
+   },
+   {
+    "left": "補充審查發現重大詐欺",
+    "right": "局長應秘密移送司法部長"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "303",
+    "quote": "Within three months following the filing of a request for reexamination under the provisions of section 302, the Director will determine whether a substantial new question of patentability affecting any claim of the patent concerned is raised by the request"
+   },
+   {
+    "article": "304",
+    "quote": "The patent owner will be given a reasonable period, not less than two months from the date a copy of the determination is given or mailed to him, within which he may file a statement on such question"
+   },
+   {
+    "article": "304",
+    "quote": "Within a period of two months from the date of service, that person may file and have considered in the reexamination a reply to any statement filed by the patent owner."
+   },
+   {
+    "article": "257",
+    "quote": "If the Director becomes aware, during the course of a supplemental examination or reexamination proceeding ordered under this section, that a material fraud on the Office may have been committed in connection with the patent that is the subject of the supplemental examination, then in addition to any other actions the Director is authorized to take, including the cancellation of any claims found to be invalid under section 307 as a result of a reexamination ordered under this section, the Director shall also refer the matter to the Attorney General for such further action as the Attorney General may deem appropriate."
+   }
+  ],
+  "explanation": "決定是否構成實質可專利性新問題（SNQ）為 3 個月內；專利權人陳述期不少於 2 個月；請求人答辯期為 2 個月內；補充審查若發現重大詐欺（material fraud），局長須移送司法部長（Attorney General）。"
+ },
+ {
+  "id": "u05-l2-q12",
+  "lessonId": "u05-l2",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "請依序排列第三人請求單方再審查（ex parte reexamination）的標準程序步驟",
+  "items": [
+   "任何人基於專利或印刷刊物提書面請求並繳費",
+   "局長於 3 個月內認定構成 SNQ 並命再審查",
+   "專利權人於不少於 2 個月內提出陳述與修正",
+   "請求人於送達後 2 個月內對該陳述提出答辯",
+   "依初審程序特別迅速審查，結束後發給證書"
+  ],
+  "evidence": [
+   {
+    "article": "302",
+    "quote": "Any person at any time may file a request for reexamination by the Office of any claim of a patent on the basis of any prior art cited under the provisions of section 301."
+   },
+   {
+    "article": "303",
+    "quote": "Within three months following the filing of a request for reexamination under the provisions of section 302, the Director will determine whether a substantial new question of patentability affecting any claim of the patent concerned is raised by the request"
+   },
+   {
+    "article": "304",
+    "quote": "The patent owner will be given a reasonable period, not less than two months from the date a copy of the determination is given or mailed to him, within which he may file a statement on such question, including any amendment to his patent and new claim or claims he may wish to propose, for consideration in the reexamination. If the patent owner files such a statement, he promptly will serve a copy of it on the person who has requested reexamination under the provisions of section 302. Within a period of two months from the date of service, that person may file and have considered in the reexamination a reply to any statement filed by the patent owner."
+   },
+   {
+    "article": "305",
+    "quote": "After the times for filing the statement and reply provided for by section 304 have expired, reexamination will be conducted according to the procedures established for initial examination under the provisions of sections 132 and 133."
+   },
+   {
+    "article": "307",
+    "quote": "In a reexamination proceeding under this chapter, when the time for appeal has expired or any appeal proceeding has terminated, the Director will issue and publish a certificate canceling any claim of the patent finally determined to be unpatentable, confirming any claim of the patent determined to be patentable, and incorporating in the patent any proposed amended or new claim determined to be patentable."
+   }
+  ],
+  "explanation": "單方再審查先由請求人送件，局長 3 個月內認定是否構成 SNQ；若下令再審查，專利權人可先提陳述書（那之後請求人才能在 2 個月內提答辯），最後進入特別迅速（special dispatch）的單方審查並於程序終結後發給再審查證書。"
+ },
+ {
+  "id": "u05-l3-q01",
+  "lessonId": "u05-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "在多方複審（Inter Partes Review, IPR）中，請願人（petitioner）可以主張系爭專利違反說明書書面記述要件或欠缺專利適格性而請求撤銷請求項。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "311",
+    "quote": "A petitioner in an inter partes review may request to cancel as unpatentable 1 or more claims of a patent only on a ground that could be raised under section 102 or 103 and only on the basis of prior art consisting of patents or printed publications."
+   }
+  ],
+  "explanation": "IPR 的挑戰事由嚴格受限，只能基於新穎性或非顯而易知性（§102 或 §103），且證據僅限於專利或印刷刊物（patents or printed publications），不能主張適格性或記載要件；這與台灣專利舉發可主張多種無效事由不同。"
+ },
+ {
+  "id": "u05-l3-q02",
+  "lessonId": "u05-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "局長決定是否立案進行多方複審（institution of inter partes review）的決定是最終且不可上訴的（final and nonappealable）。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "314",
+    "quote": "The determination by the Director whether to institute an inter partes review under this section shall be final and nonappealable."
+   }
+  ],
+  "explanation": "根據條文明文規定，局長對於是否立案（institute）IPR 的決定是最終決定，不得提起上訴。"
+ },
+ {
+  "id": "u05-l3-q03",
+  "lessonId": "u05-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "若多方複審（IPR）在專利商標局就實體爭點作出決定前，經請願人與專利權人共同請求而和解終止，該請願人仍會受到禁反言（estoppel）的拘束。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "317",
+    "quote": "If the inter partes review is terminated with respect to a petitioner under this section, no estoppel under section 315(e) shall attach to the petitioner, or to the real party in interest or privy of the petitioner, on the basis of that petitioner's institution of that inter partes review."
+   }
+  ],
+  "explanation": "IPR 的禁反言效力是以作成「最終書面決定（final written decision）」為前提；若在實體決定前因和解而對該請願人終止程序，即不生禁反言效力。"
+ },
+ {
+  "id": "u05-l3-q04",
+  "lessonId": "u05-l3",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "局長在決定是否准予立案進行多方複審（IPR）時，請願書與初步答辯所呈現的資訊必須達到何種立案門檻（threshold）？",
+  "options": [
+   "請願人至少對 1 個受挑戰請求項有合理的勝訴可能性（reasonable likelihood that the petitioner would prevail）",
+   "受挑戰請求項有超過五成的可能性不具可專利性（more likely than not unpatentable）",
+   "請願書提出了影響該專利請求項的實質可專利性新問題（substantial new question of patentability）",
+   "請願人以清楚且令人信服的證據（clear and convincing evidence）證明專利無效"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "314",
+    "quote": "The Director may not authorize an inter partes review to be instituted unless the Director determines that the information presented in the petition filed under section 311 and any response filed under section 313 shows that there is a reasonable likelihood that the petitioner would prevail with respect to at least 1 of the claims challenged in the petition."
+   }
+  ],
+  "explanation": "IPR 的立案門檻為「合理的勝訴可能性（reasonable likelihood that the petitioner would prevail）」；而正式審理階段證明不具可專利性的舉證標準則為「優勢證據（preponderance of the evidence）」。"
+ },
+ {
+  "id": "u05-l3-q05",
+  "lessonId": "u05-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "關於多方複審（IPR）的申請時點（filing deadline），請願書應於何時提出？",
+  "options": [
+   "專利核准後滿 9 個月之日，或已立案之核准後複審（PGR）終止之日，以較晚者為準之後",
+   "專利核准之日起算 9 個月內提出，逾期即只能向聯邦地方法院提起無效訴訟",
+   "專利核准後滿 2 年之日，或單方再審查程序終結之日，以較早者為準之後",
+   "專利有效期間內以及專利期滿後 6 年內的任何時間點，皆無最早申請時間限制"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "311",
+    "quote": "A petition for inter partes review shall be filed after the later of either—\n(1) the date that is 9 months after the grant of a patent; or\n(2) if a post-grant review is instituted under chapter 32, the date of the termination of such post-grant review."
+   }
+  ],
+  "explanation": "專利核准後的前 9 個月是 PGR 的專屬期間，因此 IPR 必須在專利核准滿 9 個月後（若有立案 PGR 則為 PGR 終止後，取較晚者）才能提出。"
+ },
+ {
+  "id": "u05-l3-q06",
+  "lessonId": "u05-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "關於多方複審（IPR）與民事訴訟的關係，下列敘述何者正確？",
+  "options": [
+   "在侵權訴訟中提起挑戰專利有效性的反訴（counterclaim），不構成阻卻 IPR 立案的民事訴訟",
+   "請願人只要在提交 IPR 請願書的同一天向法院提起確認專利無效之訴，IPR 就會被駁回",
+   "即使雙方達成和解，和解協議屬於私人商業機密，完全無須向專利商標局提交副本",
+   "當事人一旦在 IPR 收到最終書面決定，僅在局內程序受禁反言限制，在 ITC 與民事訴訟則不受限"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "315",
+    "quote": "A counterclaim challenging the validity of a claim of a patent does not constitute a civil action challenging the validity of a claim of a patent for purposes of this subsection."
+   }
+  ],
+  "explanation": "若請願人在提交 IPR 前已主動提起挑戰專利有效性的民事訴訟，則不得立案 IPR；但若是在被控侵權的訴訟中提起無效「反訴（counterclaim）」，則不視為此處的民事訴訟，不會阻卻 IPR（惟仍須受訴狀送達 1 年內的限制）。"
+ },
+ {
+  "id": "u05-l3-q07",
+  "lessonId": "u05-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case"
+  ],
+  "prompt": "專利權人甲於 2025 年 4 月 10 日將專利侵權起訴狀合法送達（served with a complaint）被告乙公司。乙公司若想單獨針對該專利向 PTAB 申請多方複審（IPR，非請求併案 joinder），最晚應於何時提出請願書？",
+  "options": [
+   "2026 年 4 月 10 日前",
+   "2025 年 10 月 10 日前",
+   "2026 年 1 月 10 日前",
+   "2027 年 4 月 10 日前"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "315",
+    "quote": "An inter partes review may not be instituted if the petition requesting the proceeding is filed more than 1 year after the date on which the petitioner, real party in interest, or privy of the petitioner is served with a complaint alleging infringement of the patent."
+   }
+  ],
+  "explanation": "這就是著名的「1 年除斥期間（1-year time bar）」：若請願人、實質利害關係人（real party in interest）或利害關係人（privy）被送達專利侵權起訴狀超過 1 年（即超過 2026 年 4 月 10 日），即不得立案 IPR（但請求併案 joinder 不受此 1 年限制）。"
+ },
+ {
+  "id": "u05-l3-q08",
+  "lessonId": "u05-l3",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "A petitioner in an inter partes review may request to cancel as unpatentable 1 or more claims of a patent only on a ground that could be raised under {{0}} and only on the basis of prior art consisting of {{1}}.",
+  "blanks": [
+   "section 102 or 103",
+   "patents or printed publications"
+  ],
+  "distractors": [
+   "section 101 or 112",
+   "public use or sale",
+   "affidavits or declarations"
+  ],
+  "evidence": [
+   {
+    "article": "311",
+    "quote": "A petitioner in an inter partes review may request to cancel as unpatentable 1 or more claims of a patent only on a ground that could be raised under section 102 or 103 and only on the basis of prior art consisting of patents or printed publications."
+   }
+  ],
+  "explanation": "IPR 僅能依 section 102 or 103（新穎性或非顯而易知性）請求撤銷請求項，且僅能以 patents or printed publications（專利或印刷刊物）作為先前技術基礎。"
+ },
+ {
+  "id": "u05-l3-q09",
+  "lessonId": "u05-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "An inter partes review may not be instituted if the petition requesting the proceeding is filed more than {{0}} after the date on which the petitioner, real party in interest, or privy of the petitioner is served with a {{1}} alleging infringement of the patent.",
+  "blanks": [
+   "1 year",
+   "complaint"
+  ],
+  "distractors": [
+   "9 months",
+   "6 months",
+   "subpoena"
+  ],
+  "evidence": [
+   {
+    "article": "315",
+    "quote": "An inter partes review may not be instituted if the petition requesting the proceeding is filed more than 1 year after the date on which the petitioner, real party in interest, or privy of the petitioner is served with a complaint alleging infringement of the patent."
+   }
+  ],
+  "explanation": "被送達侵權起訴狀（complaint）超過 1 年（1 year）後才提出的 IPR 請願，依法不得立案。"
+ },
+ {
+  "id": "u05-l3-q10",
+  "lessonId": "u05-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The petitioner in an inter partes review of a claim in a patent under this chapter that results in a {{0}} under section 318(a), or the real party in interest or privy of the petitioner, may not request or maintain a proceeding before the Office with respect to that claim on any ground that the petitioner {{1}} during that inter partes review.",
+  "blanks": [
+   "final written decision",
+   "raised or reasonably could have raised"
+  ],
+  "distractors": [
+   "preliminary response",
+   "actually litigated",
+   "appealed"
+  ],
+  "evidence": [
+   {
+    "article": "315",
+    "quote": "The petitioner in an inter partes review of a claim in a patent under this chapter that results in a final written decision under section 318(a), or the real party in interest or privy of the petitioner, may not request or maintain a proceeding before the Office with respect to that claim on any ground that the petitioner raised or reasonably could have raised during that inter partes review."
+   }
+  ],
+  "explanation": "IPR 一旦作成最終書面決定（final written decision），請願人及其實質利害關係人對於在 IPR 中「已提出或合理可提出（raised or reasonably could have raised）」的事由，即產生禁反言（estoppel）效力。"
+ },
+ {
+  "id": "u05-l3-q11",
+  "lessonId": "u05-l3",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "請將多方複審（IPR）的重要期間與其法定規定配對",
+  "pairs": [
+   {
+    "left": "最早可提 IPR 的時點",
+    "right": "專利核准滿9個月或PGR終止後"
+   },
+   {
+    "left": "侵權訴狀送達後的除斥期間",
+    "right": "送達日起 1 年內須提請願"
+   },
+   {
+    "left": "局長決定是否立案的期限",
+    "right": "收到初步答辯或屆期後3個月內"
+   },
+   {
+    "left": "立案後作成最終決定的期限",
+    "right": "原則1年內，正當理由可延6個月"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "311",
+    "quote": "A petition for inter partes review shall be filed after the later of either—\n(1) the date that is 9 months after the grant of a patent; or\n(2) if a post-grant review is instituted under chapter 32, the date of the termination of such post-grant review."
+   },
+   {
+    "article": "315",
+    "quote": "An inter partes review may not be instituted if the petition requesting the proceeding is filed more than 1 year after the date on which the petitioner, real party in interest, or privy of the petitioner is served with a complaint alleging infringement of the patent."
+   },
+   {
+    "article": "314",
+    "quote": "The Director shall determine whether to institute an inter partes review under this chapter pursuant to a petition filed under section 311 within 3 months after—\n(1) receiving a preliminary response to the petition under section 313; or\n(2) if no such preliminary response is filed, the last date on which such response may be filed."
+   },
+   {
+    "article": "316",
+    "quote": "requiring that the final determination in an inter partes review be issued not later than 1 year after the date on which the Director notices the institution of a review under this chapter, except that the Director may, for good cause shown, extend the 1-year period by not more than 6 months"
+   }
+  ],
+  "explanation": "IPR 重要時程：核准 9 個月（或 PGR 終止）後才可申請、被訴侵權送達起 1 年內須申請、初步答辯後 3 個月內決定是否立案、立案公告後 1 年內（至多延長 6 個月）作成最終決定。"
+ },
+ {
+  "id": "u05-l3-q12",
+  "lessonId": "u05-l3",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "請依序排列多方複審（IPR）從請願到發給證書的法定程序步驟",
+  "items": [
+   "非專利權人於核准滿 9 個月後提請願書",
+   "專利權人提出初步答辯說明不應立案理由",
+   "局長於 3 個月內認定具合理勝訴可能並立案",
+   "PTAB 審理並於立案後 1 年內作最終書面決定",
+   "上訴期滿或終結後由局長發出並公告證書"
+  ],
+  "evidence": [
+   {
+    "article": "311",
+    "quote": "Subject to the provisions of this chapter, a person who is not the owner of a patent may file with the Office a petition to institute an inter partes review of the patent."
+   },
+   {
+    "article": "313",
+    "quote": "If an inter partes review petition is filed under section 311, the patent owner shall have the right to file a preliminary response to the petition, within a time period set by the Director, that sets forth reasons why no inter partes review should be instituted"
+   },
+   {
+    "article": "314",
+    "quote": "The Director shall determine whether to institute an inter partes review under this chapter pursuant to a petition filed under section 311 within 3 months after—\n(1) receiving a preliminary response to the petition under section 313; or\n(2) if no such preliminary response is filed, the last date on which such response may be filed."
+   },
+   {
+    "article": "316",
+    "quote": "requiring that the final determination in an inter partes review be issued not later than 1 year after the date on which the Director notices the institution of a review under this chapter"
+   },
+   {
+    "article": "318",
+    "quote": "If the Patent Trial and Appeal Board issues a final written decision under subsection (a) and the time for appeal has expired or any appeal has terminated, the Director shall issue and publish a certificate canceling any claim of the patent finally determined to be unpatentable, confirming any claim of the patent determined to be patentable, and incorporating in the patent by operation of the certificate any new or amended claim determined to be patentable."
+   }
+  ],
+  "explanation": "IPR 流程依序為：請願人提出請願 → 專利權人提初步答辯（preliminary response） → 局長於 3 個月內作成立案決定 → PTAB 審理並在 1 年內作成最終書面決定（final written decision） → 上訴期滿或上訴終結後局長發出證書。"
+ },
+ {
+  "id": "u05-l4-q01",
+  "lessonId": "u05-l4",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "核准後複審（Post-Grant Review, PGR）的請願書，最晚必須在專利核准日或再發證專利核發日起 9 個月內提出。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "321",
+    "quote": "A petition for a post-grant review may only be filed not later than the date that is 9 months after the date of the grant of the patent or of the issuance of a reissue patent (as the case may be)."
+   }
+  ],
+  "explanation": "PGR 只能在專利核准（或再發證核發）後 9 個月內提出；超過 9 個月後就只能走挑戰事由較窄的 IPR 或單方再審查。"
+ },
+ {
+  "id": "u05-l4-q02",
+  "lessonId": "u05-l4",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "在核准後複審（PGR）中，如同 IPR 一樣，請願人只能以專利或印刷刊物主張新穎性或非顯而易知性，不能主張說明書記載不符規定。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "321",
+    "quote": "A petitioner in a post-grant review may request to cancel as unpatentable 1 or more claims of a patent on any ground that could be raised under paragraph (2) or (3) of section 282(b) (relating to invalidity of the patent or any claim)."
+   }
+  ],
+  "explanation": "PGR 的挑戰範圍比 IPR 廣泛得多，可以基於 §282(b)(2) 或 (3) 的任何專利無效事由（包含 §101 專利適格性、§102 新穎性、§103 非顯而易知性及 §112 說明書記載要件，且不限於專利或印刷刊物）。"
+ },
+ {
+  "id": "u05-l4-q03",
+  "lessonId": "u05-l4",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "專利權人對於再發證專利（reissue patent）中與原專利相同或更窄的請求項，只要在再發證核發後 9 個月內，第三人仍可針對該請求項立案進行核准後複審（PGR）。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "325",
+    "quote": "A post-grant review may not be instituted under this chapter if the petition requests cancellation of a claim in a reissue patent that is identical to or narrower than a claim in the original patent from which the reissue patent was issued, and the time limitations in section 321(c) would bar filing a petition for a post-grant review for such original patent."
+   }
+  ],
+  "explanation": "如果原專利的 9 個月 PGR 期限已經屆滿，第三人就不能針對再發證專利中「與原專利請求項相同或範圍更窄」的請求項申請立案 PGR（只能針對擴大範圍的新請求項）。"
+ },
+ {
+  "id": "u05-l4-q04",
+  "lessonId": "u05-l4",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "關於核准後複審（PGR）的立案門檻（threshold），除涉及重要且新穎或未決之法律問題外，請願書資訊在未被反駁下須達到何種標準？",
+  "options": [
+   "顯示至少 1 個受挑戰請求項「極有可能（more likely than not）」不具可專利性",
+   "顯示請願人對至少 1 個請求項有「合理的勝訴可能性（reasonable likelihood）」",
+   "顯示請願書提出了「實質可專利性新問題（substantial new question of patentability）」",
+   "顯示受挑戰請求項構成「超越合理懷疑（beyond a reasonable doubt）」之明確無效"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "324",
+    "quote": "The Director may not authorize a post-grant review to be instituted unless the Director determines that the information presented in the petition filed under section 321, if such information is not rebutted, would demonstrate that it is more likely than not that at least 1 of the claims challenged in the petition is unpatentable."
+   }
+  ],
+  "explanation": "PGR 的立案門檻為「極有可能（more likely than not，即大於 50% 機率）不具可專利性」，或提出對其他專利具重要性的新穎／未決法律問題（novel or unsettled legal question），門檻略高於 IPR 的「合理勝訴可能性」。"
+ },
+ {
+  "id": "u05-l4-q05",
+  "lessonId": "u05-l4",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "若專利權人在專利核准之日後 3 個月內提起專利侵權民事訴訟並聲請初步禁制令（preliminary injunction），而被告隨即提出 PGR 請願，法院應如何處理該初步禁制令之聲請？",
+  "options": [
+   "法院不得僅因有 PGR 請願提出或已立案，而停止審酌專利權人的初步禁制令聲請",
+   "法院必須自動裁定停止（automatically stay）初步禁制令之審理，直到 PGR 作成最終決定",
+   "法院應立即駁回初步禁制令之聲請，並將全案移送專利審判暨上訴委員會（PTAB）併案處理",
+   "只有在專利權人額外提供雙倍擔保金的情況下，法院才可以繼續審酌初步禁制令聲請"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "325",
+    "quote": "If a civil action alleging infringement of a patent is filed within 3 months after the date on which the patent is granted, the court may not stay its consideration of the patent owner's motion for a preliminary injunction against infringement of the patent on the basis that a petition for post-grant review has been filed under this chapter or that such a post-grant review has been instituted under this chapter."
+   }
+  ],
+  "explanation": "為保護剛獲准專利權人的即時救濟，若侵權訴訟是在專利核准後 3 個月內提起，法院不得以有人申請或已立案 PGR 為由，停止審酌專利權人的初步禁制令（preliminary injunction）聲請。"
+ },
+ {
+  "id": "u05-l4-q06",
+  "lessonId": "u05-l4",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "在決定是否立案進行核准後複審（PGR）、多方複審（IPR）或下令單方再審查時，若遇到先前已向專利商標局提出過的技術或爭點，局長得如何處理？",
+  "options": [
+   "局長得考量相同或實質相同的先前技術或爭點先前是否已向局方提出過，並據此駁回請願或請求",
+   "只要請願人有按規定繳納規費，即使先前技術與爭點完全相同，局長也必須強制立案審查",
+   "局長必須先舉行公開聽證會並取得專利權人同意，才能審酌先前已經呈報過的印刷刊物",
+   "先前曾在初審中引證過的專利或印刷刊物，依法絕對不得再作為 PGR 或單方再審查的證據"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "325",
+    "quote": "In determining whether to institute or order a proceeding under this chapter, chapter 30, or chapter 31, the Director may take into account whether, and reject the petition or request because, the same or substantially the same prior art or arguments previously were presented to the Office."
+   }
+  ],
+  "explanation": "為避免重複審查與騷擾專利權人，若相同或實質相同的先前技術或論點（the same or substantially the same prior art or arguments）先前已經向 USPTO 提出過，局長在決定 PGR、IPR 或單方再審查時得納入考量並據此駁回。"
+ },
+ {
+  "id": "u05-l4-q07",
+  "lessonId": "u05-l4",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case"
+  ],
+  "prompt": "甲公司的美國專利於 2026 年 1 月 15 日獲准公告。競爭對手乙發現該專利請求項違反明確性要件（indefiniteness），且在美國早有公開銷售行為，遂準備提起核准後複審（PGR）。下列敘述何者正確？",
+  "options": [
+   "乙最晚須於 2026 年 10 月 15 日前提出 PGR 請願；若乙在提 PGR 前已先向法院起訴挑戰該專利有效性，則 PGR 不得立案",
+   "乙最晚須於 2027 年 1 月 15 日前提出 PGR 請願；且明確性要件與公開銷售皆屬於 PGR 可合法主張的撤銷事由",
+   "乙須等到 2026 年 10 月 15 日之後才能提出 PGR 請願；立案後 PTAB 原則上應於 1 年內作成最終書面決定",
+   "乙最晚須於 2026 年 10 月 15 日前提出 PGR 請願；但公開銷售與明確性皆不得作為 PGR 事由，乙只能提起民事訴訟"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "321",
+    "quote": "A petition for a post-grant review may only be filed not later than the date that is 9 months after the date of the grant of the patent or of the issuance of a reissue patent (as the case may be)."
+   },
+   {
+    "article": "325",
+    "quote": "A post-grant review may not be instituted under this chapter if, before the date on which the petition for such a review is filed, the petitioner or real party in interest filed a civil action challenging the validity of a claim of the patent."
+   }
+  ],
+  "explanation": "PGR 必須在專利核准日（2026 年 1 月 15 日）後 9 個月內（即 2026 年 10 月 15 日前）提出，可主張公開銷售與 §112 明確性等廣泛事由；但若請願人在提 PGR 前已先提起挑戰專利有效性的民事訴訟，則 PGR 不得立案。"
+ },
+ {
+  "id": "u05-l4-q08",
+  "lessonId": "u05-l4",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "A petition for a post-grant review may only be filed not later than the date that is {{0}} after the date of the {{1}} of the patent or of the issuance of a reissue patent (as the case may be).",
+  "blanks": [
+   "9 months",
+   "grant"
+  ],
+  "distractors": [
+   "1 year",
+   "filing",
+   "publication"
+  ],
+  "evidence": [
+   {
+    "article": "321",
+    "quote": "A petition for a post-grant review may only be filed not later than the date that is 9 months after the date of the grant of the patent or of the issuance of a reissue patent (as the case may be)."
+   }
+  ],
+  "explanation": "PGR 請願書最晚只能在專利核准（grant）日或再發證核發日後 9 個月（9 months）內提出。"
+ },
+ {
+  "id": "u05-l4-q09",
+  "lessonId": "u05-l4",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The Director may not authorize a post-grant review to be instituted unless the Director determines that the information presented in the petition filed under section 321, if such information is not rebutted, would demonstrate that it is {{0}} that at least 1 of the claims challenged in the petition is {{1}}.",
+  "blanks": [
+   "more likely than not",
+   "unpatentable"
+  ],
+  "distractors": [
+   "clear and convincing",
+   "valid",
+   "infringed"
+  ],
+  "evidence": [
+   {
+    "article": "324",
+    "quote": "The Director may not authorize a post-grant review to be instituted unless the Director determines that the information presented in the petition filed under section 321, if such information is not rebutted, would demonstrate that it is more likely than not that at least 1 of the claims challenged in the petition is unpatentable."
+   }
+  ],
+  "explanation": "PGR 的一般立案門檻是請願書資訊在未被反駁下，足以證明至少 1 個受挑戰請求項「極有可能（more likely than not）」為「不具可專利性（unpatentable）」。"
+ },
+ {
+  "id": "u05-l4-q10",
+  "lessonId": "u05-l4",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "In a post-grant review instituted under this chapter, the {{0}} shall have the burden of proving a proposition of unpatentability by a {{1}} of the evidence.",
+  "blanks": [
+   "petitioner",
+   "preponderance"
+  ],
+  "distractors": [
+   "patent owner",
+   "clear and convincing",
+   "substantial"
+  ],
+  "evidence": [
+   {
+    "article": "326",
+    "quote": "In a post-grant review instituted under this chapter, the petitioner shall have the burden of proving a proposition of unpatentability by a preponderance of the evidence."
+   }
+  ],
+  "explanation": "在已立案的 PGR 程序中，由請願人（petitioner）負舉證責任，且證明不具可專利性的證據標準為「優勢證據（preponderance of the evidence）」，低於聯邦法院訴訟中的清楚且令人信服的證據標準。"
+ },
+ {
+  "id": "u05-l4-q11",
+  "lessonId": "u05-l4",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "comparison",
+   "deadline"
+  ],
+  "prompt": "請將核准後複審（PGR）的規定與對應內容配對",
+  "pairs": [
+   {
+    "left": "PGR 請願提出期限",
+    "right": "專利核准或再發證後9個月內"
+   },
+   {
+    "left": "PGR 一般立案門檻",
+    "right": "極有可能不具可專利性"
+   },
+   {
+    "left": "PGR 例外立案門檻",
+    "right": "具重要性的新穎或未決法律問題"
+   },
+   {
+    "left": "PGR 實質審理舉證標準",
+    "right": "優勢證據（Preponderance）"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "321",
+    "quote": "A petition for a post-grant review may only be filed not later than the date that is 9 months after the date of the grant of the patent or of the issuance of a reissue patent (as the case may be)."
+   },
+   {
+    "article": "324",
+    "quote": "The Director may not authorize a post-grant review to be instituted unless the Director determines that the information presented in the petition filed under section 321, if such information is not rebutted, would demonstrate that it is more likely than not that at least 1 of the claims challenged in the petition is unpatentable."
+   },
+   {
+    "article": "324",
+    "quote": "The determination required under subsection (a) may also be satisfied by a showing that the petition raises a novel or unsettled legal question that is important to other patents or patent applications."
+   },
+   {
+    "article": "326",
+    "quote": "In a post-grant review instituted under this chapter, the petitioner shall have the burden of proving a proposition of unpatentability by a preponderance of the evidence."
+   }
+  ],
+  "explanation": "PGR 須於核准後 9 個月內提出；立案門檻為極有可能（more likely than not）不具可專利性，或涉及重要之新穎／未決法律問題；立案後的證明標準則與 IPR 同為優勢證據（preponderance of the evidence）。"
+ },
+ {
+  "id": "u05-l4-q12",
+  "lessonId": "u05-l4",
+  "type": "match",
+  "difficulty": 3,
+  "tags": [
+   "comparison",
+   "procedure"
+  ],
+  "prompt": "請將核准後複審（PGR）的程序規則與其效果配對",
+  "pairs": [
+   {
+    "left": "PGR 立案後之證據開示範圍",
+    "right": "限與事實主張直接相關之證據"
+   },
+   {
+    "left": "PGR 追加修正請求項動議",
+    "right": "雙方為推進和解或有正當理由"
+   },
+   {
+    "left": "PGR 作成最終書面決定後",
+    "right": "局內、民事與ITC生禁反言"
+   },
+   {
+    "left": "對 PTAB 最終決定不服",
+    "right": "當事人得依規定向法院提起上訴"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "326",
+    "quote": "setting forth standards and procedures for discovery of relevant evidence, including that such discovery shall be limited to evidence directly related to factual assertions advanced by either party in the proceeding;"
+   },
+   {
+    "article": "326",
+    "quote": "Additional motions to amend may be permitted upon the joint request of the petitioner and the patent owner to materially advance the settlement of a proceeding under section 327, or upon the request of the patent owner for good cause shown."
+   },
+   {
+    "article": "325",
+    "quote": "The petitioner in a post-grant review of a claim in a patent under this chapter that results in a final written decision under section 328(a), or the real party in interest or privy of the petitioner, may not assert either in a civil action arising in whole or in part under section 1338 of title 28 or in a proceeding before the International Trade Commission under section 337 of the Tariff Act of 1930 that the claim is invalid on any ground that the petitioner raised or reasonably could have raised during that post-grant review."
+   },
+   {
+    "article": "329",
+    "quote": "A party dissatisfied with the final written decision of the Patent Trial and Appeal Board under section 328(a) may appeal the decision pursuant to sections 141 through 144."
+   }
+  ],
+  "explanation": "PGR 的證據開示（discovery）限於與雙方事實主張直接相關的證據；專利權人若有正當理由（good cause shown）或雙方為推進和解，得獲准提出追加修正動議；最終決定會產生廣泛禁反言；不服最終書面決定則可依法提起上訴。"
+ }
+]

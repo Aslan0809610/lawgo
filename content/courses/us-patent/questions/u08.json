@@ -1,0 +1,683 @@
+[
+ {
+  "id": "u08-l1-q01",
+  "lessonId": "u08-l1",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "所謂「源自美國之國際申請案（international application originating in the United States）」，必須在該申請案中指定美國為尋求專利保護的國家，否則不屬於源自美國之國際申請案。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "351",
+    "quote": "The term \"international application originating in the United States\" means an international application filed in the Patent and Trademark Office when it is acting as a Receiving Office under the treaty, irrespective of whether or not the United States has been designated in that international application."
+   }
+  ],
+  "explanation": "只要是在美國專利商標局（USPTO）作為受理局（Receiving Office）時所提出的國際申請案，不論是否指定美國，均屬源自美國之國際申請案。相對地，台灣非專利合作條約（PCT）締約國，無法直接以智慧局作為 PCT 受理局。"
+ },
+ {
+  "id": "u08-l1-q02",
+  "lessonId": "u08-l1",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "指定美國之國際申請案（international application designating the United States），自其依條約所取得之國際申請日（international filing date）起，即具有在美國專利商標局合法提出國內專利申請案之效力。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "363",
+    "quote": "An international application designating the United States shall have the effect, from its international filing date under article 11 of the treaty, of a national application for patent regularly filed in the Patent and Trademark Office."
+   }
+  ],
+  "explanation": "指定美國之 PCT 國際申請案，自其依條約第 11 條認定之國際申請日起，在美國即具有正規提出之國內申請案（national application）的效力。"
+ },
+ {
+  "id": "u08-l1-q03",
+  "lessonId": "u08-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "申請人若未在國家階段（national stage）開始之日前提交依專利合作條約（PCT）第 19 條所為之請求項修正本及其英譯本，將導致整件專利申請案被視為放棄（abandonment）。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "371",
+    "quote": "The requirements of subsection (c)(3) of this section shall be complied with by the date of the commencement of the national stage, and failure to do so shall be regarded as a cancellation of the amendments to the claims in the international application made under article 19 of the treaty."
+   }
+  ],
+  "explanation": "未及時提交依條約第 19 條所為之請求項修正本或英譯本，僅會被視為取消該等修正（cancellation of the amendments），而非整件申請案放棄。"
+ },
+ {
+  "id": "u08-l1-q04",
+  "lessonId": "u08-l1",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "在美國專利法有關專利合作條約（PCT）之規定中，英文首字母大寫的「Regulations」與首字母小寫的「regulations」分別指稱為何？",
+  "options": [
+   "大寫指條約下之施行細則；小寫指局長依本法訂定之規章",
+   "大寫指局長依本法訂定之規章；小寫指條約下之施行細則",
+   "大寫指國際局發布之行政指示；小寫指美國聯邦法規彙編",
+   "兩者意義完全相同，僅因在句首或句中出現而有大小寫之分"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "351",
+    "quote": "The term \"Regulations\", when capitalized, means the Regulations under the treaty, done at Washington on the same date as the treaty. The term \"regulations\", when not capitalized, means the regulations established by the Director under this title."
+   }
+  ],
+  "explanation": "法條明文區分大小寫：大寫的「Regulations」專指與 PCT 條約同日在華盛頓簽署之條約施行細則；小寫的「regulations」則指 USPTO 局長（Director）依美國專利法所訂定的規章。"
+ },
+ {
+  "id": "u08-l1-q05",
+  "lessonId": "u08-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "若一件美國國內申請案欲根據先前提出的 PCT 國際申請案主張外國優先權（right of priority），該先前的國際申請案必須符合下列哪一項要件？",
+  "options": [
+   "必須指定至少一個美國以外的國家",
+   "必須以美國專利商標局作為受理局",
+   "必須在申請時以英文撰寫說明書",
+   "必須只指定美國作為唯一保護國"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "365",
+    "quote": "(a) In accordance with the conditions and requirements of subsections (a) through (d) of section 119, a national application shall be entitled to the right of priority based on a prior filed international application which designated at least one country other than the United States."
+   }
+  ],
+  "explanation": "美國國內申請案若要依外國優先權規定主張先前 PCT 國際申請案的優先權，該國際申請案必須指定至少一個美國以外的國家（designated at least one country other than the United States）。"
+ },
+ {
+  "id": "u08-l1-q06",
+  "lessonId": "u08-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case",
+   "procedure"
+  ],
+  "prompt": "甲公司於 2025 年 4 月 1 日在德國提出首件專利申請案，原應於 12 個月優先權期間內（2026 年 4 月 1 日前）提出指定美國之 PCT 國際申請案，但因非故意（unintentionally）遲誤而於 2026 年 5 月 15 日才提出。依美國專利法，局長得訂定程序接受在優先權期間屆滿後多久之額外期間內提出的申請案優先權主張？",
+  "options": [
+   "額外 1 個月期間內（即最晚至 2026 年 5 月 1 日）",
+   "額外 2 個月期間內（即最晚至 2026 年 6 月 1 日）",
+   "額外 6 個月期間內（即最晚至 2026 年 10 月 1 日）",
+   "額外 12 個月期間內（即最晚至 2027 年 4 月 1 日）"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "365",
+    "quote": "The Director may establish procedures, including the requirement for payment of the fee specified in section 41(a)(7), to accept an unintentionally delayed claim for priority under the treaty and the Regulations, and to accept a priority claim that pertains to an application that was not filed within the priority period specified in the treaty and Regulations, but was filed within the additional 2-month period specified under section 119(a) or the treaty and Regulations."
+   }
+  ],
+  "explanation": "對於未在條約規定的優先權期間內提出、但已在額外 2 個月期間（additional 2-month period）內提出的申請案，局長得訂定程序（含繳納規費）接受其因非故意遲誤所提出的優先權主張。甲於 2026 年 5 月 15 日提出，仍在額外 2 個月期間內。"
+ },
+ {
+  "id": "u08-l1-q07",
+  "lessonId": "u08-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "procedure"
+  ],
+  "prompt": "台灣發明人乙以日文向日本特許廳（作為受理局）提出指定美國之 PCT 國際申請案，並於進入美國國家階段（national stage）後接受審查。關於此類指定但非源自美國之國際申請案，下列哪一項不是美國專利商標局局長得採取的措施？",
+  "options": [
+   "依條約與施行細則之要件，重新審查有關申請案形式與內容之問題",
+   "在條約與施行細則要件範圍內，重新審查發明單一性（unity of invention）之問題",
+   "要求對非以英文提出的國際申請案或相關文件之英譯本進行驗證（verification）",
+   "以該案非由美國受理局收件為由，要求重新指定新的國際申請日"
+  ],
+  "answerIndex": 3,
+  "evidence": [
+   {
+    "article": "372",
+    "quote": "(b) In case of international applications designating but not originating in, the United States—\n(1) the Director may cause to be reexamined questions relating to form and contents of the application in accordance with the requirements of the treaty and the Regulations;\n(2) the Director may cause the question of unity of invention to be reexamined under section 121, within the scope of the requirements of the treaty and the Regulations; and\n(3) the Director may require a verification of the translation of the international application or any other document pertaining to the application if the application or other document was filed in a language other than English."
+   }
+  ],
+  "explanation": "對於指定但非源自美國之國際申請案，局長得重新審查形式與內容、發明單一性，並得要求驗證非英文文件之英譯本，但不得僅因非美國收件而否定其依條約取得的國際申請日。"
+ },
+ {
+  "id": "u08-l1-q08",
+  "lessonId": "u08-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "申請人進入美國國家階段（national stage）時，若未在國家階段開始之日前繳納國內申請費（national fee）或提交發明人宣誓書或聲明書（oath or declaration），但在局長所定之稍後期限內補行辦理，專利商標局得要求什麼條件作為接受之依據？",
+  "options": [
+   "要求申請人繳納滯納金（surcharge）",
+   "要求申請人放棄一半以上的請求項",
+   "要求申請人將專利權期限縮短五年",
+   "要求國際局出具特別保證書並公證"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "371",
+    "quote": "The payment of a surcharge may be required as a condition of accepting the national fee referred to in subsection (c)(1) or the oath or declaration referred to in subsection (c)(4) of this section if these requirements are not met by the date of the commencement of the national stage."
+   }
+  ],
+  "explanation": "若國內申請費或發明人宣誓書／聲明書未在國家階段開始之日前齊備，而在局長所定之稍後時間內補交，USPTO 得要求繳納滯納金（surcharge）作為接受條件。"
+ },
+ {
+  "id": "u08-l1-q09",
+  "lessonId": "u08-l1",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "An international application designating the United States shall have the effect, from its {{0}} under article 11 of the treaty, of a {{1}} for patent regularly filed in the Patent and Trademark Office.",
+  "blanks": [
+   "international filing date",
+   "national application"
+  ],
+  "distractors": [
+   "priority date",
+   "provisional application",
+   "publication date"
+  ],
+  "evidence": [
+   {
+    "article": "363",
+    "quote": "An international application designating the United States shall have the effect, from its international filing date under article 11 of the treaty, of a national application for patent regularly filed in the Patent and Trademark Office."
+   }
+  ],
+  "explanation": "指定美國之國際申請案，自其依條約第 11 條之國際申請日（international filing date）起，即具有在美國專利商標局正規提出之國內申請案（national application）之效力。"
+ },
+ {
+  "id": "u08-l1-q10",
+  "lessonId": "u08-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The copy of the international application referred to in subsection (c)(2) shall be submitted by the date of the commencement of the {{0}}. Failure to comply with these requirements shall be regarded as {{1}} of the application by the parties thereof.",
+  "blanks": [
+   "national stage",
+   "abandonment"
+  ],
+  "distractors": [
+   "international stage",
+   "cancellation",
+   "suspension"
+  ],
+  "evidence": [
+   {
+    "article": "371",
+    "quote": "The copy of the international application referred to in subsection (c)(2) shall be submitted by the date of the commencement of the national stage. Failure to comply with these requirements shall be regarded as abandonment of the application by the parties thereof."
+   }
+  ],
+  "explanation": "國際申請案副本必須在國家階段（national stage）開始之日前提交；未遵守基本法定要件者，視為申請案之放棄（abandonment）。"
+ },
+ {
+  "id": "u08-l1-q11",
+  "lessonId": "u08-l1",
+  "type": "cloze",
+  "difficulty": 3,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "At the {{0}} of the applicant, the national stage of processing may be commenced at {{1}} at which the application is in order for such purpose and the applicable requirements of subsection (c) of this section have been complied with.",
+  "blanks": [
+   "express request",
+   "any time"
+  ],
+  "distractors": [
+   "implied consent",
+   "fixed intervals",
+   "written petition"
+  ],
+  "evidence": [
+   {
+    "article": "371",
+    "quote": "(f) At the express request of the applicant, the national stage of processing may be commenced at any time at which the application is in order for such purpose and the applicable requirements of subsection (c) of this section have been complied with."
+   }
+  ],
+  "explanation": "雖然國家階段原則上於條約規定期限屆滿時開始，但若有申請人之明示請求（express request）且已符合法定提交文件與規費要件，得於準備妥當之任何時間（any time）提前啟動國家階段。"
+ },
+ {
+  "id": "u08-l1-q12",
+  "lessonId": "u08-l1",
+  "type": "match",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請將專利合作條約（PCT）中的英文機構或概念名稱與其法定職能配對",
+  "pairs": [
+   {
+    "left": "Receiving Office",
+    "right": "受理並處理國際申請案之機構"
+   },
+   {
+    "left": "International Bureau",
+    "right": "條約下公認之國際協調機構"
+   },
+   {
+    "left": "Regulations（首字大寫）",
+    "right": "與條約同日簽署之條約施行細則"
+   },
+   {
+    "left": "regulations（首字小寫）",
+    "right": "由美國專利商標局局長訂定之規章"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "351",
+    "quote": "(b) The term \"Regulations\", when capitalized, means the Regulations under the treaty, done at Washington on the same date as the treaty. The term \"regulations\", when not capitalized, means the regulations established by the Director under this title."
+   },
+   {
+    "article": "351",
+    "quote": "(f) The term \"Receiving Office\" means a national patent office or intergovernmental organization which receives and processes international applications as prescribed by the treaty and the Regulations."
+   },
+   {
+    "article": "351",
+    "quote": "(h) The term \"International Bureau\" means the international intergovernmental organization which is recognized as the coordinating body under the treaty and the Regulations."
+   }
+  ],
+  "explanation": "Receiving Office 為受理局，負責收受與處理國際申請案；International Bureau 為國際局，作為協調機構；大寫 Regulations 指條約施行細則，小寫 regulations 指 USPTO 局長依本法訂定之規章。"
+ },
+ {
+  "id": "u08-l1-q13",
+  "lessonId": "u08-l1",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "一件指定美國之 PCT 國際申請案未經申請人明示請求提前審查時，請依序排出從國際申請到國家階段可核准或核駁專利的時序步驟",
+  "items": [
+   "取得依條約第 11 條認定之國際申請日，產生正規國內申請案效力",
+   "條約第 22 條或第 39 條規定之期限屆滿，正式開始美國國家階段",
+   "申請人於國家階段開始後，對說明書、請求項及圖式提出修正",
+   "條約第 28 條或第 41 條規定之期限屆滿後，官方始得核准或核駁專利"
+  ],
+  "evidence": [
+   {
+    "article": "363",
+    "quote": "An international application designating the United States shall have the effect, from its international filing date under article 11 of the treaty, of a national application for patent regularly filed in the Patent and Trademark Office."
+   },
+   {
+    "article": "371",
+    "quote": "(b) Subject to subsection (f) of this section, the national stage shall commence with the expiration of the applicable time limit under article 22(1) or (2), or under article 39(1)(a) of the treaty."
+   },
+   {
+    "article": "371",
+    "quote": "(e) After an international application has entered the national stage, no patent may be granted or refused thereon before the expiration of the applicable time limit under article 28 or article 41 of the treaty, except with the express consent of the applicant. The applicant may present amendments to the specification, claims and drawings of the application after the national stage has commenced."
+   }
+  ],
+  "explanation": "指定美國之國際申請案先自國際申請日起發生國內申請案效力；待條約第 22 條或第 39 條期限屆滿時開始國家階段；進入國家階段後申請人得提出修正，且除經申請人明示同意外，須待條約第 28 條或第 41 條期限屆滿後始得核准或核駁。"
+ },
+ {
+  "id": "u08-l2-q01",
+  "lessonId": "u08-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "在平時（非戰時亦非總統宣布之國家緊急狀態期間），對一項發明下達保密令（secrecy order）並扣留專利核發的單次期間，最長不得超過 1 年，但屆滿時得予延展。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "181",
+    "quote": "An invention shall not be ordered kept secret and the publication of the application or the grant of a patent withheld for a period of more than one year. The Commissioner of Patents shall renew the order at the end thereof, or at the end of any renewal period, for additional periods of one year upon notification by the head of the department or the chief officer of the agency who caused the order to be issued that an affirmative determination has been made that the national interest continues so to require."
+   }
+  ],
+  "explanation": "保密令單次期間不得超過 1 年（one year），但若促成該命令之部會或機關首長通知確認國家利益仍有必要時，專利局長應於期滿時每次延展 1 年。"
+ },
+ {
+  "id": "u08-l2-q02",
+  "lessonId": "u08-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "對於在美國境內完成之發明（invention made in this country），只要申請人自己不是美國公民，在向美國提出專利申請後的 6 個月內，無須取得外國申請許可（foreign filing license）即可直接向台灣或日本申請專利。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "184",
+    "quote": "Except when authorized by a license obtained from the Commissioner of Patents a person shall not file or cause or authorize to be filed in any foreign country prior to six months after filing in the United States an application for patent or for the registration of a utility model, industrial design, or model in respect of an invention made in this country."
+   }
+  ],
+  "explanation": "外國申請許可之管制標準在於該發明是否為「在美國境內完成之發明（invention made in this country）」，而非取決於申請人國籍。凡在美國完成之發明，於美國申請日起 6 個月內欲向任何外國申請專利、新型或設計，均須先取得外國申請許可，這點與台灣專利法無一般性出國申請許可期限限制截然不同。"
+ },
+ {
+  "id": "u08-l2-q03",
+  "lessonId": "u08-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "若申請人因過失（through error）未取得外國申請許可（foreign filing license）即先在外國提出專利申請，且該申請案並未揭露涉及國家安全之保密範圍標的，專利局長得事後追溯核發（granted retroactively）外國申請許可。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "184",
+    "quote": "The license may be granted retroactively where an application has been filed abroad through error and the application does not disclose an invention within the scope of section 181."
+   }
+  ],
+  "explanation": "若未取得許可而在外國申請純屬出於過失（through error），且該發明不屬於涉及國家安全的保密審查範圍，專利局長得追溯核發外國申請許可，以救濟該程序瑕疵。"
+ },
+ {
+  "id": "u08-l2-q04",
+  "lessonId": "u08-l2",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "當專利申請案被下達保密令（secrecy order）時，申請案所有人若對該保密令不服，依法有權向哪一個機關或首長提出上訴（appeal）？",
+  "options": [
+   "商務部長（Secretary of Commerce）",
+   "專利審判及上訴委員會（PTAB）",
+   "國防部長（Secretary of Defense）",
+   "聯邦巡迴上訴法院（CAFC）"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "181",
+    "quote": "The owner of an application which has been placed under a secrecy order shall have a right to appeal from the order to the Secretary of Commerce under rules prescribed by him."
+   }
+  ],
+  "explanation": "受到保密令限制之申請案所有人，有權依商務部長所定規則，向商務部長（Secretary of Commerce）提起上訴。"
+ },
+ {
+  "id": "u08-l2-q05",
+  "lessonId": "u08-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "受保密令（secrecy order）限制之專利申請案，若發明人未經專利局長同意而違反保密令公開發明或向外國申請專利，經認定構成放棄（abandonment）時，會產生什麼法律效果？",
+  "options": [
+   "自違反時起視為放棄，且喪失基於該發明對美國政府之一切求償請求權",
+   "自專利局長作成處分之日起視為放棄，但仍得請求美國政府給付半數補償金",
+   "僅暫時停止審查程序二年，申請人於繳納罰金後仍可恢復該專利申請案",
+   "僅在該外國申請案獲准專利時才視為放棄，且不影響對美國政府之求償權"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "182",
+    "quote": "The abandonment shall be held to have occurred as of the time of violation. The consent of the Commissioner of Patents shall not be given without the concurrence of the heads of the departments and the chief officers of the agencies who caused the order to be issued. A holding of abandonment shall constitute forfeiture by the applicant, his successors, assigns, or legal representatives, or anyone in privity with him or them, of all claims against the United States based upon such invention."
+   }
+  ],
+  "explanation": "違反保密令公開發明或擅自向國外申請專利者，其放棄溯及自違反行為發生時（as of the time of violation）生效，並且會導致申請人及其繼受人等喪失（forfeiture）基於該發明對美國政府的一切請求權。"
+ },
+ {
+  "id": "u08-l2-q06",
+  "lessonId": "u08-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case"
+  ],
+  "prompt": "工程師甲於美國加州研發出一項新型散熱結構（不涉及國家安全），並於 2026 年 3 月 10 日向美國專利商標局提出專利申請。若甲尚未取得外國申請許可（foreign filing license），最早應於何時之後，才可以在未持有該許可的情況下合法向台灣智慧財產局提出對應之專利或新型申請？",
+  "options": [
+   "2026 年 6 月 10 日（美國申請日起滿 3 個月後）",
+   "2026 年 9 月 10 日（美國申請日起滿 6 個月後）",
+   "2026 年 12 月 10 日（美國申請日起滿 9 個月後）",
+   "2027 年 3 月 10 日（美國申請日起滿 12 個月後）"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "184",
+    "quote": "Except when authorized by a license obtained from the Commissioner of Patents a person shall not file or cause or authorize to be filed in any foreign country prior to six months after filing in the United States an application for patent or for the registration of a utility model, industrial design, or model in respect of an invention made in this country."
+   }
+  ],
+  "explanation": "在美國境內完成的發明，除非已取得專利局長核發之外國申請許可，否則在美國提出申請後滿 6 個月（six months）之前，不得在外國申請專利、新型（utility model）或設計。因此 2026 年 3 月 10 日申請後，須滿 6 個月至 2026 年 9 月 10 日後始得免許可向外國申請。"
+ },
+ {
+  "id": "u08-l2-q07",
+  "lessonId": "u08-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case",
+   "procedure"
+  ],
+  "prompt": "乙公司的申請案因國防考量被下達保密令而扣留專利，乙於 2022 年 5 月 1 日收到官方通知「除該保密令外，申請案已達可核准狀態（in condition for allowance）」，後於 2025 年 8 月 1 日解除保密令並正式獲發專利。乙若欲向促成保密令之部會首長申請因保密令所受損害之補償（compensation），其申請期間之起訖為何？",
+  "options": [
+   "自 2022 年 5 月 1 日起，至 2031 年 8 月 1 日（專利核發後 6 年）止",
+   "自 2025 年 8 月 1 日起，至 2031 年 8 月 1 日（專利核發後 6 年）止",
+   "自 2022 年 5 月 1 日起，至 2028 年 5 月 1 日（通知核准後 6 年）止",
+   "自 2025 年 8 月 1 日起，至 2027 年 8 月 1 日（專利核發後 2 年）止"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "183",
+    "quote": "An applicant, his successors, assigns, or legal representatives, whose patent is withheld as herein provided, shall have the right, beginning at the date the applicant is notified that, except for such order, his application is otherwise in condition for allowance, or February 1, 1952, whichever is later, and ending six years after a patent is issued thereon, to apply to the head of any department or agency who caused the order to be issued for compensation for the damage caused by the order of secrecy and/or for the use of the invention by the Government, resulting from his disclosure."
+   }
+  ],
+  "explanation": "申請行政補償的權利期間，自申請人獲通知「除保密令外申請案已達可核准狀態」之日（2022 年 5 月 1 日）起算，並於該案核發專利後 6 年（six years after a patent is issued thereon，即 2031 年 8 月 1 日）屆滿。"
+ },
+ {
+  "id": "u08-l2-q08",
+  "lessonId": "u08-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "因保密令受損之申請人向促成保密令之部會首長申請補償時，若雙方無法達成完全和解（full settlement），該部會首長最多得先核給並支付其認為屬正當補償（just compensation）金額的多少比例？",
+  "options": [
+   "不超過正當補償金額之 75%",
+   "不超過正當補償金額之 50%",
+   "不超過正當補償金額之 25%",
+   "不超過正當補償金額之 90%"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "183",
+    "quote": "If full settlement of the claim cannot be effected, the head of the department or agency may award and pay to such applicant, his successors, assigns, or legal representatives, a sum not exceeding 75 per centum of the sum which the head of the department or agency considers just compensation for the damage and/or use."
+   }
+  ],
+  "explanation": "若無法達成完全和解，部會或機關首長得核給並支付不超過其認為正當補償金額之 75%（75 per centum），請求人並得就差額向聯邦求償法院或住所地聯邦地方法院提起訴訟。"
+ },
+ {
+  "id": "u08-l2-q09",
+  "lessonId": "u08-l2",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "An order in effect, or issued, during a time when the United States is at war, shall remain in effect for the duration of hostilities and {{0}} following cessation of hostilities. An order in effect, or issued, during a national emergency declared by the President shall remain in effect for the duration of the national emergency and {{1}} thereafter.",
+  "blanks": [
+   "one year",
+   "six months"
+  ],
+  "distractors": [
+   "two years",
+   "three months",
+   "five years"
+  ],
+  "evidence": [
+   {
+    "article": "181",
+    "quote": "An order in effect, or issued, during a time when the United States is at war, shall remain in effect for the duration of hostilities and one year following cessation of hostilities. An order in effect, or issued, during a national emergency declared by the President shall remain in effect for the duration of the national emergency and six months thereafter."
+   }
+  ],
+  "explanation": "戰時有效或發布之保密令，於敵對行動期間及敵對行動終止後 1 年（one year）內繼續有效；總統宣布之國家緊急狀態期間有效或發布之保密令，則於緊急狀態期間及其後 6 個月（six months）內繼續有效。"
+ },
+ {
+  "id": "u08-l2-q10",
+  "lessonId": "u08-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "A United States patent issued to such person, his successors, assigns, or legal representatives shall be {{0}}, unless the failure to procure such license was through {{1}}, and the patent does not disclose subject matter within the scope of section 181.",
+  "blanks": [
+   "invalid",
+   "error"
+  ],
+  "distractors": [
+   "unenforceable",
+   "fraud",
+   "negligence"
+  ],
+  "evidence": [
+   {
+    "article": "185",
+    "quote": "A United States patent issued to such person, his successors, assigns, or legal representatives shall be invalid, unless the failure to procure such license was through error, and the patent does not disclose subject matter within the scope of section 181."
+   }
+  ],
+  "explanation": "違反外國申請許可規定而擅自於外國申請者，所獲發之美國專利應屬無效（invalid），但若未取得許可是出於過失（error）且不涉及第 181 條之國家安全保密標的者，不在此限。"
+ },
+ {
+  "id": "u08-l2-q11",
+  "lessonId": "u08-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "whoever willfully, in violation of the provisions of section 184, shall file or cause or authorize to be filed in any foreign country an application for patent or for the registration of a utility model, industrial design, or model in respect of any invention made in the United States, shall, upon conviction, be fined not more than {{0}} or imprisoned for not more than {{1}}, or both.",
+  "blanks": [
+   "$10,000",
+   "two years"
+  ],
+  "distractors": [
+   "$100,000",
+   "five years",
+   "one year"
+  ],
+  "evidence": [
+   {
+    "article": "186",
+    "quote": "whoever willfully, in violation of the provisions of section 184, shall file or cause or authorize to be filed in any foreign country an application for patent or for the registration of a utility model, industrial design, or model in respect of any invention made in the United States, shall, upon conviction, be fined not more than $10,000 or imprisoned for not more than two years, or both."
+   }
+  ],
+  "explanation": "故意（willfully）違反保密令公開發明，或故意違反第 184 條外國申請許可規定向國外提出申請者，一經定罪，可處不超過 10,000 美元（$10,000）罰金或 2 年（two years）以下有期徒刑，或併科之。"
+ },
+ {
+  "id": "u08-l2-q12",
+  "lessonId": "u08-l2",
+  "type": "match",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "請將保密令與外國申請許可的法定事由與其對應之期間或數額配對",
+  "pairs": [
+   {
+    "left": "平時保密令單次最長期間",
+    "right": "1 年（得每年延展）"
+   },
+   {
+    "left": "國家緊急狀態結束後保密令延續",
+    "right": "6 個月"
+   },
+   {
+    "left": "對保密令申請行政補償之截止期",
+    "right": "專利核發後 6 年"
+   },
+   {
+    "left": "故意違反保密令之最高有期徒刑",
+    "right": "2 年"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "181",
+    "quote": "An invention shall not be ordered kept secret and the publication of the application or the grant of a patent withheld for a period of more than one year."
+   },
+   {
+    "article": "181",
+    "quote": "An order in effect, or issued, during a national emergency declared by the President shall remain in effect for the duration of the national emergency and six months thereafter."
+   },
+   {
+    "article": "183",
+    "quote": "An applicant, his successors, assigns, or legal representatives, whose patent is withheld as herein provided, shall have the right, beginning at the date the applicant is notified that, except for such order, his application is otherwise in condition for allowance, or February 1, 1952, whichever is later, and ending six years after a patent is issued thereon, to apply to the head of any department or agency who caused the order to be issued for compensation"
+   },
+   {
+    "article": "186",
+    "quote": "shall, upon conviction, be fined not more than $10,000 or imprisoned for not more than two years, or both."
+   }
+  ],
+  "explanation": "平時保密令單次不超過 1 年；國家緊急狀態結束後保密令持續有效 6 個月；向行政機關申請補償於專利核發後 6 年截止；故意違反保密令或外國申請規定最高可處 2 年有期徒刑。"
+ },
+ {
+  "id": "u08-l2-q13",
+  "lessonId": "u08-l2",
+  "type": "order",
+  "difficulty": 3,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "對於美國政府無財產上利益（does not have a property interest）但專利局長認為公開可能危及國家安全的專利申請案，請依序排出從檢視到核發專利後補償的法定程序",
+  "items": [
+   "專利局長將申請案提供予國防部等國防機關首長檢視",
+   "檢視申請案之人員簽署載明日期之收據並歸入申請案卷宗",
+   "國防機關首長認危及國安而通知專利局長下達保密令並通知申請人",
+   "申請人獲通知除保密令外已達可核准狀態後，向該機關首長申請補償"
+  ],
+  "evidence": [
+   {
+    "article": "181",
+    "quote": "Whenever the publication or disclosure of an invention by the publication of an application or by the granting of a patent, in which the Government does not have a property interest, might, in the opinion of the Commissioner of Patents, be detrimental to the national security, he shall make the application for patent in which such invention is disclosed available for inspection to the Atomic Energy Commission, the Secretary of Defense, and the chief officer of any other department or agency of the Government designated by the President as a defense agency of the United States."
+   },
+   {
+    "article": "181",
+    "quote": "Each individual to whom the application is disclosed shall sign a dated acknowledgment thereof, which acknowledgment shall be entered in the file of the application. If, in the opinion of the Atomic Energy Commission, the Secretary of a Defense Department, or the chief officer of another department or agency so designated, the publication or disclosure of the invention by the publication of an application or by the granting of a patent therefor would be detrimental to the national security, the Atomic Energy Commission, the Secretary of a Defense Department, or such other chief officer shall notify the Commissioner of Patents and the Commissioner of Patents shall order that the invention be kept secret and shall withhold the publication of the application or the grant of a patent for such period as the national interest requires, and notify the applicant thereof."
+   },
+   {
+    "article": "183",
+    "quote": "An applicant, his successors, assigns, or legal representatives, whose patent is withheld as herein provided, shall have the right, beginning at the date the applicant is notified that, except for such order, his application is otherwise in condition for allowance, or February 1, 1952, whichever is later, and ending six years after a patent is issued thereon, to apply to the head of any department or agency who caused the order to be issued for compensation"
+   }
+  ],
+  "explanation": "當政府對該發明無財產利益時，先由專利局長交由國防相關機關檢視；接觸申請案之人員須簽署具日期之收據（dated acknowledgment）入卷；若該機關首長認有損國安則通知專利局長下達保密令；嗣後申請人於獲通知除保密令外已達可核准狀態（in condition for allowance）起，得向該機關首長申請補償。"
+ }
+]

@@ -1,0 +1,1336 @@
+[
+ {
+  "id": "u09-l1-q01",
+  "lessonId": "u09-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "生技研究員甲透過基因工程改造出一種自然界不存在的活體細菌，能分解原油污染物。審查官以「活體生物（living things）不屬於 35 U.S.C. § 101 可專利標的」為由核駁其細菌請求項。依 Chakrabarty 案，法院應如何認定？",
+  "options": [
+   "具專利適格性，人造且具獨特名稱、性質與用途的活體微生物屬於製造物或物質組成物",
+   "不具專利適格性，因為活體生物一律屬於自然現象，必須由國會另立專法才能給予保護",
+   "不具專利適格性，因為基因工程伴隨潛在生態風險，法院應依公共政策拒絕給予專利權",
+   "具專利適格性，但僅限於使用該細菌分解原油的方法請求項，活體細菌本身不得申請專利"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "chakrabarty",
+    "quote": "Held: A live, human-made micro-organism is patentable subject matter under § 101. Respondent's micro-organism constitutes a \"manufacture\" or \"composition of matter\" within that statute."
+   }
+  ],
+  "explanation": "依 Chakrabarty 案，人造的活體微生物屬於 35 U.S.C. § 101 所稱之製造物（manufacture）或物質組成物（composition of matter），並非自然現象，因此具備專利適格性。"
+ },
+ {
+  "id": "u09-l1-q02",
+  "lessonId": "u09-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "definition"
+  ],
+  "prompt": "依 Chakrabarty 案，由於國會制定 § 101 時尚未預見基因工程技術，法院在國會明確修法授權前，不得將基因改造微生物納入專利適格標的（patentable subject matter）。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "chakrabarty",
+    "quote": "Nor does the fact that genetic technology was unforeseen when Congress enacted § 101 require the conclusion that micro-organisms cannot qualify as patentable subject matter until Congress expressly authorizes such protection."
+   }
+  ],
+  "explanation": "最高法院在 Chakrabarty 案明確指出，立法當時未能預見基因技術，並不代表微生物必須等國會明文授權才能成為適格標的；§ 101 明確而廣泛的文義已足以涵蓋該人造微生物發明。"
+ },
+ {
+  "id": "u09-l1-q03",
+  "lessonId": "u09-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "definition"
+  ],
+  "prompt": "請依 Chakrabarty 案 Syllabus 原文填入正確詞語：",
+  "text": "While laws of nature, physical phenomena, and {{0}} are not patentable, respondent's claim is not to a hitherto unknown natural phenomenon, but to a nonnaturally occurring {{1}} or composition of matter-a product of human {{2}} \"having a distinctive name, character [and] use.\"",
+  "blanks": [
+   "abstract ideas",
+   "manufacture",
+   "ingenuity"
+  ],
+  "distractors": [
+   "business methods",
+   "machine",
+   "discovery"
+  ],
+  "evidence": [
+   {
+    "case": "chakrabarty",
+    "quote": "While laws of nature, physical phenomena, and abstract ideas are not patentable, respondent's claim is not to a hitherto unknown natural phenomenon, but to a nonnaturally occurring manufacture or composition of matter-a product of human ingenuity \"having a distinctive name, character [and] use.\""
+   }
+  ],
+  "explanation": "Chakrabarty 案重申自然法則（laws of nature）、物理現象（physical phenomena）與抽象概念（abstract ideas）不可專利，但申請人的細菌屬於非自然發生的製造物（manufacture）或物質組成物，是人類巧思（ingenuity）的產物。"
+ },
+ {
+  "id": "u09-l1-q04",
+  "lessonId": "u09-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "工程師乙發明一種合成橡膠硫化成型製程，持續量測模具內溫度並輸入電腦，利用已知的阿瑞尼氏數學方程式重複計算硫化時間，再由電腦發出訊號自動打開壓模機。依 Diehr 案，法院應如何評價該製程請求項之 § 101 專利適格性？",
+  "options": [
+   "具專利適格性，整體請求項將數學公式應用於轉化橡膠狀態的工業製程，未壟斷公式本身",
+   "不具專利適格性，因為製程的核心貢獻在於電腦運算已知數學公式，屬於抽象概念之範疇",
+   "不具專利適格性，因為扣除數學公式與電腦後，壓模機與加熱步驟皆為先前技術已知元件",
+   "具專利適格性，但前提是請求項所使用的數學方程式本身必須是申請人全新推導出的公式"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "diehr",
+    "quote": "When a claim containing a mathematical formula implements or applies the formula in a structure or process which, when considered as a whole, is performing a function which the patent laws were designed to protect (e. g., transforming or reducing an article to a different state or thing), then the claim satisfies § 101's requirements."
+   }
+  ],
+  "explanation": "依 Diehr 案，雖然數學公式本身不可專利，但當請求項作為整體觀察時，係將公式應用於轉化合成橡膠物理狀態的工業製程，並未全面預先壟斷（pre-empt）該公式的使用，故符合 § 101。"
+ },
+ {
+  "id": "u09-l1-q05",
+  "lessonId": "u09-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Diehr 案，審查 § 101 專利適格性時，應先將請求項拆解為新元件與舊元件，並忽略舊元件的存在，只看新元件本身是否屬於適格標的。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "diehr",
+    "quote": "Respondents' claims must be considered as a whole, it being inappropriate to dissect the claims into old and new elements and then to ignore the presence of the old elements in the analysis."
+   }
+  ],
+  "explanation": "Diehr 案強調請求項必須作為整體（as a whole）考量，在 § 101 分析中將請求項拆解為新舊元件並忽略舊元件的做法是不恰當的。"
+ },
+ {
+  "id": "u09-l1-q06",
+  "lessonId": "u09-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Diehr 案 Syllabus 原文填入正確詞語：",
+  "text": "A claim drawn to subject matter otherwise {{0}} does not become nonstatutory simply because it uses a {{1}}, computer program, or {{2}}.",
+  "blanks": [
+   "statutory",
+   "mathematical formula",
+   "digital computer"
+  ],
+  "distractors": [
+   "novel",
+   "natural phenomenon",
+   "living organism"
+  ],
+  "evidence": [
+   {
+    "case": "diehr",
+    "quote": "A claim drawn to subject matter otherwise statutory does not become nonstatutory simply because it uses a mathematical formula, computer program, or digital computer."
+   }
+  ],
+  "explanation": "Diehr 案指出，原本屬於法定適格標的（statutory subject matter）的請求項，不會單純因為使用了數學公式（mathematical formula）、電腦程式或數位電腦（digital computer）就變成不適格。"
+ },
+ {
+  "id": "u09-l1-q07",
+  "lessonId": "u09-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "comparison"
+  ],
+  "prompt": "關於 35 U.S.C. § 101 專利適格性與 § 102 新穎性（novelty）、§ 103 非顯而易知性（nonobviousness）之間的關係，下列何者符合 Diehr 案與 Bilski 案的見解？",
+  "options": [
+   "§ 101 僅是門檻測試，符合 § 101 四大類別的發明仍須分別滿足 § 102、§ 103 與 § 112 要件",
+   "只要發明完全符合 § 102 新穎性與 § 103 非顯而易知性，即自動滿足 § 101 專利適格性要件",
+   "若請求項中包含已見於先前技術的已知步驟，即不屬於 § 101 所稱之「新（new）」方法而喪失適格性",
+   "審查官應先完成 § 102 與 § 103 的先前技術比對，只有不具新穎性的請求項才需進入 § 101 審查"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "diehr",
+    "quote": "The questions of whether a particular invention meets the \"novelty\" requirements of 35 U. S. C. § 102 or the \"nonobviousness\" requirements of § 103 do not affect the determination of whether the invention falls into a category of subject matter that is eligible for patent protection under § 101."
+   },
+   {
+    "case": "bilski",
+    "quote": "The § 101 eligibility inquiry is only a threshold test. Even if a claimed invention qualifies in one of the four categories, it must also satisfy “the conditions and requirements of this title,” § 101, including novelty, see § 102, nonobviousness, see § 103, and a full and particular description, see § 112."
+   }
+  ],
+  "explanation": "Diehr 案與 Bilski 案均強調，§ 101 專利適格性只是門檻測試（threshold test），是否符合 § 102 新穎性或 § 103 非顯而易知性不影響 § 101 的類別判斷，且通過 § 101 後仍須滿足 §§ 102、103、112 等要件。"
+ },
+ {
+  "id": "u09-l1-q08",
+  "lessonId": "u09-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "申請人丙就能源市場中商品買賣雙方規避價格波動風險的「風險避險步驟（hedging risk）」及對應數學公式申請方法專利。依 Bilski 案，最高法院如何判決？",
+  "options": [
+   "不具專利適格性，因為避險概念及其數學公式與能源市場應用皆屬於不可專利的抽象概念",
+   "不具專利適格性，因為該方法未連結特定機器亦未轉化特定物品，違反唯一的機器或轉化測試",
+   "不具專利適格性，因為 § 101 所稱之「方法（process）」在文義上全面排除所有商業方法專利",
+   "具專利適格性，因為該避險方法在能源市場能產生「有用、具體且有形的結果」而具實用價值"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "bilski",
+    "quote": "Claims 1 and 4 explain the basic concept of hedging and reduce that concept to a mathematical formula. This is an unpatentable abstract idea, just like the algorithms at issue in Benson and Flook."
+   },
+   {
+    "case": "bilski",
+    "quote": "The machine-or-transformation test is not the sole test for patent eligibility under § 101."
+   }
+  ],
+  "explanation": "在 Bilski 案中，最高法院雖然否定了「機器或轉化測試法是唯一標準」與「商業方法全面排除論」，但仍判決申請人的風險避險方法屬於不可專利的抽象概念（abstract idea）。"
+ },
+ {
+  "id": "u09-l1-q09",
+  "lessonId": "u09-l1",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Bilski 案，「機器或轉化測試法（machine-or-transformation test）」雖然是判斷 § 101 方法適格性的重要線索或調查工具，但並非唯一測試標準。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "bilski",
+    "quote": "The machine-or-transformation test is not the sole test for patent eligibility under § 101. The Court’s precedents establish that although that test may be a useful and important clue or investigative tool, it is not the sole test for deciding whether an invention is a patent-eligible “process” under § 101."
+   }
+  ],
+  "explanation": "Bilski 案明確推翻聯邦巡迴上訴法院將「機器或轉化測試法」視為唯一標準的見解，指出該測試只是重要線索或調查工具（useful and important clue or investigative tool），而非唯一測試。"
+ },
+ {
+  "id": "u09-l1-q10",
+  "lessonId": "u09-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "在 Bilski 案中，最高法院引用 35 U.S.C. 哪一項條文規定，證明聯邦法律本身已承認至少某些「商業方法專利（business method patents）」可能存在，因此不能將商業方法從 § 101 一概排除？",
+  "options": [
+   "§ 273 關於方法專利之先使用抗辯（defense of prior use）規定",
+   "§ 156 關於醫藥與商業方法專利之專利權期間延長規定",
+   "§ 171 關於裝飾性設計與商業圖表之設計專利保護規定",
+   "§ 289 關於商業方法侵權時得請求全部商業利潤之賠償規定"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "bilski",
+    "quote": "Under § 273(b)(1), if a patent holder claims infringement based on “a method in [a] patent,” the alleged infringer can assert a defense of prior use. By allowing this defense, the statute itself acknowledges that there may be business method patents. Section 273 thus clarifies the understanding that a business method is simply one kind of “method” that is, at least in some circumstances, eligible for patenting under § 101."
+   }
+  ],
+  "explanation": "Bilski 案指出，35 U.S.C. § 273 針對方法專利提供了先使用抗辯（defense of prior use），若解釋 § 101 完全排除商業方法，將使 § 273 形同具文（superfluous）。"
+ },
+ {
+  "id": "u09-l1-q11",
+  "lessonId": "u09-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Bilski 案 Syllabus 原文填入正確詞語：",
+  "text": "The {{0}} test is not the {{1}} test for patent eligibility under § 101. The Court’s precedents establish that although that test may be a useful and important {{2}} or investigative tool, it is not the sole test for deciding whether an invention is a patent-eligible “process” under § 101.",
+  "blanks": [
+   "machine-or-transformation",
+   "sole",
+   "clue"
+  ],
+  "distractors": [
+   "useful-concrete-tangible",
+   "threshold",
+   "exception"
+  ],
+  "evidence": [
+   {
+    "case": "bilski",
+    "quote": "The machine-or-transformation test is not the sole test for patent eligibility under § 101. The Court’s precedents establish that although that test may be a useful and important clue or investigative tool, it is not the sole test for deciding whether an invention is a patent-eligible “process” under § 101."
+   }
+  ],
+  "explanation": "Bilski 案確立機器或轉化測試法（machine-or-transformation test）並非 § 101 的唯一（sole）測試，而是實用且重要的線索（clue）或調查工具。"
+ },
+ {
+  "id": "u09-l1-q12",
+  "lessonId": "u09-l1",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "comparison"
+  ],
+  "prompt": "請將下列判例與其確立或代表的 § 101 專利適格性原則進行配對：",
+  "pairs": [
+   {
+    "left": "Chakrabarty 案",
+    "right": "人造活體微生物具專利適格性"
+   },
+   {
+    "left": "Diehr 案",
+    "right": "含公式與電腦之橡膠硫化製程適格"
+   },
+   {
+    "left": "Bilski 案",
+    "right": "風險避險屬抽象概念且M-or-T非唯一"
+   },
+   {
+    "left": "State Street 案",
+    "right": "有用具體且有形結果之舊測試法"
+   }
+  ],
+  "evidence": [
+   {
+    "case": "chakrabarty",
+    "quote": "Held: A live, human-made micro-organism is patentable subject matter under § 101."
+   },
+   {
+    "case": "diehr",
+    "quote": "While a mathematical formula, like a law of nature, cannot be the subject of a patent, cf. Gottschalk v. Benson, 409 U. S. 63; Parker v.\nFlook, 437 U. S. 584, respondents do not seek to patent a mathematical formula, but instead seek protection for a process of curing synthetic rubber."
+   },
+   {
+    "case": "bilski",
+    "quote": "The en banc court rejected its prior test for determining whether a claimed invention was a patentable “process” under the Patent Act, 35 U. S. C. § 101—i. e., whether the invention produced a “ ‘useful, concrete and tangible result,’ ” see, e. g., State Street Bank & Trust Co. v. Signature Financial Group, Inc., 149 F. 3d 1368, 1373— holding instead that a claimed process is patent eligible if: (1) it is tied to a particular machine or apparatus, or (2) it transforms a particular article into a different state or thing."
+   }
+  ],
+  "explanation": "Chakrabarty 案肯認人造活體微生物適格；Diehr 案肯認整合數學公式與電腦之合成橡膠硫化製程適格；Bilski 案認定避險概念屬抽象概念並指出機器或轉化測試非唯一標準；State Street 案則是被廢棄的「有用、具體且有形結果」舊測試法代表判例。"
+ },
+ {
+  "id": "u09-l2-q01",
+  "lessonId": "u09-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "研究團隊發現病患服用硫嘌呤（thiopurine）藥物後，血液中特定代謝物濃度與藥效不足或毒性副作用之精確臨界值關聯，並申請醫療方法專利，步驟包含：（1）對病患投予該藥物；（2）以習知方法測定血液代謝物濃度；（3）提示濃度高於或低於臨界值時需增減劑量。依 Mayo 案，法院應如何判決？",
+  "options": [
+   "不具專利適格性，代謝物與藥效關聯屬自然法則，附加之投藥與檢測僅為熟知例行之慣常活動",
+   "具專利適格性，因為投予藥物與抽血檢測涉及人體組織之物理轉化，滿足機器或轉化測試法",
+   "具專利適格性，因為該專利所記載之代謝物濃度臨界值極為具體狹隘，不會阻礙未來醫學研究",
+   "不具專利適格性，因為美國專利法 § 101 明文禁止任何涉及人體醫療診斷或給藥步驟之方法專利"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "mayo",
+    "quote": "Because the laws of nature recited by Prometheus’ patent claims—the relationships between concentrations of certain metabolites in the blood and the likelihood that a thiopurine drug dosage will prove ineffective or cause harm—are not themselves patentable, the claimed processes are not patentable unless they have additional features that provide practical assurance that the processes are genuine applications of those laws rather than drafting efforts designed to monopolize the correlations."
+   },
+   {
+    "case": "mayo",
+    "quote": "The three steps add nothing specific to the laws of nature other than what is well-understood, routine, conventional activity, previously engaged in by those in the field."
+   }
+  ],
+  "explanation": "依 Mayo 案，血液代謝物濃度與藥效或毒性的關聯本身是自然法則（laws of nature），而附加的投藥、習知檢測與提示步驟僅是該領域熟知、例行且慣常的活動（well-understood, routine, conventional activity），無法將自然法則轉化為適格專利。"
+ },
+ {
+  "id": "u09-l2-q02",
+  "lessonId": "u09-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Mayo 案 Syllabus 原文填入正確詞語：",
+  "text": "But to transform an unpatentable {{0}} into a patenteligible application of such a law, a patent must do more than simply state the law of nature while adding the words “{{1}}.” See, e. g., Gottschalk v. Benson, 409 U. S. 63, 71–72. It must limit its reach to a particular, {{2}} application of the law.",
+  "blanks": [
+   "law of nature",
+   "apply it",
+   "inventive"
+  ],
+  "distractors": [
+   "composition of matter",
+   "isolate it",
+   "routine"
+  ],
+  "evidence": [
+   {
+    "case": "mayo",
+    "quote": "But to transform an unpatentable law of nature into a patenteligible application of such a law, a patent must do more than simply state the law of nature while adding the words “apply it.” See, e. g., Gottschalk v. Benson, 409 U. S. 63, 71–72. It must limit its reach to a particular, inventive application of the law."
+   }
+  ],
+  "explanation": "Mayo 案指出，要將不可專利的自然法則（law of nature）轉化為具專利適格性的應用，不能只是陳述自然法則再冠上「應用它（apply it）」的字眼，而必須限縮於特定、具發明性（inventive）的應用。"
+ },
+ {
+  "id": "u09-l2-q03",
+  "lessonId": "u09-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Mayo 案，只要專利請求項所體現的自然法則非常狹隘且具體（narrow and specific），法院就應該維持其 § 101 專利適格性，並交由 §§ 102、103 及 112 來篩除過廣的請求項。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "mayo",
+    "quote": "Additional arguments supporting Prometheus’ position—that the process is patent eligible because it passes the “machine-ortransformation test”; that, because the particular laws of nature that the claims embody are narrow and specific, the patents should be upheld; that the Court should not invalidate these patents under § 101 because the Patent Act’s other validity requirements will screen out overly broad patents; and that a principle of law denying patent coverage here will discourage investment in discoveries of new diagnostic laws of nature—do not lead to a different conclusion."
+   }
+  ],
+  "explanation": "在 Mayo 案中，最高法院明確駁回了 Prometheus 主張「自然法則狹隘具體即應適格」以及「應完全交由專利法其他有效性要件把關而非依 § 101 無效」的論點。"
+ },
+ {
+  "id": "u09-l2-q04",
+  "lessonId": "u09-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "生技公司定位出與乳癌風險相關的 BRCA1 與 BRCA2 基因位置與序列，並申請兩類物質請求項：第一類為從人體染色體切斷共價鍵而「分離出的天然 DNA 片段（isolated DNA）」，第二類為在實驗室中去除內含子（introns）、僅保留外顯子（exons）而合成的「互補 DNA（cDNA）」。依 Myriad 案，法院應如何判決？",
+  "options": [
+   "分離出的天然 DNA 屬於自然產物而不具專利適格性；cDNA 非自然存在，具備專利適格性",
+   "兩者皆具專利適格性，因為分離天然 DNA 切斷了化學共價鍵，已改變分子的化學結構",
+   "兩者皆不具專利適格性，因為 cDNA 的外顯子排列順序仍由天然基因決定，屬於自然現象",
+   "分離出的天然 DNA 具專利適格性，因為定位基因耗費龐大研發心血，應給予專利獎勵"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "myriad",
+    "quote": "Held: A naturally occurring DNA segment is a product of nature and not patent eligible merely because it has been isolated, but cDNA is patent eligible because it is not naturally occurring."
+   }
+  ],
+  "explanation": "依 Myriad 案，天然存在的 DNA 片段不會僅因被分離（isolated）就脫離自然產物之範疇，故不具專利適格性；而 cDNA 是去除內含子後人工合成的僅含外顯子分子，非自然存在，因此具專利適格性。"
+ },
+ {
+  "id": "u09-l2-q05",
+  "lessonId": "u09-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Myriad 案，只要科學家投入龐大研究心力，完成開創性、創新性甚至極為卓越的自然發現（groundbreaking, innovative, or even brilliant discovery），該發現本身即可滿足 35 U.S.C. § 101 的專利適格性要求。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "myriad",
+    "quote": "It found an important and useful gene, but groundbreaking, innovative, or even brilliant discovery does not by itself satisfy the § 101 inquiry."
+   }
+  ],
+  "explanation": "Myriad 案明確指出，儘管 Myriad 發現了重要且有用的基因，但開創性、創新甚至卓越的「發現」及龐大的研究努力本身，並不足以滿足 § 101 的適格性要求。"
+ },
+ {
+  "id": "u09-l2-q06",
+  "lessonId": "u09-l2",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Myriad 案 Syllabus 原文填入正確詞語：",
+  "text": "Held: A naturally occurring {{0}} segment is a {{1}} and not patent eligible merely because it has been {{2}}, but cDNA is patent eligible because it is not naturally occurring.",
+  "blanks": [
+   "DNA",
+   "product of nature",
+   "isolated"
+  ],
+  "distractors": [
+   "protein",
+   "abstract idea",
+   "synthesized"
+  ],
+  "evidence": [
+   {
+    "case": "myriad",
+    "quote": "Held: A naturally occurring DNA segment is a product of nature and not patent eligible merely because it has been isolated, but cDNA is patent eligible because it is not naturally occurring."
+   }
+  ],
+  "explanation": "Myriad 案的核心判決：天然存在的 DNA 片段屬於自然產物（product of nature），不會僅因被分離（isolated）就具專利適格性；但 cDNA 因非自然存在而具專利適格性。"
+ },
+ {
+  "id": "u09-l2-q07",
+  "lessonId": "u09-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "專利權人主張一種利用電腦系統作為第三方中介以降低金融交易「交割風險（settlement risk）」的專利，包含方法、電腦系統及電腦可讀媒體請求項；其中電腦在各步驟分別執行建立影子帳戶、取得資料、調整帳戶餘額及發出自動指令等功能。依 Alice 案，法院應如何判決？",
+  "options": [
+   "全部不具專利適格性，中介交割屬抽象概念，僅以通用電腦執行慣常功能無法提供發明概念",
+   "方法請求項不具適格性，但電腦系統與媒體請求項因為記載具體硬體元件而具專利適格性",
+   "全部具專利適格性，因為透過電腦建立影子帳戶並自動調整餘額已將抽象概念限制於特定技術環境",
+   "全部具專利適格性，因為金融交割系統能大幅降低違約風險，屬於商業上極具價值的電腦應用"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "alice",
+    "quote": "The claims at issue are directed to a patent-ineligible concept: the abstract idea of intermediated settlement."
+   },
+   {
+    "case": "alice",
+    "quote": "Turning to the second step of Mayo's framework: The method claims, which merely require generic computer implementation, fail to transform that abstract idea into a patent-eligible invention."
+   },
+   {
+    "case": "alice",
+    "quote": "Because petitioner's system and media claims add nothing of substance to the underlying abstract idea, they too are patent ineligible under § 101."
+   }
+  ],
+  "explanation": "依 Alice 案，中介交割（intermediated settlement）是長期盛行的基本經濟實務，屬於抽象概念；僅指示在通用電腦（generic computer）上執行純粹慣常功能無法提供發明概念，且系統與媒體請求項在實質上亦無不同，故全部不具 § 101 適格性。"
+ },
+ {
+  "id": "u09-l2-q08",
+  "lessonId": "u09-l2",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "procedure"
+  ],
+  "prompt": "請依 Alice 案與 Mayo 案確立的 § 101 專利適格性審查架構，排列法院審查請求項的正確先後步驟：",
+  "items": [
+   "判斷系爭請求項是否指向自然法則、自然現象或抽象概念等不適格概念",
+   "個別並作為有序組合地審視請求項之各元件，尋找是否具備「發明概念（inventive concept）」",
+   "判定附加元件是否超越熟知、例行且慣常之活動，而將請求項性質轉化為專利適格之應用"
+  ],
+  "evidence": [
+   {
+    "case": "alice",
+    "quote": "Using this framework, the Court must first determine whether the claims at issue are directed to a patent-ineligible concept."
+   },
+   {
+    "case": "alice",
+    "quote": "[S]imply appending conventional steps, specifed at a high level of generality,” to a method already “well known in the art” is not “enough” to supply the “ `inventive concept' ” needed to make this transformation."
+   }
+  ],
+  "explanation": "依 Mayo/Alice 兩步驟測試法，法院第一步先判斷請求項是否指向不適格概念（自然法則、自然現象或抽象概念）；若是，第二步再個別及作為有序組合（ordered combination）地檢視請求項元件是否提供超越熟知、例行、慣常活動的「發明概念（inventive concept）」，以將請求項轉化為適格應用。"
+ },
+ {
+  "id": "u09-l2-q09",
+  "lessonId": "u09-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Alice 案，即使方法請求項因為僅在通用電腦上實施抽象概念而不具專利適格性，只要將同一概念改寫為「配置以執行該方法的通用電腦硬體系統請求項」，即可通過 § 101 審查。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "alice",
+    "quote": "The method claims recite the abstract idea implemented on a generic computer; the system claims recite a handful of generic computer components configured to implement the same idea. This Court has long “warn[ed] . . . against” interpreting § 101 “in ways that make patent eligibility `depend simply on the draftsman's art.' ” Mayo, supra, at 72. Holding that the system claims are patent eligible would have exactly that result."
+   }
+  ],
+  "explanation": "Alice 案警告，不得將 § 101 解釋為僅取決於「撰稿人的技巧（draftsman's art）」。當系統請求項只是列舉少數通用電腦元件來實施相同的抽象概念時，實質上與方法請求項毫無二致，同樣不具專利適格性。"
+ },
+ {
+  "id": "u09-l2-q10",
+  "lessonId": "u09-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Alice 案 Syllabus 原文填入正確詞語：",
+  "text": "Viewed as a whole, these method claims simply recite the concept of {{0}} as performed by a {{1}}. They do not, for example, purport to improve the functioning of the computer itself or effect an {{2}} in any other technology or technical field.",
+  "blanks": [
+   "intermediated settlement",
+   "generic computer",
+   "improvement"
+  ],
+  "distractors": [
+   "genetic isolation",
+   "specialized apparatus",
+   "experimentation"
+  ],
+  "evidence": [
+   {
+    "case": "alice",
+    "quote": "Viewed as a whole, these method claims simply recite the concept of intermediated settlement as performed by a generic computer. They do not, for example, purport to improve the functioning of the computer itself or effect an improvement in any other technology or technical field."
+   }
+  ],
+  "explanation": "Alice 案指出，系爭方法請求項整體而言只是由通用電腦（generic computer）執行中介交割（intermediated settlement）概念，並未改善電腦本身的功能，也未對其他技術領域帶來改良（improvement）。"
+ },
+ {
+  "id": "u09-l2-q11",
+  "lessonId": "u09-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "在 Myriad 案中，最高法院特別聲明該判決「並未涉及（does not involve）」下列哪一事項，因此相關標的仍可能具備專利適格性？",
+  "options": [
+   "方法請求項、關於 BRCA 基因知識的新應用專利，以及核苷酸自然排列順序已被改變之 DNA",
+   "直接從人體細胞染色體切斷化學共價鍵所分離出的天然 BRCA1 與 BRCA2 基因片段物質請求項",
+   "在通用電腦上實施中介交割或風險避險等基本金融與經濟實務的商業方法及電腦系統請求項",
+   "對自體免疫疾病患者投予硫嘌呤藥物並以習知方法量測血液代謝物濃度之醫療診斷方法請求項"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "myriad",
+    "quote": "This case, it is important to note, does not involve method claims, patents on new applications of knowledge about the BRCA1 and BRCA2 genes, or the patentability of DNA in which the order of the naturally occurring nucleotides has been altered."
+   }
+  ],
+  "explanation": "Myriad 案在 Syllabus (d) 段特別說明，該案不涉及方法請求項（method claims）、關於 BRCA1 與 BRCA2 基因知識之新應用專利，或天然核苷酸順序已被改變之 DNA 的可專利性。"
+ },
+ {
+  "id": "u09-l2-q12",
+  "lessonId": "u09-l2",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "comparison"
+  ],
+  "prompt": "請將下列判例與其對應的 § 101 標的及適格性結論進行配對：",
+  "pairs": [
+   {
+    "left": "Mayo 案",
+    "right": "藥物代謝關聯加例行檢測不適格"
+   },
+   {
+    "left": "Myriad 案（天然DNA）",
+    "right": "僅分離天然基因片段屬自然產物"
+   },
+   {
+    "left": "Myriad 案（cDNA）",
+    "right": "去除內含子之合成分子具適格性"
+   },
+   {
+    "left": "Alice 案",
+    "right": "通用電腦實施中介交割不具適格性"
+   }
+  ],
+  "evidence": [
+   {
+    "case": "mayo",
+    "quote": "Held: Prometheus’ process is not patent eligible."
+   },
+   {
+    "case": "myriad",
+    "quote": "Held: A naturally occurring DNA segment is a product of nature and not patent eligible merely because it has been isolated, but cDNA is patent eligible because it is not naturally occurring."
+   },
+   {
+    "case": "alice",
+    "quote": "Turning to the second step of Mayo's framework: The method claims, which merely require generic computer implementation, fail to transform that abstract idea into a patent-eligible invention."
+   }
+  ],
+  "explanation": "Mayo 案認定藥物代謝關聯加上例行檢測步驟不具適格性；Myriad 案區分分離之天然 DNA（不適格）與人工合成之 cDNA（適格）；Alice 案認定以通用電腦實施中介交割之抽象概念不具適格性。"
+ },
+ {
+  "id": "u09-l3-q01",
+  "lessonId": "u09-l3",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "procedure"
+  ],
+  "prompt": "請依 Graham 案與 KSR 案重申之 35 U.S.C. § 103 客觀審查架構（Graham factors），排列判斷非顯而易知性的步驟順序：",
+  "items": [
+   "確立先前技術之範圍與內容（scope and content of the prior art）",
+   "查明先前技術與系爭請求項間之差異（differences between the prior art and the claims at issue）",
+   "確認該技術領域中具通常知識者之水準（level of ordinary skill in the pertinent art）",
+   "在此背景下並參酌商業成功等輔助性考量（secondary considerations），判定標的之顯而易知性"
+  ],
+  "evidence": [
+   {
+    "case": "graham",
+    "quote": "The determination of \"nonobviousness\" is made after establishing the scope and content of prior art, the differences between the prior art and the claims at issue, and the level of ordinary skill in the pertinent art."
+   },
+   {
+    "case": "ksr",
+    "quote": "Graham v. John Deere Co. of Kansas City, 383 U. S. 1, 17–18, set out an objective analysis for applying § 103: “[T]he scope and content of the prior art are . . . determined; differences between the prior art and the claims at issue are . . . ascertained; and the level of ordinary skill in the pertinent art resolved. Against this background, the obviousness or nonobviousness of the subject matter is determined. Such secondary considerations as commercial success, long felt but unsolved needs, failure of others, etc., might be utilized to give light to the circumstances surrounding the origin of the subject matter sought to be patented.”"
+   }
+  ],
+  "explanation": "Graham 案建立的 § 103 分析架構依序為：（1）確立先前技術之範圍與內容；（2）查明先前技術與系爭請求項之差異；（3）確認該領域具通常知識者之水準；並在此背景下（得輔以商業成功、長期未能解決之需求、他人之失敗等輔助性考量）判定是否顯而易知。"
+ },
+ {
+  "id": "u09-l3-q02",
+  "lessonId": "u09-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Graham 案，國會在 1952 年專利法增訂 35 U.S.C. § 103「非顯而易知性」時，大幅降低了維持專利有效性所需的整體創新門檻，推翻了自 Hotchkiss 案以來的司法先例標準。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "graham",
+    "quote": "In § 103 of the 1952 Patent.Act Congress added the statutory nonobvious subject matter requirement, originally expounded in Hotchkiss, which merely codified judicial precedents requiring a comparison of the subject matter sought to be patented and the prior art, tying patentable inventions to advances in the art. Although § 103 places emphasis upon inquiries into obviousness, rather than into \"invention,\" the general level of innovation necessary to sustain patentability remains unchanged under the 1952 Act."
+   }
+  ],
+  "explanation": "Graham 案指出，1952 年專利法 § 103 只是將源自 Hotchkiss 案的司法先例法典化；雖然 § 103 將審查重點放在「顯而易知性（obviousness）」而非抽象的「發明（invention）」，但維持專利所需的整體創新水準並未改變。"
+ },
+ {
+  "id": "u09-l3-q03",
+  "lessonId": "u09-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Graham 案 Syllabus 原文填入正確詞語：",
+  "text": "The determination of \"{{0}}\" is made after establishing the {{1}} of prior art, the {{2}} between the prior art and the claims at issue, and the level of ordinary skill in the pertinent art.",
+  "blanks": [
+   "nonobviousness",
+   "scope and content",
+   "differences"
+  ],
+  "distractors": [
+   "enablement",
+   "commercial success",
+   "equivalents"
+  ],
+  "evidence": [
+   {
+    "case": "graham",
+    "quote": "The determination of \"nonobviousness\" is made after establishing the scope and content of prior art, the differences between the prior art and the claims at issue, and the level of ordinary skill in the pertinent art."
+   }
+  ],
+  "explanation": "Graham 案明定非顯而易知性（nonobviousness）的判斷基礎為：確立先前技術的範圍與內容（scope and content）、先前技術與系爭請求項間的差異（differences），以及相關技術領域具通常知識者的水準。"
+ },
+ {
+  "id": "u09-l3-q04",
+  "lessonId": "u09-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "專利權人擁有「在固定樞軸點安裝電子感測器之可調式油門踏板」請求項。先前技術中，Asano 專利已揭露具固定樞軸點的可調式機械踏板，另有其他專利揭露為避免電線磨損應將感測器裝在踏板固定部位，且市場正由機械油門轉向電腦控制油門。依 KSR 案，法院應如何判決？",
+  "options": [
+   "請求項因顯而易知而無效，將現有感測器裝在 Asano 踏板固定樞軸點是通常知識者可預期的組合",
+   "請求項有效，因為 Asano 專利旨在解決踏板施力比恆定問題，與專利權人欲解決的簡化成本問題不同",
+   "請求項有效，因為先前技術文獻中並無明文教示或建議將電子感測器結合至 Asano 踏板的支架上",
+   "不得為即決判決，因為顯而易知性之最終判斷屬於純粹事實問題，必須交由陪審團審理才能決定"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "ksr",
+    "quote": "Held: The Federal Circuit addressed the obviousness question in a narrow, rigid manner that is inconsistent with § 103 and this Court’s precedents. KSR provided convincing evidence that mounting an available sensor on a fixed pivot point of the Asano pedal was a design step well within the grasp of a person of ordinary skill in the relevant art and that the benefit of doing so would be obvious."
+   }
+  ],
+  "explanation": "依 KSR 案，最高法院認為在市場強烈驅動將機械踏板轉為電子踏板的背景下，具通常知識者能輕易看出將現有感測器安裝在 Asano 踏板固定樞軸點的效益，故該請求項因顯而易知而無效。"
+ },
+ {
+  "id": "u09-l3-q05",
+  "lessonId": "u09-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "關於聯邦巡迴上訴法院發展出的「教示、建議或動機測試法（TSM test）」，最高法院在 KSR 案所持之立場為何？",
+  "options": [
+   "TSM 測試法捕捉到有助益的洞見，但不得將其轉化為僵化且強制性的公式來限縮顯而易知性審查",
+   "TSM 測試法完全違反 35 U.S.C. § 103 條文文義，在任何案件中均不得再提及組合動機或建議",
+   "TSM 測試法是判斷 § 103 唯一合法標準，且結合動機必須明文記載於已公開的學術論文或專利中",
+   "只要先前技術中的各個元件分別為已知，即無須探討任何結合理由，直接推定組合發明為顯而易知"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "ksr",
+    "quote": "The TSM test captures a helpful insight: A patent composed of several elements is not proved obvious merely by demonstrating that each element was, independently, known in the prior art."
+   },
+   {
+    "case": "ksr",
+    "quote": "There is no necessary inconsistency between the test and the Graham analysis. But a court errs where, as here, it transforms general principle into a rigid rule limiting the obviousness inquiry."
+   }
+  ],
+  "explanation": "KSR 案指出，TSM 測試法指出「不能僅因各元件分別為已知就認定組合顯而易知」是有益洞見，與 Graham 分析並無必然衝突；但若將其變成僵化規則（rigid rule）並過度強調已發表文獻的明文記載，即屬違法。"
+ },
+ {
+  "id": "u09-l3-q06",
+  "lessonId": "u09-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 KSR 案，法院與專利審查官在判斷是否有結合先前技術元件的理由時，只能考慮「專利權人自己試圖解決的特定問題」，不得考慮該領域已知的其他需求或問題。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "ksr",
+    "quote": "The Circuit first erred in holding that courts and patent examiners should look only to the problem the patentee was trying to solve. Under the correct analysis, any need or problem known in the field and addressed by the patent can provide a reason for combining the elements in the manner claimed."
+   }
+  ],
+  "explanation": "KSR 案明確糾正聯邦巡迴上訴法院的第一個錯誤：正確的分析下，該技術領域中已知且為該專利所處理的「任何需求或問題（any need or problem）」，都可以提供如請求項般結合各元件的理由。"
+ },
+ {
+  "id": "u09-l3-q07",
+  "lessonId": "u09-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 KSR 案，當存在解決問題的設計需求或市場壓力，且僅有有限數量（finite number）之已確認、可預期的解決方案時，「顯而易試（obvious to try）」並獲得預期成功，可能構成 § 103 的顯而易知。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "ksr",
+    "quote": "Third, the court erred in concluding that a patent claim cannot be proved obvious merely by showing that the combination of elements was obvious to try. When there is a design need or market pressure to solve a problem and there are a finite number of identified, predictable solutions, a person of ordinary skill in the art has good reason to pursue the known options within his or her technical grasp."
+   }
+  ],
+  "explanation": "KSR 案推翻了「顯而易試（obvious to try）絕不構成顯而易知」的僵化見解：當面對設計需求或市場壓力，且已知、可預期的解決方案數量有限時，具通常知識者嘗試其技術能力範圍內的已知選項並獲得預期成功，通常只是通常知識與常識的產物。"
+ },
+ {
+  "id": "u09-l3-q08",
+  "lessonId": "u09-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 KSR 案 Syllabus 原文填入正確詞語：",
+  "text": "Such a combination of {{0}} elements according to known methods is likely to be {{1}} when it does no more than yield {{2}}.",
+  "blanks": [
+   "familiar",
+   "obvious",
+   "predictable results"
+  ],
+  "distractors": [
+   "novel",
+   "eligible",
+   "commercial success"
+  ],
+  "evidence": [
+   {
+    "case": "ksr",
+    "quote": "Such a combination of familiar elements according to known methods is likely to be obvious when it does no more than yield predictable results."
+   }
+  ],
+  "explanation": "KSR 案的核心法則：依已知方法組合熟悉元件（familiar elements），若僅產生可預期結果（predictable results），通常即屬顯而易知（obvious）。"
+ },
+ {
+  "id": "u09-l3-q09",
+  "lessonId": "u09-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 KSR 案，為了防止法院與專利審查官陷入「後見之明偏誤（hindsight bias）」，法院是否應該制定排除常識（common sense）的嚴格預防性規則？",
+  "options": [
+   "不應該，拒絕運用常識的僵化預防性規則既非必要，亦與最高法院之判例法不相符",
+   "應該，審查官在任何情況下均不得援引常識，必須提出載有明文結合教示的專利文獻",
+   "應該，只有在專利權人自認發明屬於常識時，法院才可以在顯而易知性分析中考量常識",
+   "不應該，因為在 § 103 審查中完全不需要防範後見之明，審查官可直接以申請日後的技術判斷"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "ksr",
+    "quote": "Finally, the court drew the wrong conclusion from the risk of courts and patent examiners falling prey to hindsight bias. Rigid preventative rules that deny recourse to common sense are neither necessary under, nor consistent with, this Court’s case law."
+   }
+  ],
+  "explanation": "KSR 案指出，雖然應注意後見之明偏誤的風險，但制定拒絕運用常識（deny recourse to common sense）的僵化預防性規則，既無必要也不符合最高法院判例。"
+ },
+ {
+  "id": "u09-l3-q10",
+  "lessonId": "u09-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "procedure"
+  ],
+  "prompt": "在專利訴訟中，當先前技術的內容、專利請求項的範圍，以及該領域具通常知識者的水準均無重大爭議，且請求項之顯而易知性甚為明顯時，地方法院得否就 § 103 顯而易知性直接作成即決判決（summary judgment）？",
+  "options": [
+   "可以，因為顯而易知性的最終判斷屬於法律決定（legal determination），無重大事實爭議時即適合作成即決判決",
+   "不可以，因為顯而易知性的最終判斷屬於純粹事實問題，在任何情況下都必須交由陪審團審理裁決",
+   "不可以，除非專利權人放棄提出專家證人證詞，否則只要有專家出具意見即不得作成即決判決",
+   "可以，但地方法院必須先將案件移送 USPTO 專利審判暨上訴委員會（PTAB）進行行政認定後始得判決"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "ksr",
+    "quote": "The ultimate judgment of obviousness is a legal determination. Graham, 383 U. S., at 17. Where, as here, the prior art’s content, the patent claim’s scope, and the level of ordinary skill in the art are not in material dispute and the claim’s obviousness is apparent, summary judgment is appropriate."
+   }
+  ],
+  "explanation": "依 KSR 案與 Graham 案，顯而易知性的最終判斷是一項法律決定（legal determination）；當 Graham 三大基礎事實無重大爭議且顯而易知性明顯時，作成即決判決（summary judgment）是適當的。"
+ },
+ {
+  "id": "u09-l3-q11",
+  "lessonId": "u09-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 KSR 案引用之 Graham 案 Syllabus 原文填入正確詞語：",
+  "text": "Such {{0}} as commercial success, long felt but {{1}}, failure of others, etc., might be utilized to give light to the circumstances surrounding the origin of the {{2}} sought to be patented.",
+  "blanks": [
+   "secondary considerations",
+   "unsolved needs",
+   "subject matter"
+  ],
+  "distractors": [
+   "primary exceptions",
+   "routine activities",
+   "prosecution history"
+  ],
+  "evidence": [
+   {
+    "case": "ksr",
+    "quote": "Such secondary considerations as commercial success, long felt but unsolved needs, failure of others, etc., might be utilized to give light to the circumstances surrounding the origin of the subject matter sought to be patented."
+   }
+  ],
+  "explanation": "Graham 案與 KSR 案指出，商業成功（commercial success）、長期存在但未能解決的需求（long felt but unsolved needs）、他人的失敗（failure of others）等輔助性考量（secondary considerations），可用於釐清系爭發明標的產生的背景情況。"
+ },
+ {
+  "id": "u09-l3-q12",
+  "lessonId": "u09-l3",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "comparison"
+  ],
+  "prompt": "請將下列判例與其在 § 103 非顯而易知性發展史上的核心意義進行配對：",
+  "pairs": [
+   {
+    "left": "Hotchkiss 案",
+    "right": "要求超越普通技工之巧思與技藝"
+   },
+   {
+    "left": "Graham 案",
+    "right": "確立§103非顯而易知性三要素架構"
+   },
+   {
+    "left": "KSR 案",
+    "right": "打破僵化TSM並採可預期結果標準"
+   },
+   {
+    "left": "Adams 案",
+    "right": "KSR引用對照之非顯而易知組合先例"
+   }
+  ],
+  "evidence": [
+   {
+    "case": "graham",
+    "quote": "This Court in Hotchkiss v. Greenwood, 11 How. 248 (1851), additionally conditioned the issuance of a patent upon the evidence of more ingenuity and skill than that possessed by an ordinary mecLanic acquainted with the business."
+   },
+   {
+    "case": "graham",
+    "quote": "The determination of \"nonobviousness\" is made after establishing the scope and content of prior art, the differences between the prior art and the claims at issue, and the level of ordinary skill in the pertinent art."
+   },
+   {
+    "case": "ksr",
+    "quote": "Such a combination of familiar elements according to known methods is likely to be obvious when it does no more than yield predictable results. See, e. g., United States v. Adams, 383 U. S. 39, 50–52."
+   }
+  ],
+  "explanation": "Hotchkiss 案要求超越普通技工的巧思與技藝；Graham 案確立 § 103 三大基本審查要素與輔助性考量；KSR 案打破僵化的 TSM 測試並確立已知元件可預期組合即屬顯而易知；Adams 案則是最高法院引用作為對照的先例。"
+ },
+ {
+  "id": "u09-l4-q01",
+  "lessonId": "u09-l4",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case",
+   "deadline"
+  ],
+  "prompt": "發明人設計出一種新型電腦晶片插座，在 1981 年 4 月 8 日前已將足以使該領域具通常知識者據以製造該插座的精密工程圖交給製造商，並接受德州儀器的商業採購訂單；但他直到 1981 年 7 月才實際製造並測試出第一個實體原型，並於 1982 年 4 月 19 日申請專利。依 Pfaff 案，該專利是否有效？",
+  "options": [
+   "無效，關鍵日前已有商業銷售要約且精密工程圖已使發明備妥可申請專利，觸發銷售阻卻",
+   "有效，因為一年期銷售阻卻必須等到發明實際製造出實體原型並完成測試後才會開始起算",
+   "有效，因為接受商業訂單時尚未向買方交付實體產品，在法律上不構成銷售中之先前技術",
+   "無效，因為美國專利法規定申請專利前必須先製造出實體原型，未先完成實施即不得申請"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "pfaff",
+    "quote": "The on-sale bar applies when two conditions are satisfied before the critical date. First, the product must be the subject of a commercial offer for sale. Here, the acceptance of the purchase order prior to April 8, 1981, makes it clear that such an offer had been made, and there is no question that the sale was commercial. Second, the invention must be ready for patenting."
+   },
+   {
+    "case": "pfaff",
+    "quote": "This condition is satisfied here because the drawings sent to the manufacturer before the critical date fully disclosed the invention."
+   }
+  ],
+  "explanation": "依 Pfaff 案，銷售阻卻（on-sale bar）在關鍵日（申請日前一年）前滿足「商業銷售要約」與「具備申請專利之準備（ready for patenting）」兩條件即成立，不以完成實體原型（reduction to practice）為必要。"
+ },
+ {
+  "id": "u09-l4-q02",
+  "lessonId": "u09-l4",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "definition"
+  ],
+  "prompt": "依 Pfaff 案，銷售阻卻（on-sale bar）的第二要件「發明已具備申請專利之準備（ready for patenting）」，得透過下列哪兩種方式之一加以證明？",
+  "options": [
+   "證明關鍵日前已完成實際實施（reduction to practice），或已備妥足以使具通常知識者據以實施發明的特定圖式或說明",
+   "證明關鍵日前已向 USPTO 繳納申請規費，或已在國際學術期刊上公開發表該發明的完整實驗數據",
+   "證明關鍵日前已取得 FDA 等主管機關之上市許可，或已與買方簽署無條件退貨保證之商業買賣契約",
+   "證明關鍵日前已完成至少一百件商業量產樣品，或已由獨立第三方實驗室出具產品效能驗證報告"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "pfaff",
+    "quote": "Second, the invention must be ready for patenting. That condition may be satisfied in at least two ways: by proof of reduction to practice before the critical date; or by proof that prior to the critical date the inventor had prepared drawings or other descriptions of the invention that were sufficiently specific to enable a person skilled in the art to practice the invention."
+   }
+  ],
+  "explanation": "Pfaff 案明確指出，「具備申請專利之準備（ready for patenting）」至少可透過兩種方式證明：（1）關鍵日前已完成實施（reduction to practice）；或（2）關鍵日前發明人已備妥足以使具通常知識者實施發明的具體圖式或其他說明。"
+ },
+ {
+  "id": "u09-l4-q03",
+  "lessonId": "u09-l4",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Pfaff 案 Syllabus 原文填入正確詞語：",
+  "text": "The {{0}} applies when two conditions are satisfied before the {{1}}. First, the product must be the subject of a commercial offer for sale. Here, the acceptance of the purchase order prior to April 8, 1981, makes it clear that such an offer had been made, and there is no question that the sale was commercial. Second, the invention must be {{2}}.",
+  "blanks": [
+   "on-sale bar",
+   "critical date",
+   "ready for patenting"
+  ],
+  "distractors": [
+   "enablement requirement",
+   "priority date",
+   "reduced to practice"
+  ],
+  "evidence": [
+   {
+    "case": "pfaff",
+    "quote": "The on-sale bar applies when two conditions are satisfied before the critical date. First, the product must be the subject of a commercial offer for sale. Here, the acceptance of the purchase order prior to April 8, 1981, makes it clear that such an offer had been made, and there is no question that the sale was commercial. Second, the invention must be ready for patenting."
+   }
+  ],
+  "explanation": "Pfaff 案確立銷售阻卻（on-sale bar）在關鍵日（critical date）前滿足兩項要件即適用：第一是商業銷售要約，第二是發明已具備申請專利之準備（ready for patenting）。"
+ },
+ {
+  "id": "u09-l4-q04",
+  "lessonId": "u09-l4",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case",
+   "deadline"
+  ],
+  "prompt": "藥廠甲在申請臨時專利案之兩年前，與經銷商簽署商業協議，授予經銷商在美國銷售「0.25 毫克劑量止吐藥」之權利，但協議中嚴格要求經銷商對所有專有技術資訊與該特定劑量保密。在《美國發明法案（AIA）》35 U.S.C. § 102(a)(1) 下，依 Helsinn 案，法院應如何認定？",
+  "options": [
+   "專利無效，向負有保密義務之第三方為商業銷售，仍會使發明處於 § 102(a) 之「銷售中（on sale）」",
+   "專利有效，因為 AIA 增列「或以其他方式為公眾可得」，故未向公眾揭露劑量細節的秘密銷售不構成阻卻",
+   "專利有效，因為藥廠與經銷商之間的授權與供貨協議屬於內部研發合作，不屬於商業銷售之範疇",
+   "專利無效，但前提是經銷商違反保密義務並在關鍵日前將 0.25 毫克劑量配方公開發表於醫藥期刊"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "helsinn",
+    "quote": "Held: A commercial sale to a third party who is required to keep the invention confidential may place the invention “on sale” under § 102(a)."
+   }
+  ],
+  "explanation": "依 Helsinn 案，AIA 制定前之先例已確立「秘密銷售（secret sales）」可構成銷售阻卻；國會在 AIA § 102(a)(1) 沿用「on sale」用語並加上「or otherwise available to the public」概括詞語，並未改變「向負有保密義務之第三方為商業銷售仍觸發銷售阻卻」的意義。"
+ },
+ {
+  "id": "u09-l4-q05",
+  "lessonId": "u09-l4",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Helsinn 案，國會在 AIA 35 U.S.C. § 102(a)(1) 增列概括詞語「或以其他方式為公眾可得（or otherwise available to the public）」，推翻了過往先例，使「秘密銷售（secret sales）」不再構成無效先前技術。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "helsinn",
+    "quote": "Given this settled pre-AIA precedent, the Court applies the presumption that when Congress reenacted the same “on sale” language in the AIA, it adopted the earlier judicial construction of that phrase. The addition of the catchall phrase “or otherwise available to the public” is not enough of a change for the Court to conclude that Congress intended to alter the meaning of “on sale.”"
+   }
+  ],
+  "explanation": "Helsinn 案明確指出，國會在 AIA 重新制定相同的「on sale」文字時，推定採納了既有的司法解釋；增列「or otherwise available to the public」這個概括詞語（catchall phrase）不足以認定國會有意改變「on sale」涵蓋秘密銷售的涵義。"
+ },
+ {
+  "id": "u09-l4-q06",
+  "lessonId": "u09-l4",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Helsinn 案 Syllabus 原文填入正確詞語：",
+  "text": "Held: A {{0}} to a third party who is required to keep the invention {{1}} may place the invention “{{2}}” under § 102(a).",
+  "blanks": [
+   "commercial sale",
+   "confidential",
+   "on sale"
+  ],
+  "distractors": [
+   "research assignment",
+   "indefinite",
+   "in public use"
+  ],
+  "evidence": [
+   {
+    "case": "helsinn",
+    "quote": "Held: A commercial sale to a third party who is required to keep the invention confidential may place the invention “on sale” under § 102(a)."
+   }
+  ],
+  "explanation": "Helsinn 案確立：即使第三方負有對發明保密（confidential）之義務，對其所為之商業銷售（commercial sale）仍可能使發明處於 § 102(a) 的「銷售中（on sale）」。"
+ },
+ {
+  "id": "u09-l4-q07",
+  "lessonId": "u09-l4",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "某心率監測器專利請求項記載電極係「彼此以間隔關係安裝（mounted . . . in spaced relationship with each other）」。被控侵權人抗辯該用語違反 § 112 明確性要件（definiteness requirement），上訴法院則認為只要請求項「可被解釋（amenable to construction）」且非「無法解決地模稜兩可（insolubly ambiguous）」即屬有效。依 Nautilus 案，最高法院應如何處理？",
+  "options": [
+   "廢棄原判並發回，請求項對照說明書與審查歷程後須以「合理確定性」告知通常知識者發明範圍",
+   "維持原判，只要專利請求項在法院努力解釋後並非「無法解決地模稜兩可」，即符合 § 112 明確性要件",
+   "直接判決專利無效，因為 § 112 要求絕對的數學精確性，任何使用相對空間關係詞語的請求項一律無效",
+   "廢棄原判並發回，明確性應從一般消費大眾與律師的視角在侵權訴訟發生時進行評估，而非申請時"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "nautilus",
+    "quote": "reasonable certainty, those skilled in the art about the scope of the invention. The parties agree that definiteness is to be evaluated from the perspective of a person skilled in the relevant art, that claims are to be read in light of the patent's specification and prosecution history, and that definiteness is to be measured as of the time of the patent application."
+   },
+   {
+    "case": "nautilus",
+    "quote": "The Court of Appeals inquired whether the '753 patent's claims were “amenable to construction” or “insolubly ambiguous,” but such formulations lack the precision § 112, ¶2 demands."
+   }
+  ],
+  "explanation": "依 Nautilus 案，最高法院廢棄了聯邦巡迴上訴法院過於寬鬆的「可被解釋／非無法解決地模稜兩可」標準，確立專利請求項對照說明書與審查歷程閱讀後，必須以「合理確定性（reasonable certainty）」告知該領域具通常知識者發明的範圍，並發回重審。"
+ },
+ {
+  "id": "u09-l4-q08",
+  "lessonId": "u09-l4",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Nautilus 案，評估專利請求項是否符合 § 112 明確性要件（definiteness），應以「一般社會大眾或律師」為基準，且以「提起侵權訴訟時」的技術認知為準。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "nautilus",
+    "quote": "The parties agree that definiteness is to be evaluated from the perspective of a person skilled in the relevant art, that claims are to be read in light of the patent's specification and prosecution history, and that definiteness is to be measured as of the time of the patent application."
+   },
+   {
+    "case": "nautilus",
+    "quote": "patents are “not addressed to lawyers, or even to the public generally,” but to those skilled in the relevant art, Carnegie Steel Co. v. Cambria Iron Co., 185 U. S. 403, 437."
+   }
+  ],
+  "explanation": "Nautilus 案指出，專利並非寫給律師或一般大眾看的，明確性應從「相關技術領域具通常知識者（person skilled in the relevant art）」的視角、對照說明書與審查歷程，並以「專利申請時（as of the time of the patent application）」為準進行衡量。"
+ },
+ {
+  "id": "u09-l4-q09",
+  "lessonId": "u09-l4",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Nautilus 案 Syllabus 原文填入正確詞語：",
+  "text": "The Court of Appeals inquired whether the '753 patent's claims were “amenable to construction” or “{{0}},” but such formulations lack the precision § 112, ¶2 demands. To tolerate imprecision just short of that rendering a claim “insolubly ambiguous” would diminish the {{1}} requirement's public-notice function and foster the innovation-discouraging “{{2}},” United Carbon, 317 U. S., at 236, against which this Court has warned.",
+  "blanks": [
+   "insolubly ambiguous",
+   "definiteness",
+   "zone of uncertainty"
+  ],
+  "distractors": [
+   "ready for patenting",
+   "enablement",
+   "inventive concept"
+  ],
+  "evidence": [
+   {
+    "case": "nautilus",
+    "quote": "The Court of Appeals inquired whether the '753 patent's claims were “amenable to construction” or “insolubly ambiguous,” but such formulations lack the precision § 112, ¶2 demands. To tolerate imprecision just short of that rendering a claim “insolubly ambiguous” would diminish the definiteness requirement's public-notice function and foster the innovation-discouraging “zone of uncertainty,” United Carbon, 317 U. S., at 236, against which this Court has warned."
+   }
+  ],
+  "explanation": "Nautilus 案批評「無法解決地模稜兩可（insolubly ambiguous）」標準會削弱明確性（definiteness）要件的公眾公示功能，並助長阻礙創新的「不確定性區域（zone of uncertainty）」。"
+ },
+ {
+  "id": "u09-l4-q10",
+  "lessonId": "u09-l4",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "生技公司甲取得兩件抗體專利，請求項以功能性界定涵蓋「所有能結合 PCSK9 特定區域並阻斷其與 LDL 受體結合的整個抗體屬（entire genus）」（潛在包含數百萬種抗體），但說明書僅揭露 26 種抗體的胺基酸序列，以及稱為「路線圖」與「保守性替換」的兩種試誤篩選法。依 Amgen 案，法院應如何判決？",
+  "options": [
+   "專利無效，主張整個類別時須使通常知識者能製造並使用全類別，路線圖與替換法僅是試誤研究作業",
+   "專利有效，因為說明書已揭露 26 種具體抗體實施例，足以支持任何相同功能之抗體屬請求項",
+   "專利有效，因為科學家只要依照「路線圖」花費足夠時間逐一製造並測試，最終仍可找出所有抗體",
+   "專利無效，因為 35 U.S.C. § 112(a) 針對功能性抗體屬請求項設有比一般技術領域更高的特別法定標準"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "amgen",
+    "quote": "If a patent claims an entire class of processes, machines, manufactures, or compositions of matter, the patent's specification must enable a person skilled in the art to make and use the entire class."
+   },
+   {
+    "case": "amgen",
+    "quote": "Amgen insists that its claims are nevertheless enabled because scientists can make and use every functional antibody if they simply follow the “roadmap” or “conservative substitution.” These two approaches, however, amount to little more than two research assignments."
+   }
+  ],
+  "explanation": "依 Amgen 案，若專利主張整個類別（entire class），說明書必須使具通常知識者能製造並使用整個類別；Amgen 的請求項遠廣於其揭露的 26 種抗體，且「路線圖」與「保守性替換」僅相當於交給科學家透過試誤法進行的兩份研究作業（research assignments），故違反 § 112(a) 可據以實施要件而無效。"
+ },
+ {
+  "id": "u09-l4-q11",
+  "lessonId": "u09-l4",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Amgen 案，當專利主張涵蓋整個類別（entire class）的物質時，說明書在任何情況下都必須逐一具體記載該類別中每一個實施例（every single embodiment）的製造與使用方法，絕不允許任何程度的實驗。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "amgen",
+    "quote": "All this is not to say a specification always must describe with particularity how to make and use every single embodiment within a claimed class. It may suffice to give an example if the specification also discloses “some general quality . . . running through” the class that gives it “a peculiar fitness for the particular purpose.”"
+   },
+   {
+    "case": "amgen",
+    "quote": "Amgen has failed to enable all that it has claimed, even allowing for a reasonable degree of experimentation."
+   }
+  ],
+  "explanation": "Amgen 案指出，這並非意味說明書總是必須逐一詳述類別中每個實施例的製造與使用方式：若說明書揭露了貫穿該類別使其適合特定目的之「某種共通性質（some general quality）」，且僅需合理程度的實驗（reasonable degree of experimentation），仍可能符合可據以實施要件。"
+ },
+ {
+  "id": "u09-l4-q12",
+  "lessonId": "u09-l4",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Amgen 案 Syllabus 原文填入正確詞語：",
+  "text": "If a patent claims an {{0}} of processes, machines, manufactures, or compositions of matter, the patent's {{1}} must {{2}} a person skilled in the art to make and use the entire class.",
+  "blanks": [
+   "entire class",
+   "specification",
+   "enable"
+  ],
+  "distractors": [
+   "abstract idea",
+   "prosecution history",
+   "monopolize"
+  ],
+  "evidence": [
+   {
+    "case": "amgen",
+    "quote": "If a patent claims an entire class of processes, machines, manufactures, or compositions of matter, the patent's specification must enable a person skilled in the art to make and use the entire class."
+   }
+  ],
+  "explanation": "Amgen 案重申自 Morse、Incandescent Lamp 及 Holland Furniture 案以來的核心原則：若專利主張整個類別（entire class）的標的，說明書（specification）就必須使具通常知識者能據以製造並使用（enable）整個類別。"
+ },
+ {
+  "id": "u09-l4-q13",
+  "lessonId": "u09-l4",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "comparison"
+  ],
+  "prompt": "在 Amgen 案中，最高法院回顧了三件關於「請求項過廣而違反可據以實施（enablement）要件」的經典歷史先例。下列何者並非 Amgen 案 Syllabus 所引用的三件經典先例之一？",
+  "options": [
+   "Diamond v. Chakrabarty（基因改造分解原油之活體細菌專利適格性案）",
+   "O'Reilly v. Morse（主張涵蓋所有實現電報通訊方式之摩斯電報專利案）",
+   "The Incandescent Lamp Patent（以碳化紙為導體卻主張所有纖維與紡織材料之白熾燈案）",
+   "Holland Furniture Co. v. Perkins Glue Co.（以功能而非物理化學性質界定澱粉膠之木皮膠合案）"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "amgen",
+    "quote": "This Court has addressed the enablement requirement many times, and its decisions in O'Reilly v. Morse, 15 How. 62, The Incandescent Lamp Patent, 159 U. S. 465, and Holland Furniture Co. v. Perkins Glue Co., 277 U. S. 245, reinforce the simple statutory command: If a patent claims an entire class of processes, machines, manufactures, or compositions of matter, the patent's specification must enable a person skilled in the art to make and use the entire class."
+   }
+  ],
+  "explanation": "Amgen 案引用 O'Reilly v. Morse（電報案）、The Incandescent Lamp Patent（白熾燈案）與 Holland Furniture（澱粉膠案）三件先例，說明專利權人若主張整個類別卻未支持整個類別的製造與使用，即違反可據以實施要件。"
+ },
+ {
+  "id": "u09-l4-q14",
+  "lessonId": "u09-l4",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "comparison"
+  ],
+  "prompt": "請將本課四個判例與其確立的 § 102 或 § 112 核心判決規則進行配對：",
+  "pairs": [
+   {
+    "left": "Pfaff 案",
+    "right": "商業銷售要約加備妥可申請即阻卻"
+   },
+   {
+    "left": "Helsinn 案",
+    "right": "AIA下附保密義務之銷售仍觸發阻卻"
+   },
+   {
+    "left": "Nautilus 案",
+    "right": "請求項須具合理確定性否則不明確"
+   },
+   {
+    "left": "Amgen 案",
+    "right": "主張全類別須使通常知識者能實施"
+   }
+  ],
+  "evidence": [
+   {
+    "case": "pfaff",
+    "quote": "The on-sale bar applies when two conditions are satisfied before the critical date. First, the product must be the subject of a commercial offer for sale. Here, the acceptance of the purchase order prior to April 8, 1981, makes it clear that such an offer had been made, and there is no question that the sale was commercial. Second, the invention must be ready for patenting."
+   },
+   {
+    "case": "helsinn",
+    "quote": "Held: A commercial sale to a third party who is required to keep the invention confidential may place the invention “on sale” under § 102(a)."
+   },
+   {
+    "case": "nautilus",
+    "quote": "reasonable certainty, those skilled in the art about the scope of the invention."
+   },
+   {
+    "case": "amgen",
+    "quote": "If a patent claims an entire class of processes, machines, manufactures, or compositions of matter, the patent's specification must enable a person skilled in the art to make and use the entire class."
+   }
+  ],
+  "explanation": "Pfaff 案確立銷售阻卻兩要件（商業銷售要約＋備妥可申請專利）；Helsinn 案確立 AIA 下保密商業銷售仍觸發銷售阻卻；Nautilus 案確立 § 112 明確性的「合理確定性」標準；Amgen 案確立 § 112(a) 主張整個類別須使通常知識者能實施全類別。"
+ }
+]

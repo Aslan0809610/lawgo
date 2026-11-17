@@ -1,0 +1,972 @@
+[
+ {
+  "id": "u03-l1-q01",
+  "lessonId": "u03-l1",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "在美國專利商標局（Patent and Trademark Office, PTO）辦理程序或繳納規費時，若截止日適逢星期六、星期日或華盛頓哥倫比亞特區之聯邦假日（Federal holiday within the District of Columbia），得順延至下一個工作日辦理。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "21",
+    "quote": "When the day, or the last day, for taking any action or paying any fee in the United States Patent and Trademark Office falls on Saturday, Sunday, or a Federal holiday within the District of Columbia, the action may be taken, or the fee paid, on the next succeeding secular or business day."
+   }
+  ],
+  "explanation": "依美國專利法規定，當最後期限落在週六、週日或華盛頓特區的聯邦假日時，可順延至下一個一般工作日（next succeeding secular or business day）完成，此點與台灣專利法遇國定假日順延的原則相似。"
+ },
+ {
+  "id": "u03-l1-q02",
+  "lessonId": "u03-l1",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "申請人在收到核駁通知（notice of rejection）後，為了克服核駁理由，可以在修正（amendment）中補充申請時未記載的新增事項（new matter），只要該事項屬於同一技術領域即可。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "132",
+    "quote": "No amendment shall introduce new matter into the disclosure of the invention."
+   }
+  ],
+  "explanation": "條文明確規定任何修正均不得將新增事項（new matter）導入發明的揭露內容中，這與台灣專利法修正不得超出申請時說明書、申請專利範圍或圖式所揭露之範圍的規定相同。"
+ },
+ {
+  "id": "u03-l1-q03",
+  "lessonId": "u03-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "美國專利商標局局長（Director）在審查意見通知中可以指定較短的答覆期限，但該期限最短不得少於 14 日。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "133",
+    "quote": "Upon failure of the applicant to prosecute the application within six months after any action therein, of which notice has been given or mailed to the applicant, or within such shorter time, not less than thirty days, as fixed by the Director in such action, the application shall be regarded as abandoned by the parties thereto."
+   }
+  ],
+  "explanation": "法定最長答覆期間為 6 個月，局長雖可在通知中指定較短的答覆期間，但法定底線是不可以少於 30 日（not less than thirty days），而非 14 日。"
+ },
+ {
+  "id": "u03-l1-q04",
+  "lessonId": "u03-l1",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "根據繼續審查（continued examination）的相關規定，符合資格的小型實體（small entities）在請求繼續審查時，其規費可享有多少比例的減免？",
+  "options": [
+   "享有 25% 的規費減免優惠",
+   "享有 50% 的規費減免優惠",
+   "享有 75% 的規費減免優惠",
+   "完全免繳繼續審查之規費"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "132",
+    "quote": "The Director may establish appropriate fees for such continued examination and shall provide a 50 percent reduction in such fees for small entities that qualify for reduced fees under section 41(h)(1)."
+   }
+  ],
+  "explanation": "條文規定局長應制定繼續審查的法規並得收取適當費用，且對於符合資格的小型實體（small entities），應提供 50% 的費用減免（50 percent reduction）。"
+ },
+ {
+  "id": "u03-l1-q05",
+  "lessonId": "u03-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "關於美國專利申請案的實體審查（examination）與核駁後再審查（reexamination），下列敘述何者正確？",
+  "options": [
+   "申請人必須在申請日後三年內額外提出實體審查請求，否則視為撤回",
+   "收到核駁通知後，申請人必須修改請求項，否則審查官得拒絕再次審查",
+   "收到核駁通知後，不論申請人是否提出修正，只要堅持其專利請求項即應予再審查",
+   "若審查官認為申請案不具可專利性，得不說明任何理由直接作出核駁處分"
+  ],
+  "answerIndex": 2,
+  "evidence": [
+   {
+    "article": "131",
+    "quote": "The Director shall cause an examination to be made of the application and the alleged new invention; and if on such examination it appears that the applicant is entitled to a patent under the law, the Director shall issue a patent therefor."
+   },
+   {
+    "article": "132",
+    "quote": "and if after receiving such notice, the applicant persists in his claim for a patent, with or without amendment, the application shall be reexamined."
+   }
+  ],
+  "explanation": "美國採自動審查制（不同於台灣需在三年內申請實體審查），且收到核駁通知後，只要申請人堅持其請求項，無論有無修正（with or without amendment），申請案都應再次受到審查。"
+ },
+ {
+  "id": "u03-l1-q06",
+  "lessonId": "u03-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "關於透過美國郵政服務（United States Postal Service）向美國專利商標局寄送文件或規費的認定，下列敘述何者正確？",
+  "options": [
+   "一律以專利商標局實際收到紙本文件之日作為提交日，無任何例外規定",
+   "局長得以規則訂定，以交付美國郵政服務之日視為在專利商標局之提交日",
+   "即使發生局長指定的郵政服務中斷或緊急事故，也絕對不能主張郵戳日為提交日",
+   "只有透過私人國際快遞公司寄送的文件，才能由局長直接認定以寄出日為提交日"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "21",
+    "quote": "The Director may by rule prescribe that any paper or fee required to be filed in the Patent and Trademark Office will be considered filed in the Office on the date on which it was deposited with the United States Postal Service or would have been deposited with the United States Postal Service but for postal service interruptions or emergencies designated by the Director."
+   }
+  ],
+  "explanation": "局長得以規則訂定，應提交的文件或規費於交付美國郵政服務之日（或因局長指定的郵政中斷或緊急事故而未能交付者），即視為已在專利商標局完成提交。"
+ },
+ {
+  "id": "u03-l1-q07",
+  "lessonId": "u03-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case",
+   "procedure"
+  ],
+  "prompt": "甲的美國專利申請案於 2026 年 3 月 10 日收到審查意見通知書（Office Action），局長在該通知中並未特別指定較短的答覆期間。若甲一直未進行任何答覆或推動程序，該申請案最晚將於何時後被視為放棄（abandoned）？",
+  "options": [
+   "2026 年 4 月 10 日之後被視為放棄",
+   "2026 年 6 月 10 日之後被視為放棄",
+   "2026 年 9 月 10 日之後被視為放棄",
+   "2027 年 3 月 10 日之後被視為放棄"
+  ],
+  "answerIndex": 2,
+  "evidence": [
+   {
+    "article": "133",
+    "quote": "Upon failure of the applicant to prosecute the application within six months after any action therein, of which notice has been given or mailed to the applicant, or within such shorter time, not less than thirty days, as fixed by the Director in such action, the application shall be regarded as abandoned by the parties thereto."
+   }
+  ],
+  "explanation": "若局長未在通知中指定較短期限（最短不少於 30 日），法定的答覆與推動程序期限為通知發出或郵寄後 6 個月內（2026 年 9 月 10 日），逾期未辦理則申請案視為放棄。"
+ },
+ {
+  "id": "u03-l1-q08",
+  "lessonId": "u03-l1",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The Director shall cause an {{0}} to be made of the application and the alleged new invention; and if on such examination it appears that the applicant is entitled to a {{1}} under the law, the Director shall issue a patent therefor.",
+  "blanks": [
+   "examination",
+   "patent"
+  ],
+  "distractors": [
+   "appeal",
+   "publication",
+   "reexamination",
+   "license"
+  ],
+  "evidence": [
+   {
+    "article": "131",
+    "quote": "The Director shall cause an examination to be made of the application and the alleged new invention; and if on such examination it appears that the applicant is entitled to a patent under the law, the Director shall issue a patent therefor."
+   }
+  ],
+  "explanation": "局長應安排對申請案及所主張的新發明進行審查（examination），若經審查認為申請人依法有權獲得專利（patent），局長即應核發專利。"
+ },
+ {
+  "id": "u03-l1-q09",
+  "lessonId": "u03-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Upon failure of the applicant to prosecute the application within {{0}} after any action therein, of which notice has been given or mailed to the applicant, or within such shorter time, not less than {{1}}, as fixed by the Director in such action, the application shall be regarded as {{2}} by the parties thereto.",
+  "blanks": [
+   "six months",
+   "thirty days",
+   "abandoned"
+  ],
+  "distractors": [
+   "three months",
+   "sixty days",
+   "rejected",
+   "allowed"
+  ],
+  "evidence": [
+   {
+    "article": "133",
+    "quote": "Upon failure of the applicant to prosecute the application within six months after any action therein, of which notice has been given or mailed to the applicant, or within such shorter time, not less than thirty days, as fixed by the Director in such action, the application shall be regarded as abandoned by the parties thereto."
+   }
+  ],
+  "explanation": "申請人若未於審查通知後 6 個月（six months）內，或局長所指定不少於 30 日（thirty days）的較短期間內推動程序，該申請案將被視為放棄（abandoned）。"
+ },
+ {
+  "id": "u03-l1-q10",
+  "lessonId": "u03-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "and if after receiving such notice, the applicant persists in his claim for a patent, with or without {{0}}, the application shall be reexamined. No amendment shall introduce {{1}} into the disclosure of the invention.",
+  "blanks": [
+   "amendment",
+   "new matter"
+  ],
+  "distractors": [
+   "objection",
+   "prior art",
+   "affidavit",
+   "petition"
+  ],
+  "evidence": [
+   {
+    "article": "132",
+    "quote": "and if after receiving such notice, the applicant persists in his claim for a patent, with or without amendment, the application shall be reexamined. No amendment shall introduce new matter into the disclosure of the invention."
+   }
+  ],
+  "explanation": "收到核駁通知後，若申請人無論有無修正（amendment）仍堅持其專利請求項，申請案應予再審查；但任何修正均不得導入新增事項（new matter）。"
+ },
+ {
+  "id": "u03-l1-q11",
+  "lessonId": "u03-l1",
+  "type": "match",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請將美國專利審查程序中的事項與對應的法定規定配對",
+  "pairs": [
+   {
+    "left": "法定最長答覆期間",
+    "right": "通知後 6 個月內"
+   },
+   {
+    "left": "局長指定較短期間底線",
+    "right": "不得少於 30 日"
+   },
+   {
+    "left": "小型實體繼續審查費",
+    "right": "減免 50%"
+   },
+   {
+    "left": "截止日遇週末或聯邦假日",
+    "right": "順延至下一工作日"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "21",
+    "quote": "When the day, or the last day, for taking any action or paying any fee in the United States Patent and Trademark Office falls on Saturday, Sunday, or a Federal holiday within the District of Columbia, the action may be taken, or the fee paid, on the next succeeding secular or business day."
+   },
+   {
+    "article": "132",
+    "quote": "The Director may establish appropriate fees for such continued examination and shall provide a 50 percent reduction in such fees for small entities that qualify for reduced fees under section 41(h)(1)."
+   },
+   {
+    "article": "133",
+    "quote": "Upon failure of the applicant to prosecute the application within six months after any action therein, of which notice has been given or mailed to the applicant, or within such shorter time, not less than thirty days, as fixed by the Director in such action, the application shall be regarded as abandoned by the parties thereto."
+   }
+  ],
+  "explanation": "法定答覆期最長為 6 個月，局長指定較短期不得少於 30 日；小型實體請求繼續審查（RCE）規費減免 50%；期限遇週末或華盛頓特區聯邦假日順延至下一工作日。"
+ },
+ {
+  "id": "u03-l1-q12",
+  "lessonId": "u03-l1",
+  "type": "order",
+  "difficulty": 3,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "請依序排列美國專利申請案經審查、核駁至後續處理的法定流程",
+  "items": [
+   "局長安排對申請案及所主張的新發明進行審查",
+   "請求項遭核駁時，通知申請人並說明理由與引證資料",
+   "申請人於法定期限內堅持其請求項（無論有無修正）",
+   "專利商標局對該申請案進行再審查（reexamined）"
+  ],
+  "evidence": [
+   {
+    "article": "131",
+    "quote": "The Director shall cause an examination to be made of the application and the alleged new invention; and if on such examination it appears that the applicant is entitled to a patent under the law, the Director shall issue a patent therefor."
+   },
+   {
+    "article": "132",
+    "quote": "Whenever, on examination, any claim for a patent is rejected, or any objection or requirement made, the Director shall notify the applicant thereof, stating the reasons for such rejection, or objection or requirement, together with such information and references as may be useful in judging of the propriety of continuing the prosecution of his application; and if after receiving such notice, the applicant persists in his claim for a patent, with or without amendment, the application shall be reexamined."
+   }
+  ],
+  "explanation": "申請案先由局長安排審查；若請求項遭核駁，應通知申請人理由與引證；申請人若在期限內（有無修正皆可）堅持其請求項，則進行再審查。"
+ },
+ {
+  "id": "u03-l2-q01",
+  "lessonId": "u03-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "專利申請案中只要有任何一項請求項遭初級審查官（primary examiner）核駁一次，申請人即可在繳費後直接向專利審理暨上訴委員會（Patent Trial and Appeal Board, PTAB）提起上訴。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "134",
+    "quote": "An applicant for a patent, any of whose claims has been twice rejected, may appeal from the decision of the primary examiner to the Patent Trial and Appeal Board, having once paid the fee for such appeal."
+   }
+  ],
+  "explanation": "條文規定專利申請人的任一請求項必須遭到「兩次核駁（twice rejected）」，才可以在繳納上訴費用後向 PTAB 提起上訴。"
+ },
+ {
+  "id": "u03-l2-q02",
+  "lessonId": "u03-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "多方複審（inter partes review, IPR）或核准後複審（post-grant review, PGR）的當事人若對 PTAB 的最終書面決定（final written decision）不服，只能向聯邦巡迴上訴法院（United States Court of Appeals for the Federal Circuit）提起上訴。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "141",
+    "quote": "A party to an inter partes review or a post-grant review who is dissatisfied with the final written decision of the Patent Trial and Appeal Board under section 318(a) or 328(a) (as the case may be) may appeal the Board's decision only to the United States Court of Appeals for the Federal Circuit."
+   }
+  ],
+  "explanation": "條文明訂 IPR 或 PGR 的當事人若不服 PTAB 的最終書面決定，僅能（only）向聯邦巡迴上訴法院提起上訴，無法向聯邦地區法院提起民事訴訟。"
+ },
+ {
+  "id": "u03-l2-q03",
+  "lessonId": "u03-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "專利申請人若不服 PTAB 的上訴決定，並以局長為被告向維吉尼亞州東區聯邦地區法院提起取得專利之民事訴訟（civil action to obtain patent），若申請人最終勝訴，訴訟程序的所有費用應由專利商標局負擔。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "145",
+    "quote": "All the expenses of the proceedings shall be paid by the applicant."
+   }
+  ],
+  "explanation": "在請求取得專利的民事訴訟中，條文明確規定「程序的所有費用均應由申請人支付（All the expenses of the proceedings shall be paid by the applicant）」，不論勝負皆由申請人負擔。"
+ },
+ {
+  "id": "u03-l2-q04",
+  "lessonId": "u03-l2",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "專利申請人不服 PTAB 的審查上訴決定，若選擇不向聯邦巡迴上訴法院上訴，而擬提起民事訴訟以取得專利（civil action to obtain patent），應向哪一個法院提起？且局長指定的起訴期間不得少於幾日？",
+  "options": [
+   "華盛頓哥倫比亞特區聯邦地區法院；不得少於 30 日",
+   "維吉尼亞州東區聯邦地區法院；不得少於 60 日",
+   "聯邦巡迴上訴法院初審庭；不得少於 90 日",
+   "申請人住所地之聯邦地區法院；不得少於 60 日"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "145",
+    "quote": "An applicant dissatisfied with the decision of the Patent Trial and Appeal Board in an appeal under section 134(a) may, unless appeal has been taken to the United States Court of Appeals for the Federal Circuit, have remedy by civil action against the Director in the United States District Court for the Eastern District of Virginia if commenced within such time after such decision, not less than sixty days, as the Director appoints."
+   }
+  ],
+  "explanation": "對 PTAB 審查上訴決定不服而提起民事訴訟時，管轄法院為維吉尼亞州東區聯邦地區法院（United States District Court for the Eastern District of Virginia），且局長指定的起訴期間不得少於 60 日（not less than sixty days）。"
+ },
+ {
+  "id": "u03-l2-q05",
+  "lessonId": "u03-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "關於專利申請人對 PTAB 審查上訴最終決定的後續救濟途徑，下列敘述何者正確？",
+  "options": [
+   "申請人一旦向聯邦巡迴上訴法院提起上訴，即拋棄提起民事訴訟請求取得專利的權利",
+   "申請人可以先向聯邦巡迴上訴法院上訴，若敗訴後再向聯邦地區法院提起民事訴訟",
+   "單方再審查（reexamination）的專利權人若不服 PTAB 決定，亦得選擇向地區法院提起民事訴訟",
+   "美國專利救濟與台灣相同，均由智慧財產及商業法院作為單一初審行政訴訟管轄法院"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "141",
+    "quote": "An applicant who is dissatisfied with the final decision in an appeal to the Patent Trial and Appeal Board under section 134(a) may appeal the Board's decision to the United States Court of Appeals for the Federal Circuit. By filing such an appeal, the applicant waives his or her right to proceed under section 145."
+   },
+   {
+    "article": "141",
+    "quote": "A patent owner who is dissatisfied with the final decision in an appeal of a reexamination to the Patent Trial and Appeal Board under section 134(b) may appeal the Board's decision only to the United States Court of Appeals for the Federal Circuit."
+   }
+  ],
+  "explanation": "不同於台灣的單軌行政訴訟，美國專利申請人可選擇向聯邦巡迴上訴法院上訴或向維吉尼亞州東區聯邦地區法院提起民事訴訟，但兩者互斥：一旦向聯邦巡迴上訴法院提起上訴，即拋棄（waives）提起民事訴訟之權利；而再審查的專利權人則只能向聯邦巡迴上訴法院上訴。"
+ },
+ {
+  "id": "u03-l2-q06",
+  "lessonId": "u03-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "在單方再審查（reexamination）程序中，專利權人（patent owner）在什麼條件下可以向 PTAB 提起上訴？",
+  "options": [
+   "任一請求項遭到初級審查官第一次核駁，且繳納上訴費用後",
+   "任一請求項遭到初級審查官最終核駁（final rejection），且繳納上訴費用後",
+   "所有請求項均遭到審查官撤銷並經局長簽署確認通知後",
+   "不須經過初級審查官核駁，只要對審查進度不滿即可隨時提起上訴"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "134",
+    "quote": "A patent owner in a reexamination may appeal from the final rejection of any claim by the primary examiner to the Patent Trial and Appeal Board, having once paid the fee for such appeal."
+   }
+  ],
+  "explanation": "在再審查程序中，專利權人須待初級審查官對任一請求項作出「最終核駁（final rejection）」並繳納費用後，始得向 PTAB 提起上訴。"
+ },
+ {
+  "id": "u03-l2-q07",
+  "lessonId": "u03-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case",
+   "procedure"
+  ],
+  "prompt": "在衍生程序（derivation proceeding）中，甲不服 PTAB 的最終決定，於 2026 年 5 月 1 日依法提交上訴通知，向聯邦巡迴上訴法院提起上訴。對造當事人乙於 2026 年 5 月 15 日向局長提交聲明，選擇依民事訴訟程序進行後續程序。此時甲最晚應於何時提起民事訴訟，否則將直接以 PTAB 的決定為準？",
+  "options": [
+   "2026 年 5 月 21 日前（乙提交通知後 6 日內）",
+   "2026 年 6 月 4 日前（乙提交通知後 20 日內）",
+   "2026 年 6 月 14 日前（乙提交通知後 30 日內）",
+   "2026 年 7 月 14 日前（乙提交通知後 60 日內）"
+  ],
+  "answerIndex": 2,
+  "evidence": [
+   {
+    "article": "141",
+    "quote": "A party to a derivation proceeding who is dissatisfied with the final decision of the Patent Trial and Appeal Board in the proceeding may appeal the decision to the United States Court of Appeals for the Federal Circuit, but such appeal shall be dismissed if any adverse party to such derivation proceeding, within 20 days after the appellant has filed notice of appeal in accordance with section 142, files notice with the Director that the party elects to have all further proceedings conducted as provided in section 146. If the appellant does not, within 30 days after the filing of such notice by the adverse party, file a civil action under section 146, the Board's decision shall govern the further proceedings in the case."
+   }
+  ],
+  "explanation": "衍生程序的對造乙在上訴人甲提交上訴通知後 20 日內（5 月 15 日符合期限）選擇改採民事訴訟時，甲的聯邦巡迴法院上訴會被駁回，且甲必須在乙提交該通知後 30 日內（即 2026 年 6 月 14 日前）提起民事訴訟，否則將以 PTAB 的決定拘束後續程序。"
+ },
+ {
+  "id": "u03-l2-q08",
+  "lessonId": "u03-l2",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "An applicant for a patent, any of whose claims has been {{0}}, may appeal from the decision of the {{1}} to the Patent Trial and Appeal Board, having once paid the fee for such appeal.",
+  "blanks": [
+   "twice rejected",
+   "primary examiner"
+  ],
+  "distractors": [
+   "once objected",
+   "finally allowed",
+   "Director",
+   "district court"
+  ],
+  "evidence": [
+   {
+    "article": "134",
+    "quote": "An applicant for a patent, any of whose claims has been twice rejected, may appeal from the decision of the primary examiner to the Patent Trial and Appeal Board, having once paid the fee for such appeal."
+   }
+  ],
+  "explanation": "專利申請人的任一請求項若經初級審查官（primary examiner）兩次核駁（twice rejected），於繳費後得向 PTAB 提起上訴。"
+ },
+ {
+  "id": "u03-l2-q09",
+  "lessonId": "u03-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "An applicant dissatisfied with the decision of the Patent Trial and Appeal Board in an appeal under section 134(a) may, unless appeal has been taken to the United States Court of Appeals for the {{0}}, have remedy by civil action against the Director in the United States District Court for the {{1}} if commenced within such time after such decision, not less than {{2}}, as the Director appoints.",
+  "blanks": [
+   "Federal Circuit",
+   "Eastern District of Virginia",
+   "sixty days"
+  ],
+  "distractors": [
+   "Supreme Court",
+   "District of Columbia",
+   "thirty days",
+   "ninety days"
+  ],
+  "evidence": [
+   {
+    "article": "145",
+    "quote": "An applicant dissatisfied with the decision of the Patent Trial and Appeal Board in an appeal under section 134(a) may, unless appeal has been taken to the United States Court of Appeals for the Federal Circuit, have remedy by civil action against the Director in the United States District Court for the Eastern District of Virginia if commenced within such time after such decision, not less than sixty days, as the Director appoints."
+   }
+  ],
+  "explanation": "不服 PTAB 審查上訴決定的申請人，若未向聯邦巡迴上訴法院（Federal Circuit）上訴，得在局長指定不少於 60 日（sixty days）之期間內，向維吉尼亞州東區（Eastern District of Virginia）聯邦地區法院對局長提起民事訴訟。"
+ },
+ {
+  "id": "u03-l2-q10",
+  "lessonId": "u03-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "such appeal shall be dismissed if any adverse party to such derivation proceeding, within {{0}} after the appellant has filed notice of appeal in accordance with section 142, files notice with the Director that the party elects to have all further proceedings conducted as provided in section 146. If the appellant does not, within {{1}} after the filing of such notice by the adverse party, file a {{2}} under section 146, the Board's decision shall govern the further proceedings in the case.",
+  "blanks": [
+   "20 days",
+   "30 days",
+   "civil action"
+  ],
+  "distractors": [
+   "10 days",
+   "60 days",
+   "notice of appeal",
+   "reexamination"
+  ],
+  "evidence": [
+   {
+    "article": "141",
+    "quote": "such appeal shall be dismissed if any adverse party to such derivation proceeding, within 20 days after the appellant has filed notice of appeal in accordance with section 142, files notice with the Director that the party elects to have all further proceedings conducted as provided in section 146. If the appellant does not, within 30 days after the filing of such notice by the adverse party, file a civil action under section 146, the Board's decision shall govern the further proceedings in the case."
+   }
+  ],
+  "explanation": "在衍生程序上訴中，對造當事人得於上訴人提交上訴通知後 20 日（20 days）內通知局長改採民事訴訟程序；上訴人接著須在 30 日（30 days）內提起民事訴訟（civil action），否則以 PTAB 決定為準。"
+ },
+ {
+  "id": "u03-l2-q11",
+  "lessonId": "u03-l2",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "請將不同當事人或程序與其法定救濟規定配對",
+  "pairs": [
+   {
+    "left": "申請人向 PTAB 上訴要件",
+    "right": "請求項遭兩次核駁"
+   },
+   {
+    "left": "再審查向 PTAB 上訴要件",
+    "right": "請求項遭最終核駁"
+   },
+   {
+    "left": "不服 IPR/PGR 最終決定",
+    "right": "僅能上訴至 CAFC"
+   },
+   {
+    "left": "申請人請求取得專利之民事訴訟",
+    "right": "管轄在東維吉尼亞地區法院"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "134",
+    "quote": "An applicant for a patent, any of whose claims has been twice rejected, may appeal from the decision of the primary examiner to the Patent Trial and Appeal Board, having once paid the fee for such appeal."
+   },
+   {
+    "article": "134",
+    "quote": "A patent owner in a reexamination may appeal from the final rejection of any claim by the primary examiner to the Patent Trial and Appeal Board, having once paid the fee for such appeal."
+   },
+   {
+    "article": "141",
+    "quote": "A party to an inter partes review or a post-grant review who is dissatisfied with the final written decision of the Patent Trial and Appeal Board under section 318(a) or 328(a) (as the case may be) may appeal the Board's decision only to the United States Court of Appeals for the Federal Circuit."
+   },
+   {
+    "article": "145",
+    "quote": "have remedy by civil action against the Director in the United States District Court for the Eastern District of Virginia"
+   }
+  ],
+  "explanation": "申請人向 PTAB 上訴需請求項經兩次核駁，再審查專利權人則需經最終核駁；對 IPR/PGR 最終決定不服僅能上訴至聯邦巡迴上訴法院（CAFC）；申請人提起取得專利的民事訴訟則由維吉尼亞州東區聯邦地區法院管轄。"
+ },
+ {
+  "id": "u03-l2-q12",
+  "lessonId": "u03-l2",
+  "type": "order",
+  "difficulty": 3,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "請依序排列專利申請人從審查核駁到透過聯邦地區法院取得專利授權的法定步驟",
+  "items": [
+   "申請案之請求項遭初級審查官兩次核駁，繳費向 PTAB 提起上訴",
+   "PTAB 作出上訴決定，申請人對該決定感到不服",
+   "申請人未向 CAFC 上訴，於不少於 60 日之指定期間內向東維吉尼亞地區法院對局長起訴",
+   "法院依事實判決申請人有權獲准專利，授權局長於符合法定要件時核發專利"
+  ],
+  "evidence": [
+   {
+    "article": "134",
+    "quote": "An applicant for a patent, any of whose claims has been twice rejected, may appeal from the decision of the primary examiner to the Patent Trial and Appeal Board, having once paid the fee for such appeal."
+   },
+   {
+    "article": "145",
+    "quote": "An applicant dissatisfied with the decision of the Patent Trial and Appeal Board in an appeal under section 134(a) may, unless appeal has been taken to the United States Court of Appeals for the Federal Circuit, have remedy by civil action against the Director in the United States District Court for the Eastern District of Virginia if commenced within such time after such decision, not less than sixty days, as the Director appoints. The court may adjudge that such applicant is entitled to receive a patent for his invention, as specified in any of his claims involved in the decision of the Patent Trial and Appeal Board, as the facts in the case may appear and such adjudication shall authorize the Director to issue such patent on compliance with the requirements of law."
+   }
+  ],
+  "explanation": "申請人先因請求項遭兩次核駁而向 PTAB 上訴；不服 PTAB 決定時，若未向 CAFC 上訴，可在局長指定不少於 60 日內向維吉尼亞州東區聯邦地區法院起訴；最後由法院判決申請人有權獲准專利並授權局長核發。"
+ },
+ {
+  "id": "u03-l3-q01",
+  "lessonId": "u03-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "美國專利商標局局長（Director）對於是否立案啟動衍生程序（derivation proceeding）所作出的決定為最終決定，當事人不得對該決定提起上訴（not appealable）。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "135",
+    "quote": "A determination by the Director whether to institute a derivation proceeding under paragraph (1) shall be final and not appealable."
+   }
+  ],
+  "explanation": "條文明確規定，局長決定是否立案進行衍生程序（whether to institute a derivation proceeding）屬於最終決定，不得提起上訴。"
+ },
+ {
+  "id": "u03-l3-q02",
+  "lessonId": "u03-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "衍生程序一經立案啟動，因涉及公益與專利有效性，當事人雙方即使就誰是真正發明人達成書面合意，也不得透過和解（settlement）或仲裁（arbitration）終止程序。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "135",
+    "quote": "Parties to a proceeding instituted under subsection (a) may terminate the proceeding by filing a written statement reflecting the agreement of the parties as to the correct inventor of the claimed invention in dispute."
+   },
+   {
+    "article": "135",
+    "quote": "Parties to a proceeding instituted under subsection (a) may, within such time as may be specified by the Director by regulation, determine such contest or any aspect thereof by arbitration."
+   }
+  ],
+  "explanation": "衍生程序的當事人可以提交反映雙方就正確發明人達成合意的書面聲明來終止程序（除非 PTAB 認為與卷證不符），也可以透過仲裁解決爭議。"
+ },
+ {
+  "id": "u03-l3-q03",
+  "lessonId": "u03-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "當事人對 PTAB 在衍生程序的決定不服而提起民事訴訟時，美國專利商標局局長（Director）為該訴訟之必要當事人（necessary party），原告必須將局長列為共同被告。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "146",
+    "quote": "The Director shall not be a necessary party but he shall be notified of the filing of the suit by the clerk of the court in which it is filed and shall have the right to intervene."
+   }
+  ],
+  "explanation": "在衍生程序的民事訴訟中，訴訟是對紀錄上的利害關係人提起，局長並非必要當事人（shall not be a necessary party），但法院書記官應通知局長，且局長有權參加訴訟（right to intervene）。"
+ },
+ {
+  "id": "u03-l3-q04",
+  "lessonId": "u03-l3",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "申請人若要針對在先申請案或專利中相同或實質上相同的發明請求立案衍生程序，必須在什麼期限內提出請願書（petition）？",
+  "options": [
+   "自該請求項之專利核准日或在先申請案公開日兩者中較早之日起 1 年內",
+   "自該請求項之專利核准日或在先申請案公開日兩者中較晚之日起 1 年內",
+   "自該在先申請案之有效申請日（effective filing date）起算 18 個月內",
+   "在該在先專利權存續期間內的任何時間皆可提出，並無期間限制"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "135",
+    "quote": "A petition under this section with respect to an invention that is the same or substantially the same invention as a claim contained in a patent issued on an earlier application, or contained in an earlier application when published or deemed published under section 122(b), may not be filed unless such petition is filed during the 1-year period following the date on which the patent containing such claim was granted or the earlier application containing such claim was published, whichever is earlier."
+   }
+  ],
+  "explanation": "衍生程序的請願書必須在包含該請求項之專利獲准日（granted）或在先申請案公開日（published）兩者中「較早之日（whichever is earlier）」後的 1 年期間內提出。"
+ },
+ {
+  "id": "u03-l3-q05",
+  "lessonId": "u03-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "關於 PTAB 暫緩處理（deferral of decision）衍生程序請願的權限，PTAB 得將請願暫緩至局長核發包含系爭發明之專利日起算多久期間屆滿為止？",
+  "options": [
+   "自核發專利日起算 1 個月期間屆滿為止",
+   "自核發專利日起算 3 個月期間屆滿為止",
+   "自核發專利日起算 6 個月期間屆滿為止",
+   "自核發專利日起算 9 個月期間屆滿為止"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "135",
+    "quote": "The Patent Trial and Appeal Board may defer action on a petition for a derivation proceeding until the expiration of the 3-month period beginning on the date on which the Director issues a patent that includes the claimed invention that is the subject of the petition."
+   }
+  ],
+  "explanation": "條文規定 PTAB 得暫緩對衍生程序請願採取行動，直到局長核發包含該系爭發明之專利日起算的 3 個月期間（3-month period）屆滿為止。"
+ },
+ {
+  "id": "u03-l3-q06",
+  "lessonId": "u03-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "在衍生程序的民事訴訟中，若對造當事人分別居住於不同州的多個聯邦司法管轄區，或有對造當事人居住於外國時，應由哪一個法院管轄？",
+  "options": [
+   "美國聯邦最高法院（United States Supreme Court）",
+   "哥倫比亞特區聯邦上訴法院（D.C. Circuit）",
+   "維吉尼亞州東區聯邦地區法院（Eastern District of Virginia）",
+   "原告住所地之州立高等法院（State Superior Court）"
+  ],
+  "answerIndex": 2,
+  "evidence": [
+   {
+    "article": "146",
+    "quote": "If there be adverse parties residing in a plurality of districts not embraced within the same state, or an adverse party residing in a foreign country, the United States District Court for the Eastern District of Virginia shall have jurisdiction and may issue summons against the adverse parties directed to the marshal of any district in which any adverse party resides."
+   }
+  ],
+  "explanation": "當對造當事人居住在非屬同一州的多個地區，或居住於外國時，條文規定由維吉尼亞州東區聯邦地區法院（United States District Court for the Eastern District of Virginia）享有管轄權。"
+ },
+ {
+  "id": "u03-l3-q07",
+  "lessonId": "u03-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case",
+   "procedure"
+  ],
+  "prompt": "甲發現乙在先申請案中的請求項一係未經授權抄襲自甲的發明。乙的申請案於 2025 年 8 月 1 日依第 122(b) 條早期公開，並於 2026 年 2 月 1 日獲准核發專利。甲已自己提出專利申請，若甲欲向美國專利商標局請求啟動衍生程序（derivation proceeding），最晚應於何時提出請願書？",
+  "options": [
+   "2026 年 2 月 1 日前（公開日後 6 個月內）",
+   "2026 年 8 月 1 日前（公開日後 1 年內）",
+   "2027 年 2 月 1 日前（專利核准日後 1 年內）",
+   "2028 年 2 月 1 日前（專利核准日後 2 年內）"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "135",
+    "quote": "A petition under this section with respect to an invention that is the same or substantially the same invention as a claim contained in a patent issued on an earlier application, or contained in an earlier application when published or deemed published under section 122(b), may not be filed unless such petition is filed during the 1-year period following the date on which the patent containing such claim was granted or the earlier application containing such claim was published, whichever is earlier."
+   }
+  ],
+  "explanation": "請求啟動衍生程序的期限，是自包含該請求項之「專利核准日」或「在先申請案公開日」兩者中較早之日（whichever is earlier）起算 1 年內。本案公開日 2025 年 8 月 1 日早於核准日 2026 年 2 月 1 日，故應自 2025 年 8 月 1 日起算 1 年，最晚須於 2026 年 8 月 1 日前提出。"
+ },
+ {
+  "id": "u03-l3-q08",
+  "lessonId": "u03-l3",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "In a derivation proceeding instituted under subsection (a), the Patent Trial and Appeal Board shall determine whether an inventor named in the {{0}} derived the claimed invention from an inventor named in the petitioner's application and, without {{1}}, the earlier application claiming such invention was filed.",
+  "blanks": [
+   "earlier application",
+   "authorization"
+  ],
+  "distractors": [
+   "later patent",
+   "examination",
+   "compensation",
+   "publication"
+  ],
+  "evidence": [
+   {
+    "article": "135",
+    "quote": "In a derivation proceeding instituted under subsection (a), the Patent Trial and Appeal Board shall determine whether an inventor named in the earlier application derived the claimed invention from an inventor named in the petitioner's application and, without authorization, the earlier application claiming such invention was filed."
+   }
+  ],
+  "explanation": "在衍生程序中，PTAB 負責認定在先申請案（earlier application）中所列的發明人，是否源自請願人申請案中的發明人，且未經授權（without authorization）即提出該在先申請案。"
+ },
+ {
+  "id": "u03-l3-q09",
+  "lessonId": "u03-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "may not be filed unless such petition is filed during the {{0}} following the date on which the patent containing such claim was {{1}} or the earlier application containing such claim was {{2}}, whichever is earlier.",
+  "blanks": [
+   "1-year period",
+   "granted",
+   "published"
+  ],
+  "distractors": [
+   "6-month period",
+   "abandoned",
+   "rejected",
+   "assigned"
+  ],
+  "evidence": [
+   {
+    "article": "135",
+    "quote": "may not be filed unless such petition is filed during the 1-year period following the date on which the patent containing such claim was granted or the earlier application containing such claim was published, whichever is earlier."
+   }
+  ],
+  "explanation": "衍生程序請願書必須在包含該請求項之專利核准（granted）或在先申請案公開（published）兩者中較早之日後的 1 年期間（1-year period）內提出。"
+ },
+ {
+  "id": "u03-l3-q10",
+  "lessonId": "u03-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The final decision of the Patent Trial and Appeal Board, if adverse to claims in an application for patent, shall constitute the {{0}} by the Office on those claims. The final decision of the Patent Trial and Appeal Board, if adverse to claims in a patent, shall, if no appeal or other review of the decision has been or can be taken or had, constitute {{1}} of those claims",
+  "blanks": [
+   "final refusal",
+   "cancellation"
+  ],
+  "distractors": [
+   "provisional allowance",
+   "suspension",
+   "reissue",
+   "disclaimer"
+  ],
+  "evidence": [
+   {
+    "article": "135",
+    "quote": "The final decision of the Patent Trial and Appeal Board, if adverse to claims in an application for patent, shall constitute the final refusal by the Office on those claims. The final decision of the Patent Trial and Appeal Board, if adverse to claims in a patent, shall, if no appeal or other review of the decision has been or can be taken or had, constitute cancellation of those claims"
+   }
+  ],
+  "explanation": "PTAB 的最終決定若對「申請案」中的請求項不利，構成專利商標局對該等請求項的最終核駁拒絕（final refusal）；若對「已核准專利」中的請求項不利且無上訴或救濟，則構成該等請求項之撤銷（cancellation）。"
+ },
+ {
+  "id": "u03-l3-q11",
+  "lessonId": "u03-l3",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請將衍生程序中的事項與對應的法定規定配對",
+  "pairs": [
+   {
+    "left": "衍生程序請願提出期限",
+    "right": "公開或核准較早日起 1 年"
+   },
+   {
+    "left": "局長是否立案之決定",
+    "right": "最終決定且不得上訴"
+   },
+   {
+    "left": "PTAB 因專利核發暫緩決定",
+    "right": "核發日起 3 個月屆滿止"
+   },
+   {
+    "left": "不服 PTAB 決定提民事訴訟",
+    "right": "指定期間不少於 60 日"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "135",
+    "quote": "may not be filed unless such petition is filed during the 1-year period following the date on which the patent containing such claim was granted or the earlier application containing such claim was published, whichever is earlier."
+   },
+   {
+    "article": "135",
+    "quote": "A determination by the Director whether to institute a derivation proceeding under paragraph (1) shall be final and not appealable."
+   },
+   {
+    "article": "135",
+    "quote": "The Patent Trial and Appeal Board may defer action on a petition for a derivation proceeding until the expiration of the 3-month period beginning on the date on which the Director issues a patent that includes the claimed invention that is the subject of the petition."
+   },
+   {
+    "article": "146",
+    "quote": "Any party to a derivation proceeding dissatisfied with the decision of the Patent Trial and Appeal Board on the derivation proceeding, may have remedy by civil action, if commenced within such time after such decision, not less than sixty days, as the Director appoints"
+   }
+  ],
+  "explanation": "衍生程序請願須於公開或核准較早日起 1 年內提出；局長立案決定不得上訴；PTAB 得暫緩至專利核發日起 3 個月屆滿；對 PTAB 最終決定提起民事訴訟的指定期間不少於 60 日。"
+ },
+ {
+  "id": "u03-l3-q12",
+  "lessonId": "u03-l3",
+  "type": "order",
+  "difficulty": 3,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "請依序排列衍生程序（derivation proceeding）從請願到透過民事訴訟獲准專利的法定流程",
+  "items": [
+   "申請人於在先案公開或核准較早日起 1 年內，具體陳明理由向 PTO 提出衍生程序請願",
+   "局長認定請願符合立案標準，決定啟動衍生程序",
+   "PTAB 審理在先案發明人是否未經授權源自請願人申請案之發明人，並作出決定",
+   "不服 PTAB 決定的當事人提起民事訴訟，法院判決有利於申請人並將判決認證副本提交 PTO 以授權核發專利"
+  ],
+  "evidence": [
+   {
+    "article": "135",
+    "quote": "An applicant for patent may file a petition with respect to an invention to institute a derivation proceeding in the Office. The petition shall set forth with particularity the basis for finding that an individual named in an earlier application as the inventor or a joint inventor derived such invention from an individual named in the petitioner's application as the inventor or a joint inventor and, without authorization, the earlier application claiming such invention was filed. Whenever the Director determines that a petition filed under this subsection demonstrates that the standards for instituting a derivation proceeding are met, the Director may institute a derivation proceeding."
+   },
+   {
+    "article": "135",
+    "quote": "In a derivation proceeding instituted under subsection (a), the Patent Trial and Appeal Board shall determine whether an inventor named in the earlier application derived the claimed invention from an inventor named in the petitioner's application and, without authorization, the earlier application claiming such invention was filed."
+   },
+   {
+    "article": "146",
+    "quote": "Any party to a derivation proceeding dissatisfied with the decision of the Patent Trial and Appeal Board on the derivation proceeding, may have remedy by civil action, if commenced within such time after such decision, not less than sixty days, as the Director appoints or as provided in section 141, unless he has appealed to the United States Court of Appeals for the Federal Circuit, and such appeal is pending or has been decided."
+   },
+   {
+    "article": "146",
+    "quote": "Judgment of the court in favor of the right of an applicant to a patent shall authorize the Director to issue such patent on the filing in the Patent and Trademark Office of a certified copy of the judgment and on compliance with the requirements of law."
+   }
+  ],
+  "explanation": "首先由申請人在 1 年期限內提出請願書；接著由局長決定立案啟動；再由 PTAB 進行審理並作出決定；不服者可提起民事訴訟，若獲有利判決，於向 PTO 提交判決認證副本並符合法定要件後，即授權局長核發專利。"
+ }
+]

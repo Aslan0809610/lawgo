@@ -130,13 +130,18 @@ function validateCloze(question, sources, fail) {
   }
 }
 
+// Display width: ASCII characters count as half a CJK character.
+export function displayWidth(text) {
+  return [...text].reduce((sum, ch) => sum + (ch.charCodeAt(0) < 128 ? 0.5 : 1), 0);
+}
+
 function validPair(pair) {
   return (
     object(pair) &&
     nonempty(pair.left) &&
     nonempty(pair.right) &&
-    [...pair.left].length <= 16 &&
-    [...pair.right].length <= 16
+    displayWidth(pair.left) <= 16 &&
+    displayWidth(pair.right) <= 16
   );
 }
 
@@ -146,7 +151,7 @@ function validateMatch(question, fail) {
     question.pairs.length !== 4 ||
     !question.pairs.every(validPair)
   ) {
-    fail('pairs 必須剛好 4 組，left、right 為非空字串且各 ≤16 字');
+    fail('pairs 必須剛好 4 組，left、right 為非空字串且各 ≤16 字寬（英數字算半字）');
     return;
   }
   if (

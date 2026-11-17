@@ -116,7 +116,7 @@ content/
 | `true_false` | `"answer": true/false` |
 | `single_choice` | `"options": [4 個字串], "answerIndex": 0-3` |
 | `cloze` | `"text": "含 {{0}}、{{1}} 的句子", "blanks": ["答案0","答案1"], "distractors": ["干擾詞", …]`（1～3 個空格，2～4 個干擾詞）。把 blanks 填回 text 之後，必須是 evidence 中某條 text 的連續片段。 |
-| `match` | `"pairs": [ {"left": "…", "right": "…"} ×4 ]`，左右都要短（≤ 16 字） |
+| `match` | `"pairs": [ {"left": "…", "right": "…"} ×4 ]`，左右都要短（≤ 16 字寬，英數字算半字） |
 | `order` | `"items": ["步驟1", "步驟2", …]`（3～5 項，依正確順序） |
 
 ### 3.4 驗證規則（`npm run validate` 會檢查）

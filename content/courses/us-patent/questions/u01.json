@@ -1,0 +1,1017 @@
+[
+ {
+  "id": "u01-l1-q01",
+  "lessonId": "u01-l1",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "在美國專利法中，「發明人（inventor）」定義為自然人（individual），在共同發明中則為共同發明或發現該標的之自然人全體；這與台灣專利法上發明人須為自然人的概念一致。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "100",
+    "quote": "The term \"inventor\" means the individual or, if a joint invention, the individuals collectively who invented or discovered the subject matter of the invention."
+   }
+  ],
+  "explanation": "法定定義明確使用「individual（自然人／個人）」一詞，因此只有自然人能成為美國專利法上的發明人，公司或法人不能作為發明人。"
+ },
+ {
+  "id": "u01-l1-q02",
+  "lessonId": "u01-l1",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "已知機器、製品、物質組成物或材料的「新用途（new use）」，因為標的物本身已經是已知的，所以不屬於美國專利法所定義的「方法（process）」。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "100",
+    "quote": "The term \"process\" means process, art or method, and includes a new use of a known process, machine, manufacture, composition of matter, or material."
+   }
+  ],
+  "explanation": "條文明確規定「方法（process）」包含已知方法、機器、製品、物質組成物或材料的新用途（new use）。"
+ },
+ {
+  "id": "u01-l1-q03",
+  "lessonId": "u01-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "專利權人（patentee）本人也可以作為「第三方請求人（third-party requester）」，針對自己的專利提出單方再審查（ex parte reexamination）請求。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "100",
+    "quote": "The term \"third-party requester\" means a person requesting ex parte reexamination under section 302 who is not the patent owner."
+   }
+  ],
+  "explanation": "依定義，「第三方請求人（third-party requester）」專指非專利所有人（who is not the patent owner）而請求單方再審查之人。"
+ },
+ {
+  "id": "u01-l1-q04",
+  "lessonId": "u01-l1",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "依美國專利法關於專利適格標的（patent-eligible subject matter）之規定，下列何者不屬於法條明文列舉的四種基本發明類別？",
+  "options": [
+   "方法（process）或機器（machine）",
+   "製品（manufacture）",
+   "物質組成物（composition of matter）",
+   "商業模式與純粹科學原理（business model）"
+  ],
+  "answerIndex": 3,
+  "evidence": [
+   {
+    "article": "101",
+    "quote": "Whoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title."
+   }
+  ],
+  "explanation": "美國專利法明文列舉的可專利標的為新穎且實用的方法（process）、機器（machine）、製品（manufacture）、物質組成物（composition of matter）及其改良。"
+ },
+ {
+  "id": "u01-l1-q05",
+  "lessonId": "u01-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "關於美國專利法中「專利權人（patentee）」一詞的法定定義，下列敘述何者正確？",
+  "options": [
+   "僅限於專利核發當時證書上所載之原始獲證人",
+   "包含獲發專利之人以及該專利權人的權利繼受人（successors in title）",
+   "包含所有經專利權人非專屬授權實施該發明之被授權人",
+   "僅指實際發明或發現該標的之自然人發明人本人"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "100",
+    "quote": "The word \"patentee\" includes not only the patentee to whom the patent was issued but also the successors in title to the patentee."
+   }
+  ],
+  "explanation": "條文明訂「專利權人（patentee）」不僅包括獲發專利的原始專利權人，也包括其權利繼受人（successors in title，如受讓人）。"
+ },
+ {
+  "id": "u01-l1-q06",
+  "lessonId": "u01-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "definition",
+   "case"
+  ],
+  "prompt": "甲公司與乙大學想針對某請求項發明（claimed invention）之技術領域合作研發，並希望符合美國專利法「共同研究協議（joint research agreement）」之定義。下列何種安排符合法定要件？",
+  "options": [
+   "雙方僅以口頭約定共同分擔實驗經費與研究工作",
+   "雙方簽訂書面契約、補助或合作協議以進行該領域之實驗、開發或研究工作",
+   "由甲公司單方面發布內部研發計畫書，未與乙大學簽署任何文件",
+   "雙方僅簽訂產品完成後的純粹商業經銷與市場代理契約"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "100",
+    "quote": "The term \"joint research agreement\" means a written contract, grant, or cooperative agreement entered into by 2 or more persons or entities for the performance of experimental, developmental, or research work in the field of the claimed invention."
+   }
+  ],
+  "explanation": "「共同研究協議（joint research agreement）」必須是由 2 個以上之人或實體所締結的「書面（written）」契約、補助或合作協議，目的為在請求項發明領域進行實驗、開發或研究工作。"
+ },
+ {
+  "id": "u01-l1-q07",
+  "lessonId": "u01-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "definition",
+   "deadline",
+   "case"
+  ],
+  "prompt": "台灣申請人甲於 2025 年 4 月 10 日在台灣首次提出發明專利申請，並於 2026 年 3 月 25 日就同一發明向美國提出專利申請且合法主張外國優先權（right of priority）。之後該美國專利獲准，甲又於 2028 年 6 月 1 日針對該專利提出再發證（reissue）申請。該再發證申請中原始請求項發明的「有效申請日（effective filing date）」為何日？",
+  "options": [
+   "2025 年 4 月 10 日",
+   "2026 年 3 月 25 日",
+   "2028 年 6 月 1 日",
+   "原專利的核准公告日"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "100",
+    "quote": "(B) the filing date of the earliest application for which the patent or application is entitled, as to such invention, to a right of priority under section 119, 365(a), 365(b), 386(a), or 386(b) or to the benefit of an earlier filing date under section 120, 121, 365(c), or 386(c)."
+   },
+   {
+    "article": "100",
+    "quote": "(2) The effective filing date for a claimed invention in an application for reissue or reissued patent shall be determined by deeming the claim to the invention to have been contained in the patent for which reissue was sought."
+   }
+  ],
+  "explanation": "享有優先權或較早申請日利益者，其有效申請日（effective filing date）為最早申請案之申請日（2025 年 4 月 10 日）；且再發證申請案的請求項視為包含在原受再發證之專利中，故仍維持 2025 年 4 月 10 日。"
+ },
+ {
+  "id": "u01-l1-q08",
+  "lessonId": "u01-l1",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Whoever invents or discovers any {{0}} and {{1}} process, machine, manufacture, or {{2}} of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title.",
+  "blanks": [
+   "new",
+   "useful",
+   "composition"
+  ],
+  "distractors": [
+   "novel",
+   "industrial",
+   "combination"
+  ],
+  "evidence": [
+   {
+    "article": "101",
+    "quote": "Whoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title."
+   }
+  ],
+  "explanation": "美國專利法要求發明必須是「新穎且實用（new and useful）」，對應台灣專利法的新穎性與產業利用性；四大標的之一為物質組成物（composition of matter）。"
+ },
+ {
+  "id": "u01-l1-q09",
+  "lessonId": "u01-l1",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The term \"claimed invention\" means the {{0}} defined by a {{1}} in a patent or an application for a patent.",
+  "blanks": [
+   "subject matter",
+   "claim"
+  ],
+  "distractors": [
+   "specification",
+   "drawing",
+   "embodiment"
+  ],
+  "evidence": [
+   {
+    "article": "100",
+    "quote": "The term \"claimed invention\" means the subject matter defined by a claim in a patent or an application for a patent."
+   }
+  ],
+  "explanation": "「請求項發明（claimed invention）」是指由專利或專利申請案中的請求項（claim）所界定的標的（subject matter）。"
+ },
+ {
+  "id": "u01-l1-q10",
+  "lessonId": "u01-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "deadline"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The effective filing date for a claimed invention in an application for {{0}} or reissued patent shall be determined by deeming the claim to the invention to have been contained in the {{1}} for which reissue was sought.",
+  "blanks": [
+   "reissue",
+   "patent"
+  ],
+  "distractors": [
+   "reexamination",
+   "provisional",
+   "specification"
+  ],
+  "evidence": [
+   {
+    "article": "100",
+    "quote": "The effective filing date for a claimed invention in an application for reissue or reissued patent shall be determined by deeming the claim to the invention to have been contained in the patent for which reissue was sought."
+   }
+  ],
+  "explanation": "再發證（reissue）申請案或再發證專利的請求項發明，其有效申請日是將該請求項視為已包含在原申請再發證之專利（patent）中來決定。"
+ },
+ {
+  "id": "u01-l1-q11",
+  "lessonId": "u01-l1",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "將美國專利法的法定名詞與其定義內容配對",
+  "pairs": [
+   {
+    "left": "invention",
+    "right": "發明或發現"
+   },
+   {
+    "left": "United States",
+    "right": "美國本土及其領地與屬地"
+   },
+   {
+    "left": "patentee",
+    "right": "獲證人及其權利繼受人"
+   },
+   {
+    "left": "claimed invention",
+    "right": "請求項所界定之標的"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "100",
+    "quote": "(a) The term \"invention\" means invention or discovery.\n("
+   },
+   {
+    "article": "100",
+    "quote": "c) The terms \"United States\" and \"this country\" mean the United States of America, its territories and possessions.\n(d) The word \"patentee\" includes not only the patentee to whom the patent was issued but also the successors in title to the patentee."
+   },
+   {
+    "article": "100",
+    "quote": "(j) The term \"claimed invention\" means the subject matter defined by a claim in a patent or an application for a patent."
+   }
+  ],
+  "explanation": "美國專利法明確定義各基礎用語：invention 含發明或發現、United States 含領地與屬地、patentee 含權利繼受人、claimed invention 為請求項界定之標的。"
+ },
+ {
+  "id": "u01-l1-q12",
+  "lessonId": "u01-l1",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "將下列主體或概念與其法定定義配對",
+  "pairs": [
+   {
+    "left": "inventor",
+    "right": "發明該標的之個人或全體"
+   },
+   {
+    "left": "coinventor",
+    "right": "共同發明人中之任何一人"
+   },
+   {
+    "left": "third-party requester",
+    "right": "非專利權人之再審查請求人"
+   },
+   {
+    "left": "process",
+    "right": "含已知物之新用途的方法"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "100",
+    "quote": "(b) The term \"process\" means process, art or method, and includes a new use of a known process, machine, manufacture, composition of matter, or material."
+   },
+   {
+    "article": "100",
+    "quote": "(e) The term \"third-party requester\" means a person requesting ex parte reexamination under section 302 who is not the patent owner.\n(f) The term \"inventor\" means the individual or, if a joint invention, the individuals collectively who invented or discovered the subject matter of the invention.\n(g) The terms \"joint inventor\" and \"coinventor\" mean any 1 of the individuals who invented or discovered the subject matter of a joint invention."
+   }
+  ],
+  "explanation": "共同發明中全體合稱為 inventor，其中任一人稱為 joint inventor 或 coinventor；非專利權人請求單方再審查者稱為 third-party requester。"
+ },
+ {
+  "id": "u01-l2-q01",
+  "lessonId": "u01-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "在 AIA 修法後的美國專利法下，新穎性（novelty）的先前技術（prior art）判斷基準日是「有效申請日（effective filing date）」，而非發明完成日。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "the claimed invention was patented, described in a printed publication, or in public use, on sale, or otherwise available to the public before the effective filing date of the claimed invention"
+   }
+  ],
+  "explanation": "AIA 採行「先申請制（first-inventor-to-file）」，以請求項發明的有效申請日（effective filing date）前是否已公開或有效申請作為先前技術的判斷基準，與台灣專利法採先申請主義方向一致。"
+ },
+ {
+  "id": "u01-l2-q02",
+  "lessonId": "u01-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "美國專利法對於發明人自己公開行為的新穎性優惠期（寬限期，grace period）為有效申請日前 6 個月內，若在申請前 10 個月公開即喪失新穎性。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "A disclosure made 1 year or less before the effective filing date of a claimed invention shall not be prior art to the claimed invention under subsection (a)(1) if—"
+   }
+  ],
+  "explanation": "美國專利法的新穎性寬限期為有效申請日前「1 年以內（1 year or less）」，與台灣發明專利 12 個月優惠期長度相同（但美國是以「有效申請日」起算，台灣是以「申請日」起算）。"
+ },
+ {
+  "id": "u01-l2-q03",
+  "lessonId": "u01-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "若某件美國專利申請案與先前由不同發明人提出、但尚未公開之美國申請案，在有效申請日前同屬於同一公司所有，則該先申請案不會成為後申請案在 §102(a)(2) 下的先前技術。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "(2) Disclosures appearing in applications and patents.—A disclosure shall not be prior art to a claimed invention under subsection (a)(2) if—\n("
+   },
+   {
+    "article": "102",
+    "quote": "C) the subject matter disclosed and the claimed invention, not later than the effective filing date of the claimed invention, were owned by the same person or subject to an obligation of assignment to the same person."
+   }
+  ],
+  "explanation": "只要在請求項發明之有效申請日當日或之前，所揭露之標的與請求項發明屬於同一人所有或負有讓與同一人之義務，即適用 §102(b)(2)(C) 例外而不構成 §102(a)(2) 的先前技術。"
+ },
+ {
+  "id": "u01-l2-q04",
+  "lessonId": "u01-l2",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "依美國專利法關於新穎性之規定，下列何種情形在請求項發明之有效申請日前發生時，會構成 §102(a)(1) 之先前技術（prior art）？",
+  "options": [
+   "發明人僅在公司內部保密筆記本中記錄該發明構想",
+   "該發明已獲准專利、記載於印刷刊物、公開實施、為銷售或以其他方式為公眾所知悉",
+   "他人於有效申請日之後才在期刊上發表相同技術",
+   "共同發明人之間私下以加密電子郵件討論技術細節"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "the claimed invention was patented, described in a printed publication, or in public use, on sale, or otherwise available to the public before the effective filing date of the claimed invention"
+   }
+  ],
+  "explanation": "在有效申請日前已獲專利（patented）、記載於印刷刊物（printed publication）、公開使用（in public use）、銷售（on sale）或以其他方式為公眾可得（otherwise available to the public）者，均構成先前技術。"
+ },
+ {
+  "id": "u01-l2-q05",
+  "lessonId": "u01-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "當兩家公司簽有共同研究協議（joint research agreement），並欲主張「視為同一人所有」以排除先申請案作為先前技術時，除協議須在有效申請日當天或之前已生效、且發明屬於協議活動範圍內外，還須滿足下列哪一項程序要件？",
+  "options": [
+   "必須在共同研究協議簽署後 30 日內向美國專利局公證備查",
+   "該請求項發明之專利申請案須揭露或經修正以揭露共同研究協議各當事人之名稱",
+   "兩家公司必須在專利核准前完成法律上的企業合併",
+   "必須取得所有共同發明人放棄姓名表示權之書面同意"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "(3) the application for patent for the claimed invention discloses or is amended to disclose the names of the parties to the joint research agreement."
+   }
+  ],
+  "explanation": "主張共同研究協議之共同所有例外，申請案必須揭露（或經修正以揭露）該共同研究協議各當事人的名稱（names of the parties）。"
+ },
+ {
+  "id": "u01-l2-q06",
+  "lessonId": "u01-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case",
+   "comparison"
+  ],
+  "prompt": "發明人甲於 2025 年 5 月 10 日在國際學術研討會上公開發表其發明。若甲先於 2025 年 11 月 1 日在台灣提出首次專利申請，並於 2026 年 8 月 1 日向美國提出專利申請且合法主張台灣案之國際優先權，甲在美國案是否仍可適用 1 年寬限期（grace period）排除自己 2025 年 5 月 10 日的公開？",
+  "options": [
+   "可以，因為美國案的「有效申請日」為 2025 年 11 月 1 日，公開日在有效申請日前 1 年內",
+   "不可以，因為美國實際申請日 2026 年 8 月 1 日距離公開日已超過 1 年",
+   "不可以，因為美國專利法的新穎性寬限期只有 6 個月",
+   "可以，但前提是甲必須在美國實際申請日同時放棄台灣優先權"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "(1) Disclosures made 1 year or less before the effective filing date of the claimed invention.—A disclosure made 1 year or less before the effective filing date of a claimed invention shall not be prior art to the claimed invention under subsection (a)(1) if—\n(A) the disclosure was made by the inventor or joint inventor or by another who obtained the subject matter disclosed directly or indirectly from the inventor or a joint inventor"
+   }
+  ],
+  "explanation": "美國寬限期是從「有效申請日（effective filing date，含優先權日 2025 年 11 月 1 日）」往回算 1 年內；這點與台灣專利法優惠期必須從「實際申請日」起算、不能從優先權日起算有重大差異！"
+ },
+ {
+  "id": "u01-l2-q07",
+  "lessonId": "u01-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case"
+  ],
+  "prompt": "發明人甲於 2026 年 2 月 1 日在公開網站發表其技術。獨立研發的第三人乙於 2026 年 4 月 15 日在期刊發表相同技術。隨後甲於 2026 年 10 月 1 日向美國提出專利申請。關於乙在 2026 年 4 月 15 日的期刊發表，下列敘述何者正確？",
+  "options": [
+   "構成甲申請案的先前技術，因為乙是獨立研發而非剽竊自甲",
+   "不構成甲申請案的先前技術，因為甲在乙公開前已先公開，且距離甲的有效申請日不超過 1 年",
+   "構成甲申請案的先前技術，因為甲未在乙發表前提出申請",
+   "只有在甲與乙事後簽署共同研究協議時，才不構成先前技術"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "A disclosure made 1 year or less before the effective filing date of a claimed invention shall not be prior art to the claimed invention under subsection (a)(1) if—\n("
+   },
+   {
+    "article": "102",
+    "quote": "B) the subject matter disclosed had, before such disclosure, been publicly disclosed by the inventor or a joint inventor or another who obtained the subject matter disclosed directly or indirectly from the inventor or a joint inventor."
+   }
+  ],
+  "explanation": "依 §102(b)(1)(B)，若發明人在有效申請日前 1 年內已先公開揭露（publicly disclosed），則其後第三人在該 1 年寬限期內對相同標的之揭露也不構成先前技術（俗稱「先公開者贏」條款）。"
+ },
+ {
+  "id": "u01-l2-q08",
+  "lessonId": "u01-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case",
+   "comparison"
+  ],
+  "prompt": "甲公司於 2025 年 3 月 1 日在德國提出首次專利申請（說明書已完整記載 X 技術），並於 2026 年 2 月 15 日向美國提出專利申請且合法主張該德國案之國際優先權，該美國案於 2026 年 9 月 3 日早期公開。乙於 2025 年 8 月 1 日就相同的 X 技術向美國提出專利申請。在審查乙案的新穎性時，甲案自何時起視為已「有效申請（effectively filed）」而成為乙案在 §102(a)(2) 下的先前技術？",
+  "options": [
+   "2025 年 3 月 1 日（甲案之德國優先權日）",
+   "2026 年 2 月 15 日（甲案之美國實際申請日）",
+   "2026 年 9 月 3 日（甲案之早期公開日）",
+   "甲案因首次申請在外國，不得回溯作為 §102(a)(2) 之先前技術"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "(d) Patents and Published Applications Effective as Prior Art.—For purposes of determining whether a patent or application for patent is prior art to a claimed invention under subsection (a)(2), such patent or application shall be considered to have been effectively filed, with respect to any subject matter described in the patent or application—\n("
+   },
+   {
+    "article": "102",
+    "quote": "2) if the patent or application for patent is entitled to claim a right of priority under section 119, 365(a), 365(b), 386(a), or 386(b), or to claim the benefit of an earlier filing date under section 120, 121, 365(c), or 386(c), based upon 1 or more prior filed applications for patent, as of the filing date of the earliest such application that describes the subject matter."
+   }
+  ],
+  "explanation": "依 §102(d)(2)（Hilmer 法則之廢除），若先申請案合法享有外國優先權（如 §119），就該先申請案所記載之標的，自最早記載該標的之優先權案申請日（2025 年 3 月 1 日）起即視為已有效申請（effectively filed）。"
+ },
+ {
+  "id": "u01-l2-q09",
+  "lessonId": "u01-l2",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "the claimed invention was patented, described in a {{0}}, or in {{1}}, on {{2}}, or otherwise available to the public before the effective filing date of the claimed invention",
+  "blanks": [
+   "printed publication",
+   "public use",
+   "sale"
+  ],
+  "distractors": [
+   "secret use",
+   "private offer",
+   "oral notice"
+  ],
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "the claimed invention was patented, described in a printed publication, or in public use, on sale, or otherwise available to the public before the effective filing date of the claimed invention"
+   }
+  ],
+  "explanation": "§102(a)(1) 明定構成先前技術的公開態樣包含：已獲專利、記載於印刷刊物（printed publication）、公開使用（public use）、為銷售（on sale）或以其他方式為公眾可得。"
+ },
+ {
+  "id": "u01-l2-q10",
+  "lessonId": "u01-l2",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "deadline"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "A disclosure made {{0}} or less before the {{1}} of a claimed invention shall not be {{2}} to the claimed invention under subsection (a)(1) if—",
+  "blanks": [
+   "1 year",
+   "effective filing date",
+   "prior art"
+  ],
+  "distractors": [
+   "6 months",
+   "actual filing date",
+   "obvious"
+  ],
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "A disclosure made 1 year or less before the effective filing date of a claimed invention shall not be prior art to the claimed invention under subsection (a)(1) if—"
+   }
+  ],
+  "explanation": "在請求項發明之有效申請日（effective filing date）前 1 年（1 year）以內所為之符合例外要件的揭露，不構成 §102(a)(1) 下的先前技術（prior art）。"
+ },
+ {
+  "id": "u01-l2-q11",
+  "lessonId": "u01-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "deadline"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "the subject matter disclosed and the claimed invention, not later than the {{0}} of the claimed invention, were owned by the {{1}} or subject to an obligation of {{2}} to the same person.",
+  "blanks": [
+   "effective filing date",
+   "same person",
+   "assignment"
+  ],
+  "distractors": [
+   "issue date",
+   "joint inventor",
+   "license"
+  ],
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "the subject matter disclosed and the claimed invention, not later than the effective filing date of the claimed invention, were owned by the same person or subject to an obligation of assignment to the same person."
+   }
+  ],
+  "explanation": "共同所有例外的時間點為「不遲於請求項發明之有效申請日（not later than the effective filing date）」，且須為同一人所有（owned by the same person）或負有讓與（assignment）同一人之義務。"
+ },
+ {
+  "id": "u01-l2-q12",
+  "lessonId": "u01-l2",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "將 §102 各項次之核心規範內容進行配對",
+  "pairs": [
+   {
+    "left": "有效申請日前已為公眾可得",
+    "right": "構成公眾公開類先前技術"
+   },
+   {
+    "left": "他人有效申請在先且後公開之專利案",
+    "right": "構成先申請案類先前技術"
+   },
+   {
+    "left": "發明人申請前1年內自行公開",
+    "right": "適用寬限期排除公眾公開"
+   },
+   {
+    "left": "申請時同屬一人之先申請案",
+    "right": "排除先申請案作為先前技術"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "(1) the claimed invention was patented, described in a printed publication, or in public use, on sale, or otherwise available to the public before the effective filing date of the claimed invention; or\n(2) the claimed invention was described in a patent issued under section 151, or in an application for patent published or deemed published under section 122(b), in which the patent or application, as the case may be, names another inventor and was effectively filed before the effective filing date of the claimed invention."
+   },
+   {
+    "article": "102",
+    "quote": "(1) Disclosures made 1 year or less before the effective filing date of the claimed invention.—A disclosure made 1 year or less before the effective filing date of a claimed invention shall not be prior art to the claimed invention under subsection (a)(1) if—"
+   },
+   {
+    "article": "102",
+    "quote": "(C) the subject matter disclosed and the claimed invention, not later than the effective filing date of the claimed invention, were owned by the same person or subject to an obligation of assignment to the same person."
+   }
+  ],
+  "explanation": "§102(a)(1) 規範公眾可得之先前技術，其例外為 (b)(1) 之 1 年寬限期；§102(a)(2) 規範他人有效申請在先且後公開／公告之專利案（類似台灣擬制喪失新穎性，但美國亦可用於進步性），其例外包含 (b)(2)(C) 共同所有。"
+ },
+ {
+  "id": "u01-l2-q13",
+  "lessonId": "u01-l2",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "deadline"
+  ],
+  "prompt": "將 §102(b)(2) 排除他人先申請案作為先前技術的三種事由與其要件配對",
+  "pairs": [
+   {
+    "left": "源自發明人之例外",
+    "right": "直接或間接得自發明人"
+   },
+   {
+    "left": "發明人先公開之例外",
+    "right": "於他人有效申請前已公開揭露"
+   },
+   {
+    "left": "共同所有之例外",
+    "right": "有效申請日前歸同一人所有"
+   },
+   {
+    "left": "共同研究協議視同共有",
+    "right": "申請案須揭露協議當事人名稱"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "(2) Disclosures appearing in applications and patents.—A disclosure shall not be prior art to a claimed invention under subsection (a)(2) if—\n(A) the subject matter disclosed was obtained directly or indirectly from the inventor or a joint inventor;\n(B) the subject matter disclosed had, before such subject matter was effectively filed under subsection (a)(2), been publicly disclosed by the inventor or a joint inventor or another who obtained the subject matter disclosed directly or indirectly from the inventor or a joint inventor; or\n(C) the subject matter disclosed and the claimed invention, not later than the effective filing date of the claimed invention, were owned by the same person or subject to an obligation of assignment to the same person."
+   },
+   {
+    "article": "102",
+    "quote": "(3) the application for patent for the claimed invention discloses or is amended to disclose the names of the parties to the joint research agreement."
+   }
+  ],
+  "explanation": "排除 §102(a)(2) 先申請案的三種例外為：(A) 標的得自發明人、(B) 發明人在該先申請案有效申請前已先公開揭露、(C) 在有效申請日前歸同一人所有（含符合要件之共同研究協議）。"
+ },
+ {
+  "id": "u01-l2-q14",
+  "lessonId": "u01-l2",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "若申請人欲依「發明人先公開」之例外排除第三人獨立公開的技術作為先前技術，請依時間先後順序排列下列事件",
+  "items": [
+   "發明人就該標的進行公開揭露（publicly disclosed）",
+   "第三人就相同標的進行揭露（intervening disclosure）",
+   "申請人於首次公開後 1 年內提出專利申請（有效申請日）"
+  ],
+  "evidence": [
+   {
+    "article": "102",
+    "quote": "(1) Disclosures made 1 year or less before the effective filing date of the claimed invention.—A disclosure made 1 year or less before the effective filing date of a claimed invention shall not be prior art to the claimed invention under subsection (a)(1) if—\n("
+   },
+   {
+    "article": "102",
+    "quote": "B) the subject matter disclosed had, before such disclosure, been publicly disclosed by the inventor or a joint inventor or another who obtained the subject matter disclosed directly or indirectly from the inventor or a joint inventor."
+   }
+  ],
+  "explanation": "必須由發明人（或自發明人取得標的之人）在第三人揭露「之前（before such disclosure）」先公開揭露，且該揭露距離有效申請日在 1 年以內，才能排除第三人的中間揭露。"
+ },
+ {
+  "id": "u01-l3-q01",
+  "lessonId": "u01-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "即使一項請求項發明並未如 §102 所述被先前技術完全相同地揭露（not identically disclosed），若對該領域具通常知識者而言在有效申請日前為顯而易知（obvious），仍不得取得專利。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "A patent for a claimed invention may not be obtained, notwithstanding that the claimed invention is not identically disclosed as set forth in section 102, if the differences between the claimed invention and the prior art are such that the claimed invention as a whole would have been obvious before the effective filing date of the claimed invention to a person having ordinary skill in the art to which the claimed invention pertains."
+   }
+  ],
+  "explanation": "這就是美國專利法的「非顯而易知性（non-obviousness）」，相當於台灣專利法的「進步性」：即便具備新穎性（未被完全相同揭露），若整體觀之為顯而易知，仍不得獲准專利。"
+ },
+ {
+  "id": "u01-l3-q02",
+  "lessonId": "u01-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "若某項發明是因為實驗室意外事故而偶然發現，而非經過長期系統性研發，依美國專利法將因其「發明完成之方式」而不具可專利性。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "Patentability shall not be negated by the manner in which the invention was made."
+   }
+  ],
+  "explanation": "條文明確規定：「可專利性不因發明完成之方式而被否定（Patentability shall not be negated by the manner in which the invention was made）」，無論是長期研究或靈光一閃、偶然發現皆不影響可專利性。"
+ },
+ {
+  "id": "u01-l3-q03",
+  "lessonId": "u01-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "deadline"
+  ],
+  "prompt": "在 AIA 現行美國專利法下，判斷請求項發明是否顯而易知（obvious）的時間點，是「審查官進行實體審查的當下」，而非「請求項發明之有效申請日前」。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "if the differences between the claimed invention and the prior art are such that the claimed invention as a whole would have been obvious before the effective filing date of the claimed invention to a person having ordinary skill in the art to which the claimed invention pertains."
+   }
+  ],
+  "explanation": "非顯而易知性的判斷時點為「請求項發明之有效申請日前（before the effective filing date of the claimed invention）」，以避免事後諸葛（hindsight bias）。"
+ },
+ {
+  "id": "u01-l3-q04",
+  "lessonId": "u01-l3",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "依美國專利法規定，判斷請求項發明是否具非顯而易知性（non-obviousness）時，是以何種虛擬主體的視角為準？",
+  "options": [
+   "該技術領域中具有頂尖學術成就之諾貝爾獎級專家",
+   "請求項發明所屬技術領域中具有通常知識者（PHOSITA）",
+   "不具任何理工技術背景之一般日常生活消費者",
+   "承辦該專利申請案之專利審查官個人主觀標準"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "to a person having ordinary skill in the art to which the claimed invention pertains."
+   }
+  ],
+  "explanation": "條文明訂以「請求項發明所屬技術領域中具有通常知識者（a person having ordinary skill in the art，簡稱 PHOSITA）」為判斷主體。"
+ },
+ {
+  "id": "u01-l3-q05",
+  "lessonId": "u01-l3",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "在評估非顯而易知性時，美國專利法要求如何看待請求項發明與先前技術之間的差異（differences）？",
+  "options": [
+   "僅單獨挑出新增的單一技術特徵，忽略請求項其餘部分",
+   "觀察請求項發明「作為一個整體（as a whole）」是否顯而易知",
+   "僅比較說明書背景技術欄位中有提到的先前技術",
+   "只要有一個元件是已知的，即直接推定整體發明顯而易知"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "if the differences between the claimed invention and the prior art are such that the claimed invention as a whole would have been obvious before the effective filing date of the claimed invention"
+   }
+  ],
+  "explanation": "條文強調必須審視請求項發明與先前技術間的差異，是否使「請求項發明整體觀之（the claimed invention as a whole）」為顯而易知。"
+ },
+ {
+  "id": "u01-l3-q06",
+  "lessonId": "u01-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "關於美國專利法中「新穎性（novelty）」與「非顯而易知性（non-obviousness）」之關係，依條文文字，下列敘述何者正確？",
+  "options": [
+   "只要請求項發明未被先前技術完全相同地揭露，就必定能取得專利",
+   "即使請求項發明未被先前技術完全相同地揭露，若整體觀之顯而易知仍不得取得專利",
+   "非顯而易知性只比較單一先前技術文獻是否完全揭露所有技術特徵",
+   "判斷非顯而易知性的時間基準日與判斷新穎性的時間基準日不同"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "A patent for a claimed invention may not be obtained, notwithstanding that the claimed invention is not identically disclosed as set forth in section 102, if the differences between the claimed invention and the prior art are such that the claimed invention as a whole would have been obvious before the effective filing date of the claimed invention"
+   }
+  ],
+  "explanation": "條文明言「儘管請求項發明未如 §102 所述被完全相同地揭露（notwithstanding that the claimed invention is not identically disclosed）」，若其與先前技術之差異使整體發明在有效申請日前顯而易知，仍不得取得專利。"
+ },
+ {
+  "id": "u01-l3-q07",
+  "lessonId": "u01-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case"
+  ],
+  "prompt": "發明人甲於 2024 年 10 月 1 日完成某半導體製程發明，並於 2025 年 6 月 15 日向美國提出專利申請（未主張任何優先權）。審查官於 2026 年 11 月 1 日進行審查時，引用一篇於 2025 年 9 月 1 日才首度公開的技術文獻 X，主張甲之發明對該領域具通常知識者而言為顯而易知。根據非顯而易知性條文，審查官的核駁是否合理？",
+  "options": [
+   "合理，因為文獻 X 在審查官2026年審查前已經公開",
+   "不合理，因為非顯而易知性必須判斷在有效申請日（2025 年 6 月 15 日）前是否顯而易知",
+   "不合理，因為非顯而易知性必須判斷在發明完成日（2024 年 10 月 1 日）前是否顯而易知",
+   "合理，只要文獻 X 在申請日後 1 年內公開即可用於核駁非顯而易知性"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "if the differences between the claimed invention and the prior art are such that the claimed invention as a whole would have been obvious before the effective filing date of the claimed invention to a person having ordinary skill in the art to which the claimed invention pertains."
+   }
+  ],
+  "explanation": "非顯而易知性是以「有效申請日前（before the effective filing date，即 2025 年 6 月 15 日前）」的先前技術與技術水準來判斷，2025 年 9 月 1 日才首度公開（且無較早有效申請日）的文獻 X 不屬於有效申請日前之先前技術。"
+ },
+ {
+  "id": "u01-l3-q08",
+  "lessonId": "u01-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "definition"
+  ],
+  "prompt": "研究員乙在操作實驗時不小心將試劑加熱過度，意外合成出一種具有高導電性的新型高分子化合物。在專利審查或訴訟中，競爭對手主張：「乙只是因為操作失誤才偶然撞見該化合物，並非憑藉科學理論推導研發，因此欠缺非顯而易知性。」依美國專利法條文，此一主張是否成立？",
+  "options": [
+   "成立，因為意外發現不屬於人類心智創作，不得獲得專利",
+   "不成立，因為可專利性不因發明完成之方式（the manner in which the invention was made）而被否定",
+   "成立，除非乙能證明自己在失誤前就已經預測到該化學反應結果",
+   "不成立，但偶然發現的發明其專利權期限會比一般發明縮短一半"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "Patentability shall not be negated by the manner in which the invention was made."
+   }
+  ],
+  "explanation": "法定條文明確規定「Patentability shall not be negated by the manner in which the invention was made.」，意外或偶然發現（serendipity）並不會否定其非顯而易知性與可專利性。"
+ },
+ {
+  "id": "u01-l3-q09",
+  "lessonId": "u01-l3",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "if the {{0}} between the claimed invention and the {{1}} are such that the claimed invention {{2}} would have been obvious before the effective filing date of the claimed invention",
+  "blanks": [
+   "differences",
+   "prior art",
+   "as a whole"
+  ],
+  "distractors": [
+   "similarities",
+   "specification",
+   "in part"
+  ],
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "if the differences between the claimed invention and the prior art are such that the claimed invention as a whole would have been obvious before the effective filing date of the claimed invention"
+   }
+  ],
+  "explanation": "非顯而易知性審查請求項發明與先前技術（prior art）間之差異（differences），是否使請求項發明整體觀之（as a whole）在有效申請日前為顯而易知。"
+ },
+ {
+  "id": "u01-l3-q10",
+  "lessonId": "u01-l3",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "deadline"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "would have been {{0}} before the {{1}} of the claimed invention to a person having {{2}} in the art to which the claimed invention pertains.",
+  "blanks": [
+   "obvious",
+   "effective filing date",
+   "ordinary skill"
+  ],
+  "distractors": [
+   "novel",
+   "date of invention",
+   "expert knowledge"
+  ],
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "would have been obvious before the effective filing date of the claimed invention to a person having ordinary skill in the art to which the claimed invention pertains."
+   }
+  ],
+  "explanation": "判斷基準為：在請求項發明的有效申請日（effective filing date）前，對該領域具有通常知識（ordinary skill）之人而言是否為顯而易知（obvious）。"
+ },
+ {
+  "id": "u01-l3-q11",
+  "lessonId": "u01-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "{{0}} shall not be {{1}} by the {{2}} in which the invention was made.",
+  "blanks": [
+   "Patentability",
+   "negated",
+   "manner"
+  ],
+  "distractors": [
+   "Novelty",
+   "determined",
+   "location"
+  ],
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "Patentability shall not be negated by the manner in which the invention was made."
+   }
+  ],
+  "explanation": "「Patentability shall not be negated by the manner in which the invention was made.」是美國專利法非常著名的一句話，確保發明產生的過程或方式不會被用來否定可專利性。"
+ },
+ {
+  "id": "u01-l3-q12",
+  "lessonId": "u01-l3",
+  "type": "match",
+  "difficulty": 3,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "將美國專利法非顯而易知性（§103）的法定要素與其內涵配對",
+  "pairs": [
+   {
+    "left": "判斷的時間基準",
+    "right": "請求項發明之有效申請日前"
+   },
+   {
+    "left": "判斷的虛擬主體",
+    "right": "所屬技術領域具通常知識者"
+   },
+   {
+    "left": "比較的客體範圍",
+    "right": "請求項發明作為一個整體"
+   },
+   {
+    "left": "不影響可專利性之因素",
+    "right": "發明完成之方式"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "103",
+    "quote": "A patent for a claimed invention may not be obtained, notwithstanding that the claimed invention is not identically disclosed as set forth in section 102, if the differences between the claimed invention and the prior art are such that the claimed invention as a whole would have been obvious before the effective filing date of the claimed invention to a person having ordinary skill in the art to which the claimed invention pertains. Patentability shall not be negated by the manner in which the invention was made."
+   }
+  ],
+  "explanation": "§103 的四大核心要素：時點為有效申請日前、主體為所屬領域具通常知識者（PHOSITA）、客體為請求項發明整體（as a whole）、且發明完成方式（manner）不否定可專利性。"
+ }
+]

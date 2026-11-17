@@ -1,0 +1,1304 @@
+[
+ {
+  "id": "u02-l1-q01",
+  "lessonId": "u02-l1",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "procedure",
+   "definition"
+  ],
+  "prompt": "提出美國臨時申請案（provisional application）時，不需要具備請求項（claim），即可取得申請日（filing date）。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "111",
+    "quote": "A claim, as required by subsections (b) through (e) of section 112, shall not be required in a provisional application."
+   }
+  ],
+  "explanation": "美國臨時申請案（provisional application）僅需提交說明書與必要圖式即可取得申請日，法條明定無須包含請求項（claim），這點與台灣專利申請須具備申請專利範圍不同。"
+ },
+ {
+  "id": "u02-l1-q02",
+  "lessonId": "u02-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "臨時申請案（provisional application）自申請日起 12 個月後視為放棄（abandoned），但若申請人證明延誤並非故意，仍可於 12 個月期限屆滿後申請恢復（revival）該臨時申請案本身。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "111",
+    "quote": "Subject to section 119(e)(3), if no such request is made, the provisional application shall be regarded as abandoned 12 months after the filing date of such application and shall not be subject to revival after such 12-month period."
+   }
+  ],
+  "explanation": "臨時申請案於申請日起 12 個月後即視為放棄（abandoned），且法條明文規定在該 12 個月期間屆滿後不得恢復（shall not be subject to revival）。"
+ },
+ {
+  "id": "u02-l1-q03",
+  "lessonId": "u02-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "共同發明人（joint inventors）必須曾在同一時間或同一地點實際一起工作，且對專利中每一個請求項（claim）皆有相同程度的貢獻，始得共同申請專利。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "116",
+    "quote": "Inventors may apply for a patent jointly even though (1) they did not physically work together or at the same time, (2) each did not make the same type or amount of contribution, or (3) each did not make a contribution to the subject matter of every claim of the patent."
+   }
+  ],
+  "explanation": "美國專利法對共同發明人（joint inventors）採彈性認定，即使未同時同地工作、貢獻種類或程度不同，或僅對部分請求項有貢獻，仍得共同申請專利。"
+ },
+ {
+  "id": "u02-l1-q04",
+  "lessonId": "u02-l1",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "procedure",
+   "definition"
+  ],
+  "prompt": "依美國專利法規定，一般非臨時專利申請案（nonprovisional application）取得申請日（filing date）的最低文件要求為何？",
+  "options": [
+   "美國專利商標局收到說明書（specification），無論是否附具請求項",
+   "美國專利商標局同時收到說明書、至少一項請求項與法定申請費",
+   "美國專利商標局同時收到說明書、必要圖式與發明人宣誓書或聲明書",
+   "美國專利商標局收到完整申請文件並完成形式審查發給通知之日"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "111",
+    "quote": "The filing date of an application shall be the date on which a specification, with or without claims, is received in the United States Patent and Trademark Office."
+   }
+  ],
+  "explanation": "一般申請案只要 USPTO 收到說明書（specification），不論當下是否附具請求項（with or without claims），即以收到之日為申請日；申請費、宣誓書及請求項得於規定期限內補交並繳納滯納金（surcharge）。"
+ },
+ {
+  "id": "u02-l1-q05",
+  "lessonId": "u02-l1",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "申請人最遲應於何時向美國專利商標局（USPTO）提交發明人宣誓書或聲明書（inventor's oath or declaration）、替代聲明書（substitute statement）或符合規定之已登記讓與書（recorded assignment）？",
+  "options": [
+   "不遲於繳納專利領證費（issue fee）之日",
+   "不遲於申請日起算 4 個月內",
+   "不遲於申請案早期公開日（publication date）前",
+   "不遲於第一次審查意見通知書發出前"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "115",
+    "quote": "The applicant for patent shall provide each required oath or declaration under subsection (a), substitute statement under subsection (d), or recorded assignment meeting the requirements of subsection (e) no later than the date on which the issue fee for the patent is paid."
+   }
+  ],
+  "explanation": "AIA 修法後放寬了提交時限，申請人最遲在繳納領證費（issue fee）之日當天或之前提交發明人宣誓書、聲明書、替代聲明書或包含法定聲明之讓與書即可。"
+ },
+ {
+  "id": "u02-l1-q06",
+  "lessonId": "u02-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "definition"
+  ],
+  "prompt": "下列何種情形，專利申請人「不得」以替代聲明書（substitute statement）取代發明人親自簽署的宣誓書或聲明書（oath or declaration）？",
+  "options": [
+   "發明人已死亡或處於無行為能力狀態（under legal incapacity）",
+   "經盡力尋找（diligent effort）後仍無法尋獲或聯繫上該發明人",
+   "發明人負有讓與發明之義務，卻拒絕簽署宣誓書或聲明書",
+   "發明人並無讓與義務，僅因旅居國外不便親自簽署文件"
+  ],
+  "answerIndex": 3,
+  "evidence": [
+   {
+    "article": "115",
+    "quote": "A substitute statement under paragraph (1) is permitted with respect to any individual who—\n(A) is unable to file the oath or declaration under subsection (a) because the individual—\n(i) is deceased;\n(ii) is under legal incapacity; or\n(iii) cannot be found or reached after diligent effort; or\n(B) is under an obligation to assign the invention but has refused to make the oath or declaration required under subsection (a)."
+   }
+  ],
+  "explanation": "替代聲明書（substitute statement）僅限於發明人死亡、無行為能力、盡力尋找仍失聯，或負有讓與義務卻拒絕簽署時始得使用；單純不便簽署且無讓與義務者不適用。"
+ },
+ {
+  "id": "u02-l1-q07",
+  "lessonId": "u02-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "甲公司於 2026 年 4 月 10 日先在台灣提出發明專利申請案，隨後於 2026 年 6 月 15 日向美國提出臨時申請案（provisional application），想就該臨時申請案主張台灣案的國際優先權（right of priority）。依美國專利法規定，此主張是否可行？",
+  "options": [
+   "不可行，因為臨時申請案不得主張任何其他申請案的優先權或先前申請日利益",
+   "可行，只要在 2026 年 10 月 15 日前補交台灣申請案的證明文件即可",
+   "可行，因為臨時申請案是在台灣案申請日起 12 個月內提出",
+   "不可行，除非甲公司先將台灣申請案撤回並放棄所有權利"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "111",
+    "quote": "A provisional application shall not be entitled to the right of priority of any other application under section 119, 365(a), or 386(a) or to the benefit of an earlier filing date in the United States under section 120, 121, 365(c), or 386(c)."
+   }
+  ],
+  "explanation": "臨時申請案（provisional application）只能作為後案主張利益的基礎，其本身依法不得主張外國優先權或美國國內先前申請案的申請日利益。"
+ },
+ {
+  "id": "u02-l1-q08",
+  "lessonId": "u02-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "procedure"
+  ],
+  "prompt": "工程師乙受僱於丙公司，契約約定職務上發明負有讓與給丙公司之義務，但乙離職後拒絕配合簽署專利申請文件。丙公司依受讓人地位直接提出專利申請並獲准發證時，專利權應核發給誰？",
+  "options": [
+   "核發給真正利害關係人（real party in interest）即丙公司，並給予發明人適當通知",
+   "仍須先核發給發明人乙，再由丙公司向聯邦地方法院訴請移轉登記",
+   "由發明人乙與丙公司共有專利權，直至乙補簽讓與書為止",
+   "美國專利商標局僅能核發臨時權利證明，不得核發正式專利證書"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "118",
+    "quote": "A person to whom the inventor has assigned or is under an obligation to assign the invention may make an application for patent. A person who otherwise shows sufficient proprietary interest in the matter may make an application for patent on behalf of and as agent for the inventor on proof of the pertinent facts and a showing that such action is appropriate to preserve the rights of the parties. If the Director grants a patent on an application filed under this section by a person other than the inventor, the patent shall be granted to the real party in interest and upon such notice to the inventor as the Director considers to be sufficient."
+   }
+  ],
+  "explanation": "受讓人或發明人負有讓與義務之對象得直接作為申請人提出專利申請；獲准時，專利將直接核發給真正利害關係人（real party in interest），並由官方通知發明人。"
+ },
+ {
+  "id": "u02-l1-q09",
+  "lessonId": "u02-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "procedure"
+  ],
+  "prompt": "發明人甲與乙共同完成一項半導體製程發明，但乙隨後失聯，經甲盡力尋找（diligent effort）仍無法聯繫上。甲欲就該共同發明向 USPTO 提出專利申請，並於申請後發現說明書中誤將無關之技術員丙也列為發明人。依美國專利法規定，甲應如何處理？",
+  "options": [
+   "甲得代表自己及被遺漏之發明人乙提出申請，並可依局長規定之條件修正申請案以更正發明人列名錯誤",
+   "因共同發明必須全體發明人親自會同簽署，乙失聯即無法提出申請，且發明人一旦列名錯誤即不得修正",
+   "甲必須先向聯邦法院取得宣告乙死亡之判決，始得單獨提出申請，但丙既已列名即享有共有權",
+   "甲得單獨申請並直接剝奪乙的專利權，即使乙日後出現亦不得再加入該申請案或享有任何權利"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "116",
+    "quote": "(b) Omitted Inventor.—If a joint inventor refuses to join in an application for patent or cannot be found or reached after diligent effort, the application may be made by the other inventor on behalf of himself and the omitted inventor. The Director, on proof of the pertinent facts and after such notice to the omitted inventor as he prescribes, may grant a patent to the inventor making the application, subject to the same rights which the omitted inventor would have had if he had been joined. The omitted inventor may subsequently join in the application.\n(c) Correction of Errors in Application.—Whenever through error a person is named in an application for patent as the inventor, or through error an inventor is not named in an application, the Director may permit the application to be amended accordingly, under such terms as he prescribes."
+   }
+  ],
+  "explanation": "共同發明人拒不加入或盡力尋找仍失聯時，他方發明人得代表自己與該發明人提出申請，且被遺漏之發明人仍保有原有權利並得於事後加入；若因錯誤而誤列或漏列發明人，亦得申請修正。"
+ },
+ {
+  "id": "u02-l1-q10",
+  "lessonId": "u02-l1",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Subject to section 119(e)(3), if no such request is made, the provisional application shall be regarded as {{0}} {{1}} months after the filing date of such application and shall not be subject to {{2}} after such 12-month period.",
+  "blanks": [
+   "abandoned",
+   "12",
+   "revival"
+  ],
+  "distractors": [
+   "published",
+   "6",
+   "examination"
+  ],
+  "evidence": [
+   {
+    "article": "111",
+    "quote": "Subject to section 119(e)(3), if no such request is made, the provisional application shall be regarded as abandoned 12 months after the filing date of such application and shall not be subject to revival after such 12-month period."
+   }
+  ],
+  "explanation": "臨時申請案若未在期限內請求轉為正式申請案，將於申請日起 12 個月後視為放棄（abandoned），且超過該 12 個月期間後不得恢復（revival）。"
+ },
+ {
+  "id": "u02-l1-q11",
+  "lessonId": "u02-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Any declaration or statement filed pursuant to this section shall contain an acknowledgment that any {{0}} false statement made in such declaration or statement is punishable under section 1001 of title 18 by fine or {{1}} of not more than {{2}} years, or both.",
+  "blanks": [
+   "willful",
+   "imprisonment",
+   "5"
+  ],
+  "distractors": [
+   "negligent",
+   "suspension",
+   "10"
+  ],
+  "evidence": [
+   {
+    "article": "115",
+    "quote": "Any declaration or statement filed pursuant to this section shall contain an acknowledgment that any willful false statement made in such declaration or statement is punishable under section 1001 of title 18 by fine or imprisonment of not more than 5 years, or both."
+   }
+  ],
+  "explanation": "發明人聲明書（declaration）或替代聲明書必須載明認知條款：任何故意（willful）虛偽陳述可處罰金或最高 5 年有期徒刑（imprisonment），或併科之。"
+ },
+ {
+  "id": "u02-l1-q12",
+  "lessonId": "u02-l1",
+  "type": "match",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "請將申請案或文件類型與其法定特徵配對",
+  "pairs": [
+   {
+    "left": "一般非臨時申請案",
+    "right": "包含說明書、圖式及宣誓書"
+   },
+   {
+    "left": "臨時申請案",
+    "right": "無須具備請求項且不適用實審"
+   },
+   {
+    "left": "替代聲明書",
+    "right": "發明人死亡或拒簽時可代為提出"
+   },
+   {
+    "left": "宣誓書或聲明書",
+    "right": "須載明相信自己為原創發明人"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "111",
+    "quote": "(2) Contents.—Such application shall include—\n(A) a specification as prescribed by section 112;\n(B) a drawing as prescribed by section 113; and\n(C) an oath or declaration as prescribed by section 115."
+   },
+   {
+    "article": "111",
+    "quote": "A claim, as required by subsections (b) through (e) of section 112, shall not be required in a provisional application."
+   },
+   {
+    "article": "115",
+    "quote": "(b) Required Statements.—An oath or declaration under subsection (a) shall contain statements that—\n(1) the application was made or was authorized to be made by the affiant or declarant; and\n(2) such individual believes himself or herself to be the original inventor or an original joint inventor of a claimed invention in the application."
+   }
+  ],
+  "explanation": "一般非臨時申請案包含說明書、圖式及宣誓書；臨時申請案無須請求項且不進行實體審查；宣誓書須聲明相信自己為原創發明人（original inventor）；發明人死亡、失聯或負讓與義務卻拒簽時可用替代聲明書。"
+ },
+ {
+  "id": "u02-l1-q13",
+  "lessonId": "u02-l1",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "當申請人在申請日後才補交申請費、宣誓書及請求項時，請依序排出一般申請案的法定處理流程",
+  "items": [
+   "向 USPTO 提交說明書（無論是否附具請求項）以取得申請日",
+   "於局長規定期限內補交申請費、宣誓書與請求項並繳納滯納金",
+   "若未於規定期限內補齊上述文件與費用，申請案視為放棄"
+  ],
+  "evidence": [
+   {
+    "article": "111",
+    "quote": "(3) Fee, oath or declaration, and claims.—The application shall be accompanied by the fee required by law. The fee, oath or declaration, and 1 or more claims may be submitted after the filing date of the application, within such period and under such conditions, including the payment of a surcharge, as may be prescribed by the Director. Upon failure to submit the fee, oath or declaration, and 1 or more claims within such prescribed period, the application shall be regarded as abandoned.\n(4) Filing date.—The filing date of an application shall be the date on which a specification, with or without claims, is received in the United States Patent and Trademark Office."
+   }
+  ],
+  "explanation": "申請人先提交說明書即可取得申請日；申請費、宣誓書或聲明書及至少一項請求項可於申請日後依規定期限補交並付滯納金，逾期未補交則視為放棄。"
+ },
+ {
+  "id": "u02-l2-q01",
+  "lessonId": "u02-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "美國專利說明書（specification）除了須符合書面描述（written description）及可據以實施（enablement）要件外，條文仍規定應載明發明人所預想實施該發明的最佳實施例（best mode）。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "112",
+    "quote": "The specification shall contain a written description of the invention, and of the manner and process of making and using it, in such full, clear, concise, and exact terms as to enable any person skilled in the art to which it pertains, or with which it is most nearly connected, to make and use the same, and shall set forth the best mode contemplated by the inventor or joint inventor of carrying out the invention."
+   }
+  ],
+  "explanation": "美國專利法說明書有三大揭露要求：書面描述（written description）、可據以實施（enablement）及最佳實施例（best mode），這點比台灣專利法多出了最佳實施例的明文要求。"
+ },
+ {
+  "id": "u02-l2-q02",
+  "lessonId": "u02-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "多項附屬項（multiple dependent claim）可以用擇一方式引用先前的數個請求項，且本身也可以作為後續另一項多項附屬項引用的基礎。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "112",
+    "quote": "A multiple dependent claim shall not serve as a basis for any other multiple dependent claim."
+   }
+  ],
+  "explanation": "多項附屬項（multiple dependent claim）僅能以擇一方式（in the alternative only）引用先前的請求項，且不得作為另一項多項附屬項的引用基礎（即禁止多項附屬項依附多項附屬項，與台灣專利法規定相同）。"
+ },
+ {
+  "id": "u02-l2-q03",
+  "lessonId": "u02-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "若專利說明書在申請日當天有揭露不充分（缺乏可據以實施性）的瑕疵，申請人可以在申請日後補交圖式（drawings）來克服該說明書揭露不足的問題。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "113",
+    "quote": "Drawings submitted after the filing date of the application may not be used (i) to overcome any insufficiency of the specification due to lack of an enabling disclosure or otherwise inadequate disclosure therein, or (ii) to supplement the original disclosure thereof for the purpose of interpretation of the scope of any claim."
+   }
+  ],
+  "explanation": "在申請日後才補交的圖式，依法不得用來克服原說明書欠缺可據以實施（lack of an enabling disclosure）或揭露不充分的缺失，亦不得用來補充原揭露內容以解釋請求項範圍。"
+ },
+ {
+  "id": "u02-l2-q04",
+  "lessonId": "u02-l2",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "關於專利說明書結尾之請求項（claims）的明確性要件（definiteness），美國專利法要求請求項應如何撰寫？",
+  "options": [
+   "特定指出並明確主張（particularly pointing out and distinctly claiming）發明人認為是其發明之標的",
+   "僅需簡要說明發明的技術領域與所要解決的先前技術問題",
+   "必須逐一列舉說明書中所有可能的實施方式與具體尺寸參數",
+   "以抽象概念概括所有能達成相同結果的未知技術手段"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "112",
+    "quote": "The specification shall conclude with one or more claims particularly pointing out and distinctly claiming the subject matter which the inventor or a joint inventor regards as the invention."
+   }
+  ],
+  "explanation": "說明書結尾必須包含一項或多項請求項，特定指出並明確主張（particularly pointing out and distinctly claiming）發明人或共同發明人認為屬於其發明之標的。"
+ },
+ {
+  "id": "u02-l2-q05",
+  "lessonId": "u02-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "當組合請求項（claim for a combination）中的元件以「手段功能用語（means-plus-function）」撰寫而未記載支持該功能的結構、材料或行為時，該請求項的範圍應如何解釋？",
+  "options": [
+   "涵蓋說明書中所記載之對應結構、材料或行為及其均等物（equivalents thereof）",
+   "涵蓋所屬技術領域中任何能夠執行該特定功能的已知或未知結構",
+   "僅限於說明書圖式中所繪製的單一具體結構，不包含任何均等物",
+   "因未記載具體結構而直接視為不明確，不具任何專利保護範圍"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "112",
+    "quote": "An element in a claim for a combination may be expressed as a means or step for performing a specified function without the recital of structure, material, or acts in support thereof, and such claim shall be construed to cover the corresponding structure, material, or acts described in the specification and equivalents thereof."
+   }
+  ],
+  "explanation": "以手段或步驟功能用語（means or step for performing a specified function）撰寫之請求項元件，解釋上並非涵蓋所有能達成該功能的手段，而是限縮於說明書所記載的對應結構、材料或行為及其均等物。"
+ },
+ {
+  "id": "u02-l2-q06",
+  "lessonId": "u02-l2",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "當申請專利之標的性質上可藉由圖式（drawing）說明，而申請人於申請時未提交圖式，USPTO 局長得通知申請人在多長期限內補交？",
+  "options": [
+   "自寄發通知起不少於 2 個月的期間內",
+   "自寄發通知起不少於 6 個月的期間內",
+   "自申請日起算 14 天內",
+   "自早期公開日起算 1 個月內"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "113",
+    "quote": "When the nature of such subject matter admits of illustration by a drawing and the applicant has not furnished such a drawing, the Director may require its submission within a time period of not less than two months from the sending of a notice thereof."
+   }
+  ],
+  "explanation": "若發明標的性質上可用圖式說明而申請人未提交，局長得發通知要求申請人在寄發通知起不少於 2 個月（not less than two months）的期間內補交。"
+ },
+ {
+  "id": "u02-l2-q07",
+  "lessonId": "u02-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "comparison"
+  ],
+  "prompt": "專利工程師甲撰寫一份美國專利申請案，其中請求項 1、2 為獨立項，請求項 3 寫為「如請求項 1 及請求項 2 所述之裝置，更包含元件 X」，請求項 4 寫為「如請求項 1 或請求項 2 所述之裝置，更包含元件 Y」，請求項 5 寫為「如請求項 2 或請求項 4 所述之裝置，更包含元件 Z」。依美國專利法規定，哪些請求項的撰寫形式符合規定？",
+  "options": [
+   "僅請求項 1、2、4 符合規定；請求項 3 未以擇一方式引用，請求項 5 引用了多項附屬項",
+   "請求項 1、2、3、4、5 全部符合規定",
+   "僅請求項 1、2 符合規定；美國專利法完全禁止使用多項附屬項",
+   "僅請求項 1、2、3、4 符合規定；多項附屬項可同時累加引用數項"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "112",
+    "quote": "A claim in multiple dependent form shall contain a reference, in the alternative only, to more than one claim previously set forth and then specify a further limitation of the subject matter claimed. A multiple dependent claim shall not serve as a basis for any other multiple dependent claim."
+   }
+  ],
+  "explanation": "多項附屬項引用數個先前請求項時，必須僅以「擇一方式（in the alternative only）」為之（故請求項 3 寫「及」不合規定），且多項附屬項不得作為另一多項附屬項的基礎（故請求項 5 引用了身為多項附屬項的請求項 4 亦不合規定）。"
+ },
+ {
+  "id": "u02-l2-q08",
+  "lessonId": "u02-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "申請人乙於 2026 年 5 月 1 日提交一件機械結構專利申請案，但漏未附具圖式。USPTO 於 2026 年 6 月 10 日寄發通知要求於 2 個月內補交圖式，乙於 2026 年 7 月 15 日補交圖式，並主張圖式中畫出的一個特殊齒輪構造可用來克服原說明書未記載該構造以致無法據以實施（lack of an enabling disclosure）的核駁理由。依美國專利法，乙的主張是否成立？",
+  "options": [
+   "不成立，申請日後提交的圖式不得用來克服說明書欠缺可據以實施之揭露的缺失",
+   "成立，只要在通知寄發後 2 個月期限內補交圖式，即完全等同於申請日當天提交",
+   "成立，因為機械結構發明原本就允許在審查中隨時補入新圖式來擴充技術內容",
+   "不成立，因為乙逾越了通知寄發後 1 個月的法定補交圖式期限"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "113",
+    "quote": "Drawings submitted after the filing date of the application may not be used (i) to overcome any insufficiency of the specification due to lack of an enabling disclosure or otherwise inadequate disclosure therein, or (ii) to supplement the original disclosure thereof for the purpose of interpretation of the scope of any claim."
+   }
+  ],
+  "explanation": "雖然乙在局長通知的期限內補交了圖式，但申請日後提交的圖式依法不得用來克服原說明書因缺乏可據以實施之揭露（lack of an enabling disclosure）所致的揭露不足。"
+ },
+ {
+  "id": "u02-l2-q09",
+  "lessonId": "u02-l2",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The specification shall contain a {{0}} description of the invention, and of the manner and process of making and using it, in such full, clear, concise, and exact terms as to {{1}} any person skilled in the art to which it pertains, or with which it is most nearly connected, to make and use the same, and shall set forth the {{2}} mode contemplated by the inventor or joint inventor of carrying out the invention.",
+  "blanks": [
+   "written",
+   "enable",
+   "best"
+  ],
+  "distractors": [
+   "verbal",
+   "restrict",
+   "simplest"
+  ],
+  "evidence": [
+   {
+    "article": "112",
+    "quote": "The specification shall contain a written description of the invention, and of the manner and process of making and using it, in such full, clear, concise, and exact terms as to enable any person skilled in the art to which it pertains, or with which it is most nearly connected, to make and use the same, and shall set forth the best mode contemplated by the inventor or joint inventor of carrying out the invention."
+   }
+  ],
+  "explanation": "本條規定說明書三大要件：書面描述（written description）、使所屬技術領域中具有通常知識者能製造及使用的可據以實施性（enable），以及最佳實施例（best mode）。"
+ },
+ {
+  "id": "u02-l2-q10",
+  "lessonId": "u02-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "An element in a claim for a combination may be expressed as a {{0}} or step for performing a specified {{1}} without the recital of structure, material, or acts in support thereof, and such claim shall be construed to cover the corresponding structure, material, or acts described in the specification and {{2}} thereof.",
+  "blanks": [
+   "means",
+   "function",
+   "equivalents"
+  ],
+  "distractors": [
+   "result",
+   "purpose",
+   "variations"
+  ],
+  "evidence": [
+   {
+    "article": "112",
+    "quote": "An element in a claim for a combination may be expressed as a means or step for performing a specified function without the recital of structure, material, or acts in support thereof, and such claim shall be construed to cover the corresponding structure, material, or acts described in the specification and equivalents thereof."
+   }
+  ],
+  "explanation": "手段功能用語（means-plus-function）或步驟功能用語（step-plus-function）請求項，解釋上涵蓋說明書中所記載之對應結構、材料或行為及其均等物（equivalents）。"
+ },
+ {
+  "id": "u02-l2-q11",
+  "lessonId": "u02-l2",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "請將說明書與請求項的法定概念與其規範內容配對",
+  "pairs": [
+   {
+    "left": "可據以實施要件",
+    "right": "使該領域熟習技藝者能製造及使用"
+   },
+   {
+    "left": "單項附屬項",
+    "right": "引用先前請求項並指定進一步限制"
+   },
+   {
+    "left": "多項附屬項",
+    "right": "僅得以擇一方式引用多個先前請求項"
+   },
+   {
+    "left": "手段功能用語請求項",
+    "right": "解釋為涵蓋對應結構材料行為及均等"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "112",
+    "quote": "(d) Reference in Dependent Forms.—Subject to subsection (e), a claim in dependent form shall contain a reference to a claim previously set forth and then specify a further limitation of the subject matter claimed. A claim in dependent form shall be construed to incorporate by reference all the limitations of the claim to which it refers.\n(e) Reference in Multiple Dependent Form.—A claim in multiple dependent form shall contain a reference, in the alternative only, to more than one claim previously set forth and then specify a further limitation of the subject matter claimed."
+   },
+   {
+    "article": "112",
+    "quote": "An element in a claim for a combination may be expressed as a means or step for performing a specified function without the recital of structure, material, or acts in support thereof, and such claim shall be construed to cover the corresponding structure, material, or acts described in the specification and equivalents thereof."
+   }
+  ],
+  "explanation": "可據以實施（enablement）旨在使熟習技藝者能製造及使用；單項附屬項引用先前請求項並進一步限縮；多項附屬項僅能擇一引用多項；手段功能用語則涵蓋說明書對應結構、材料或行為及其均等物。"
+ },
+ {
+  "id": "u02-l2-q12",
+  "lessonId": "u02-l2",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "請依附屬項（dependent claim）在條文中的構成與解釋順序排列",
+  "items": [
+   "先於說明書中記載被引用之基礎請求項",
+   "於附屬項中記載對先前請求項之引用",
+   "於該附屬項中指定對所主張標的之進一步限制條件",
+   "解釋該附屬項時，視為藉由引用而併入被引用請求項之所有限制條件"
+  ],
+  "evidence": [
+   {
+    "article": "112",
+    "quote": "Subject to subsection (e), a claim in dependent form shall contain a reference to a claim previously set forth and then specify a further limitation of the subject matter claimed. A claim in dependent form shall be construed to incorporate by reference all the limitations of the claim to which it refers."
+   }
+  ],
+  "explanation": "附屬項必須先引用先前已記載之請求項（a claim previously set forth），接著指定對所主張標的之進一步限制條件（further limitation），且在解釋上視為併入其所引用請求項之所有限制條件。"
+ },
+ {
+  "id": "u02-l3-q01",
+  "lessonId": "u02-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "申請人主張外國優先權（right of priority）或美國臨時申請案（provisional application）之利益時，若因非故意（unintentional）而逾越 12 個月法定期間，依局長訂定之規則並繳費後，該 12 個月期間最多可再延長 2 個月。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "119",
+    "quote": "The Director may prescribe regulations, including the requirement for payment of the fee specified in section 41(a)(7), pursuant to which the 12-month period set forth in this subsection may be extended by an additional 2 months if the delay in filing the application in this country within the 12-month period was unintentional."
+   }
+  ],
+  "explanation": "外國優先權與臨時申請案利益的法定期間均為 12 個月；若逾期向美國提出後案是出於非故意（unintentional），可依規定繳費將 12 個月期間再延長 2 個月（即最長 14 個月）。"
+ },
+ {
+  "id": "u02-l3-q02",
+  "lessonId": "u02-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "申請人主張美國臨時申請案或先前美國申請案（延續案）的申請日利益時，該先前申請案的說明書除了須符合書面描述與可據以實施要件外，也必須已揭露最佳實施例（best mode），否則後案不得主張其申請日利益。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "120",
+    "quote": "An application for patent for an invention disclosed in the manner provided by section 112(a) (other than the requirement to disclose the best mode) in an application previously filed in the United States, or as provided by section 363 or 385, which names an inventor or joint inventor in the previously filed application shall have the same effect, as to such invention, as though filed on the date of the prior application"
+   }
+  ],
+  "explanation": "無論是主張臨時申請案利益或國內延續案利益，條文皆明文排除最佳實施例要件（other than the requirement to disclose the best mode），先申請案無須滿足最佳實施例即可作為主張申請日利益的基礎。"
+ },
+ {
+  "id": "u02-l3-q03",
+  "lessonId": "u02-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "若一件美國專利包含了兩個以上獨立且可區別的發明（independent and distinct inventions），但審查期間局長未要求限制選擇（restriction），他人日後得以此違反單一性為由主張該核准專利無效。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "121",
+    "quote": "The validity of a patent shall not be questioned for failure of the Director to require the application to be restricted to one invention."
+   }
+  ],
+  "explanation": "限制要求（restriction）屬於審查上的行政管理措施，法條明定不得僅因局長未要求將申請案限制於單一發明而質疑已核准專利的效力（與台灣專利法違反單一性不作為舉發事由相同）。"
+ },
+ {
+  "id": "u02-l3-q04",
+  "lessonId": "u02-l3",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "依美國專利法規定，延續案（continuation application）若要主張先前美國申請案的申請日利益（benefit of earlier filing date），最遲應於何時提出申請？",
+  "options": [
+   "在先前申請案獲准發證（patenting）、放棄（abandonment）或程序終結之前",
+   "在先前申請案申請日起算 12 個月內",
+   "在先前申請案早期公開日起算 6 個月內",
+   "在先前申請案收到第一次審查意見通知書之前"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "120",
+    "quote": "An application for patent for an invention disclosed in the manner provided by section 112(a) (other than the requirement to disclose the best mode) in an application previously filed in the United States, or as provided by section 363 or 385, which names an inventor or joint inventor in the previously filed application shall have the same effect, as to such invention, as though filed on the date of the prior application, if filed before the patenting or abandonment of or termination of proceedings on the first application or on an application similarly entitled to the benefit of the filing date of the first application and if it contains or is amended to contain a specific reference to the earlier filed application."
+   }
+  ],
+  "explanation": "美國延續案採取「共同繫屬（copendency）」原則，只要在母案獲准發證（patenting）、放棄（abandonment）或程序終結前提出，並具體引用母案，即可享有母案申請日利益。"
+ },
+ {
+  "id": "u02-l3-q05",
+  "lessonId": "u02-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "definition"
+  ],
+  "prompt": "申請人在同一外國先後就同一發明提出了第一件與第二件外國申請案，若想以較晚的「第二件外國申請案」作為主張美國國際優先權的基礎，第一件外國申請案必須符合什麼條件？",
+  "options": [
+   "在第二件申請前已撤回、放棄或處置，且未公開、未留下任何存續權利，亦未曾且不再作為主張優先權之基礎",
+   "第一件外國申請案已經外國專利局實體審查核駁確定",
+   "第一件外國申請案已早期公開，但申請人向 USPTO 書面聲明放棄該外國專利權",
+   "只要兩件外國申請案的申請日相差不超過 6 個月，即可直接改以第二件為基礎"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "119",
+    "quote": "In like manner and subject to the same conditions and requirements, the right provided in this section may be based upon a subsequent regularly filed application in the same foreign country instead of the first filed foreign application, provided that any foreign application filed prior to such subsequent application has been withdrawn, abandoned, or otherwise disposed of, without having been laid open to public inspection and without leaving any rights outstanding, and has not served, nor thereafter shall serve, as a basis for claiming a right of priority."
+   }
+  ],
+  "explanation": "原則上國際優先權必須以「第一次」外國申請案為基礎；僅在先前申請案於後案申請前已撤回、放棄或處置，且未公開、無存續權利、亦未曾且不再用來主張優先權時，始得以同國之後續申請案替代為首次申請案。"
+ },
+ {
+  "id": "u02-l3-q06",
+  "lessonId": "u02-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "當申請人因官方發出限制要求（restriction requirement）而提出分割案（divisional application）時，關於母案與分割案之間互不作為引證前案（reference）的保護規定，其適用之時間前提為何？",
+  "options": [
+   "分割案必須在另一申請案核發專利（issuance of the patent）之前提出",
+   "分割案必須在母案申請日起算 12 個月內提出",
+   "分割案必須在收到限制要求通知書後 30 天內提出",
+   "分割案必須在母案早期公開日之前提出"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "121",
+    "quote": "A patent issuing on an application with respect to which a requirement for restriction under this section has been made, or on an application filed as a result of such a requirement, shall not be used as a reference either in the Patent and Trademark Office or in the courts against a divisional application or against the original application or any patent issued on either of them, if the divisional application is filed before the issuance of the patent on the other application."
+   }
+  ],
+  "explanation": "因官方限制要求（restriction requirement）而分割出的分割案，只要在另一申請案核發專利（issuance of the patent）前提出，兩案及其核准專利在 USPTO 或法院皆不得互為引證前案。"
+ },
+ {
+  "id": "u02-l3-q07",
+  "lessonId": "u02-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "deadline"
+  ],
+  "prompt": "台灣發明人甲於 2025 年 8 月 15 日（星期五）向 USPTO 提出一件臨時申請案（provisional application）。12 個月後的 2026 年 8 月 15 日適逢星期六。若甲要在美國直接提出正式非臨時申請案並主張該臨時申請案的利益（不依賴非故意延誤之繳費展延），最晚應於哪一天提出？",
+  "options": [
+   "2026 年 8 月 17 日（星期一，下一個營業日）",
+   "2026 年 8 月 14 日（星期五，屆滿日前一個營業日）",
+   "2026 年 8 月 15 日（星期六當日午夜前，臨時申請案期間不得順延）",
+   "2026 年 9 月 15 日（遇週末自動順延 1 個月）"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "119",
+    "quote": "If the day that is 12 months after the filing date of a provisional application falls on a Saturday, Sunday, or Federal holiday within the District of Columbia, the period of pendency of the provisional application shall be extended to the next succeeding secular or business day."
+   }
+  ],
+  "explanation": "若臨時申請案申請日後滿 12 個月當天適逢星期六、星期日或哥倫比亞特區之聯邦假日，該臨時申請案的繫屬期間依法自動順延至下一個營業日（即 2026 年 8 月 17 日星期一）。"
+ },
+ {
+  "id": "u02-l3-q08",
+  "lessonId": "u02-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "procedure"
+  ],
+  "prompt": "發明人甲與乙於 2025 年 3 月 10 日共同在美國提出母案 A。母案 A 仍在審查中（尚未發證或放棄），乙與另一位工程師丙於 2026 年 6 月 20 日就母案 A 已依規定充分揭露的發明提出延續案 B，並於規定期間內載明對母案 A 的特定引用。延續案 B 的發明人僅列乙與丙（未列甲）。延續案 B 可否主張母案 A 的申請日利益？",
+  "options": [
+   "可以，因為延續案 B 列有母案 A 的至少一位發明人或共同發明人（乙）",
+   "不可以，因為延續案的發明人組合必須與母案完全一致",
+   "不可以，因為延續案 B 在母案 A 申請日超過 12 個月後才提出",
+   "可以，但前提是甲必須先向 USPTO 簽署放棄發明人地位之切結書"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "120",
+    "quote": "An application for patent for an invention disclosed in the manner provided by section 112(a) (other than the requirement to disclose the best mode) in an application previously filed in the United States, or as provided by section 363 or 385, which names an inventor or joint inventor in the previously filed application shall have the same effect, as to such invention, as though filed on the date of the prior application"
+   }
+  ],
+  "explanation": "主張美國先前申請案之申請日利益時，後案不要求發明人全體完全相同，只要列有先申請案中的一位發明人或共同發明人（names an inventor or joint inventor in the previously filed application），且在先申請案發證或放棄前提出即可。"
+ },
+ {
+  "id": "u02-l3-q09",
+  "lessonId": "u02-l3",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The Director may prescribe regulations, including the requirement for payment of the fee specified in section 41(a)(7), pursuant to which the {{0}}-month period set forth in this subsection may be extended by an additional {{1}} months if the delay in filing the application in this country within the 12-month period was {{2}}.",
+  "blanks": [
+   "12",
+   "2",
+   "unintentional"
+  ],
+  "distractors": [
+   "6",
+   "3",
+   "unavoidable"
+  ],
+  "evidence": [
+   {
+    "article": "119",
+    "quote": "The Director may prescribe regulations, including the requirement for payment of the fee specified in section 41(a)(7), pursuant to which the 12-month period set forth in this subsection may be extended by an additional 2 months if the delay in filing the application in this country within the 12-month period was unintentional."
+   }
+  ],
+  "explanation": "外國優先權的 12 個月法定期間，若因非故意（unintentional）延誤而未於 12 個月內在美國申請，得依規則繳費再延長 2 個月。"
+ },
+ {
+  "id": "u02-l3-q10",
+  "lessonId": "u02-l3",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "If two or more {{0}} and {{1}} inventions are claimed in one application, the Director may require the application to be {{2}} to one of the inventions.",
+  "blanks": [
+   "independent",
+   "distinct",
+   "restricted"
+  ],
+  "distractors": [
+   "related",
+   "obvious",
+   "assigned"
+  ],
+  "evidence": [
+   {
+    "article": "121",
+    "quote": "If two or more independent and distinct inventions are claimed in one application, the Director may require the application to be restricted to one of the inventions."
+   }
+  ],
+  "explanation": "當同一申請案主張兩個以上獨立且可區別（independent and distinct）的發明時，局長得發出限制要求（restriction），要求將申請案限制（restricted）於其中一項發明。"
+ },
+ {
+  "id": "u02-l3-q11",
+  "lessonId": "u02-l3",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "請將各優先權或申請日利益制度與其法定要件配對",
+  "pairs": [
+   {
+    "left": "外國優先權主張期間",
+    "right": "外國首次申請日起 12 個月內"
+   },
+   {
+    "left": "非故意延誤優先權期間",
+    "right": "得依規定繳費再延長 2 個月"
+   },
+   {
+    "left": "美國延續案申請時點",
+    "right": "先申請案發證、放棄或終結前"
+   },
+   {
+    "left": "限制要求與分割案",
+    "right": "針對兩項以上獨立且可區別發明"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "119",
+    "quote": "if the application in this country is filed within 12 months from the earliest date on which such foreign application was filed. The Director may prescribe regulations, including the requirement for payment of the fee specified in section 41(a)(7), pursuant to which the 12-month period set forth in this subsection may be extended by an additional 2 months if the delay in filing the application in this country within the 12-month period was unintentional."
+   },
+   {
+    "article": "120",
+    "quote": "if filed before the patenting or abandonment of or termination of proceedings on the first application or on an application similarly entitled to the benefit of the filing date of the first application"
+   },
+   {
+    "article": "121",
+    "quote": "If two or more independent and distinct inventions are claimed in one application, the Director may require the application to be restricted to one of the inventions."
+   }
+  ],
+  "explanation": "外國優先權期間為 12 個月，非故意延誤得繳費延長 2 個月；國內延續案須在先申請案發證、放棄或程序終結前提出；限制要求與分割案則針對包含兩項以上獨立且可區別發明的申請案。"
+ },
+ {
+  "id": "u02-l3-q12",
+  "lessonId": "u02-l3",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "當申請案包含多個獨立且可區別的發明時，請依序排出限制要求（restriction）與分割案（divisional application）之法定流程",
+  "items": [
+   "申請人在同一申請案中主張兩個以上獨立且可區別的發明",
+   "局長要求將該申請案限制（restricted）於其中一項發明",
+   "申請人於原申請案核發專利前，就另一發明提出符合要件之分割案",
+   "分割案享有原申請案之申請日利益，且兩案互不作為引證前案"
+  ],
+  "evidence": [
+   {
+    "article": "121",
+    "quote": "If two or more independent and distinct inventions are claimed in one application, the Director may require the application to be restricted to one of the inventions. If the other invention is made the subject of a divisional application which complies with the requirements of section 120 it shall be entitled to the benefit of the filing date of the original application. A patent issuing on an application with respect to which a requirement for restriction under this section has been made, or on an application filed as a result of such a requirement, shall not be used as a reference either in the Patent and Trademark Office or in the courts against a divisional application or against the original application or any patent issued on either of them, if the divisional application is filed before the issuance of the patent on the other application."
+   }
+  ],
+  "explanation": "當一案包含兩項以上獨立且可區別之發明時，局長得要求限制於一項發明；申請人於另一案發證前提出符合第 120 條要件之分割案，即可享有原申請案申請日利益，且享有不互為引證前案之保護。"
+ },
+ {
+  "id": "u02-l4-q01",
+  "lessonId": "u02-l4",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "美國設計專利申請案（application for a design patent）與臨時申請案（provisional application）一樣，皆不適用自最早申請日或優先權日起滿 18 個月後的早期公開（publication）制度。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "122",
+    "quote": "An application shall not be published if that application is—\n(i) no longer pending;\n(ii) subject to a secrecy order under section 181;\n(iii) a provisional application filed under section 111(b); or\n(iv) an application for a design patent filed under chapter 16."
+   }
+  ],
+  "explanation": "不再繫屬中之申請案、受保密令限制之申請案、臨時申請案及設計專利申請案，依法均不進行 18 個月早期公開。"
+ },
+ {
+  "id": "u02-l4-q02",
+  "lessonId": "u02-l4",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "美國發明專利的 20 年專利權期限（patent term），若有主張外國優先權（foreign priority）或美國臨時申請案之利益，應自該外國優先權日或臨時申請案之申請日起算 20 年。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "Priority under section 119, 365(a), 365(b), 386(a), or 386(b) shall not be taken into account in determining the term of a patent."
+   }
+  ],
+  "explanation": "依第 119 條主張的外國優先權或美國臨時申請案利益，在計算 20 年專利權期限時「不予計入（shall not be taken into account）」；這也是實務上申請美國臨時申請案可多爭取 1 年而不扣減專利壽命的重要原因。"
+ },
+ {
+  "id": "u02-l4-q03",
+  "lessonId": "u02-l4",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "專利權人欲主張申請案早期公開至獲准發證期間的臨時權利（provisional rights）以請求合理權利金（reasonable royalty），必須在專利核發後 6 年內提起訴訟。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "The right under paragraph (1) to obtain a reasonable royalty shall be available only in an action brought not later than 6 years after the patent is issued."
+   }
+  ],
+  "explanation": "主張早期公開後之臨時權利（provisional rights）請求合理權利金，必須在專利核發後不遲於 6 年內（not later than 6 years after the patent is issued）提起訴訟。"
+ },
+ {
+  "id": "u02-l4-q04",
+  "lessonId": "u02-l4",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "申請人在提出美國專利申請時，若證明不會在需要 18 個月早期公開的外國申請而請求「不公開（nonpublication request）」，但事後又就同一發明向此類外國或國際協定提出申請，申請人必須在多長期限內通知 USPTO 局長，否則美國申請案將被視為放棄？",
+  "options": [
+   "自該外國或國際申請案申請日起 45 天內",
+   "自該外國或國際申請案申請日起 2 個月內",
+   "自美國申請案申請日起滿 16 個月前",
+   "自該外國或國際申請案公開日起 30 天內"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "122",
+    "quote": "An applicant who has made a request under clause (i) but who subsequently files, in a foreign country or under a multilateral international agreement specified in clause (i), an application directed to the invention disclosed in the application filed in the Patent and Trademark Office, shall notify the Director of such filing not later than 45 days after the date of the filing of such foreign or international application. A failure of the applicant to provide such notice within the prescribed period shall result in the application being regarded as abandoned."
+   }
+  ],
+  "explanation": "美國特有的不公開請求（nonpublication request）以不在外國提出需 18 個月公開之對應案為前提；若事後在外國提出申請，必須在該外國申請日起 45 天內通知 USPTO 局長，逾期未通知則美國申請案視為放棄。"
+ },
+ {
+  "id": "u02-l4-q05",
+  "lessonId": "u02-l4",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "依美國專利法規定，專利權人就申請案早期公開後至專利核發前之期間主張臨時權利（provisional rights）以請求合理權利金，除了行為人須對公開之申請案有實際知悉（actual notice）外，還須滿足下列何項要件？",
+  "options": [
+   "核准專利所主張之發明與公開申請案所主張之發明實質相同（substantially identical）",
+   "行為人必須是惡意抄襲公開申請案技術內容之競爭對手",
+   "專利權人必須在申請案公開後 3 個月內曾向行為人寄發書面警告信",
+   "核准專利的請求項範圍必須比公開申請案的請求項範圍更廣"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "The right under paragraph (1) to obtain a reasonable royalty shall not be available under this subsection unless the invention as claimed in the patent is substantially identical to the invention as claimed in the published patent application."
+   }
+  ],
+  "explanation": "臨時權利（provisional rights）要求核准專利請求項所主張之發明必須與公開申請案請求項所主張之發明「實質相同（substantially identical）」，若審查中大幅修正請求項導致範圍實質改變，即無法主張公開期間的合理權利金。"
+ },
+ {
+  "id": "u02-l4-q06",
+  "lessonId": "u02-l4",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "在專利權期間調整（Patent Term Adjustment, PTA）制度中，若申請人對局長就 PTA 複議請求（request for reconsideration）所作的決定不服，應於何期限內向哪一個法院提起民事訴訟救濟？",
+  "options": [
+   "於局長複議決定日起 180 天內，向維吉尼亞州東區聯邦地方法院提起",
+   "於局長複議決定日起 60 天內，向聯邦巡迴上訴法院（CAFC）提起",
+   "於專利核發日起 90 天內，向華盛頓哥倫比亞特區聯邦地方法院提起",
+   "於專利核發日起 1 年內，向專利審判及上訴委員會（PTAB）提起"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "An applicant dissatisfied with the Director's decision on the applicant's request for reconsideration under paragraph (3)(B)(ii) shall have exclusive remedy by a civil action against the Director filed in the United States District Court for the Eastern District of Virginia within 180 days after the date of the Director's decision on the applicant's request for reconsideration."
+   }
+  ],
+  "explanation": "申請人不服局長對 PTA 複議請求之決定時，唯一救濟途徑是在該複議決定日起 180 天內，向維吉尼亞州東區聯邦地方法院（United States District Court for the Eastern District of Virginia）對局長提起民事訴訟。"
+ },
+ {
+  "id": "u02-l4-q07",
+  "lessonId": "u02-l4",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "甲公司於 2024 年 5 月 10 日先在台灣提出發明專利申請案，於 2025 年 5 月 1 日在美國提出正式母案並主張台灣案的國際優先權；隨後於 2026 年 9 月 1 日在美國提出一件延續案（continuation application）主張該美國母案的利益，該延續案於 2028 年 3 月 15 日獲准發證（假設無任何期限調整或延長）。該美國延續案專利的 20 年期限應於何時屆滿？",
+  "options": [
+   "2045 年 5 月 1 日（自最早美國母案申請日起算 20 年，不計入外國優先權日）",
+   "2044 年 5 月 10 日（自台灣優先權日起算 20 年）",
+   "2046 年 9 月 1 日（自該延續案實際申請日起算 20 年）",
+   "2048 年 3 月 15 日（自該延續案獲准發證日起算 20 年）"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "(2) Term.—Subject to the payment of fees under this title, such grant shall be for a term beginning on the date on which the patent issues and ending 20 years from the date on which the application for the patent was filed in the United States or, if the application contains a specific reference to an earlier filed application or applications under section 120, 121, 365(c), or 386(c), from the date on which the earliest such application was filed.\n(3) Priority.—Priority under section 119, 365(a), 365(b), 386(a), or 386(b) shall not be taken into account in determining the term of a patent."
+   }
+  ],
+  "explanation": "專利權期限自發證日起生效，至美國申請日起算滿 20 年屆滿；若有依第 120 條主張美國母案利益，則自最早美國母案申請日（2025/5/1）起算 20 年（至 2045/5/1），但依第 119 條主張的外國優先權日（2024/5/10）不計入。"
+ },
+ {
+  "id": "u02-l4-q08",
+  "lessonId": "u02-l4",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "競爭對手乙發現甲公司的美國專利申請案已於 2026 年 3 月 1 日早期公開，乙想透過「核發前第三方呈交前案（preissuance submission）」制度提交一份關鍵期刊文獻供審查官參考。已知該申請案於 2026 年 7 月 15 日發出第一次核駁通知（first rejection），並於 2026 年 11 月 20 日寄發核准通知書（notice of allowance）。乙最遲應於何日前提交該文獻？",
+  "options": [
+   "2026 年 9 月 1 日前（公開後 6 個月與第一次核駁日兩者較晚者，且早於核准通知日）",
+   "2026 年 7 月 15 日前（必須在第一次核駁通知發出前提交）",
+   "2026 年 11 月 20 日前（只要在核准通知書寄發前均可提交）",
+   "2026 年 6 月 1 日前（必須在早期公開後 3 個月內提交）"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "122",
+    "quote": "Any third party may submit for consideration and inclusion in the record of a patent application, any patent, published patent application, or other printed publication of potential relevance to the examination of the application, if such submission is made in writing before the earlier of—\n(A) the date a notice of allowance under section 151 is given or mailed in the application for patent; or\n(B) the later of—\n(i) 6 months after the date on which the application for patent is first published under section 122 by the Office, or\n(ii) the date of the first rejection under section 132 of any claim by the examiner during the examination of the application for patent."
+   }
+  ],
+  "explanation": "第三方呈交前案的截止期限為「(A) 核准通知書寄發日（2026/11/20）」與「(B) 首次公開後 6 個月（2026/9/1）或第一次核駁日（2026/7/15）兩者中較晚者（即 2026/9/1）」兩者中之較早者，故應於 2026 年 9 月 1 日前提交。"
+ },
+ {
+  "id": "u02-l4-q09",
+  "lessonId": "u02-l4",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "甲公司於 2023 年 4 月 1 日在美國提出一件非臨時發明專利申請案，審查期間甲公司曾於 2025 年 6 月 1 日收到審查意見通知書（Office Action），直到 2025 年 10 月 1 日（共耗時 4 個月）才提出答辯。假設無其他延誤，在計算「審查期間不超過 3 年保證（B-delay）」之專利權期間調整（PTA）時，甲公司的答辯期間會對 PTA 產生什麼影響？",
+  "options": [
+   "超過 3 個月之部分（即 1 個月）視為申請人未盡合理努力，應自 PTA 補償期間中扣除",
+   "因為在 6 個月法定最長答辯期限內回覆，不會扣除任何 PTA 補償期間",
+   "只要有超過 3 個月才回覆的情形，申請人即完全喪失全部的 PTA 補償資格",
+   "會將整段 4 個月的答辯時間全部自 PTA 補償期間中扣除"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "(i) The period of adjustment of the term of a patent under paragraph (1) shall be reduced by a period equal to the period of time during which the applicant failed to engage in reasonable efforts to conclude prosecution of the application.\n(ii) With respect to adjustments to patent term made under the authority of paragraph (1)(B), an applicant shall be deemed to have failed to engage in reasonable efforts to conclude processing or examination of an application for the cumulative total of any periods of time in excess of 3 months that are taken to respond to a notice from the Office making any rejection, objection, argument, or other request, measuring such 3-month period from the date the notice was given or mailed to the applicant."
+   }
+  ],
+  "explanation": "在計算 PTA 時，若申請人耗費超過 3 個月才回覆官方通知，超過 3 個月之累計期間（in excess of 3 months）會被視為未盡合理努力終結審查（applicant delay），並從 PTA 調整天數中扣除。"
+ },
+ {
+  "id": "u02-l4-q10",
+  "lessonId": "u02-l4",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Subject to paragraph (2), each application for a patent shall be {{0}}, in accordance with procedures determined by the Director, promptly after the expiration of a period of {{1}} months from the {{2}} filing date for which a benefit is sought under this title.",
+  "blanks": [
+   "published",
+   "18",
+   "earliest"
+  ],
+  "distractors": [
+   "examined",
+   "12",
+   "actual"
+  ],
+  "evidence": [
+   {
+    "article": "122",
+    "quote": "Subject to paragraph (2), each application for a patent shall be published, in accordance with procedures determined by the Director, promptly after the expiration of a period of 18 months from the earliest filing date for which a benefit is sought under this title."
+   }
+  ],
+  "explanation": "除法定例外情形外，每件專利申請案應於所主張利益之最早申請日（earliest filing date）起滿 18 個月後儘速公開（published）。"
+ },
+ {
+  "id": "u02-l4-q11",
+  "lessonId": "u02-l4",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Every patent shall contain a short title of the invention and a grant to the patentee, his heirs or assigns, of the right to {{0}} others from making, using, {{1}} for sale, or selling the invention throughout the United States or {{2}} the invention into the United States",
+  "blanks": [
+   "exclude",
+   "offering",
+   "importing"
+  ],
+  "distractors": [
+   "authorize",
+   "advertising",
+   "exporting"
+  ],
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "Every patent shall contain a short title of the invention and a grant to the patentee, his heirs or assigns, of the right to exclude others from making, using, offering for sale, or selling the invention throughout the United States or importing the invention into the United States"
+   }
+  ],
+  "explanation": "專利權賦予專利權人排除（exclude）他人在美國境內製造、使用、為販賣之要約（offering for sale）或販賣該發明，或將該發明進口（importing）至美國之排他權。"
+ },
+ {
+  "id": "u02-l4-q12",
+  "lessonId": "u02-l4",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "With respect to adjustments to patent term made under the authority of paragraph (1)(B), an applicant shall be deemed to have failed to engage in {{0}} efforts to conclude processing or examination of an application for the cumulative total of any periods of time in excess of {{1}} months that are taken to {{2}} to a notice from the Office making any rejection, objection, argument, or other request",
+  "blanks": [
+   "reasonable",
+   "3",
+   "respond"
+  ],
+  "distractors": [
+   "diligent",
+   "6",
+   "appeal"
+  ],
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "With respect to adjustments to patent term made under the authority of paragraph (1)(B), an applicant shall be deemed to have failed to engage in reasonable efforts to conclude processing or examination of an application for the cumulative total of any periods of time in excess of 3 months that are taken to respond to a notice from the Office making any rejection, objection, argument, or other request"
+   }
+  ],
+  "explanation": "申請人回覆（respond）官方通知若超過 3 個月，超過部分視為未盡合理（reasonable）努力完成審查，將扣減專利權期間調整（PTA）天數。"
+ },
+ {
+  "id": "u02-l4-q13",
+  "lessonId": "u02-l4",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "請將專利權期間調整（PTA）與公開制度的事項與其法定期限配對",
+  "pairs": [
+   {
+    "left": "USPTO 首次通知保證",
+    "right": "申請或入國家階段後 14 個月"
+   },
+   {
+    "left": "USPTO 繳費後發證",
+    "right": "繳領證費且要件具備後 4 個月"
+   },
+   {
+    "left": "申請案總審查期保證",
+    "right": "自美國實際申請日起不逾 3 年"
+   },
+   {
+    "left": "提交刪節版公開申請",
+    "right": "最早有效申請日起 16 個月內"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "(i) provide at least one of the notifications under section 132 or a notice of allowance under section 151 not later than 14 months after—\n(I) the date on which an application was filed under section 111(a); or\n(II) the date of commencement of the national stage under section 371 in an international application;\n(ii) respond to a reply under section 132, or to an appeal taken under section 134, within 4 months after the date on which the reply was filed or the appeal was taken;\n(iii) act on an application within 4 months after the date of a decision by the Patent Trial and Appeal Board under section 134 or 135 or a decision by a Federal court under section 141, 145, or 146 in a case in which allowable claims remain in the application; or\n(iv) issue a patent within 4 months after the date on which the issue fee was paid under section 151 and all outstanding requirements were satisfied,\n(B) Guarantee of no more than 3-year application pendency.—Subject to the limitations under paragraph (2), if the issue of an original patent is delayed due to the failure of the United States Patent and Trademark Office to issue a patent within 3 years after the actual filing date of the application under section 111(a) in the United States"
+   },
+   {
+    "article": "122",
+    "quote": "The Director may only publish the redacted copy of the application unless the redacted copy of the application is not received within 16 months after the earliest effective filing date for which a benefit is sought under this title."
+   }
+  ],
+  "explanation": "PTA 的 A 延誤保證包含申請後 14 個月內發出首次通知、繳納領證費後 4 個月內發證；B 延誤保證總審查期不超過 3 年；而外國申請案範圍較窄時，提交刪節版（redacted copy）供公開之期限為最早有效申請日起 16 個月內。"
+ },
+ {
+  "id": "u02-l4-q14",
+  "lessonId": "u02-l4",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "申請人請求不公開（nonpublication request）後又向需要 18 個月公開的外國提出申請時，請依序排出法定處理流程",
+  "items": [
+   "於美國提出申請時請求不公開，並證明未曾且不會在需 18 個月公開之外國申請",
+   "事後就同一發明向需 18 個月公開之外國或國際協定提出專利申請",
+   "於該外國或國際申請案申請日起 45 天內向 USPTO 局長發出通知",
+   "於滿 18 個月之日或之後儘速依規定公開該美國申請案（若未於 45 天內通知則視為放棄）"
+  ],
+  "evidence": [
+   {
+    "article": "122",
+    "quote": "(B)(i) If an applicant makes a request upon filing, certifying that the invention disclosed in the application has not and will not be the subject of an application filed in another country, or under a multilateral international agreement, that requires publication of applications 18 months after filing, the application shall not be published as provided in paragraph (1).\n(ii) An applicant may rescind a request made under clause (i) at any time.\n(iii) An applicant who has made a request under clause (i) but who subsequently files, in a foreign country or under a multilateral international agreement specified in clause (i), an application directed to the invention disclosed in the application filed in the Patent and Trademark Office, shall notify the Director of such filing not later than 45 days after the date of the filing of such foreign or international application. A failure of the applicant to provide such notice within the prescribed period shall result in the application being regarded as abandoned.\n(iv) If an applicant rescinds a request made under clause (i) or notifies the Director that an application was filed in a foreign country or under a multilateral international agreement specified in clause (i), the application shall be published in accordance with the provisions of paragraph (1) on or as soon as is practical after the date that is specified in clause (i)."
+   }
+  ],
+  "explanation": "不公開請求必須在申請時（upon filing）提出；若事後在外國提出需 18 個月公開的對應案，須於外國申請日起 45 天內通知局長，接著 USPTO 會在滿 18 個月之日或之後儘速公開該申請案，逾期未通知則視為放棄。"
+ }
+]

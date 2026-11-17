@@ -1,0 +1,1030 @@
+[
+ {
+  "id": "u04-l1-q01",
+  "lessonId": "u04-l1",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "申請人收到核准通知（notice of allowance）後，必須在 3 個月內繳納領證費（issue fee）及必要的公開費，若未按期繳納，該申請案將被視為放棄（abandoned）。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "151",
+    "quote": "The notice shall specify a sum, constituting the issue fee and any required publication fee, which shall be paid within 3 months thereafter."
+   },
+   {
+    "article": "151",
+    "quote": "Upon payment of this sum the patent may issue, but if payment is not timely made, the application shall be regarded as abandoned."
+   }
+  ],
+  "explanation": "依 35 U.S.C. § 151 規定，核准通知會載明應於其後 3 個月內繳納之領證費及必要公開費；逾期未繳納者，申請案視為放棄。"
+ },
+ {
+  "id": "u04-l1-q02",
+  "lessonId": "u04-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "申請人主張外國優先權（foreign priority）或美國臨時申請案（provisional application）之利益時，20 年的專利權期限應自該外國優先權日或臨時案申請日起算。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "Priority under section 119, 365(a), 365(b), 386(a), or 386(b) shall not be taken into account in determining the term of a patent."
+   }
+  ],
+  "explanation": "依 § 154(a)(3) 規定，依 § 119 主張之外國優先權或臨時申請案利益，在計算專利權期限時不予計入（這點與台灣專利法外國優先權日不計入 20 年專利期限相同）。"
+ },
+ {
+  "id": "u04-l1-q03",
+  "lessonId": "u04-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "競爭對手若認為美國專利商標局（USPTO）在專利核發前計算的專利期限調整（patent term adjustment, PTA）天數過長，得於專利核發前向局長提出異議或上訴。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "The determination of a patent term adjustment under this subsection shall not be subject to appeal or challenge by a third party prior to the grant of the patent."
+   }
+  ],
+  "explanation": "依 § 154(b)(4)(B) 規定，專利期限調整之決定在專利核准發證前，第三方不得對其提出上訴或挑戰。"
+ },
+ {
+  "id": "u04-l1-q04",
+  "lessonId": "u04-l1",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "依美國專利法規定，專利證書應以誰的名義核發，並由誰簽署？",
+  "options": [
+   "以美國商務部名義核發，並由商務部長親自簽署",
+   "以美利堅合眾國名義核發，並由專利商標局局長簽署",
+   "以專利商標局名義核發，並由首席審查官親自簽署",
+   "以美利堅合眾國總統名義核發，並由白宮幕僚長簽署"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "153",
+    "quote": "Patents shall be issued in the name of the United States of America, under the seal of the Patent and Trademark Office, and shall be signed by the Director or have his signature placed thereon and shall be recorded in the Patent and Trademark Office."
+   }
+  ],
+  "explanation": "依 § 153 規定，專利應以美利堅合眾國（United States of America）之名義核發，加蓋專利商標局印信，並由局長（Director）簽署或印上其簽名。"
+ },
+ {
+  "id": "u04-l1-q05",
+  "lessonId": "u04-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case"
+  ],
+  "prompt": "甲於 2020 年 5 月 10 日在美國提出一件非臨時發明專利申請案（母案），並於 2022 年 8 月 15 日提出一件延續案（continuation application）且明確援引母案。該延續案於 2024 年 11 月 1 日獲准發證，若無任何專利期限調整或延長，該延續案專利的期限將於何時屆滿？",
+  "options": [
+   "2040 年 5 月 10 日（自最早母案申請日起算 20 年）",
+   "2042 年 8 月 15 日（自延續案實際申請日起算 20 年）",
+   "2044 年 11 月 1 日（自延續案專利核發日起算 20 年）",
+   "2041 年 11 月 1 日（自延續案專利核發日起算 17 年）"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "Subject to the payment of fees under this title, such grant shall be for a term beginning on the date on which the patent issues and ending 20 years from the date on which the application for the patent was filed in the United States or, if the application contains a specific reference to an earlier filed application or applications under section 120, 121, 365(c), or 386(c), from the date on which the earliest such application was filed."
+   }
+  ],
+  "explanation": "依 § 154(a)(2) 規定，若申請案依 § 120 明確援引更早提出的母案，其 20 年專利期限應自最早母案之申請日（2020 年 5 月 10 日）起算，故於 2040 年 5 月 10 日屆滿。"
+ },
+ {
+  "id": "u04-l1-q06",
+  "lessonId": "u04-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "關於專利期限調整（PTA）中「審查期間不超過 3 年之保證（B 類延誤）」，下列哪一項時間「不會」被排除在 3 年審查期間的計算之外？",
+  "options": [
+   "申請人提出繼續審查請求（RCE）所耗費的時間",
+   "因保密令（secrecy order）或上訴程序所耗費的時間",
+   "審查官發出第一次審查意見通知書前所耗費的 16 個月",
+   "依申請人請求而延遲處理申請案所耗費的時間"
+  ],
+  "answerIndex": 2,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "Guarantee of no more than 3-year application pendency.—Subject to the limitations under paragraph (2), if the issue of an original patent is delayed due to the failure of the United States Patent and Trademark Office to issue a patent within 3 years after the actual filing date of the application under section 111(a) in the United States or, in the case of an international application, the date of commencement of the national stage under section 371 in the international application, not including—\n(i) any time consumed by continued examination of the application requested by the applicant under section 132(b);\n(ii) any time consumed by a proceeding under section 135(a), any time consumed by the imposition of an order under section 181, or any time consumed by appellate review by the Patent Trial and Appeal Board or by a Federal court; or\n(iii) any delay in the processing of the application by the United States Patent and Trademark Office requested by the applicant except as permitted by paragraph (3)(C),"
+   }
+  ],
+  "explanation": "依 § 154(b)(1)(B) 規定，3 年保證期間不計入 RCE（§ 132(b)）、衍生程序、保密令、上訴審查及申請人請求延遲的時間；但 USPTO 自身審查遲延的時間仍在計算之內。"
+ },
+ {
+  "id": "u04-l1-q07",
+  "lessonId": "u04-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "deadline"
+  ],
+  "prompt": "關於早期公開後的臨時權利（provisional rights），專利權人請求自公開日起至專利核發日止之合理權利金（reasonable royalty），須符合下列何項條件？",
+  "options": [
+   "侵權人必須具有故意侵權之惡意，且法院得判給最高 3 倍之懲罰性賠償",
+   "侵權人須實際知悉（actual notice）該公開申請案，且須於發證後 6 年內起訴",
+   "只要申請案已在美國專利商標局網站公開即推定所有人知悉，無須實際通知",
+   "核准專利的請求項範圍即使經過大幅縮減而與公開時完全不同，仍可主張權利"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "had actual notice of the published patent application and, in a case in which the right arising under this paragraph is based upon an international application designating the United States that is published in a language other than English, had a translation of the international application into the English language."
+   },
+   {
+    "article": "154",
+    "quote": "The right under paragraph (1) to obtain a reasonable royalty shall be available only in an action brought not later than 6 years after the patent is issued."
+   }
+  ],
+  "explanation": "依 § 154(d) 規定，主張臨時權利須行為人「實際知悉（actual notice）」該公開申請案、核准與公開之請求項實質相同（substantially identical），且須於專利核發後 6 年內提起訴訟。"
+ },
+ {
+  "id": "u04-l1-q08",
+  "lessonId": "u04-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case",
+   "procedure"
+  ],
+  "prompt": "申請人乙對局長就其專利期限調整（PTA）重行審查請求（request for reconsideration）於 2026 年 3 月 1 日作出的決定不服，乙應於何時、向哪一個法院提起民事訴訟救濟？",
+  "options": [
+   "自決定日起 60 日內，向聯邦巡迴上訴法院（CAFC）提起上訴",
+   "自決定日起 180 日內，向維吉尼亞州東區聯邦地方法院提起民事訴訟",
+   "自決定日起 90 日內，向專利審判及上訴委員會（PTAB）提起訴願",
+   "自專利核發日起 1 年內，向華盛頓哥倫比亞特區聯邦地方法院起訴"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "An applicant dissatisfied with the Director's decision on the applicant's request for reconsideration under paragraph (3)(B)(ii) shall have exclusive remedy by a civil action against the Director filed in the United States District Court for the Eastern District of Virginia within 180 days after the date of the Director's decision on the applicant's request for reconsideration."
+   }
+  ],
+  "explanation": "依 § 154(b)(4)(A) 規定，申請人對 PTA 重行審查決定不服之唯一救濟途徑，為在決定日後 180 日內向維吉尼亞州東區聯邦地方法院（Eastern District of Virginia）對局長提起民事訴訟。"
+ },
+ {
+  "id": "u04-l1-q09",
+  "lessonId": "u04-l1",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The notice shall specify a sum, constituting the {{0}} and any required {{1}}, which shall be paid within {{2}} months thereafter.",
+  "blanks": [
+   "issue fee",
+   "publication fee",
+   "3"
+  ],
+  "distractors": [
+   "maintenance fee",
+   "examination fee",
+   "6",
+   "12"
+  ],
+  "evidence": [
+   {
+    "article": "151",
+    "quote": "The notice shall specify a sum, constituting the issue fee and any required publication fee, which shall be paid within 3 months thereafter."
+   }
+  ],
+  "explanation": "依 § 151(a) 規定，核准通知應載明領證費（issue fee）與必要之公開費（publication fee），申請人須於 3 個月內繳納。"
+ },
+ {
+  "id": "u04-l1-q10",
+  "lessonId": "u04-l1",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Every patent shall contain a short title of the invention and a grant to the patentee, his heirs or assigns, of the right to {{0}} others from making, using, {{1}}, or selling the invention throughout the United States or {{2}} the invention into the United States",
+  "blanks": [
+   "exclude",
+   "offering for sale",
+   "importing"
+  ],
+  "distractors": [
+   "authorize",
+   "exporting",
+   "registering"
+  ],
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "Every patent shall contain a short title of the invention and a grant to the patentee, his heirs or assigns, of the right to exclude others from making, using, offering for sale, or selling the invention throughout the United States or importing the invention into the United States"
+   }
+  ],
+  "explanation": "依 § 154(a)(1) 規定，專利權賦予專利權人排他權（right to exclude），排除他人在美國境內製造、使用、為販賣之要約（offering for sale）、販賣，或進口該發明至美國。"
+ },
+ {
+  "id": "u04-l1-q11",
+  "lessonId": "u04-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The right under paragraph (1) to obtain a {{0}} shall not be available under this subsection unless the invention as claimed in the patent is {{1}} to the invention as claimed in the published patent application.",
+  "blanks": [
+   "reasonable royalty",
+   "substantially identical"
+  ],
+  "distractors": [
+   "treble damages",
+   "broadly similar",
+   "preliminary injunction"
+  ],
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "The right under paragraph (1) to obtain a reasonable royalty shall not be available under this subsection unless the invention as claimed in the patent is substantially identical to the invention as claimed in the published patent application."
+   }
+  ],
+  "explanation": "依 § 154(d)(2) 規定，欲主張臨時權利以取得合理權利金（reasonable royalty），核准專利所請求之發明必須與公開申請案所請求之發明實質相同（substantially identical）。"
+ },
+ {
+  "id": "u04-l1-q12",
+  "lessonId": "u04-l1",
+  "type": "match",
+  "difficulty": 1,
+  "tags": [
+   "deadline"
+  ],
+  "prompt": "請將專利期限調整（PTA）與臨時權利的各項法定期間配對",
+  "pairs": [
+   {
+    "left": "發出首次審查意見保證期",
+    "right": "申請日後 14 個月內"
+   },
+   {
+    "left": "繳納領證費後發證保證期",
+    "right": "繳費後 4 個月內"
+   },
+   {
+    "left": "申請人答覆不扣減PTA期限",
+    "right": "通知寄發起 3 個月內"
+   },
+   {
+    "left": "臨時權利合理權利金時效",
+    "right": "專利核發後 6 年內"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "154",
+    "quote": "provide at least one of the notifications under section 132 or a notice of allowance under section 151 not later than 14 months after—"
+   },
+   {
+    "article": "154",
+    "quote": "issue a patent within 4 months after the date on which the issue fee was paid under section 151 and all outstanding requirements were satisfied,"
+   },
+   {
+    "article": "154",
+    "quote": "an applicant shall be deemed to have failed to engage in reasonable efforts to conclude processing or examination of an application for the cumulative total of any periods of time in excess of 3 months that are taken to respond to a notice from the Office"
+   },
+   {
+    "article": "154",
+    "quote": "The right under paragraph (1) to obtain a reasonable royalty shall be available only in an action brought not later than 6 years after the patent is issued."
+   }
+  ],
+  "explanation": "§ 154(b) 規定「14-4-4-4」之 A 類審查期限保證，且申請人超過 3 個月才答覆會扣減 PTA；§ 154(d)(3) 則規定臨時權利須於發證後 6 年內起訴。"
+ },
+ {
+  "id": "u04-l1-q13",
+  "lessonId": "u04-l1",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "請依序排列從核准通知到專利期限調整（PTA）司法救濟的法定程序",
+  "items": [
+   "寄發核准通知（notice of allowance）",
+   "於 3 個月內繳納領證費（issue fee）",
+   "局長於發證日前傳送 PTA 決定並核發專利",
+   "對重行審查決定不服者於 180 日內向法院起訴"
+  ],
+  "evidence": [
+   {
+    "article": "151",
+    "quote": "If it appears that an applicant is entitled to a patent under the law, a written notice of allowance of the application shall be given or mailed to the applicant. The notice shall specify a sum, constituting the issue fee and any required publication fee, which shall be paid within 3 months thereafter."
+   },
+   {
+    "article": "154",
+    "quote": "make a determination of the period of any patent term adjustment under this subsection, and shall transmit a notice of that determination no later than the date of issuance of the patent;"
+   },
+   {
+    "article": "154",
+    "quote": "An applicant dissatisfied with the Director's decision on the applicant's request for reconsideration under paragraph (3)(B)(ii) shall have exclusive remedy by a civil action against the Director filed in the United States District Court for the Eastern District of Virginia within 180 days after the date of the Director's decision on the applicant's request for reconsideration."
+   }
+  ],
+  "explanation": "依 §§ 151、154 規定，先寄發核准通知，3 個月內繳納領證費，局長至遲於發證日通知 PTA 決定並核發專利，若申請人請求重行審查仍不服，得於決定後 180 日內向 EDVA 起訴。"
+ },
+ {
+  "id": "u04-l2-q01",
+  "lessonId": "u04-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "依 § 156 申請專利期限延長（patent term extension, PTE）時，必須在該專利權期限尚未屆滿前向局長提出申請。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "(1) the term of the patent has not expired before an application is submitted under subsection (d)(1) for its extension;"
+   }
+  ],
+  "explanation": "依 § 156(a)(1) 規定，申請專利期限延長的要件之一，是專利權期限在依第 (d)(1) 項提出延長申請前尚未屆滿（另有第 (d)(5) 項之暫時性延長機制）。"
+ },
+ {
+  "id": "u04-l2-q02",
+  "lessonId": "u04-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "comparison"
+  ],
+  "prompt": "針對同一產品的同一個法規審查期間（regulatory review period），若專利權人擁有多件涵蓋該產品、用途與製法的專利，可以同時為其中兩件專利辦理 § 156 正式期限延長。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "(4) in no event shall more than one patent be extended under subsection (e)(1) for the same regulatory review period for any product."
+   }
+  ],
+  "explanation": "依 § 156(c)(4) 規定，對於任何產品的同一個法規審查期間，絕不得依第 (e)(1) 項延長超過一件專利（這點與台灣專利法一項醫藥品許可證僅能申請延長一件專利相似）。"
+ },
+ {
+  "id": "u04-l2-q03",
+  "lessonId": "u04-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "專利依 § 156 獲得期限延長後，在延長期間內的排他權範圍仍涵蓋該專利請求項所載的所有技術用途，不限於經主管機關核准的產品用途。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "Except as provided in subsection (d)(5)(F), the rights derived from any patent the term of which is extended under this section shall during the period during which the term of the patent is extended—\n(1) in the case of a patent which claims a product, be limited to any use approved for the product—"
+   }
+  ],
+  "explanation": "依 § 156(b) 規定，在專利期限延長期間內，專利權所生之權利並非漫無限制，產品專利僅限於該產品經核准之用途（approved use），用途與製法專利亦受相應限制。"
+ },
+ {
+  "id": "u04-l2-q04",
+  "lessonId": "u04-l2",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "deadline"
+  ],
+  "prompt": "對於在 § 156 制定生效日之後核發的專利，依其法規審查期間所計算出的專利期限延長（PTE），最長不得超過幾年？",
+  "options": [
+   "最長不得超過 2 年",
+   "最長不得超過 3 年",
+   "最長不得超過 5 年",
+   "最長不得超過 10 年"
+  ],
+  "answerIndex": 2,
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "If the patent involved was issued after the date of the enactment of this section, the period of extension determined on the basis of the regulatory review period determined under any such paragraph may not exceed five years."
+   }
+  ],
+  "explanation": "依 § 156(g)(6)(A) 規定，在本條制定生效日後核發之專利，以法規審查期間為基礎所決定的延長期間，最長不得超過 5 年（與台灣醫藥品專利權期間延長上限 5 年相同）。"
+ },
+ {
+  "id": "u04-l2-q05",
+  "lessonId": "u04-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case"
+  ],
+  "prompt": "某藥廠的新藥於 2026 年 7 月 10 日（星期五）美東時間下午 5:00 收到美國食品藥物管理局（FDA）傳送的上市許可。該藥廠應自哪一天起算 60 日內，向專利商標局局長提交 § 156 專利期限延長申請？",
+  "options": [
+   "自 2026 年 7 月 10 日（星期五）當日起算 60 日內",
+   "自 2026 年 7 月 11 日（星期六）次日起算 60 日內",
+   "自 2026 年 7 月 13 日（下週一，下一個營業日）起算 60 日內",
+   "自 FDA 在聯邦公報公告核准之次月 1 日起算 60 日內"
+  ],
+  "answerIndex": 2,
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "Except as provided in paragraph (5), such an application may only be submitted within the sixty-day period beginning on the date the product received permission under the provision of law under which the applicable regulatory review period occurred for commercial marketing or use"
+   },
+   {
+    "article": "156",
+    "quote": "For purposes of determining the date on which a product receives permission under the second sentence of this paragraph, if such permission is transmitted after 4:30 P.M., Eastern Time, on a business day, or is transmitted on a day that is not a business day, the product shall be deemed to receive such permission on the next business day. For purposes of the preceding sentence, the term \"business day\" means any Monday, Tuesday, Wednesday, Thursday, or Friday, excluding any legal holiday under section 6103 of title 5."
+   }
+  ],
+  "explanation": "依 § 156(d)(1) 規定，延長申請須於產品取得商業行銷或使用許可之日起 60 日期間內提交；若許可是在營業日美東時間下午 4:30 之後傳送，視為在下一個營業日（週一 7 月 13 日）收到許可。"
+ },
+ {
+  "id": "u04-l2-q06",
+  "lessonId": "u04-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case"
+  ],
+  "prompt": "丙公司的藥品專利原定於 2036 年 6 月 1 日屆滿，該藥品於 2026 年 6 月 1 日獲得 FDA 上市核准（距離專利原屆滿日尚有 10 年）。經扣除丙未盡相當努力之期間及臨床試驗階段減半計算後，核算出專利核發後的法規審查期間為 4.5 年。依 § 156(c)(3) 的「14 年上限」規定，該專利最多可延長幾年？",
+  "options": [
+   "可延長 4 年（使核准後剩餘專利期加延長期間不超過 14 年）",
+   "可延長 4.5 年（因為尚未超過 5 年的法定延長上限）",
+   "可延長 5 年（所有新藥專利皆可直接獲得滿額 5 年延長）",
+   "不得延長（因為核准時專利剩餘期間已超過 8 年）"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "(3) if the period remaining in the term of a patent after the date of the approval of the approved product under the provision of law under which such regulatory review occurred when added to the regulatory review period as revised under paragraphs (1) and (2) exceeds fourteen years, the period of extension shall be reduced so that the total of both such periods does not exceed fourteen years; and"
+   }
+  ],
+  "explanation": "依 § 156(c)(3) 規定，產品獲准日後的專利剩餘期間（10 年）加上修正後的法規審查期間（4.5 年）若超過 14 年，應予縮減使總和不過 14 年，故最多僅能延長 4 年。"
+ },
+ {
+  "id": "u04-l2-q07",
+  "lessonId": "u04-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "若專利權人合理預期已進入申請階段的產品法規審查期間將延續至現行專利期限屆滿之後，應於何時向局長提交「暫時性延長（interim extension）」之初次申請？",
+  "options": [
+   "於專利期限屆滿前 12 個月起至屆滿前 30 日止之期間內",
+   "於專利期限屆滿前 6 個月起至屆滿前 15 日止之期間內",
+   "於專利期限屆滿前 60 日起至屆滿前 30 日止之期間內",
+   "於專利期限屆滿當日起算 60 日內隨時提出"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "If the owner of record of the patent or its agent reasonably expects that the applicable regulatory review period described in paragraph (1)(B)(ii), (2)(B)(ii), (3)(B)(ii), (4)(B)(ii), or (5)(B)(ii) of subsection (g) that began for a product that is the subject of such patent may extend beyond the expiration of the patent term in effect, the owner or its agent may submit an application to the Director for an interim extension during the period beginning 6 months, and ending 15 days, before such term is due to expire."
+   }
+  ],
+  "explanation": "依 § 156(d)(5)(A) 規定，初次申請暫時性延長，須於專利期限屆滿前 6 個月起至屆滿前 15 日止之期間內提出（而後續展延則為前次暫時延長屆滿前 60 日至 30 日間）。"
+ },
+ {
+  "id": "u04-l2-q08",
+  "lessonId": "u04-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "deadline"
+  ],
+  "prompt": "依 § 156(f)(3) 定義，「重大健康或環境影響測試（major health or environmental effects test）」必須至少需要多久時間進行，且結果的分析或評估期間是否計入？",
+  "options": [
+   "至少需 6 個月進行；測試結果的分析或評估期間不計入該 6 個月之認定",
+   "至少需 6 個月進行；測試結果的分析或評估期間可一併計入該 6 個月",
+   "至少需 12 個月進行；測試結果的分析或評估期間不計入該 12 個月之認定",
+   "至少需 3 個月進行；測試結果的分析或評估期間最多可計入 1 個月"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "The term \"major health or environmental effects test\" means a test which is reasonably related to the evaluation of the health or environmental effects of a product, which requires at least six months to conduct, and the data from which is submitted to receive permission for commercial marketing or use. Periods of analysis or evaluation of test results are not to be included in determining if the conduct of a test required at least six months."
+   }
+  ],
+  "explanation": "依 § 156(f)(3) 規定，重大健康或環境影響測試必須至少需要 6 個月進行，且分析或評估測試結果之期間不計入是否達 6 個月之認定。"
+ },
+ {
+  "id": "u04-l2-q09",
+  "lessonId": "u04-l2",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The term of a patent eligible for extension under subsection (a) shall be extended by the time equal to the {{0}} for the approved product which period occurs after the date the patent is {{1}}, except that—\n(1) each period of the regulatory review period shall be reduced by any period determined under subsection (d)(2)(B) during which the applicant for the patent extension did not act with {{2}} during such period of the regulatory review period;",
+  "blanks": [
+   "regulatory review period",
+   "issued",
+   "due diligence"
+  ],
+  "distractors": [
+   "examination period",
+   "filed",
+   "good faith"
+  ],
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "The term of a patent eligible for extension under subsection (a) shall be extended by the time equal to the regulatory review period for the approved product which period occurs after the date the patent is issued, except that—\n(1) each period of the regulatory review period shall be reduced by any period determined under subsection (d)(2)(B) during which the applicant for the patent extension did not act with due diligence during such period of the regulatory review period;"
+   }
+  ],
+  "explanation": "依 § 156(c)(1) 規定，專利延長期間是以專利核發（issued）後的法規審查期間（regulatory review period）為基礎，但須扣除申請人未盡相當努力（due diligence）的期間。"
+ },
+ {
+  "id": "u04-l2-q10",
+  "lessonId": "u04-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "deadline"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "after any reduction required by paragraph (1), the period of extension shall include only {{0}} of the time remaining in the periods described in paragraphs (1)(B)(i), (2)(B)(i), (3)(B)(i), (4)(B)(i), and (5)(B)(i) of subsection (g);\n(3) if the period remaining in the term of a patent after the date of the approval of the approved product under the provision of law under which such regulatory review occurred when added to the regulatory review period as revised under paragraphs (1) and (2) exceeds {{1}}, the period of extension shall be reduced so that the total of both such periods does not exceed {{2}}; and",
+  "blanks": [
+   "one-half",
+   "fourteen years",
+   "fourteen years"
+  ],
+  "distractors": [
+   "one-third",
+   "five years",
+   "twenty years"
+  ],
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "after any reduction required by paragraph (1), the period of extension shall include only one-half of the time remaining in the periods described in paragraphs (1)(B)(i), (2)(B)(i), (3)(B)(i), (4)(B)(i), and (5)(B)(i) of subsection (g);\n(3) if the period remaining in the term of a patent after the date of the approval of the approved product under the provision of law under which such regulatory review occurred when added to the regulatory review period as revised under paragraphs (1) and (2) exceeds fourteen years, the period of extension shall be reduced so that the total of both such periods does not exceed fourteen years; and"
+   }
+  ],
+  "explanation": "依 § 156(c)(2)-(3) 規定，第一階段（如 IND 臨床試驗階段）剩餘時間僅計入二分之一（one-half），且產品核准後剩餘專利期限加計延長期間不得超過 14 年（fourteen years）。"
+ },
+ {
+  "id": "u04-l2-q11",
+  "lessonId": "u04-l2",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "For the purposes of paragraph (2)(B), the term \"{{0}}\" means that degree of attention, continuous directed effort, and {{1}} as may reasonably be expected from, and are ordinarily exercised by, a person during a {{2}}.",
+  "blanks": [
+   "due diligence",
+   "timeliness",
+   "regulatory review period"
+  ],
+  "distractors": [
+   "reasonable care",
+   "patentability",
+   "prosecution history"
+  ],
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "For the purposes of paragraph (2)(B), the term \"due diligence\" means that degree of attention, continuous directed effort, and timeliness as may reasonably be expected from, and are ordinarily exercised by, a person during a regulatory review period."
+   }
+  ],
+  "explanation": "依 § 156(d)(3) 定義，「相當努力（due diligence）」係指一個人在法規審查期間（regulatory review period）內通常會行使且可合理期待之專注程度、持續導向之努力與及時性（timeliness）。"
+ },
+ {
+  "id": "u04-l2-q12",
+  "lessonId": "u04-l2",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "procedure"
+  ],
+  "prompt": "請將 § 156 專利期限延長的事項與其法定期間上限或期限配對",
+  "pairs": [
+   {
+    "left": "獲准上市後提交PTE申請",
+    "right": "60 日期間內"
+   },
+   {
+    "left": "對審查期間決定質疑未盡努力",
+    "right": "公告後 180 日內"
+   },
+   {
+    "left": "單次暫時性延長證書期間",
+    "right": "不超過 1 年"
+   },
+   {
+    "left": "後續暫時性延長最多申請次數",
+    "right": "不超過 4 次"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "Except as provided in paragraph (5), such an application may only be submitted within the sixty-day period beginning on the date the product received permission under the provision of law under which the applicable regulatory review period occurred for commercial marketing or use"
+   },
+   {
+    "article": "156",
+    "quote": "If a petition is submitted to the Secretary making the determination under subparagraph (A), not later than 180 days after the publication of the determination under subparagraph (A), upon which it may reasonably be determined that the applicant did not act with due diligence during the applicable regulatory review period"
+   },
+   {
+    "article": "156",
+    "quote": "and shall issue to the applicant a certificate of interim extension for a period of not more than 1 year."
+   },
+   {
+    "article": "156",
+    "quote": "The owner of record of a patent, or its agent, for which an interim extension has been granted under subparagraph (B), may apply for not more than 4 subsequent interim extensions under this paragraph"
+   }
+  ],
+  "explanation": "依 § 156(d) 規定，PTE 申請須於獲准上市起 60 日內提出；未盡相當努力之請願須於公告後 180 日內提出；暫時性延長每次不超過 1 年，且後續最多可再申請 4 次。"
+ },
+ {
+  "id": "u04-l2-q13",
+  "lessonId": "u04-l2",
+  "type": "order",
+  "difficulty": 3,
+  "tags": [
+   "procedure",
+   "deadline"
+  ],
+  "prompt": "請依序排列 § 156 專利期限延長（PTE）從產品獲准上市到相當努力請願的法定流程",
+  "items": [
+   "產品獲得商業行銷或使用許可",
+   "專利權人於 60 日內向局長提交延長申請",
+   "局長於 60 日內通知主管部長並送交申請書副本",
+   "主管部長於收件後 30 日內決定法規審查期間並公告",
+   "利害關係人於公告後 180 日內提出未盡相當努力之請願"
+  ],
+  "evidence": [
+   {
+    "article": "156",
+    "quote": "Except as provided in paragraph (5), such an application may only be submitted within the sixty-day period beginning on the date the product received permission under the provision of law under which the applicable regulatory review period occurred for commercial marketing or use"
+   },
+   {
+    "article": "156",
+    "quote": "Within 60 days of the submittal of an application for extension of the term of a patent under paragraph (1), the Director shall notify—"
+   },
+   {
+    "article": "156",
+    "quote": "Not later than 30 days after the receipt of an application from the Director, the Secretary receiving the application shall review the dates contained in the application pursuant to paragraph (1)(C) and determine the applicable regulatory review period, shall notify the Director of the determination, and shall publish in the Federal Register a notice of such determination."
+   },
+   {
+    "article": "156",
+    "quote": "If a petition is submitted to the Secretary making the determination under subparagraph (A), not later than 180 days after the publication of the determination under subparagraph (A), upon which it may reasonably be determined that the applicant did not act with due diligence during the applicable regulatory review period"
+   }
+  ],
+  "explanation": "依 § 156(d)(1)-(2) 規定，產品獲准後 60 日內向局長申請，局長 60 日內轉交農業部長或衛生福利部長，部長於收件後 30 日內決定法規審查期間並刊登聯邦公報，其後 180 日內得提出未盡相當努力之請願。"
+ },
+ {
+  "id": "u04-l3-q01",
+  "lessonId": "u04-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "發明人若在野外未經栽培的狀態（uncultivated state）下發現一種全新且獨特的植物品種，並將其進行無性繁殖（asexually reproduces），即可取得美國植物專利（plant patent）。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "161",
+    "quote": "Whoever invents or discovers and asexually reproduces any distinct and new variety of plant, including cultivated sports, mutants, hybrids, and newly found seedlings, other than a tuber propagated plant or a plant found in an uncultivated state, may obtain a patent therefor, subject to the conditions and requirements of this title."
+   }
+  ],
+  "explanation": "依 § 161 規定，塊莖繁殖植物（tuber propagated plant）以及在未經栽培狀態下發現的植物（plant found in an uncultivated state），均被明文排除在植物專利保護標的之外（台灣則無植物專利制度，另以植物品種及種苗法保護）。"
+ },
+ {
+  "id": "u04-l3-q02",
+  "lessonId": "u04-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "設計專利（design patent）申請案若符合相關要件，亦得依 § 119(e) 主張美國臨時申請案（provisional application）的優先權。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "172",
+    "quote": "The right of priority provided for by subsections (a) through (d) of section 119 shall be six months in the case of designs. The right of priority provided for by section 119(e) shall not apply to designs."
+   }
+  ],
+  "explanation": "依 § 172 規定，設計專利的外國優先權期間為 6 個月，且 § 119(e) 關於主張美國臨時申請案優先權的規定，不適用於設計專利。"
+ },
+ {
+  "id": "u04-l3-q03",
+  "lessonId": "u04-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "美國設計專利（design patent）的專利權期限為自「核准發證日（date of grant）」起算 15 年，這與台灣設計專利自「申請日」起算 15 年的起算點不同。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "173",
+    "quote": "Patents for designs shall be granted for the term of 15 years from the date of grant."
+   }
+  ],
+  "explanation": "依 § 173 規定，美國設計專利的專利權期限為自核准發證日（date of grant）起算 15 年；相對地，台灣專利法的設計專利權期限則是自申請日起算 15 年屆滿。"
+ },
+ {
+  "id": "u04-l3-q04",
+  "lessonId": "u04-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "下列哪一項植物品種符合 35 U.S.C. § 161 植物專利（plant patent）的適格標的？",
+  "options": [
+   "經無性繁殖培育出的全新栽培變種（cultivated sports）玫瑰花",
+   "透過塊莖繁殖（tuber propagated）方式培育出的新品種馬鈴薯",
+   "登山客在原始熱帶雨林（uncultivated state）中發現的野生蘭花",
+   "僅能透過種子進行有性繁殖（sexually reproduced）的新品種玉米"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "161",
+    "quote": "Whoever invents or discovers and asexually reproduces any distinct and new variety of plant, including cultivated sports, mutants, hybrids, and newly found seedlings, other than a tuber propagated plant or a plant found in an uncultivated state, may obtain a patent therefor, subject to the conditions and requirements of this title."
+   }
+  ],
+  "explanation": "依 § 161 規定，植物專利須為經無性繁殖（asexually reproduces）之獨特新品種，包含栽培變種、突變種、雜交種及新發現之實生苗，但不包含塊莖繁殖植物或未經栽培狀態下發現之植物。"
+ },
+ {
+  "id": "u04-l3-q05",
+  "lessonId": "u04-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "關於植物專利的說明書記載與排他權範圍（§§ 162–163），下列敘述何者正確？",
+  "options": [
+   "只要說明書之記載已達合理可能之完整程度，植物專利即不因違反 § 112 而被宣告無效",
+   "植物專利說明書中得撰寫多項獨立項與附屬項，分別保護植物之基因序列與栽種方法",
+   "植物專利權人僅能排除他人無性繁殖該植物整株，不能排除他人進口該植物之切花部分",
+   "植物專利完全排除發明專利（patents for inventions）相關條文之適用"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "162",
+    "quote": "No plant patent shall be declared invalid for noncompliance with section 112 if the description is as complete as is reasonably possible.\nThe claim in the specification shall be in formal terms to the plant shown and described."
+   },
+   {
+    "article": "163",
+    "quote": "In the case of a plant patent, the grant shall include the right to exclude others from asexually reproducing the plant, and from using, offering for sale, or selling the plant so reproduced, or any of its parts, throughout the United States, or from importing the plant so reproduced, or any parts thereof, into the United States."
+   }
+  ],
+  "explanation": "依 § 162 規定，植物專利之說明若已盡合理可能之完整，即不得因未符合 § 112 而宣告無效；依 § 163 規定，其排他權亦及於無性繁殖所得植物之任何部分（any of its parts）之使用、販賣與進口。"
+ },
+ {
+  "id": "u04-l3-q06",
+  "lessonId": "u04-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "deadline",
+   "case"
+  ],
+  "prompt": "設計師丁於 2026 年 4 月 10 日在台灣首次提出一件設計專利申請案。丁若想就同一設計在美國提出設計專利申請並主張國際優先權，最晚應於何時在美國提出申請？又若該美國設計專利於 2028 年 2 月 1 日核准發證，其專利權將於何時屆滿？",
+  "options": [
+   "最晚於 2026 年 10 月 10 日前申請；專利權於 2043 年 2 月 1 日屆滿",
+   "最晚於 2027 年 4 月 10 日前申請；專利權於 2043 年 2 月 1 日屆滿",
+   "最晚於 2026 年 10 月 10 日前申請；專利權於 2041 年 10 月 10 日屆滿",
+   "最晚於 2027 年 4 月 10 日前申請；專利權於 2046 年 4 月 10 日屆滿"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "172",
+    "quote": "The right of priority provided for by subsections (a) through (d) of section 119 shall be six months in the case of designs."
+   },
+   {
+    "article": "173",
+    "quote": "Patents for designs shall be granted for the term of 15 years from the date of grant."
+   }
+  ],
+  "explanation": "依 § 172 規定，設計專利之國際優先權期間為 6 個月，故最晚應於 2026 年 10 月 10 日前申請；依 § 173 規定，設計專利期限自核准發證日（2028 年 2 月 1 日）起算 15 年，故於 2043 年 2 月 1 日屆滿。"
+ },
+ {
+  "id": "u04-l3-q07",
+  "lessonId": "u04-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "comparison"
+  ],
+  "prompt": "戊未經授權，將己享有美國設計專利的外觀設計（或近似仿冒設計）施用於某製造物品（article of manufacture）上並加以販售，共獲利 50,000 美元。依 35 U.S.C. § 289 關於設計專利侵權之額外救濟規定，下列敘述何者正確？",
+  "options": [
+   "己得請求戊賠償其全部利潤（total profit），且最低賠償額不得少於 250 美元",
+   "己得同時依一般損害賠償規定與 § 289 規定，雙重請求（twice recover）戊因侵權所得之利潤",
+   "§ 289 的全部利潤計算規定同樣適用於發明專利與植物專利的侵權訴訟",
+   "若戊販售該侵權物品最終並未獲利，己依 § 289 完全無法請求任何金額"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "289",
+    "quote": "Whoever during the term of a patent for a design, without license of the owner, (1) applies the patented design, or any colorable imitation thereof, to any article of manufacture for the purpose of sale, or (2) sells or exposes for sale any article of manufacture to which such design or colorable imitation has been applied shall be liable to the owner to the extent of his total profit, but not less than $250, recoverable in any United States district court having jurisdiction of the parties.\nNothing in this section shall prevent, lessen, or impeach any other remedy which an owner of an infringed patent has under the provisions of this title, but he shall not twice recover the profit made from the infringement."
+   }
+  ],
+  "explanation": "依 § 289 規定，設計專利特有的額外救濟允許專利權人請求侵權人之「全部利潤（total profit）」，且不少於 250 美元；但專利權人不得就侵權所生之利潤為雙重取償（shall not twice recover）。"
+ },
+ {
+  "id": "u04-l3-q08",
+  "lessonId": "u04-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "依 35 U.S.C. § 171 規定，設計專利申請案的「申請日（filing date）」為下列哪一個日期？",
+  "options": [
+   "提交符合 § 112 規定之說明書以及任何必要圖式（required drawings）之日",
+   "僅需提交設計名稱與創作者宣誓書之日，圖式得於申請後 2 個月內補交",
+   "申請人繳清申請費與檢索費之日，即使尚未提交任何圖式亦同",
+   "審查官完成初步形式審查並發出收件通知書之日"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "171",
+    "quote": "(c) Filing Date.—The filing date of an application for patent for design shall be the date on which the specification as prescribed by section 112 and any required drawings are filed."
+   }
+  ],
+  "explanation": "依 § 171(c) 規定，設計專利申請案之申請日為提交符合 § 112 規定之說明書及任何必要圖式（required drawings）之日（這與一般非臨時發明申請案自 PLTIA 修法後即使未附圖式亦可能取得申請日不同）。"
+ },
+ {
+  "id": "u04-l3-q09",
+  "lessonId": "u04-l3",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Whoever invents or discovers and {{0}} any distinct and new variety of plant, including cultivated sports, mutants, hybrids, and newly found seedlings, other than a {{1}} or a plant found in an {{2}}, may obtain a patent therefor, subject to the conditions and requirements of this title.",
+  "blanks": [
+   "asexually reproduces",
+   "tuber propagated plant",
+   "uncultivated state"
+  ],
+  "distractors": [
+   "sexually reproduces",
+   "genetically modified plant",
+   "agricultural field"
+  ],
+  "evidence": [
+   {
+    "article": "161",
+    "quote": "Whoever invents or discovers and asexually reproduces any distinct and new variety of plant, including cultivated sports, mutants, hybrids, and newly found seedlings, other than a tuber propagated plant or a plant found in an uncultivated state, may obtain a patent therefor, subject to the conditions and requirements of this title."
+   }
+  ],
+  "explanation": "依 § 161 規定，植物專利須經過無性繁殖（asexually reproduces），且排除塊莖繁殖植物（tuber propagated plant）及在未經栽培狀態（uncultivated state）下發現之植物。"
+ },
+ {
+  "id": "u04-l3-q10",
+  "lessonId": "u04-l3",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Whoever invents any new, original and {{0}} design for an {{1}} may obtain a patent therefor, subject to the conditions and requirements of this title.",
+  "blanks": [
+   "ornamental",
+   "article of manufacture"
+  ],
+  "distractors": [
+   "functional",
+   "composition of matter",
+   "industrial process"
+  ],
+  "evidence": [
+   {
+    "article": "171",
+    "quote": "Whoever invents any new, original and ornamental design for an article of manufacture may obtain a patent therefor, subject to the conditions and requirements of this title."
+   }
+  ],
+  "explanation": "依 § 171(a) 規定，設計專利保護針對製造物品（article of manufacture）所創作之新穎、原創且具裝飾性（ornamental）之設計。"
+ },
+ {
+  "id": "u04-l3-q11",
+  "lessonId": "u04-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Whoever during the term of a patent for a design, without license of the owner, (1) applies the patented design, or any {{0}} thereof, to any article of manufacture for the purpose of sale, or (2) sells or exposes for sale any article of manufacture to which such design or colorable imitation has been applied shall be liable to the owner to the extent of his {{1}}, but not less than {{2}}, recoverable in any United States district court having jurisdiction of the parties.",
+  "blanks": [
+   "colorable imitation",
+   "total profit",
+   "$250"
+  ],
+  "distractors": [
+   "functional equivalent",
+   "reasonable royalty",
+   "$500"
+  ],
+  "evidence": [
+   {
+    "article": "289",
+    "quote": "Whoever during the term of a patent for a design, without license of the owner, (1) applies the patented design, or any colorable imitation thereof, to any article of manufacture for the purpose of sale, or (2) sells or exposes for sale any article of manufacture to which such design or colorable imitation has been applied shall be liable to the owner to the extent of his total profit, but not less than $250, recoverable in any United States district court having jurisdiction of the parties."
+   }
+  ],
+  "explanation": "依 § 289 規定，未經授權將專利設計或其近似仿冒（colorable imitation）施用於製造物品以供販賣或進行販賣者，應就其全部利潤（total profit）負賠償責任，且不得少於 250 美元（$250）。"
+ },
+ {
+  "id": "u04-l3-q12",
+  "lessonId": "u04-l3",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "deadline",
+   "comparison",
+   "definition"
+  ],
+  "prompt": "請將植物專利與設計專利的規定與其對應內容配對",
+  "pairs": [
+   {
+    "left": "設計專利之專利權期限",
+    "right": "自發證日起 15 年"
+   },
+   {
+    "left": "設計專利之國際優先權期",
+    "right": "6 個月"
+   },
+   {
+    "left": "設計專利侵權最低賠償額",
+    "right": "250 美元"
+   },
+   {
+    "left": "植物專利排除之繁殖方式",
+    "right": "塊莖繁殖植物"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "173",
+    "quote": "Patents for designs shall be granted for the term of 15 years from the date of grant."
+   },
+   {
+    "article": "172",
+    "quote": "The right of priority provided for by subsections (a) through (d) of section 119 shall be six months in the case of designs."
+   },
+   {
+    "article": "289",
+    "quote": "shall be liable to the owner to the extent of his total profit, but not less than $250, recoverable in any United States district court having jurisdiction of the parties."
+   },
+   {
+    "article": "161",
+    "quote": "other than a tuber propagated plant or a plant found in an uncultivated state, may obtain a patent therefor, subject to the conditions and requirements of this title."
+   }
+  ],
+  "explanation": "設計專利期限為自核准發證日起 15 年（§ 173）、優先權期間為 6 個月（§ 172）、§ 289 額外救濟最低為 250 美元；植物專利則排除塊莖繁殖植物（§ 161）。"
+ }
+]

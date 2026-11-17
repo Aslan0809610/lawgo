@@ -1,0 +1,1012 @@
+[
+ {
+  "id": "u07-l1-q01",
+  "lessonId": "u07-l1",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "專利權人（patentee）對於侵害其專利之行為，依法得透過提起民事訴訟（civil action）尋求救濟。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "281",
+    "quote": "A patentee shall have remedy by civil action for infringement of his patent."
+   }
+  ],
+  "explanation": "美國專利法明定專利權人針對專利侵權行為，是以提起民事訴訟（civil action）的方式獲得救濟，與台灣專利法現行除罪化後僅採民事救濟相同。"
+ },
+ {
+  "id": "u07-l1-q02",
+  "lessonId": "u07-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "只要法院認定被告構成專利侵權，依法即「必須（shall）」核發禁制令（injunction）以阻止侵權行為繼續發生。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "283",
+    "quote": "The several courts having jurisdiction of cases under this title may grant injunctions in accordance with the principles of equity to prevent the violation of any right secured by patent, on such terms as the court deems reasonable."
+   }
+  ],
+  "explanation": "條文規定法院「得（may）」依衡平法原則（principles of equity）及合理條件核發禁制令，並非一旦認定侵權就當然必須核發。"
+ },
+ {
+  "id": "u07-l1-q03",
+  "lessonId": "u07-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "美國專利侵權訴訟採全面敗訴者負擔制，因此勝訴方（prevailing party）在所有一般案件中皆可要求敗訴方賠償合理的律師費（reasonable attorney fees）。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "285",
+    "quote": "The court in exceptional cases may award reasonable attorney fees to the prevailing party."
+   }
+  ],
+  "explanation": "只有在「例外案件（exceptional cases）」中，法院才得裁定將合理的律師費判給勝訴方，一般案件並不當然由敗訴方負擔對造律師費。"
+ },
+ {
+  "id": "u07-l1-q04",
+  "lessonId": "u07-l1",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "在專利侵權訴訟中，若法院判決原告勝訴，所判給之損害賠償（damages）金額依法設有下列何種下限標準？",
+  "options": [
+   "不得低於侵權人使用該發明之合理權利金（reasonable royalty）",
+   "不得低於侵權人因銷售侵權產品所獲得之全部營業毛利",
+   "不得低於專利權人研發該專利技術所投入之總成本兩倍",
+   "不得低於法定固定下限金額五萬美元加上訴訟期間利息"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "284",
+    "quote": "Upon finding for the claimant the court shall award the claimant damages adequate to compensate for the infringement, but in no event less than a reasonable royalty for the use made of the invention by the infringer, together with interest and costs as fixed by the court."
+   }
+  ],
+  "explanation": "法院應判給足以填補侵權損害的賠償金，且在任何情況下皆不得低於侵權人使用該發明的合理權利金（reasonable royalty），並加計法院核定的利息與費用。"
+ },
+ {
+  "id": "u07-l1-q05",
+  "lessonId": "u07-l1",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "關於專利侵權訴訟中的加重損害賠償（increased damages），法院最多得將認定或評定的賠償金額提高至幾倍？",
+  "options": [
+   "最多提高至原本認定或評定金額的兩倍",
+   "最多提高至原本認定或評定金額的三倍",
+   "最多提高至原本認定或評定金額的五倍",
+   "最多提高至原本認定或評定金額的十倍"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "284",
+    "quote": "When the damages are not found by a jury, the court shall assess them. In either event the court may increase the damages up to three times the amount found or assessed."
+   }
+  ],
+  "explanation": "無論損害賠償是由陪審團（jury）認定或由法院評定，法院皆得將賠償金額提高至最高三倍（與台灣專利法故意侵權最高三倍酌定賠償上限類似）。"
+ },
+ {
+  "id": "u07-l1-q06",
+  "lessonId": "u07-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "下列哪一種權利受到侵害時，法律明文排除適用「最高三倍加重損害賠償」之規定？",
+  "options": [
+   "專利申請案早期公開後所享有之臨時權利（provisional rights）",
+   "由兩位以上共同發明人所共有之方法專利權（process patent）",
+   "專屬被授權人（exclusive licensee）所取得之美國境內實施權",
+   "未委任專利代理人而由發明人自行提出申請獲准之發明專利權"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "284",
+    "quote": "Increased damages under this paragraph shall not apply to provisional rights under section 154(d)."
+   }
+  ],
+  "explanation": "條文明定最高三倍的加重損害賠償規定，不適用於申請案早期公開制度下的臨時權利（provisional rights）。"
+ },
+ {
+  "id": "u07-l1-q07",
+  "lessonId": "u07-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case"
+  ],
+  "prompt": "甲公司控告乙公司侵害其發明專利，經陪審團審理後認定乙公司侵權成立，並裁定甲公司所受損害金額為 200 萬美元。若法院決定依職權適用最高倍數之加重損害賠償，且本案非屬早期公開之臨時權利，法院最高可判給甲公司多少損害賠償本金？",
+  "options": [
+   "最高可判給 200 萬美元，因為僅有陪審團有權決定是否加重賠償",
+   "最高可判給 400 萬美元，因為加重賠償以加計一倍為法定上限",
+   "最高可判給 600 萬美元，即陪審團所認定損害金額的三倍上限",
+   "最高可判給 800 萬美元，即原本損害金額之外再外加三倍罰金"
+  ],
+  "answerIndex": 2,
+  "evidence": [
+   {
+    "article": "284",
+    "quote": "When the damages are not found by a jury, the court shall assess them. In either event the court may increase the damages up to three times the amount found or assessed."
+   }
+  ],
+  "explanation": "無論賠償金額是由陪審團認定或法院評定，法院均得將損害賠償金額提高至最高三倍（up to three times），因此 200 萬美元的三倍即為 600 萬美元。"
+ },
+ {
+  "id": "u07-l1-q08",
+  "lessonId": "u07-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "procedure"
+  ],
+  "prompt": "專利權人丙起訴丁侵害其專利，但訴訟中法院認定丙之專利無效且構成不當興訴，最終由被告丁獲得勝訴判決，且法院認定本案屬於「例外案件（exceptional case）」。關於合理律師費之裁定，下列敘述何者正確？",
+  "options": [
+   "法院得裁定將合理律師費判給勝訴的被告丁，因條文保護對象為勝訴方",
+   "法院不得判給丁律師費，因為只有專利權人勝訴時才可請求合理律師費",
+   "法院必須將丁實際支出的律師費提高至三倍判給丁，以懲罰原告不當興訴",
+   "法院僅能判給丁訴訟規費與利息，美國專利法並無核發律師費之明文依據"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "285",
+    "quote": "The court in exceptional cases may award reasonable attorney fees to the prevailing party."
+   }
+  ],
+  "explanation": "條文規定在例外案件中，法院得將合理律師費判給「勝訴方（prevailing party）」，因此不論勝訴的是原告或被告，皆有機會獲判合理律師費。"
+ },
+ {
+  "id": "u07-l1-q09",
+  "lessonId": "u07-l1",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The several courts having jurisdiction of cases under this title may grant {{0}} in accordance with the principles of {{1}} to prevent the violation of any right secured by patent, on such terms as the court deems reasonable.",
+  "blanks": [
+   "injunctions",
+   "equity"
+  ],
+  "distractors": [
+   "damages",
+   "royalty",
+   "jury"
+  ],
+  "evidence": [
+   {
+    "article": "283",
+    "quote": "The several courts having jurisdiction of cases under this title may grant injunctions in accordance with the principles of equity to prevent the violation of any right secured by patent, on such terms as the court deems reasonable."
+   }
+  ],
+  "explanation": "管轄法院得依據衡平法原則（principles of equity）及合理條件核發禁制令（injunctions），以防止專利權受侵害。"
+ },
+ {
+  "id": "u07-l1-q10",
+  "lessonId": "u07-l1",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Upon finding for the claimant the court shall award the claimant {{0}} adequate to compensate for the infringement, but in no event less than a {{1}} for the use made of the invention by the infringer, together with interest and costs as fixed by the court.",
+  "blanks": [
+   "damages",
+   "reasonable royalty"
+  ],
+  "distractors": [
+   "attorney fees",
+   "total profit",
+   "statutory penalty"
+  ],
+  "evidence": [
+   {
+    "article": "284",
+    "quote": "Upon finding for the claimant the court shall award the claimant damages adequate to compensate for the infringement, but in no event less than a reasonable royalty for the use made of the invention by the infringer, together with interest and costs as fixed by the court."
+   }
+  ],
+  "explanation": "法院應判給原告足以填補侵權的損害賠償（damages），且在任何情況下皆不得低於合理權利金（reasonable royalty）。"
+ },
+ {
+  "id": "u07-l1-q11",
+  "lessonId": "u07-l1",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The court in {{0}} cases may award reasonable {{1}} to the {{2}} party.",
+  "blanks": [
+   "exceptional",
+   "attorney fees",
+   "prevailing"
+  ],
+  "distractors": [
+   "ordinary",
+   "expert testimony",
+   "infringing"
+  ],
+  "evidence": [
+   {
+    "article": "285",
+    "quote": "The court in exceptional cases may award reasonable attorney fees to the prevailing party."
+   }
+  ],
+  "explanation": "法院在例外（exceptional）案件中，得裁定將合理的律師費（attorney fees）判給勝訴（prevailing）的一方。"
+ },
+ {
+  "id": "u07-l1-q12",
+  "lessonId": "u07-l1",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "comparison",
+   "definition"
+  ],
+  "prompt": "請將專利侵權救濟項目與其法定要件或標準配對",
+  "pairs": [
+   {
+    "left": "禁制令救濟",
+    "right": "依衡平法原則與合理條件核發"
+   },
+   {
+    "left": "基本損害賠償",
+    "right": "不得低於合理權利金"
+   },
+   {
+    "left": "加重損害賠償",
+    "right": "最高提高至三倍且排除臨時權利"
+   },
+   {
+    "left": "合理律師費",
+    "right": "限於例外案件判給勝訴方"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "283",
+    "quote": "The several courts having jurisdiction of cases under this title may grant injunctions in accordance with the principles of equity to prevent the violation of any right secured by patent, on such terms as the court deems reasonable."
+   },
+   {
+    "article": "284",
+    "quote": "Upon finding for the claimant the court shall award the claimant damages adequate to compensate for the infringement, but in no event less than a reasonable royalty for the use made of the invention by the infringer, together with interest and costs as fixed by the court."
+   },
+   {
+    "article": "284",
+    "quote": "In either event the court may increase the damages up to three times the amount found or assessed. Increased damages under this paragraph shall not apply to provisional rights under section 154(d)."
+   },
+   {
+    "article": "285",
+    "quote": "The court in exceptional cases may award reasonable attorney fees to the prevailing party."
+   }
+  ],
+  "explanation": "禁制令依衡平法原則核發；基本損害賠償下限為合理權利金；加重賠償上限為三倍且不適用於臨時權利；律師費則限於例外案件判給勝訴方。"
+ },
+ {
+  "id": "u07-l2-q01",
+  "lessonId": "u07-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "deadline",
+   "comparison"
+  ],
+  "prompt": "除法律另有規定外，專利權人對於提起侵權訴訟之起訴狀（complaint）或反訴（counterclaim）提出前超過 6 年所發生的侵權行為，不得請求損害賠償。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "286",
+    "quote": "Except as otherwise provided by law, no recovery shall be had for any infringement committed more than six years prior to the filing of the complaint or counterclaim for infringement in the action."
+   }
+  ],
+  "explanation": "美國專利法規定損害賠償的追索期間上限為起訴或提反訴前 6 年內的侵權行為（不同於台灣專利法規定自知悉起 2 年、自行為時起 10 年之消滅時效）。"
+ },
+ {
+  "id": "u07-l2-q02",
+  "lessonId": "u07-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "專利權人進行專利標示（marking）時，除了直接標註專利號碼外，也可以標註「patent」或「pat.」字樣並附上可免費公開存取、將該專利物品與專利號碼連結之網際網路網址（即虛擬標示）。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "287",
+    "quote": "either by fixing thereon the word \"patent\" or the abbreviation \"pat.\", together with the number of the patent, or by fixing thereon the word \"patent\" or the abbreviation \"pat.\" together with an address of a posting on the Internet, accessible to the public without charge for accessing the address, that associates the patented article with the number of the patent"
+   }
+  ],
+  "explanation": "美國專利法允許「虛擬標示（virtual marking）」，只要在物品或包裝標示專利字樣及免費公開的網路連結並對應專利號碼，即生專利標示效力。"
+ },
+ {
+  "id": "u07-l2-q03",
+  "lessonId": "u07-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "若廠商在產品上繼續標示一個「曾經涵蓋該產品但現已屆滿（expired）」的專利號碼，仍構成不實專利標示（false marking）之違法行為。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "292",
+    "quote": "The marking of a product, in a manner described in subsection (a), with matter relating to a patent that covered that product but has expired is not a violation of this section."
+   }
+  ],
+  "explanation": "條文明定，若產品上標示的是曾經涵蓋該產品但已經屆滿到期的專利資訊，並不違反不實標示之規定。"
+ },
+ {
+  "id": "u07-l2-q04",
+  "lessonId": "u07-l2",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "對於不實專利標示（false marking）每項違規最高可處 500 美元罰金（penalty）之規定，依法誰有權提起訴訟請求該項法定罰金？",
+  "options": [
+   "僅有美國聯邦政府（the United States）得起訴請求",
+   "任何發現該不實標示之一般消費者均得提起公益訴訟請求",
+   "僅有在美國境內註冊執業之專利律師或專利代理人得請求",
+   "同產業之競爭對手得直接起訴請求並與政府平分該筆罰金"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "292",
+    "quote": "Shall be fined not more than $500 for every such offense. Only the United States may sue for the penalty authorized by this subsection."
+   }
+  ],
+  "explanation": "每項不實標示違規最高可處 500 美元罰金，但條文明定僅有美國政府（Only the United States）得為該法定罰金提起訴訟。"
+ },
+ {
+  "id": "u07-l2-q05",
+  "lessonId": "u07-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "私人或企業若因他人的不實專利標示（false marking）行為而向聯邦地方法院提起民事訴訟請求損害賠償，必須具備下列何種要件？",
+  "options": [
+   "因該違反不實標示規定之行為而遭受競爭損害（competitive injury）",
+   "向美國專利商標局繳納保證金並取得局長核發之特別起訴許可證",
+   "證明被告因該不實標示行為已在美國市場獲利超過一百萬美元以上",
+   "本身必須是同一技術領域至少三件有效美國發明專利之專利權人"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "292",
+    "quote": "A person who has suffered a competitive injury as a result of a violation of this section may file a civil action in a district court of the United States for recovery of damages adequate to compensate for the injury."
+   }
+  ],
+  "explanation": "私人若要針對不實專利標示提起民事訴訟，必須是因此遭受「競爭損害（competitive injury）」之人，且請求範圍為足以填補該損害的賠償金。"
+ },
+ {
+  "id": "u07-l2-q06",
+  "lessonId": "u07-l2",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "關於方法專利（process patent）進口產品侵權下之「揭露請求（request for disclosure）」，收到回覆之人應支付給被請求人合理費用以支應實際成本，該費用之法定上限為何？",
+  "options": [
+   "不得超過商業自動化專利檢索費用，且在任何情況下皆不超過 500 美元",
+   "不得超過美國專利商標局之實審規費，且在任何情況下皆不超過 250 美元",
+   "不得超過被請求人聘請專利律師之時薪，且在任何情況下皆不超過 5,000 美元",
+   "完全免費提供，被請求人不得向提出揭露請求之進口商收取任何檢索費用"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "287",
+    "quote": "A person who receives a response to a request for disclosure under this subsection shall pay to the person to whom the request was made a reasonable fee to cover actual costs incurred in complying with the request, which may not exceed the cost of a commercially available automated patent search of the matter involved, but in no case more than $500."
+   }
+  ],
+  "explanation": "收到揭露請求回覆者須支付合理實際成本費用，但金額不得超過商業上可取得之自動化專利檢索費用，且最高不得超過 500 美元。"
+ },
+ {
+  "id": "u07-l2-q07",
+  "lessonId": "u07-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "deadline"
+  ],
+  "prompt": "專利權人甲自 2018 年 1 月 1 日起在美國製造並銷售其專利物品，但該物品與包裝上皆未作任何專利標示。乙公司自 2019 年 1 月 1 日起開始製造侵權產品，甲於 2024 年 6 月 1 日正式發函通知乙侵權，乙收信後仍繼續銷售，甲遂於 2026 年 6 月 1 日向法院起訴乙侵權。甲在訴訟中可請求哪一段期間的侵權損害賠償？",
+  "options": [
+   "自 2019 年 1 月 1 日乙開始侵權之日起算之全部侵權期間",
+   "自 2020 年 6 月 1 日起算（即起訴前 6 年內）之全部侵權期間",
+   "僅限於 2024 年 6 月 1 日乙收到侵權通知後繼續侵權之期間",
+   "僅限於 2026 年 6 月 1 日甲正式向法院提起訴訟之後的期間"
+  ],
+  "answerIndex": 2,
+  "evidence": [
+   {
+    "article": "287",
+    "quote": "In the event of failure so to mark, no damages shall be recovered by the patentee in any action for infringement, except on proof that the infringer was notified of the infringement and continued to infringe thereafter, in which event damages may be recovered only for infringement occurring after such notice."
+   }
+  ],
+  "explanation": "專利權人有製造銷售專利物品卻未為專利標示時，除非證明侵權人已受侵權通知且於通知後繼續侵權，否則不得請求賠償，且僅能就「通知後（2024 年 6 月 1 日之後）」發生的侵權行為請求損害賠償。"
+ },
+ {
+  "id": "u07-l2-q08",
+  "lessonId": "u07-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "deadline"
+  ],
+  "prompt": "專利權人丙的專利自核發後從未在美國製造或銷售，但丁自 2017 年 5 月 1 日起持續侵害該專利。丙於 2026 年 5 月 1 日向聯邦地方法院起訴丁專利侵權（本案無對美國政府求償等時效不計入之事由）。依損害賠償期間限制之規定，丙最遠可追溯請求自何時起算的侵權損害賠償？",
+  "options": [
+   "2017 年 5 月 1 日（即丁開始實施專利侵權行為之首日）",
+   "2020 年 5 月 1 日（即丙提出起訴狀前 6 年內之侵權行為）",
+   "2023 年 5 月 1 日（即丙提出起訴狀前 3 年內之侵權行為）",
+   "2024 年 5 月 1 日（即丙提出起訴狀前 2 年內之侵權行為）"
+  ],
+  "answerIndex": 1,
+  "evidence": [
+   {
+    "article": "286",
+    "quote": "Except as otherwise provided by law, no recovery shall be had for any infringement committed more than six years prior to the filing of the complaint or counterclaim for infringement in the action."
+   }
+  ],
+  "explanation": "除法律另有規定外，針對起訴狀提出前超過 6 年的侵權行為不得請求賠償；丙於 2026 年 5 月 1 日起訴，故最遠僅能追溯至 6 年前（2020 年 5 月 1 日）的侵權行為。"
+ },
+ {
+  "id": "u07-l2-q09",
+  "lessonId": "u07-l2",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "deadline"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "Except as otherwise provided by law, no {{0}} shall be had for any infringement committed more than {{1}} prior to the filing of the {{2}} or counterclaim for infringement in the action.",
+  "blanks": [
+   "recovery",
+   "six years",
+   "complaint"
+  ],
+  "distractors": [
+   "injunction",
+   "three years",
+   "application"
+  ],
+  "evidence": [
+   {
+    "article": "286",
+    "quote": "Except as otherwise provided by law, no recovery shall be had for any infringement committed more than six years prior to the filing of the complaint or counterclaim for infringement in the action."
+   }
+  ],
+  "explanation": "起訴狀（complaint）或反訴提出前超過六年（six years）所為之侵權行為，不得請求損害賠償（no recovery）。"
+ },
+ {
+  "id": "u07-l2-q10",
+  "lessonId": "u07-l2",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "In the event of failure so to {{0}}, no damages shall be recovered by the patentee in any action for infringement, except on proof that the infringer was {{1}} of the infringement and continued to infringe thereafter, in which event damages may be recovered only for infringement occurring after such {{2}}.",
+  "blanks": [
+   "mark",
+   "notified",
+   "notice"
+  ],
+  "distractors": [
+   "publish",
+   "convicted",
+   "issuance"
+  ],
+  "evidence": [
+   {
+    "article": "287",
+    "quote": "In the event of failure so to mark, no damages shall be recovered by the patentee in any action for infringement, except on proof that the infringer was notified of the infringement and continued to infringe thereafter, in which event damages may be recovered only for infringement occurring after such notice."
+   }
+  ],
+  "explanation": "若未依法標示（mark），除非證明侵權人已受通知（notified）且繼續侵權，否則不得請求賠償，且僅能請求該通知（notice）後的侵權損害。"
+ },
+ {
+  "id": "u07-l2-q11",
+  "lessonId": "u07-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "A person who has suffered a {{0}} as a result of a violation of this section may file a civil action in a {{1}} of the United States for recovery of {{2}} adequate to compensate for the injury.",
+  "blanks": [
+   "competitive injury",
+   "district court",
+   "damages"
+  ],
+  "distractors": [
+   "personal injury",
+   "state court",
+   "penalties"
+  ],
+  "evidence": [
+   {
+    "article": "292",
+    "quote": "A person who has suffered a competitive injury as a result of a violation of this section may file a civil action in a district court of the United States for recovery of damages adequate to compensate for the injury."
+   }
+  ],
+  "explanation": "因不實標示而遭受競爭損害（competitive injury）之人，得向聯邦地方法院（district court）提起民事訴訟請求損害賠償（damages）。"
+ },
+ {
+  "id": "u07-l2-q12",
+  "lessonId": "u07-l2",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "comparison",
+   "definition"
+  ],
+  "prompt": "請將專利標示與不實標示之情形與其法律效果配對",
+  "pairs": [
+   {
+    "left": "未標示專利物品",
+    "right": "僅能請求侵權通知後之損害賠償"
+   },
+   {
+    "left": "提起專利侵權訴訟",
+    "right": "依法視為已對侵權人發出通知"
+   },
+   {
+    "left": "不實標示之五百美元罰金",
+    "right": "僅限美國聯邦政府有權起訴請求"
+   },
+   {
+    "left": "標示已屆滿之原涵蓋專利",
+    "right": "不構成違反不實標示之規定"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "287",
+    "quote": "In the event of failure so to mark, no damages shall be recovered by the patentee in any action for infringement, except on proof that the infringer was notified of the infringement and continued to infringe thereafter, in which event damages may be recovered only for infringement occurring after such notice. Filing of an action for infringement shall constitute such notice."
+   },
+   {
+    "article": "292",
+    "quote": "Shall be fined not more than $500 for every such offense. Only the United States may sue for the penalty authorized by this subsection."
+   },
+   {
+    "article": "292",
+    "quote": "The marking of a product, in a manner described in subsection (a), with matter relating to a patent that covered that product but has expired is not a violation of this section."
+   }
+  ],
+  "explanation": "未標示專利物品僅能請求通知後的損害賠償，而提起侵權訴訟即構成通知；不實標示罰金僅美國政府可訴請，標示已到期專利則不構成違法。"
+ },
+ {
+  "id": "u07-l2-q13",
+  "lessonId": "u07-l2",
+  "type": "match",
+  "difficulty": 3,
+  "tags": [
+   "comparison",
+   "deadline"
+  ],
+  "prompt": "請將特殊條款或對象與其法定救濟限制配對",
+  "pairs": [
+   {
+    "left": "醫療人員執行醫療活動",
+    "right": "免除禁制令與損害賠償等救濟"
+   },
+   {
+    "left": "違反生物技術專利之方法",
+    "right": "不屬於免除救濟之醫療活動範圍"
+   },
+   {
+    "left": "向美國政府書面求償期間",
+    "right": "最長六年不計入六年賠償時效"
+   },
+   {
+    "left": "通知前已持有之方法專利物",
+    "right": "不得對其主張方法專利侵權救濟"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "287",
+    "quote": "With respect to a medical practitioner's performance of a medical activity that constitutes an infringement under section 271(a) or (b), the provisions of sections 281, 283, 284, and 285 shall not apply against the medical practitioner or against a related health care entity with respect to such medical activity."
+   },
+   {
+    "article": "287",
+    "quote": "the term \"medical activity\" means the performance of a medical or surgical procedure on a body, but shall not include (i) the use of a patented machine, manufacture, or composition of matter in violation of such patent, (ii) the practice of a patented use of a composition of matter in violation of such patent, or (iii) the practice of a process in violation of a biotechnology patent."
+   },
+   {
+    "article": "286",
+    "quote": "In the case of claims against the United States Government for use of a patented invention, the period before bringing suit, up to six years, between the date of receipt of a written claim for compensation by the department or agency of the Government having authority to settle such claim, and the date of mailing by the Government of a notice to the claimant that his claim has been denied shall not be counted as part of the period referred to in the preceding paragraph."
+   },
+   {
+    "article": "287",
+    "quote": "No remedies for infringement under section 271(g) shall be available with respect to any product in the possession of, or in transit to, the person subject to liability under such section before that person had notice of infringement with respect to that product."
+   }
+  ],
+  "explanation": "醫療人員執行醫療活動免受侵權救濟追索（但不含違反生物技術專利之方法）；對美國政府書面求償審理期間最長 6 年不計入時效；通知前已持有或在途之方法專利產品不適用 §271(g) 救濟。"
+ },
+ {
+  "id": "u07-l2-q14",
+  "lessonId": "u07-l2",
+  "type": "order",
+  "difficulty": 3,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "在方法專利進口產品侵權訴訟中，請依序排列證明被告善意（good faith）之「揭露請求（request for disclosure）」法定流程",
+  "items": [
+   "被告於首次進口或銷售產品前，向製造商提出書面揭露請求",
+   "收到揭露請求之人於合理期間內提出回覆，列出相關方法專利",
+   "被告將該回覆提交給製造商或供應商，並請求出具未使用該專利方法之書面聲明"
+  ],
+  "evidence": [
+   {
+    "article": "287",
+    "quote": "(i) a request for disclosure made by the defendant;\n(ii) a response within a reasonable time by the person receiving the request for disclosure; and\n(iii) the submission of the response by the defendant to the manufacturer, or if the manufacturer is not known, to the supplier, of the product to be purchased by the defendant, together with a request for a written statement that the process claimed in any patent disclosed in the response is not used to produce such product."
+   }
+  ],
+  "explanation": "證明善意的法定流程依序為：被告先提出揭露請求、受請求人於合理時間內回覆、被告再將回覆轉交製造商或供應商並要求出具未使用該方法專利之書面聲明。"
+ },
+ {
+  "id": "u07-l3-q01",
+  "lessonId": "u07-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "procedure",
+   "definition"
+  ],
+  "prompt": "被控侵權人未就系爭專利尋求律師意見（advice of counsel），或未向法院或陪審團提出該律師意見，原告得直接以此作為證明被告構成「故意侵權（willfully infringed）」之證據。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "298",
+    "quote": "The failure of an infringer to obtain the advice of counsel with respect to any allegedly infringed patent, or the failure of the infringer to present such advice to the court or jury, may not be used to prove that the accused infringer willfully infringed the patent or that the infringer intended to induce infringement of the patent."
+   }
+  ],
+  "explanation": "條文明定，侵權人未取得律師意見或未向法院、陪審團提出該意見，不得被用來證明其構成故意侵權或意圖引誘侵權。"
+ },
+ {
+  "id": "u07-l3-q02",
+  "lessonId": "u07-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "在一般專利侵權訴訟中，專利權人若僅主張數名被告各自侵害了同一件系爭專利，依法不得僅憑此理由將這些被告合併於同一訴訟（joinder of parties）或合併審理。",
+  "answer": true,
+  "evidence": [
+   {
+    "article": "299",
+    "quote": "For purposes of this subsection, accused infringers may not be joined in one action as defendants or counterclaim defendants, or have their actions consolidated for trial, based solely on allegations that they each have infringed the patent or patents in suit."
+   }
+  ],
+  "explanation": "為避免將大量無關被告綁在同一訴訟，條文明定不得僅因各被告皆被控侵害同一專利，就將其合併為共同被告或合併審理。"
+ },
+ {
+  "id": "u07-l3-q03",
+  "lessonId": "u07-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "procedure"
+  ],
+  "prompt": "共同被告合併起訴（joinder）的法定限制屬於絕對強制規定，即使被控侵權之當事人自願同意合併受審，亦不得拋棄（waive）此項限制。",
+  "answer": false,
+  "evidence": [
+   {
+    "article": "299",
+    "quote": "A party that is an accused infringer may waive the limitations set forth in this section with respect to that party."
+   }
+  ],
+  "explanation": "條文明定被控侵權之當事人得就其自身部分，拋棄（waive）本條關於共同被告合併之限制。"
+ },
+ {
+  "id": "u07-l3-q04",
+  "lessonId": "u07-l3",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "comparison"
+  ],
+  "prompt": "在方法專利（process patent）侵權訴訟中，若要觸發「產品推定由該專利方法製造」之舉證責任轉換，除了原告已盡合理努力仍無法查明實際製程外，法院還必須認定具備下列何項要件？",
+  "options": [
+   "該產品極有可能（substantial likelihood）是由該專利方法所製造",
+   "該產品在美國與在專利申請國均屬於從未見諸文獻之全新物品",
+   "被告在過去五年內曾有至少兩次侵害其他方法專利之敗訴紀錄",
+   "原告已在起訴前向美國海關申請扣押該批進口產品並繳納保證金"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "295",
+    "quote": "(1) that a substantial likelihood exists that the product was made by the patented process, and"
+   }
+  ],
+  "explanation": "美國專利法的方法專利舉證責任轉換，須同時具備「有相當大可能性（substantial likelihood）係由該專利方法製造」及「原告已盡合理努力仍無法查明實際製程」兩要件（與台灣專利法要求「該物品在申請前為國內外未見」之要件設計不同）。"
+ },
+ {
+  "id": "u07-l3-q05",
+  "lessonId": "u07-l3",
+  "type": "single_choice",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "被控侵權人未取得或未提出律師意見（advice of counsel），除了不得用來證明故意侵權（willful infringement）之外，條文亦明定不得用來證明下列何種事項？",
+  "options": [
+   "不得用來證明該侵權人意圖引誘侵害該專利（intended to induce infringement）",
+   "不得用來證明該侵權人所銷售之產品落入系爭專利請求項之文義範圍",
+   "不得用來證明系爭專利具備非顯而易知性（non-obviousness）之商業上成功",
+   "不得用來證明原告在起訴前已盡合理努力查明被告工廠實際使用之製造方法"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "298",
+    "quote": "The failure of an infringer to obtain the advice of counsel with respect to any allegedly infringed patent, or the failure of the infringer to present such advice to the court or jury, may not be used to prove that the accused infringer willfully infringed the patent or that the infringer intended to induce infringement of the patent."
+   }
+  ],
+  "explanation": "未取得或未提出律師意見，不得作為證明被告「故意侵權」或「意圖引誘侵權（intended to induce infringement）」之證據。"
+ },
+ {
+  "id": "u07-l3-q06",
+  "lessonId": "u07-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "comparison"
+  ],
+  "prompt": "關於專利民事訴訟中將多名被控侵權人合併為共同被告（joinder of accused infringers）的嚴格限制，條文明文排除下列哪一類訴訟的適用？",
+  "options": [
+   "主張學名藥或生物相似藥申請構成擬制侵權（§271(e)(2)）之訴訟或審理",
+   "專利權人為美國境內高等教育機構或非營利研究實驗室之專利侵權訴訟",
+   "訴訟標的金額未滿一百萬美元且原告放棄請求陪審團審理之簡易專利訴訟",
+   "涉及進口方法專利所製造之產品且原告聲請舉證責任轉換之方法專利訴訟"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "299",
+    "quote": "With respect to any civil action arising under any Act of Congress relating to patents, other than an action or trial in which an act of infringement under section 271(e)(2) has been pled, parties that are accused infringers may be joined in one action as defendants or counterclaim defendants, or have their actions consolidated for trial, only if—"
+   }
+  ],
+  "explanation": "條文明文將主張 §271(e)(2) 醫藥品上市申請擬制侵權的訴訟或審理排除在共同被告合併限制之外。"
+ },
+ {
+  "id": "u07-l3-q07",
+  "lessonId": "u07-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "procedure"
+  ],
+  "prompt": "專利權人甲擁有「高純度矽晶圓化學氣相沉積法」之美國方法專利，發現乙進口商自海外進口矽晶圓至美國銷售。甲購入乙之晶圓進行逆向工程分析，並向乙及海外代工廠發函詢問製程均遭拒絕，但甲之專家證人由晶圓微結構證實該晶圓有相當大可能性（substantial likelihood）是由甲的專利方法所製造。此時在訴訟上之法律效果為何？",
+  "options": [
+   "該產品推定為以甲之專利方法製造，改由乙負擔證明該產品非以該方法製造之舉證責任",
+   "因甲無法取得海外代工廠之直接製程紀錄，法院應直接以舉證不足為由駁回甲之起訴",
+   "僅在該矽晶圓屬於專利申請前國內外未見之新物品時，法院才得推定為該方法所製造",
+   "法院應直接判決乙敗訴確定，且依法禁止乙提出任何反證證明其採用其他非侵權製程"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "295",
+    "quote": "the product shall be presumed to have been so made, and the burden of establishing that the product was not made by the process shall be on the party asserting that it was not so made."
+   }
+  ],
+  "explanation": "當法院認定產品有相當大可能性是由專利方法製造，且原告已盡合理努力仍無法查明實際製程時，即推定該產品為該方法所製造，並由主張非以該方法製造之一方（乙）負舉證責任。"
+ },
+ {
+  "id": "u07-l3-q08",
+  "lessonId": "u07-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "procedure"
+  ],
+  "prompt": "專利權人丙欲在同一件專利侵權訴訟中，將 A 公司與 B 公司列為共同被告（本案非屬醫藥品擬制侵權訴訟，且 A、B 均未拋棄合併限制）。下列哪一種情況符合法定合併起訴要件？",
+  "options": [
+   "A 公司製造同一型號被控侵權晶片並交由 B 公司在美國獨家銷售，且兩者有共同事實爭點",
+   "A 公司與 B 公司為互不相干之競爭對手，分別獨立研發並銷售各自品牌但均侵害丙專利的手機",
+   "A 公司侵害丙專利的請求項 1，B 公司侵害同一專利的請求項 2，兩公司間無任何交易往來",
+   "A 公司與 B 公司之總部剛好設於同一聯邦地方法院管轄區內，且兩公司聘請同一家律師事務所"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "article": "299",
+    "quote": "(1) any right to relief is asserted against the parties jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences relating to the making, using, importing into the United States, offering for sale, or selling of the same accused product or process; and\n(2) questions of fact common to all defendants or counterclaim defendants will arise in the action."
+   }
+  ],
+  "explanation": "合併共同被告必須是源於製造、使用、進口或銷售「同一被控侵權產品或方法（same accused product or process）」之同一交易或事件，且具有共同事實問題；A 製造同一晶片交由 B 銷售即符合此要件。"
+ },
+ {
+  "id": "u07-l3-q09",
+  "lessonId": "u07-l3",
+  "type": "cloze",
+  "difficulty": 1,
+  "tags": [
+   "definition"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "The failure of an infringer to obtain the {{0}} with respect to any allegedly infringed patent, or the failure of the infringer to present such advice to the court or jury, may not be used to prove that the accused infringer {{1}} infringed the patent or that the infringer intended to {{2}} infringement of the patent.",
+  "blanks": [
+   "advice of counsel",
+   "willfully",
+   "induce"
+  ],
+  "distractors": [
+   "expert testimony",
+   "directly",
+   "prevent"
+  ],
+  "evidence": [
+   {
+    "article": "298",
+    "quote": "The failure of an infringer to obtain the advice of counsel with respect to any allegedly infringed patent, or the failure of the infringer to present such advice to the court or jury, may not be used to prove that the accused infringer willfully infringed the patent or that the infringer intended to induce infringement of the patent."
+   }
+  ],
+  "explanation": "侵權人未取得律師意見（advice of counsel）或未提出該意見，不得用於證明故意（willfully）侵權或意圖引誘（induce）侵權。"
+ },
+ {
+  "id": "u07-l3-q10",
+  "lessonId": "u07-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "definition",
+   "procedure"
+  ],
+  "prompt": "請填入正確的英文用語",
+  "text": "the product shall be {{0}} to have been so made, and the {{1}} of establishing that the product was not made by the {{2}} shall be on the party asserting that it was not so made.",
+  "blanks": [
+   "presumed",
+   "burden",
+   "process"
+  ],
+  "distractors": [
+   "determined",
+   "privilege",
+   "machine"
+  ],
+  "evidence": [
+   {
+    "article": "295",
+    "quote": "the product shall be presumed to have been so made, and the burden of establishing that the product was not made by the process shall be on the party asserting that it was not so made."
+   }
+  ],
+  "explanation": "符合法定要件時，該產品應被推定（presumed）為該專利方法所製造，且證明非由該方法（process）製造的舉證責任（burden）由主張者負擔。"
+ },
+ {
+  "id": "u07-l3-q11",
+  "lessonId": "u07-l3",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "comparison",
+   "procedure"
+  ],
+  "prompt": "請將訴訟規則與其對應之法定要件或效果配對",
+  "pairs": [
+   {
+    "left": "方法專利推定要件一",
+    "right": "極可能由該專利方法所製造"
+   },
+   {
+    "left": "方法專利推定要件二",
+    "right": "已盡合理努力仍無法查明製程"
+   },
+   {
+    "left": "未取得或提出律師意見",
+    "right": "不得證明故意或意圖引誘侵權"
+   },
+   {
+    "left": "共同被告合併之限制",
+    "right": "被控侵權當事人得自願拋棄"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "295",
+    "quote": "(1) that a substantial likelihood exists that the product was made by the patented process, and\n(2) that the plaintiff has made a reasonable effort to determine the process actually used in the production of the product and was unable to so determine,"
+   },
+   {
+    "article": "298",
+    "quote": "The failure of an infringer to obtain the advice of counsel with respect to any allegedly infringed patent, or the failure of the infringer to present such advice to the court or jury, may not be used to prove that the accused infringer willfully infringed the patent or that the infringer intended to induce infringement of the patent."
+   },
+   {
+    "article": "299",
+    "quote": "A party that is an accused infringer may waive the limitations set forth in this section with respect to that party."
+   }
+  ],
+  "explanation": "方法專利製造推定須滿足「極可能由該方法製造」與「已盡合理努力無法查明」兩要件；未取得律師意見不得證明故意或引誘侵權；被告則可自願拋棄合併起訴限制。"
+ },
+ {
+  "id": "u07-l3-q12",
+  "lessonId": "u07-l3",
+  "type": "match",
+  "difficulty": 3,
+  "tags": [
+   "comparison",
+   "procedure"
+  ],
+  "prompt": "請將共同被告合併（joinder）之相關規定與其內容配對",
+  "pairs": [
+   {
+    "left": "合併被告之交易要件",
+    "right": "源於同一被控產品或方法交易"
+   },
+   {
+    "left": "合併被告之爭點要件",
+    "right": "存在所有被告共同之事實問題"
+   },
+   {
+    "left": "僅主張各被告侵害同專利",
+    "right": "依法不足以合併起訴或審理"
+   },
+   {
+    "left": "醫藥品上市擬制侵權訴訟",
+    "right": "排除適用共同被告合併之限制"
+   }
+  ],
+  "evidence": [
+   {
+    "article": "299",
+    "quote": "With respect to any civil action arising under any Act of Congress relating to patents, other than an action or trial in which an act of infringement under section 271(e)(2) has been pled, parties that are accused infringers may be joined in one action as defendants or counterclaim defendants, or have their actions consolidated for trial, only if—\n(1) any right to relief is asserted against the parties jointly, severally, or in the alternative with respect to or arising out of the same transaction, occurrence, or series of transactions or occurrences relating to the making, using, importing into the United States, offering for sale, or selling of the same accused product or process; and\n(2) questions of fact common to all defendants or counterclaim defendants will arise in the action."
+   },
+   {
+    "article": "299",
+    "quote": "For purposes of this subsection, accused infringers may not be joined in one action as defendants or counterclaim defendants, or have their actions consolidated for trial, based solely on allegations that they each have infringed the patent or patents in suit."
+   }
+  ],
+  "explanation": "合併被告須涉及同一被控產品或方法的同一交易或事件，且有共同事實問題；僅各自侵害同一專利不足以合併，但 §271(e)(2) 醫藥擬制侵權訴訟不在此限。"
+ }
+]

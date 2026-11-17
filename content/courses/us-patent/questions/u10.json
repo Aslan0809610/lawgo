@@ -1,0 +1,1316 @@
+[
+ {
+  "id": "u10-l1-q01",
+  "lessonId": "u10-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "甲擁有衣物乾洗追蹤系統專利，請求項（claim）記載系統能「維持庫存總數（maintain an inventory total）」。甲控告乙侵權，陪審團聽取專家證人證詞後認定乙侵權，但法官認為依專利文件整體解釋，「庫存」必須包含衣物本身而不僅是交易金額，因此乙未侵權。依 Markman 案，誰對請求項用語的解釋具有決定權？",
+  "options": [
+   "專屬於法院（法官），因為解釋專利請求項及其中專業術語屬法律問題",
+   "專屬於陪審團，因為憲法第七修正案保障專利侵權案件由陪審團審理",
+   "若涉及高度技術性的專業術語（terms of art）由陪審團決定，一般用語由法官決定",
+   "由專利商標局（PTO）透過行政程序重新裁定，法院與陪審團均無權解釋"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "markman",
+    "quote": "Held: The construction of a patent, including terms of art within its claim, is exclusively within the province of the court."
+   }
+  ],
+  "explanation": "最高法院在 Markman 案明確判決，專利及其請求項中專業術語的解釋（claim construction）屬於法律問題，專屬於法院（法官）的職權範圍，而非交由陪審團決定。"
+ },
+ {
+  "id": "u10-l1-q02",
+  "lessonId": "u10-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Markman 案，為確保同一專利在不同訴訟中獲得一致性（uniformity）的對待，將專利請求項的解釋權分配給法院（法官）優於交給陪審團。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "markman",
+    "quote": "Finally, the need for uniformity in the treatment of a given patent favors allocation of construction issues to the court."
+   }
+  ],
+  "explanation": "最高法院指出，法官受過專業訓練與紀律約束，且為了維持對同一專利解釋與對待的統一性（uniformity），應由法院負責請求項解釋。"
+ },
+ {
+  "id": "u10-l1-q03",
+  "lessonId": "u10-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Markman 案 Syllabus 原文填入正確詞語：",
+  "text": "The {{0}} of a patent, including {{1}} within its claim, is exclusively within the {{2}} of the court.",
+  "blanks": [
+   "construction",
+   "terms of art",
+   "province"
+  ],
+  "distractors": [
+   "infringement",
+   "jury",
+   "specification"
+  ],
+  "evidence": [
+   {
+    "case": "markman",
+    "quote": "Held: The construction of a patent, including terms of art within its claim, is exclusively within the province of the court."
+   }
+  ],
+  "explanation": "Markman 案的核心判決要旨為：專利的解釋（construction），包含請求項中的專業術語（terms of art），專屬於法院的職權領域（province）。"
+ },
+ {
+  "id": "u10-l1-q04",
+  "lessonId": "u10-l1",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "case"
+  ],
+  "prompt": "依 Markman 案引述之原則，請排列專利侵權訴訟中兩大核心爭點的處理順序與職權歸屬：",
+  "items": [
+   "第一個爭點：解釋專利範圍（construing the patent）",
+   "由法院（法官）作為法律問題（question of law）加以決定",
+   "第二個爭點：認定是否發生侵權（whether infringement occurred）",
+   "由陪審團作為事實問題（question of fact）加以決定"
+  ],
+  "evidence": [
+   {
+    "case": "markman",
+    "quote": "As the former patent practitioner, Justice Curtis, explained, the first issue in a patent case, construing the patent, is a question of law, to be determined by the court. The second issue, whether infringement occurred, is a question of fact for a jury."
+   }
+  ],
+  "explanation": "Markman 案清楚區分專利訴訟的兩個先後步驟：首先由法院作為法律問題解釋專利（請求項），接著再由陪審團作為事實問題判斷被告是否構成侵權。"
+ },
+ {
+  "id": "u10-l1-q05",
+  "lessonId": "u10-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "甲的染料純化專利在審查時，為避開揭示「pH 9.0 以上」的先前技術，修正請求項並加上「pH 6.0 至 9.0」的範圍限制，但審查紀錄中看不出為何要加上「pH 6.0」的下限。乙使用 pH 5.0 的製程，甲依均等論（doctrine of equivalents）告乙侵權。依 Warner-Jenkinson 案，當修正理由不明時，法院應如何處理？",
+  "options": [
+   "若專利權人無法證明該修正具有與可專利性無關的目的，法院應推定適用申請歷史禁反言",
+   "只要審查官未在核駁理由中明確提及 pH 6.0 下限，即完全不適用申請歷史禁反言",
+   "不論修正理由為何，只要曾對該元件進行文字修改，即自動禁止主張任何均等物",
+   "應改由主觀標準審查被告乙是否具有惡意抄襲之意圖，以決定是否適用禁反言"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "warner",
+    "quote": "Where the patent holder is unable to establish such a purpose, the court should presume that the purpose behind the required amendment is such that prosecution history estoppel would apply."
+   }
+  ],
+  "explanation": "在 Warner-Jenkinson 案中，最高法院認為當審查紀錄未揭示修正理由時，舉證責任在專利權人；若專利權人無法證明修正目的與可專利性（patentability）無關，法院應推定適用申請歷史禁反言（prosecution history estoppel）。"
+ },
+ {
+  "id": "u10-l1-q06",
+  "lessonId": "u10-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Warner-Jenkinson 案，適用均等論（doctrine of equivalents）時，應將被控侵權產品與專利發明作為一個整體（as a whole）來籠統比對，而非逐一比對請求項的各個元件（element-by-element）。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "warner",
+    "quote": "The determination of equivalence should be applied as an objective inquiry on an element-by-element basis."
+   }
+  ],
+  "explanation": "最高法院在 Warner-Jenkinson 案確立「逐一元件（element-by-element）」原則（即全要件原則），要求針對請求項的每一個個別元件進行客觀的均等判斷，而非僅就整體作籠統比對，以保留每個元件的意義。"
+ },
+ {
+  "id": "u10-l1-q07",
+  "lessonId": "u10-l1",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Warner-Jenkinson 案，在適用均等論（doctrine of equivalents）判斷被控侵權元件與請求項元件是否具有可替換性（interchangeability）及均等性時，正確的評估時點與主觀要件為何？",
+  "options": [
+   "評估時點為「侵權發生時」，且被控侵權人的主觀意圖（intent）在均等論適用上不具任何影響",
+   "評估時點為「專利核發時」，且專利權人必須證明被控侵權人具有惡意抄襲的主觀意圖",
+   "評估時點為「專利申請日」，且僅限於專利說明書中已經明確揭露的均等替換物",
+   "評估時點為「提起訴訟時」，且必須考量兩造當事人之間的衡平事由與善意與否"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "warner",
+    "quote": "The better view, and the one consistent with Graver Tank's predecessors, see, e. g., Winans v. Denmead, 15 How. 330, 343, and the objective approach to infringement, is that intent plays no role in the doctrine's application."
+   },
+   {
+    "case": "warner",
+    "quote": "Insofar as the question under the doctrine is whether an accused element is equivalent to a claimed element, the proper time for evaluating equivalency-and knowledge of interchangeability between elements-is at the time of infringement, not at the time the patent was issued."
+   }
+  ],
+  "explanation": "最高法院明確指出，均等論採客觀標準，行為人的主觀意圖（intent）毫無影響；且評估均等性與元件可替換性的正確時點是「侵權發生時（at the time of infringement）」，而非專利核發時。"
+ },
+ {
+  "id": "u10-l1-q08",
+  "lessonId": "u10-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Warner-Jenkinson 案 Syllabus 原文填入正確詞語：",
+  "text": "The determination of {{0}} should be applied as an {{1}} inquiry on an {{2}} basis.",
+  "blanks": [
+   "equivalence",
+   "objective",
+   "element-by-element"
+  ],
+  "distractors": [
+   "subjective",
+   "overall",
+   "validity"
+  ],
+  "evidence": [
+   {
+    "case": "warner",
+    "quote": "The determination of equivalence should be applied as an objective inquiry on an element-by-element basis."
+   }
+  ],
+  "explanation": "Warner-Jenkinson 案規定，均等性（equivalence）的判斷應作為一項客觀（objective）調查，並以逐一元件（element-by-element）為基礎來適用。"
+ },
+ {
+  "id": "u10-l1-q09",
+  "lessonId": "u10-l1",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "某公司申請專利時，審查官以說明書記載不符 35 U.S.C. §112 為由核駁（並非基於先前技術核駁）。該公司遂修正請求項，限縮了某元件的範圍以取得專利。日後該公司依均等論控告競爭對手，依 Festo 案，下列敘述何者正確？",
+  "options": [
+   "為滿足 §112 要件所為的限縮修正仍可觸發申請歷史禁反言，但專利權人有機會舉證該均等物在修正時無法預見以推翻禁反言推定",
+   "因為修正只是為了滿足 §112 的形式與記載要件，而非為了規避先前技術（prior art），故完全不會產生申請歷史禁反言",
+   "只要觸發申請歷史禁反言，即適用「完全禁止規則（complete bar）」，在任何情況下均絕對不得對該修正元件主張均等論",
+   "申請歷史禁反言的舉證責任完全在被告身上，必須由被告證明專利權人在修正時有明確放棄該特定均等物的真意"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "festo",
+    "quote": "Held, Prosecution history estoppel may apply to any claim amendment made to satisfy the Patent Act's requirements, not just to amendments made to avoid the prior art, but estoppel need not bar suit against every equivalent to the amended claim element."
+   }
+  ],
+  "explanation": "Festo 案判決指出：(1) 任何為滿足專利法要件（包含 §112）所為的限縮修正皆可能產生申請歷史禁反言；(2) 但禁反言並非「完全禁止（complete bar）」，若專利權人能證明該均等物在當時無法預見等事由，仍可推翻禁反言推定。"
+ },
+ {
+  "id": "u10-l1-q10",
+  "lessonId": "u10-l1",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Festo 案，當專利權人透過修正限縮請求項時，雖推定其概括放棄了原請求項與修正後請求項之間的範圍，但若能證明在修正當時該均等物屬「無法預見（unforeseeable）」，或修正理由與該均等物僅有「附帶關聯（tangential relation）」，即可推翻申請歷史禁反言的推定。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "festo",
+    "quote": "However, in cases in which the amendment cannot reasonably be viewed as surrendering a particular equivalent--e. g., where the equivalent was unforeseeable at the time of the application or the rationale underlying the amendment bears but a tangential relation to the equivalent-the patentee can rebut the presumption that prosecution history estoppel bars a finding of equivalence by showing that at the time of the amendment one skilled in the art could not reasonably be expected to have drafted a claim that would have literally encompassed the alleged equivalent."
+   }
+  ],
+  "explanation": "最高法院在 Festo 案拒絕了絕對的完全禁止規則，允許專利權人在特定情況下（如均等物無法預見、修正理由僅具附帶關聯等）推翻禁反言涵蓋該特定均等物的推定。"
+ },
+ {
+  "id": "u10-l1-q11",
+  "lessonId": "u10-l1",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Festo 案 Syllabus 原文填入正確詞語：",
+  "text": "Prosecution history {{0}} may apply to any claim {{1}} made to satisfy the Patent Act's requirements, not just to amendments made to avoid the {{2}}, but estoppel need not bar suit against every equivalent to the amended claim element.",
+  "blanks": [
+   "estoppel",
+   "amendment",
+   "prior art"
+  ],
+  "distractors": [
+   "construction",
+   "infringement",
+   "specification"
+  ],
+  "evidence": [
+   {
+    "case": "festo",
+    "quote": "Held, Prosecution history estoppel may apply to any claim amendment made to satisfy the Patent Act's requirements, not just to amendments made to avoid the prior art, but estoppel need not bar suit against every equivalent to the amended claim element."
+   }
+  ],
+  "explanation": "Festo 案確立申請歷史禁反言（estoppel）可適用於為滿足專利法要件而為的任何請求項修正（amendment），不限於為避開先前技術（prior art）的修正。"
+ },
+ {
+  "id": "u10-l1-q12",
+  "lessonId": "u10-l1",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "comparison",
+   "case"
+  ],
+  "prompt": "請將本課判例與其確立的核心法律原則配對：",
+  "pairs": [
+   {
+    "left": "Markman 案",
+    "right": "請求項解釋專屬於法官職權"
+   },
+   {
+    "left": "Warner 案（比對）",
+    "right": "均等論採逐一元件客觀比對"
+   },
+   {
+    "left": "Warner 案（時點）",
+    "right": "於侵權發生時評估元件均等性"
+   },
+   {
+    "left": "Festo 案",
+    "right": "限縮修正之禁反言非完全禁止"
+   }
+  ],
+  "evidence": [
+   {
+    "case": "markman",
+    "quote": "Held: The construction of a patent, including terms of art within its claim, is exclusively within the province of the court."
+   },
+   {
+    "case": "warner",
+    "quote": "The determination of equivalence should be applied as an objective inquiry on an element-by-element basis."
+   },
+   {
+    "case": "warner",
+    "quote": "Insofar as the question under the doctrine is whether an accused element is equivalent to a claimed element, the proper time for evaluating equivalency-and knowledge of interchangeability between elements-is at the time of infringement, not at the time the patent was issued."
+   },
+   {
+    "case": "festo",
+    "quote": "Held, Prosecution history estoppel may apply to any claim amendment made to satisfy the Patent Act's requirements, not just to amendments made to avoid the prior art, but estoppel need not bar suit against every equivalent to the amended claim element."
+   }
+  ],
+  "explanation": "Markman 案確立請求項由法官解釋；Warner-Jenkinson 案確立均等論逐一元件客觀比對及以侵權時為評估時點；Festo 案確立限縮修正之禁反言採彈性禁止而非完全禁止。"
+ },
+ {
+  "id": "u10-l2-q01",
+  "lessonId": "u10-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "香港家電商甲購買乙在海外銷售（無美國專利標示）的創新氣炸鍋並直接抄襲其結構，隨後委託美國律師進行侵權檢索，卻刻意隱瞞該產品是抄襲自乙的事實。甲取得無侵權意見書後將產品賣給美國通路商丙在美銷售。乙依 §271(b) 控告甲引誘侵權（induced infringement），依 Global-Tech 案，法院應如何認定？",
+  "options": [
+   "甲構成引誘侵權，因為甲主觀上相信極可能有專利卻採取刻意行動避免得知，符合「蓄意漠視（willful blindness）」而滿足知悉要件",
+   "甲不構成引誘侵權，因為甲在收到訴訟通知前並無直接證據證明其「實際知悉（actual knowledge）」乙的美國專利號碼",
+   "甲構成引誘侵權，因為 §271(b) 為嚴格責任，只要甲的行為客觀上促成丙的直接侵權，完全不問甲的主觀認知",
+   "甲不構成引誘侵權，因為甲已經事前委請專利律師出具無侵權之法律意見書，依法享有絕對的善意抗辯"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "globaltech",
+    "quote": "Held: 1. Induced infringement under § 271(b) requires knowledge that the induced acts constitute patent infringement."
+   },
+   {
+    "case": "globaltech",
+    "quote": "Although the Courts of Appeals articulate the doctrine of willful blindness in slightly different ways, all agree on two basic requirements. First, the defendant must subjectively believe that there is a high probability that a fact exists. Second, the defendant must take deliberate actions to avoid learning of that fact."
+   }
+  ],
+  "explanation": "最高法院在 Global-Tech 案指出，§271(b) 引誘侵權要求行為人知悉所引誘的行為構成專利侵權；但「蓄意漠視（willful blindness）」（主觀上相信極可能存在該事實，且採取刻意行動避免得知）可滿足此知悉要件。"
+ },
+ {
+  "id": "u10-l2-q02",
+  "lessonId": "u10-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Global-Tech 案，行為人若僅對「可能存在專利」的已知風險表現出蓄意漠不關心（deliberate indifference to a known risk），即可滿足 §271(b) 引誘侵權所需的「知悉」要件。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "globaltech",
+    "quote": "2. Deliberate indifference to a known risk that a patent exists does not satisfy the knowledge required by § 271(b)."
+   }
+  ],
+  "explanation": "最高法院明確駁斥了聯邦巡迴上訴法院「蓄意漠不關心已知風險即構成知悉」的標準，指出必須達到更高門檻的「蓄意漠視（willful blindness）」（包含主觀相信極可能存在，且採取刻意行動避免得知）才算滿足知悉要件。"
+ },
+ {
+  "id": "u10-l2-q03",
+  "lessonId": "u10-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Global-Tech 案 Syllabus 原文填入正確詞語：",
+  "text": "Induced infringement under § 271(b) requires {{0}} that the {{1}} acts constitute {{2}}.",
+  "blanks": [
+   "knowledge",
+   "induced",
+   "patent infringement"
+  ],
+  "distractors": [
+   "negligence",
+   "direct",
+   "prior art"
+  ],
+  "evidence": [
+   {
+    "case": "globaltech",
+    "quote": "Held: 1. Induced infringement under § 271(b) requires knowledge that the induced acts constitute patent infringement."
+   }
+  ],
+  "explanation": "Global-Tech 案確立 §271(b) 的引誘侵權必須具備「知悉（knowledge）所引誘的行為（induced acts）構成專利侵權（patent infringement）」之要件。"
+ },
+ {
+  "id": "u10-l2-q04",
+  "lessonId": "u10-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "甲擁有包含 A、B、C 三步驟的網路資料傳輸方法專利。乙公司提供網路服務並親自執行了步驟 A 與 B，但步驟 C（標記步驟）是由乙的客戶自行執行，且客戶的行為在法律上無法歸責於乙（因此無人構成 §271(a) 的直接侵權）。甲依 §271(b) 控告乙引誘侵權，依 Limelight 案，法院應如何判決？",
+  "options": [
+   "乙不負 §271(b) 引誘侵權責任，因為引誘侵權必須以存在直接侵權（direct infringement）為前提",
+   "乙應負 §271(b) 引誘侵權責任，因為乙與客戶共同完成了所有專利步驟，且乙積極鼓勵客戶執行步驟 C",
+   "乙雖不負 §271(b) 責任，但自動轉為承擔 §271(c) 的輔助侵權（contributory infringement）責任",
+   "法院應將方法專利視為物品專利，直接認定乙執行過半步驟即已構成 §271(a) 直接侵權"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "limelight",
+    "quote": "Held: A defendant is not liable for inducing infringement under § 271(b) when no one has directly infringed under § 271(a) or any other statutory provision."
+   }
+  ],
+  "explanation": "最高法院在 Limelight 案判決：引誘侵權責任必須以直接侵權（direct infringement）為前提；當沒有任何人依 §271(a) 或其他法定條文構成直接侵權時，被告不可能依 §271(b) 負引誘侵權責任。"
+ },
+ {
+  "id": "u10-l2-q05",
+  "lessonId": "u10-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Limelight 案，只要被告自己執行了方法專利的部分步驟，並積極鼓勵他人執行其餘步驟，即使最終沒有任何單一主體構成 §271(a) 的直接侵權，被告仍可單獨成立 §271(b) 的引誘侵權。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "limelight",
+    "quote": "(a) Liability for inducement must be predicated on direct infringement. Aro Mfg. Co. v. Convertible Top Replacement Co., 365 U. S. 336, 341. Assuming that Muniauction's holding is correct, respondents' method has not been infringed because the performance of all of its steps is not attributable to any one person. Since direct infringement has not occurred, there can be no inducement of infringement under § 271(b)."
+   }
+  ],
+  "explanation": "最高法院推翻了聯邦巡迴上訴法院的見解，強調「引誘侵權必須以直接侵權為前提（Liability for inducement must be predicated on direct infringement）」，無直接侵權即無引誘侵權。"
+ },
+ {
+  "id": "u10-l2-q06",
+  "lessonId": "u10-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Limelight 案 Syllabus 原文填入正確詞語：",
+  "text": "A defendant is not liable for {{0}} under § 271(b) when no one has {{1}} under § 271(a) or any other {{2}}.",
+  "blanks": [
+   "inducing infringement",
+   "directly infringed",
+   "statutory provision"
+  ],
+  "distractors": [
+   "contributory infringement",
+   "literally infringed",
+   "contractual agreement"
+  ],
+  "evidence": [
+   {
+    "case": "limelight",
+    "quote": "Held: A defendant is not liable for inducing infringement under § 271(b) when no one has directly infringed under § 271(a) or any other statutory provision."
+   }
+  ],
+  "explanation": "Limelight 案指出，當無人依 §271(a) 或其他法定條文（statutory provision）構成直接侵權（directly infringed）時，被告不負 §271(b) 的引誘侵權（inducing infringement）責任。"
+ },
+ {
+  "id": "u10-l2-q07",
+  "lessonId": "u10-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "甲擁有海洋探測系統的美國專利。乙在美國境內製造該系統的專用零件後，運往海外交由外國客戶組裝成與甲專利相同的系統，違反 35 U.S.C. §271(f)(2)。甲訴請乙賠償其因此在海外喪失的服務合約所失利益（lost foreign profits）。依 WesternGeco 案，甲得否請求該筆海外所失利益？",
+  "options": [
+   "可以，因為在 §271(f)(2) 案件中，§284 的規範焦點在於「自美國境內出口組件」的國內侵權行為，判給海外所失利益屬於 §284 合乎規定的國內適用",
+   "不可以，因為基於反域外適用推定（presumption against extraterritoriality），美國專利法絕對禁止計算任何發生在美國境外的商業損失",
+   "可以，但僅限於外國客戶組裝完成後又將該探測系統重新進口回美國境內使用的情況，否則不得請求所失利益",
+   "不可以，§271(f)(2) 的救濟僅限於按美國境內零件製造價值計算的合理權利金（reasonable royalty），法定排除所失利益"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "westerngeco",
+    "quote": "Held: WesternGeco's award for lost profits was a permissible domestic application of § 284 of the Patent Act."
+   },
+   {
+    "case": "westerngeco",
+    "quote": "In sum, the focus of § 284 in a case involving infringement under § 271(f)(2) is on the act of exporting components from the United States. So the conduct in this case that is relevant to the statutory focus clearly occurred in the United States."
+   }
+  ],
+  "explanation": "最高法院在 WesternGeco 案指出，§284 的規範焦點是「侵權行為」，而在 §271(f)(2) 下侵權行為是「自美國境內供應／出口組件」。既然相關行為發生在美國境內，判給海外所失利益屬於 §284 的合法國內適用。"
+ },
+ {
+  "id": "u10-l2-q08",
+  "lessonId": "u10-l2",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 WesternGeco 案，專利法 §284 一般損害賠償規定的壓倒性目的（overriding purpose），是為專利權人所遭受的侵權行為提供「完全的補償（complete compensation）」。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "westerngeco",
+    "quote": "The “overriding purpose” of § 284 is to “affor[d] patent owners complete compensation” for infringements."
+   }
+  ],
+  "explanation": "WesternGeco 案引述先例強調，§284 的核心焦點是「侵權行為」，其壓倒性目的在於使專利權人就侵權行為獲得完全的補償（complete compensation），海外事件僅是附隨結果。"
+ },
+ {
+  "id": "u10-l2-q09",
+  "lessonId": "u10-l2",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "case"
+  ],
+  "prompt": "依 WesternGeco 案所述之反域外適用推定（presumption against extraterritoriality）兩步驟分析架構，請排列法院審查域外適用問題的步驟順序：",
+  "items": [
+   "步驟一：審查反域外適用推定是否已被推翻（whether the presumption has been rebutted）",
+   "步驟二（若未推翻）：審查案件是否屬於該法條的國內適用（domestic application of the statute）",
+   "為判斷步驟二，先確認法條的「規範焦點（focus）」為何",
+   "再檢視與該規範焦點相關的行為是否發生於美國領土內（occurred in United States territory）"
+  ],
+  "evidence": [
+   {
+    "case": "westerngeco",
+    "quote": "The two-step framework for deciding extraterritoriality questions asks, first, “whether the presumption . . . has been rebutted.” RJR Nabisco, Inc. v. European Community, 579 U. S. 325, 337. If not, the second step asks “whether the case involves a domestic application of the statute.” Ibid. Courts make the second determination by identifying “the statute's `focus' ” and then asking whether the conduct relevant to that focus occurred in United States territory."
+   }
+  ],
+  "explanation": "WesternGeco 案說明域外適用的兩步驟架構：先看推定是否被推翻；若否，則看是否屬國內適用（透過找出法條的「焦點」，並檢視與該焦點相關的行為是否發生在美國境內）。"
+ },
+ {
+  "id": "u10-l2-q10",
+  "lessonId": "u10-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 WesternGeco 案 Syllabus 原文填入正確詞語：",
+  "text": "In sum, the {{0}} of § 284 in a case involving infringement under § 271(f)(2) is on the act of {{1}} from the {{2}}.",
+  "blanks": [
+   "focus",
+   "exporting components",
+   "United States"
+  ],
+  "distractors": [
+   "assembling systems",
+   "foreign markets",
+   "remedy"
+  ],
+  "evidence": [
+   {
+    "case": "westerngeco",
+    "quote": "In sum, the focus of § 284 in a case involving infringement under § 271(f)(2) is on the act of exporting components from the United States."
+   }
+  ],
+  "explanation": "在涉及 §271(f)(2) 侵權的案件中，§284 的規範焦點（focus）在於從美國（United States）出口組件（exporting components）的行為。"
+ },
+ {
+  "id": "u10-l2-q11",
+  "lessonId": "u10-l2",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "甲擁有智慧型手機「圓角矩形正面外殼」的設計專利（design patent）。乙製造並銷售侵害該設計專利的智慧型手機。甲依 35 U.S.C. §289 請求乙賠償其「全部利潤（total profit）」。乙抗辯手機包含眾多晶片與內部元件，不應以「整支手機」的全部利潤計算賠償。依 Samsung 案，下列何者正確？",
+  "options": [
+   "就多組件產品而言，依 §289 計算損害賠償的相關「製造物（article of manufacture）」不必然是售予消費者的最終完整產品，而可以只是該產品的一個組件",
+   "因為智慧型手機的外殼與螢幕並未單獨拆開賣給一般消費者，所以法定的「製造物」必然是售予消費者的整支智慧型手機",
+   "§289 的「全部利潤」規定僅適用於單一零件產品，對於多組件產品一律只能依 §284 請求合理權利金，不得請求利潤",
+   "設計專利的保護範圍依 §171 僅限於獨立銷售的完整產品，任何附屬於多組件產品內部的局部組件均不得成為計算利潤的基準"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "samsung",
+    "quote": "Held: In the case of a multicomponent product, the relevant “article of manufacture” for arriving at a § 289 damages award need not be the end product sold to the consumer but may be only a component of that product."
+   }
+  ],
+  "explanation": "最高法院在 Samsung 案一致判決，對於多組件產品（multicomponent product），計算 §289 設計專利侵權賠償的「製造物（article of manufacture）」不必然是售予消費者的最終產品（end product），而可以只是該產品的一個組件（component）。"
+ },
+ {
+  "id": "u10-l2-q12",
+  "lessonId": "u10-l2",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "case"
+  ],
+  "prompt": "依 Samsung 案，專利法 §289 所稱的「製造物（article of manufacture）」僅指由手工或機器製造的物品，其範圍足以涵蓋售予消費者的產品以及該產品的組件（無論該組件是否單獨銷售）。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "samsung",
+    "quote": "An “article of manufacture,” which is simply a thing made by hand or machine, encompasses both a product sold to a consumer and a component of that product."
+   },
+   {
+    "case": "samsung",
+    "quote": "Because the term “article of manufacture” is broad enough to embrace both a product sold to a consumer and a component of that product, whether sold separately or not, the Federal Circuit's narrower reading cannot be squared with § 289's text."
+   }
+  ],
+  "explanation": "最高法院從法條文義出發，指出「製造物」單純是指手工或機器製造之物，不論是否單獨銷售，均同時涵蓋最終產品及其內部組件。"
+ },
+ {
+  "id": "u10-l2-q13",
+  "lessonId": "u10-l2",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Samsung 案 Syllabus 原文填入正確詞語：",
+  "text": "In the case of a {{0}}, the relevant “{{1}}” for arriving at a § 289 damages award need not be the {{2}} sold to the consumer but may be only a component of that product.",
+  "blanks": [
+   "multicomponent product",
+   "article of manufacture",
+   "end product"
+  ],
+  "distractors": [
+   "design patent",
+   "total profit",
+   "composition of matter"
+  ],
+  "evidence": [
+   {
+    "case": "samsung",
+    "quote": "Held: In the case of a multicomponent product, the relevant “article of manufacture” for arriving at a § 289 damages award need not be the end product sold to the consumer but may be only a component of that product."
+   }
+  ],
+  "explanation": "Samsung 案闡明，在多組件產品（multicomponent product）的情況下，計算 §289 賠償的相關「製造物（article of manufacture）」不必然是售予消費者的最終產品（end product），而可以只是其中一個組件。"
+ },
+ {
+  "id": "u10-l2-q14",
+  "lessonId": "u10-l2",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "comparison",
+   "case"
+  ],
+  "prompt": "請將本課判例與其確立的核心法律原則配對：",
+  "pairs": [
+   {
+    "left": "Global-Tech 案",
+    "right": "引誘侵權須知悉，含蓄意漠視"
+   },
+   {
+    "left": "Limelight 案",
+    "right": "無直接侵權即不成立引誘侵權"
+   },
+   {
+    "left": "WesternGeco 案",
+    "right": "出口組件侵權可賠海外所失利益"
+   },
+   {
+    "left": "Samsung 案",
+    "right": "設計專利賠償製造物可僅為組件"
+   }
+  ],
+  "evidence": [
+   {
+    "case": "globaltech",
+    "quote": "Held: 1. Induced infringement under § 271(b) requires knowledge that the induced acts constitute patent infringement."
+   },
+   {
+    "case": "limelight",
+    "quote": "Held: A defendant is not liable for inducing infringement under § 271(b) when no one has directly infringed under § 271(a) or any other statutory provision."
+   },
+   {
+    "case": "westerngeco",
+    "quote": "Held: WesternGeco's award for lost profits was a permissible domestic application of § 284 of the Patent Act."
+   },
+   {
+    "case": "samsung",
+    "quote": "Held: In the case of a multicomponent product, the relevant “article of manufacture” for arriving at a § 289 damages award need not be the end product sold to the consumer but may be only a component of that product."
+   }
+  ],
+  "explanation": "Global-Tech 案規範引誘侵權的主觀知悉與蓄意漠視；Limelight 案確立引誘侵權須以直接侵權為前提；WesternGeco 案允許依 §271(f)(2) 及 §284 請求海外所失利益；Samsung 案確立多組件產品的設計專利賠償基準可為單一組件。"
+ },
+ {
+  "id": "u10-l3-q01",
+  "lessonId": "u10-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "甲擁有電腦資料傳輸的方法專利（method patent），並無條件授權乙製造及銷售微處理器晶片。該晶片包含了專利發明的所有創作特徵，且除了裝入電腦連接記憶體與匯流排以實施甲的方法專利外，別無其他合理用途。丙向乙合法購買該晶片後組裝成電腦，甲控告丙侵害其方法專利。依 Quanta 案，法院應如何判決？",
+  "options": [
+   "丙不構成侵權，因為方法專利同樣適用專利權耗盡原則，且乙經授權銷售「實質體現（substantially embody）」該專利的晶片已使甲的專利權耗盡",
+   "丙構成侵權，因為專利權耗盡原則僅適用於具體的裝置或物品專利（apparatus claims），方法請求項在性質上永遠不會耗盡",
+   "丙構成侵權，因為乙出售的只是半成品晶片而非完整的電腦系統，必須等到完整實施所有專利步驟的最終產品售出時才會觸發耗盡",
+   "丙不構成侵權，但前提是丙必須證明自己與甲之間存在明示的專利授權契約，否則不得主張下游買受人的耗盡抗辯"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "quanta",
+    "quote": "Held: Because the doctrine of patent exhaustion applies to method patents, and because the License Agreement authorizes the sale of components that substantially embody the patents in suit, the exhaustion doctrine prevents LGE from further asserting its patent rights with respect to the patents substantially embodied by those products."
+   }
+  ],
+  "explanation": "最高法院在 Quanta 案判決：專利權耗盡原則（patent exhaustion）適用於方法專利；當被授權人經授權銷售「實質體現」專利的組件（無其他合理用途且包含所有關鍵特徵）時，專利權即告耗盡。"
+ },
+ {
+  "id": "u10-l3-q02",
+  "lessonId": "u10-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Quanta 案，若排除方法專利（method patents）適用專利權耗盡原則，將嚴重削弱耗盡原則，因為想規避耗盡原則的專利權人只需將請求項撰寫成「方法」而非「裝置」即可。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "quanta",
+    "quote": "Eliminating exhaustion for method patents would seriously undermine the exhaustion doctrine, since patentees seeking to avoid exhaustion could simply draft their claims to describe a method rather than an apparatus."
+   }
+  ],
+  "explanation": "最高法院指出，方法雖然不能像物品一樣直接交付，但可「體現（embodied）」於產品中；若方法請求項不適用耗盡原則，專利權人只要透過撰寫技巧改寫為方法請求項就能輕易規避專利權耗盡。"
+ },
+ {
+  "id": "u10-l3-q03",
+  "lessonId": "u10-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Quanta 案 Syllabus 原文填入正確詞語：",
+  "text": "Because the doctrine of {{0}} applies to {{1}}, and because the License Agreement authorizes the sale of components that {{2}} the patents in suit, the exhaustion doctrine prevents LGE from further asserting its patent rights with respect to the patents substantially embodied by those products.",
+  "blanks": [
+   "patent exhaustion",
+   "method patents",
+   "substantially embody"
+  ],
+  "distractors": [
+   "implied license",
+   "design patents",
+   "literally infringe"
+  ],
+  "evidence": [
+   {
+    "case": "quanta",
+    "quote": "Held: Because the doctrine of patent exhaustion applies to method patents, and because the License Agreement authorizes the sale of components that substantially embody the patents in suit, the exhaustion doctrine prevents LGE from further asserting its patent rights with respect to the patents substantially embodied by those products."
+   }
+  ],
+  "explanation": "Quanta 案確立專利權耗盡（patent exhaustion）適用於方法專利（method patents），且授權銷售實質體現（substantially embody）專利的組件即觸發耗盡。"
+ },
+ {
+  "id": "u10-l3-q04",
+  "lessonId": "u10-l3",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Quanta 案援引之 Univis 先例，在何種條件下，銷售尚未完全實施專利的半成品或組件（如鏡片毛坯或微處理器晶片）仍會觸發專利權耗盡？",
+  "options": [
+   "該組件之唯一合理且預期的用途（only reasonable and intended use）就是用來實施該專利，且已體現了專利發明的本質特徵（essential features）",
+   "該組件在市場上的銷售價格已經超過最終完整產品售價的百分之五十以上，使專利權人獲得超額報酬",
+   "買受人在購買該組件時不知道該組件受有專利保護，且組件上未標示任何專利號碼",
+   "專利權人在授權製造商銷售該組件時，未於另行簽署的主契約（Master Agreement）中要求製造商發送書面通知給下游客戶"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "quanta",
+    "quote": "There, exhaustion was triggered by the sale of the lens blanks because their only reasonable and intended use was to practice the patent and because they “embodie[d] essential features of [the] patented invention,” 316 U. S., at 249–251."
+   }
+  ],
+  "explanation": "Quanta 案說明，當所售組件符合兩個屬性：(1) 除了實施該專利外無其他合理及預期用途，且 (2) 體現了專利發明的本質特徵（只需透過常見製程或加上標準零件即可完成）時，銷售該組件即耗盡專利權。"
+ },
+ {
+  "id": "u10-l3-q05",
+  "lessonId": "u10-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "農夫甲從穀倉購買了一批原供食用或飼料用的大豆（內含乙公司受專利保護的抗除草劑基因改造大豆），將其種在農地並噴灑除草劑，篩選出具抗性的植株後收成新世代的大豆種子，並留存供下一季種植。乙控告甲專利侵權，甲主張穀倉的大豆是經合法授權售出，依專利權耗盡原則（patent exhaustion）他有權自由使用。依 Bowman 案，甲的主張是否成立？",
+  "options": [
+   "不成立，因為專利權耗盡僅限於所售出的「特定物品（particular article）」，並未賦予買受人透過種植與收成來「製造新複製品（making new copies）」的權利",
+   "成立，因為播種與收成是農夫使用種子的最自然、最通常方式，專利權耗盡原則保障買受人以通常方式使用專利物品",
+   "成立，因為穀倉出售食用大豆時並未與農夫甲簽署任何限制留種的書面契約，耗盡原則自動消滅所有專利限制",
+   "不成立，因為專利權耗盡原則從一開始就不適用於任何具有生命或基因改造特徵的生物科技發明"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "bowman",
+    "quote": "Held: Patent exhaustion does not permit a farmer to reproduce patented seeds through planting and harvesting without the patent holder’s permission."
+   },
+   {
+    "case": "bowman",
+    "quote": "However, the doctrine restricts the patentee’s rights only as to the “particular article” sold, id., at 251; it leaves untouched the patentee’s ability to prevent a buyer from making new copies of the patented item."
+   }
+  ],
+  "explanation": "最高法院在 Bowman 案一致判決，專利權耗盡原則僅終止專利權人對「所售出之特定物品」的控制權，但完全不允許買受人未經許可製造該專利物品的新複製品（new copies），因此農夫不得留種繁殖新世代的專利種子。"
+ },
+ {
+  "id": "u10-l3-q06",
+  "lessonId": "u10-l3",
+  "type": "true_false",
+  "difficulty": 1,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Bowman 案，若允許買受人依專利權耗盡原則透過種植與收成自由繁殖專利種子，種子專利在專利權人賣出第一顆種子後就會幾乎失去保護效益，因為農夫只需購買一次種子即可無限繁殖。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "bowman",
+    "quote": "Were this otherwise, Monsanto’s patent would provide scant benefit. After Monsanto sold its first seed, other seed companies could produce the patented seed to compete with Monsanto, and farmers would need to buy seed only once."
+   }
+  ],
+  "explanation": "最高法院指出，若專利權耗盡延伸到允許複製新種子，專利權人賣出第一批種子後，其他種子商與農夫即可自行繁殖競爭，使專利保護名存實亡。"
+ },
+ {
+  "id": "u10-l3-q07",
+  "lessonId": "u10-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Bowman 案 Syllabus 原文填入正確詞語：",
+  "text": "However, the doctrine restricts the patentee’s rights only as to the “{{0}}” sold, id., at 251; it leaves untouched the patentee’s ability to prevent a buyer from {{1}} of the {{2}}.",
+  "blanks": [
+   "particular article",
+   "making new copies",
+   "patented item"
+  ],
+  "distractors": [
+   "method claim",
+   "reselling crops",
+   "foreign market"
+  ],
+  "evidence": [
+   {
+    "case": "bowman",
+    "quote": "However, the doctrine restricts the patentee’s rights only as to the “particular article” sold, id., at 251; it leaves untouched the patentee’s ability to prevent a buyer from making new copies of the patented item."
+   }
+  ],
+  "explanation": "Bowman 案強調，耗盡原則僅就所售出的「特定物品（particular article）」限制專利權人的權利，並未動搖專利權人禁止買受人對專利物品（patented item）製造新複製品（making new copies）的排他權。"
+ },
+ {
+  "id": "u10-l3-q08",
+  "lessonId": "u10-l3",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "印表機大廠甲在美國境內以折扣價銷售碳粉匣，但與消費者簽訂明確有效的契約，約定「僅限使用一次，用畢不得轉讓給甲以外之人」；同時甲也在歐洲銷售同款碳粉匣。翻新廠商乙在美國收購消費者用畢的折扣碳粉匣，並從歐洲購買空匣進口至美國，重新填充碳粉後在美轉售。甲控告乙專利侵權，依 Impression Products 案，法院應如何判決？",
+  "options": [
+   "乙對兩批碳粉匣均不構成專利侵權，因為無論甲是否在美國境內附加售後契約限制，或是否在美國境外授權銷售，只要決定出售即已耗盡所有專利權",
+   "乙就美國境內的折扣碳粉匣構成專利侵權（因有明確合法的售後限制），但就歐洲進口的碳粉匣不構成侵權",
+   "乙就美國境內的折扣碳粉匣不構成專利侵權，但就歐洲進口的碳粉匣構成侵權（因為海外銷售無法獲得美國專利法保障之完整報酬，不適用國際耗盡）",
+   "乙對兩批碳粉匣均構成專利侵權，因為專利權人得透過明示保留權利（express reservation）來排除國內與國際的專利權耗盡"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "impression",
+    "quote": "A patentee's decision to sell a product exhausts all of its patent rights in that item, regardless of any restrictions the patentee purports to impose."
+   },
+   {
+    "case": "impression",
+    "quote": "An authorized sale outside the United States, just as one within the United States, exhausts all rights under the Patent Act."
+   }
+  ],
+  "explanation": "最高法院在 Impression Products 案確立兩大原則：(1) 即使附帶明確的售後使用或轉售契約限制，專利權人一旦出售產品即耗盡專利權（僅能循契約法向簽約人求償，不得告專利侵權）；(2) 在美國境外的授權銷售同樣耗盡美國專利權（國際耗盡原則）。"
+ },
+ {
+  "id": "u10-l3-q09",
+  "lessonId": "u10-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Impression Products 案，專利權耗盡原則的法理基礎源於普通法（common law）反對「財產轉讓限制（restraints on alienation）」的原則；一旦專利權人出售物品，該物品即脫離專利獨占範圍而成為買受人的私有財產。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "impression",
+    "quote": "For over 160 years, the doctrine of patent exhaustion has imposed a limit on that right to exclude: When a patentee sells an item, that product “is no longer within the limits of the [patent] monopoly” and instead becomes the “private, individual property” of the purchaser. Bloomer v. McQuewan, 14 How. 539, 549–550."
+   },
+   {
+    "case": "impression",
+    "quote": "The exhaustion rule marks the point where patent rights yield to the common law principle against restraints on alienation."
+   }
+  ],
+  "explanation": "最高法院闡明，專利權耗盡並非基於「默示授權」的推定，而是對專利排他權範圍的界限，源於普通法反對動產轉讓限制（restraints on alienation of chattels）的悠久傳統。"
+ },
+ {
+  "id": "u10-l3-q10",
+  "lessonId": "u10-l3",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Impression Products 案引述之 Boesch 先例，若外國製造商在完全未經美國專利權人參與或授權的情況下於海外製造並銷售產品，該筆海外銷售仍會使美國專利權人的專利權耗盡。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "impression",
+    "quote": "Instead, it held that a sale abroad does not exhaust a patentee's rights when the patentee had nothing to do with the transaction. That just reaffirms the basic premise that only the patentee can decide whether to make a sale that exhausts its patent rights in an item."
+   }
+  ],
+  "explanation": "Impression Products 案區別了 Boesch 案：專利權耗盡必須是由美國專利權人自己決定或授權的銷售才會觸發；若專利權人與該筆海外交易毫無關聯（未經其授權），當然不會耗盡其美國專利權。"
+ },
+ {
+  "id": "u10-l3-q11",
+  "lessonId": "u10-l3",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Impression Products 案 Syllabus 原文填入正確詞語：",
+  "text": "An {{0}} outside the {{1}}, just as one within the United States, {{2}} all rights under the Patent Act.",
+  "blanks": [
+   "authorized sale",
+   "United States",
+   "exhausts"
+  ],
+  "distractors": [
+   "unauthorized import",
+   "European Union",
+   "preserves"
+  ],
+  "evidence": [
+   {
+    "case": "impression",
+    "quote": "An authorized sale outside the United States, just as one within the United States, exhausts all rights under the Patent Act."
+   }
+  ],
+  "explanation": "Impression Products 案確立國際耗盡原則：在美國（United States）境外的授權銷售（authorized sale），就如同在美國境內的銷售一樣，會耗盡（exhausts）專利法下的所有權利。"
+ },
+ {
+  "id": "u10-l3-q12",
+  "lessonId": "u10-l3",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "comparison",
+   "case"
+  ],
+  "prompt": "請將專利權耗盡的相關判例與其核心規則配對：",
+  "pairs": [
+   {
+    "left": "Quanta 案",
+    "right": "方法專利與實質體現組件皆耗盡"
+   },
+   {
+    "left": "Bowman 案",
+    "right": "耗盡不及於繁殖製造新複製品"
+   },
+   {
+    "left": "Impression（國內）",
+    "right": "附售後契約限制之銷售仍耗盡"
+   },
+   {
+    "left": "Impression（境外）",
+    "right": "境外授權銷售亦耗盡美國專利權"
+   }
+  ],
+  "evidence": [
+   {
+    "case": "quanta",
+    "quote": "Held: Because the doctrine of patent exhaustion applies to method patents, and because the License Agreement authorizes the sale of components that substantially embody the patents in suit, the exhaustion doctrine prevents LGE from further asserting its patent rights with respect to the patents substantially embodied by those products."
+   },
+   {
+    "case": "bowman",
+    "quote": "However, the doctrine restricts the patentee’s rights only as to the “particular article” sold, id., at 251; it leaves untouched the patentee’s ability to prevent a buyer from making new copies of the patented item."
+   },
+   {
+    "case": "impression",
+    "quote": "A patentee's decision to sell a product exhausts all of its patent rights in that item, regardless of any restrictions the patentee purports to impose."
+   },
+   {
+    "case": "impression",
+    "quote": "An authorized sale outside the United States, just as one within the United States, exhausts all rights under the Patent Act."
+   }
+  ],
+  "explanation": "Quanta 案涵蓋方法專利與實質體現專利的組件；Bowman 案排除製造新複製品（種子繁殖）；Impression Products 案則確立國內售後限制無礙耗盡以及國際耗盡原則。"
+ },
+ {
+  "id": "u10-l4-q01",
+  "lessonId": "u10-l4",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "甲公司擁有商業方法專利但本身不製造產品，僅以授權為業。甲控告大型電商平台乙侵權，陪審團認定專利有效且乙構成侵權，並判給損害賠償。甲進一步向法院聲請核發永久禁制令（permanent injunction），主張一旦認定專利侵權，除有罕見特殊情況外，法院應自動核發永久禁制令。依 eBay 案，甲的主張是否正確？",
+  "options": [
+   "不正確，專利侵權案件與一般衡平法案件相同，原告必須證明滿足「傳統四要件測試（traditional four-factor test）」，由地方法院行使衡平裁量權決定是否核發",
+   "正確，因為專利法賦予專利權人「排他權（right to exclude）」，故一旦陪審團認定侵權成立，法院即負有自動核發永久禁制令的法定義務",
+   "不正確，只要專利權人本身沒有在市場上製造或銷售專利產品，法律上即絕對禁止核發任何永久禁制令，毫無裁量空間",
+   "正確，除非被告能以清楚且具說服力的證據證明核發禁制令將立即危及國家安全或重大公共衛生，否則法院必須核發"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "ebay",
+    "quote": "Held: The traditional four-factor test applied by courts of equity when considering whether to award permanent injunctive relief to a prevailing plaintiff applies to disputes arising under the Patent Act."
+   }
+  ],
+  "explanation": "最高法院在 eBay 案廢除了聯邦巡迴上訴法院「一旦侵權原則上即核發永久禁制令」的通則，判決專利案件必須與其他衡平救濟一樣，由勝訴原告證明滿足傳統衡平法的四要件測試。"
+ },
+ {
+  "id": "u10-l4-q02",
+  "lessonId": "u10-l4",
+  "type": "order",
+  "difficulty": 2,
+  "tags": [
+   "procedure",
+   "case"
+  ],
+  "prompt": "依 eBay 案 Syllabus 原文記載之順序，請排列勝訴原告聲請永久禁制令（permanent injunction）時必須證明的傳統衡平法四要件：",
+  "items": [
+   "原告已遭受無可彌補之損害（suffered an irreparable injury）",
+   "法律上可用的救濟（如金錢賠償）不足以彌補該損害（remedies available at law are inadequate）",
+   "衡量原告與被告間的利害困苦後，衡平救濟確屬正當（considering the balance of hardships, a remedy in equity is warranted）",
+   "公共利益不會因核發永久禁制令而受損（the public interest would not be disserved）"
+  ],
+  "evidence": [
+   {
+    "case": "ebay",
+    "quote": "That test requires a plaintiff to demonstrate: (1) that it has suffered an irreparable injury; (2) that remedies available at law are inadequate to compensate for that injury; (3) that considering the balance of hardships between the plaintiff and defendant, a remedy in equity is warranted; and (4) that the public interest would not be disserved by a permanent injunction."
+   }
+  ],
+  "explanation": "eBay 案明確列出傳統四要件：(1) 無可彌補之損害、(2) 法律救濟（金錢賠償）不足以彌補、(3) 兩造利害衡量（balance of hardships）、(4) 不損及公共利益（public interest）。"
+ },
+ {
+  "id": "u10-l4-q03",
+  "lessonId": "u10-l4",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 eBay 案 Syllabus 原文填入正確詞語：",
+  "text": "That test requires a plaintiff to demonstrate: (1) that it has suffered an {{0}}; (2) that {{1}} are inadequate to compensate for that injury; (3) that considering the {{2}} between the plaintiff and defendant, a remedy in equity is warranted; and (4) that the public interest would not be disserved by a permanent injunction.",
+  "blanks": [
+   "irreparable injury",
+   "remedies available at law",
+   "balance of hardships"
+  ],
+  "distractors": [
+   "exceptional case",
+   "clear and convincing evidence",
+   "willful misconduct"
+  ],
+  "evidence": [
+   {
+    "case": "ebay",
+    "quote": "That test requires a plaintiff to demonstrate: (1) that it has suffered an irreparable injury; (2) that remedies available at law are inadequate to compensate for that injury; (3) that considering the balance of hardships between the plaintiff and defendant, a remedy in equity is warranted; and (4) that the public interest would not be disserved by a permanent injunction."
+   }
+  ],
+  "explanation": "eBay 四要件包含：無可彌補之損害（irreparable injury）、法律上可用救濟（remedies available at law）不足、兩造利害困苦衡量（balance of hardships）及不損及公益。"
+ },
+ {
+  "id": "u10-l4-q04",
+  "lessonId": "u10-l4",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "甲明知乙的專利有效且毫無抗辯事由，仍蓄意抄襲乙的專利產品以搶奪市場。事後被訴時，甲的律師在訴訟中勉強拼湊出一項「非無理由（非客觀魯莽）」的專利無效抗辯（雖然甲在抄襲當時根本不知道也沒想過這個抗辯）。乙依 35 U.S.C. §284 請求最高三倍的加重損害賠償（enhanced damages）。依 Halo 案，地方法院得否判給加重賠償？",
+  "options": [
+   "可以，因為可歸責性應依行為人「行為當時的認知」衡量；被告的主觀惡意（subjective willfulness）本身即可能構成加重賠償事由，無須先證明客觀魯莽",
+   "不可以，因為依 Seagate 兩步驟測試，只要被告能在審判中提出一項客觀上非無理由的抗辯，即不構成「客觀魯莽」，法院絕對不得考慮加重賠償",
+   "不可以，除非專利權人乙能以「清楚且具說服力的證據（clear and convincing evidence）」同時證明甲具備客觀魯莽與主觀惡意，否則不得加重賠償",
+   "可以，因為依 §284 規定，只要一般專利侵權成立，地方法院即應在所有常規案件中自動將損害賠償提高為三倍"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "halo",
+    "quote": "A patent infringer 's subjective willfulness, whether intentional or knowing, may warrant enhanced damages, without regard to whether his infringement was objectively reckless. The Seagate test further errs by making dispositive the ability of the infringer to muster a reasonable defense at trial, even if he did not act on the basis of that defense or was even aware of it. Culpability, however, is generally measured against the actor's knowledge at the time of the challenged conduct."
+   }
+  ],
+  "explanation": "最高法院在 Halo 案廢除了 Seagate 測試的「客觀魯莽」前提要件，指出若允許惡意海盜僅憑訴訟律師事後拼湊出的合理抗辯就免受懲罰，將漏網最惡劣的侵權者；可歸責性應依行為當時的認知判斷，主觀惡意本身即可支持加重賠償。"
+ },
+ {
+  "id": "u10-l4-q05",
+  "lessonId": "u10-l4",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Halo 案，專利法 §284 的加重損害賠償（enhanced damages）並非在一般常規侵權案件中皆可判給，而是設計用來制裁以蓄意不法行為（willful misconduct）為代表的「惡劣侵權行為（egregious infringement behavior）」。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "halo",
+    "quote": "Here, 180 years of enhanced damages awards under the Patent Act establish that they are not to be meted out in a typical infringement case, but are instead designed as a sanction for egregious infringement behavior."
+   },
+   {
+    "case": "halo",
+    "quote": "In so doing, they should take into account the particular circumstances of each case and reserve punishment for egregious cases typifed by willful misconduct."
+   }
+  ],
+  "explanation": "最高法院強調，雖然地方法院在 §284 下享有裁量權，但裁量並非毫無限制；180 年來的歷史傳統顯示，加重賠償應保留給以蓄意不法行為為代表的惡劣（egregious）侵權案件。"
+ },
+ {
+  "id": "u10-l4-q06",
+  "lessonId": "u10-l4",
+  "type": "single_choice",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Halo 案，專利權人依 §284 請求加重損害賠償時的「舉證責任標準（evidentiary burden）」以及上訴法院對此裁定的「上訴審查標準（appellate review standard）」分別為何？",
+  "options": [
+   "舉證標準為「證據優勢（preponderance of the evidence）」；上訴審查標準為「裁量權濫用（abuse of discretion）」",
+   "舉證標準為「清楚且具說服力的證據（clear and convincing evidence）」；上訴審查標準為「重新審查（de novo）」",
+   "舉證標準為「超越合理懷疑（beyond a reasonable doubt）」；上訴審查標準為「實質證據（substantial evidence）」",
+   "舉證標準為「清楚且具說服力的證據」；上訴審查標準採客觀、主觀、裁量三階段分立審查（trifurcated review）"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "halo",
+    "quote": "“[P]atentinfringement litigation has always been governed by a preponderance of the evidence standard.” Ibid. Enhanced damages are no exception."
+   },
+   {
+    "case": "halo",
+    "quote": "The same conclusion follows naturally from the holding here: Because § 284 “commits the determination” whether enhanced damages are appropriate to the district court's discretion, “that decision is to be reviewed on appeal for abuse of discretion.”"
+   }
+  ],
+  "explanation": "Halo 案廢除了「清楚且具說服力的證據」高門檻與三階段上訴審查框架，確認 §284 加重賠償適用專利侵權訴訟一貫的「證據優勢（preponderance of the evidence）」標準，且上訴時統一以「裁量權濫用（abuse of discretion）」標準審查。"
+ },
+ {
+  "id": "u10-l4-q07",
+  "lessonId": "u10-l4",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Halo 案 Syllabus 原文填入正確詞語：",
+  "text": "Here, 180 years of {{0}} awards under the Patent Act establish that they are not to be meted out in a {{1}} case, but are instead designed as a sanction for {{2}} behavior.",
+  "blanks": [
+   "enhanced damages",
+   "typical infringement",
+   "egregious infringement"
+  ],
+  "distractors": [
+   "attorney's fees",
+   "exceptional",
+   "objectively reckless"
+  ],
+  "evidence": [
+   {
+    "case": "halo",
+    "quote": "Here, 180 years of enhanced damages awards under the Patent Act establish that they are not to be meted out in a typical infringement case, but are instead designed as a sanction for egregious infringement behavior."
+   }
+  ],
+  "explanation": "Halo 案指出，180 年來的判例確立加重損害賠償（enhanced damages）並非用於典型常規侵權（typical infringement）案件，而是作為對惡劣侵權（egregious infringement）行為的制裁。"
+ },
+ {
+  "id": "u10-l4-q08",
+  "lessonId": "u10-l4",
+  "type": "single_choice",
+  "difficulty": 3,
+  "tags": [
+   "holding",
+   "case"
+  ],
+  "prompt": "甲控告乙專利侵權，乙獲判不侵權之即決判決（summary judgment）勝訴後，依 35 U.S.C. §285 向地方法院聲請判給律師費。地方法院認為甲的起訴立場極為薄弱且不合理，但尚未達到「同時具備客觀毫無根據與主觀惡意」的程度，亦非可獨立制裁的不當行為。依 Octane Fitness 案，地方法院得否認定本案為「特殊案件（exceptional case）」並判給律師費？",
+  "options": [
+   "可以，因為「特殊案件」僅指在當事人訴訟立場的實質強度或訴訟進行的不合理方式上「明顯異於常態（stands out from others）」的案件，地院得考量整體情況裁量",
+   "不可以，因為依 Brooks Furniture 標準，除非涉及可獨立制裁的重大不當行為，否則必須同時證明「客觀毫無根據」與「主觀惡意」兩者兼具才能判給律師費",
+   "不可以，因為勝訴被告乙必須以「清楚且具說服力的證據（clear and convincing evidence）」證明原告甲構成欺詐，否則 §285 不得適用",
+   "可以，因為在美國專利法下採「敗訴者負擔原則」，只要被告獲判不侵權勝訴，即自動屬於 §285 的特殊案件而必然獲判律師費"
+  ],
+  "answerIndex": 0,
+  "evidence": [
+   {
+    "case": "octane",
+    "quote": "An “exceptional” case, then, is simply one that stands out from others with respect to the substantive strength of a party's litigating position (considering both the governing law and the facts of the case) or the unreasonable manner in which the case was litigated. District courts may determine whether a case is “exceptional” in the case-by-case exercise of their discretion, considering the totality of the circumstances."
+   }
+  ],
+  "explanation": "最高法院在 Octane Fitness 案廢除了僵化的 Brooks Furniture 雙重要件，回歸「特殊（exceptional）」的日常字義（罕見、非比尋常），指出只要訴訟立場的實質強度或進行訴訟的不合理方式「明顯異於其他案件（stands out from others）」，地院即可依整體情況裁量判給律師費。"
+ },
+ {
+  "id": "u10-l4-q09",
+  "lessonId": "u10-l4",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Octane Fitness 案，當事人依 35 U.S.C. §285 聲請律師費時，無須滿足「清楚且具說服力的證據（clear and convincing evidence）」之高舉證門檻，因為 §285 條文並未附加此種特殊舉證負擔。",
+  "answer": true,
+  "evidence": [
+   {
+    "case": "octane",
+    "quote": "(3) Brooks Furniture's requirement that proof of entitlement to fees be made by clear and convincing evidence is not justifed by § 285, which imposes no specific evidentiary burden."
+   }
+  ],
+  "explanation": "最高法院在 Octane Fitness 案指出，§285 並未設定特定的高舉證負擔，因此駁斥了 Brooks Furniture 要求以「清楚且具說服力的證據」證明特殊案件的規定（改採一般的證據優勢標準）。"
+ },
+ {
+  "id": "u10-l4-q10",
+  "lessonId": "u10-l4",
+  "type": "true_false",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "依 Octane Fitness 案，唯有當一造當事人在訴訟中的行為已達到「可獨立予以制裁（independently sanctionable）」的嚴重程度時，地方法院才能依 §285 基於訴訟行為不合理而判給律師費。",
+  "answer": false,
+  "evidence": [
+   {
+    "case": "octane",
+    "quote": "A district court may award fees in the rare case in which a party's unreasonable, though not independently sanctionable, conduct is so “exceptional” as to justify an award."
+   }
+  ],
+  "explanation": "最高法院明確指出，以「可獨立予以制裁的行為」作為基準過於嚴苛（且法院本就有固有權限制裁不當行為，如此將使 §285 形同具文）；即使當事人的不合理行為未達可獨立制裁的程度，只要夠「特殊（exceptional）」，地方法院仍可依 §285 判給律師費。"
+ },
+ {
+  "id": "u10-l4-q11",
+  "lessonId": "u10-l4",
+  "type": "cloze",
+  "difficulty": 2,
+  "tags": [
+   "case"
+  ],
+  "prompt": "請依 Octane Fitness 案 Syllabus 原文填入正確詞語：",
+  "text": "An “{{0}}” case, then, is simply one that {{1}} from others with respect to the {{2}} of a party's litigating position (considering both the governing law and the facts of the case) or the unreasonable manner in which the case was litigated.",
+  "blanks": [
+   "exceptional",
+   "stands out",
+   "substantive strength"
+  ],
+  "distractors": [
+   "ordinary",
+   "objectively baseless",
+   "clear and convincing"
+  ],
+  "evidence": [
+   {
+    "case": "octane",
+    "quote": "An “exceptional” case, then, is simply one that stands out from others with respect to the substantive strength of a party's litigating position (considering both the governing law and the facts of the case) or the unreasonable manner in which the case was litigated."
+   }
+  ],
+  "explanation": "Octane Fitness 案定義「特殊（exceptional）」案件為：在當事人訴訟立場的實質強度（substantive strength）或訴訟進行的不合理方式上，明顯異於其他案件（stands out from others）的案件。"
+ },
+ {
+  "id": "u10-l4-q12",
+  "lessonId": "u10-l4",
+  "type": "match",
+  "difficulty": 2,
+  "tags": [
+   "comparison",
+   "case"
+  ],
+  "prompt": "請將本課關於專利侵權救濟的判例與其對應規則配對：",
+  "pairs": [
+   {
+    "left": "eBay 案",
+    "right": "永久禁制令須符衡平法四要件"
+   },
+   {
+    "left": "Halo 案（要件）",
+    "right": "加重賠償旨在制裁惡劣侵權行為"
+   },
+   {
+    "left": "Halo 案（舉證）",
+    "right": "加重賠償與律師費皆採證據優勢"
+   },
+   {
+    "left": "Octane 案",
+    "right": "特殊案件指立場或行為異於常態"
+   }
+  ],
+  "evidence": [
+   {
+    "case": "ebay",
+    "quote": "Held: The traditional four-factor test applied by courts of equity when considering whether to award permanent injunctive relief to a prevailing plaintiff applies to disputes arising under the Patent Act."
+   },
+   {
+    "case": "halo",
+    "quote": "Here, 180 years of enhanced damages awards under the Patent Act establish that they are not to be meted out in a typical infringement case, but are instead designed as a sanction for egregious infringement behavior."
+   },
+   {
+    "case": "halo",
+    "quote": "“[P]atentinfringement litigation has always been governed by a preponderance of the evidence standard.” Ibid. Enhanced damages are no exception."
+   },
+   {
+    "case": "octane",
+    "quote": "An “exceptional” case, then, is simply one that stands out from others with respect to the substantive strength of a party's litigating position (considering both the governing law and the facts of the case) or the unreasonable manner in which the case was litigated."
+   }
+  ],
+  "explanation": "eBay 案確立永久禁制令適用衡平法四要件；Halo 案確立 §284 加重賠償旨在制裁惡劣侵權且與 Octane 案相同採證據優勢標準；Octane Fitness 案確立 §285 特殊案件為立場強度或訴訟方式異於常態之案件。"
+ }
+]
